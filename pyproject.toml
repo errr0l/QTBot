@@ -1,0 +1,23 @@
+[project]
+name = "QTBot"
+version = "0.1.0"
+description = "QTBot"
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+dependencies = [
+    "nonebot2[fastapi]>=2.4.4",
+    "nonebot-adapter-qq>=1.6.6"
+]
+
+[tool.nonebot]
+plugin_dirs = []
+builtin_plugins = ["echo", "single_session"]
+
+[tool.nonebot.adapters]
+nonebot-adapter-qq = [
+    { name = "QQ", module_name = "nonebot.adapters.qq" }
+]
+"@local" = []
+
+[tool.nonebot.plugins]
+"@local" = []

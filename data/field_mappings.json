@@ -1,0 +1,11 @@
+{
+    "id": "ID",
+    "name": "名称",
+    "nicknames": "别名",
+    "avatars": "头像",
+    "club": "部门",
+    "element": "元素",
+    "year": "年级", "tags": "标签", "bonds": "羁绊", "type": "类型", "hobbies": "爱好",
+    "arena_skill": "主动技能", "awakening_passive": "觉醒被动", "talent_tree": "天赋", "skins": "皮肤",
+    "extra": "附加信息", "background": "背景故事", "created_at": "创建时间", "last_updated": "最后更新时间"
+}
