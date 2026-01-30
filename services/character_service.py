@@ -155,7 +155,7 @@ class CharacterService:
                 character_aliases = {
                     "name": row['name'],
                     "aliases":
-                        [part.strip() for part in row['nicknames'].split(",")]
+                        [part.strip() for part in row['nicknames'].split("、")]
                         if row['nicknames'] is not None else []
                 }
                 result.append(character_aliases)

@@ -45,7 +45,4 @@ if __name__ == "__main__":
     db_helper = DBHelper(db_path=db_path)
     db_helper.init_db()
     with db_helper.get_connection() as conn:
-        # conn.row_factory = sqlite3.Row
-        # row = conn.execute(sql, (name,)).fetchone()
-        # conn = db_helper.get_connection()
         insert_characters()

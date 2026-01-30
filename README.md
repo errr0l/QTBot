@@ -6,9 +6,11 @@
 
 ## 配置
 
+1、机器人配置
+
 > .env.prod
 
-想要在qq中运行，需要前往qq机器人开放平台申请机器人。
+想要在QQ中运行，需要前往QQ开放平台申请机器人。
 
 ```text
 DRIVER=~httpx+~websockets
@@ -33,25 +35,59 @@ QQ_BOTS='[
 ]'
 ```
 
+2、其他配置
+
+config.example.ini重命名为config.ini，如果要将数据放到谷歌表格时，需要部署Apps Scripts，脚本代码位于"根目录/apps_scripts"，部署脚本后，将生成的链接填写到apps_scripts区域；
+
+如果要接入翻译功能，则需要前往百度开放平台申请翻译app，一般是"通用翻译"。
+
+```text
+[db]
+db_path=data/wiki.db
+
+[baidu_fanyi]
+appid=百度翻译appid
+app_key=百度翻译秘钥
+endpoint=http://api.fanyi.baidu.com/api/trans/vip/translate
+
+[crawler]
+list_page_paths=/wiki/Character_List,/wiki/Goddess_List
+
+[apps_scripts]
+api_key=随机生成的字符，用于apps scripts的简单校验
+save_characters_endpoint=保存角色端点
+get_characters_endpoint=获取数据端点
+```
 ## 运行
 
-可使用ENVIRONMENT参数指定配置文件(.env.xxx)
+依赖安装完成后，使用以下命令启动程序：
 
-> 需修改driver, 如qq机器人，需要from nonebot.adapters.qq import Adapter
+> nb run
 
-ENVIRONMENT=dev_console nb run
+可指定指定配置文件(.env.xxx)：
 
-如果没有导入数据的话, 先执行以下命令再运行：
+同时修改bot.py中的driver, 如qq机器人，需要from nonebot.adapters.qq import Adapter
+
+> ENVIRONMENT=dev_console nb run
+
+未导入数据时, 先执行以下命令再运行：
 
 > python -m scripts.import_mock_data
 
-## 使用指南
+## 功能概览
+
+- 查询角色数据
+- 从wiki网站抓取数据
+- (从谷歌表格)同步数据
+- 推送数据(至谷歌表格)
+
+## 使用指南（面向普通用户）
 
 1、基本格式
 
-> @机器人 /查询 <角色>
+> @机器人 /查询 [角色]
 
-<角色>可以是游戏内名称，或者任一别名。
+[角色]可以是游戏内名称，或者任一别名。
 
 不加其他参数，默认显示：满星（主动技能+觉醒被动），以及天赋数据，如下：
 
@@ -62,7 +98,7 @@ Aeon's Echo Athena「8★」
 
 ![avatar](图)
 
-别名: 星神, 星神雅典娜
+别名: 星神、星神雅典娜
 标签: 运动, 3年级, 雷, 联动角色, 反伤坦
 爱好: 向阿波罗学习
 羁绊: 白狼, 卡米尔
@@ -94,20 +130,44 @@ Aeon's Echo Athena「8★」
 
 2、进阶
 
-查询时，可携带参数，以半角短线连接，可用参数：角色-<星级>-技能<等级>-皮肤<序号>:<等级>-天赋<等级>-背景， 一次最多携带3个。
+查询时，可携带参数，以半角短线连接，可用参数：角色[:tl]-[星级]-技能[等级]-皮肤[序号][:等级]-天赋[等级]-背景， 一次最多携带3个。
 
-星级，序号，等级可缺省，默认值分别为：8，1，10，<星级>同等于'技能'，如：7星=技能7。
+参数说明：
 
-比方说，想要查看3星雅典娜，1号皮肤2级数据时，则为：
+1）'tl'可以将当前角色信息翻译为中文（百度翻译）
+
+如果当前角色还没翻译时，可以使用指令，如：/查询 雅典娜:tl
+
+2）星级
+
+目标角色的星级，1-8，'星级'同等于'技能'，如：7星=技能7
+
+3）天赋
+
+同上，1-10
+
+3）皮肤
+
+如果目标角色有皮肤时，可使用该参数
+
+4）背景
+
+返回该角色的背景故事
+
+***
+
+综合举例，想要查看3星雅典娜，1号皮肤2级数据时，则为：
 
 > @QT游戏姬-测试中 /查询 雅典娜-3星-皮肤1:2
+
+![image](./images/img.png)
 
 ```text
 Athana「3★」
 
 ![avatar](图)
 
-别名: 雅典娜, 女神雅典娜
+别名: 雅典娜、女神雅典娜
 标签: 歼灭, 女神, 百分比
 生日: 07-14
 身高/体重/三围: 168cm/44kg/34E-23-31

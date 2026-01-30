@@ -4,3 +4,4 @@ config.ini
 .venv/
 .pytest_cache
 __pycache__/
+.DS_Store
