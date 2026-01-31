@@ -101,6 +101,7 @@ class CharacterService:
         if not characters:
             return None
         with self.db_helper.get_connection() as conn:
+            cursor = conn.cursor()
             sql = """
             update character set
             avatars = :avatars, nicknames = :nicknames, arena_skill = :arena_skill,
@@ -110,8 +111,8 @@ class CharacterService:
             created_at = :created_at, last_updated = :last_updated
             where name = :name
             """
-            conn.executemany(sql, characters)
-            logger.info(f"受影响行数：{conn.rowcount}")
+            cursor.executemany(sql, characters)
+            logger.info(f"受影响行数：{cursor.rowcount}")
             return True
 
     def get_character_by_name(self, name: str, data_type: int = 1) -> Union[Character, dict, None]:

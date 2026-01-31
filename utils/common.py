@@ -11,6 +11,30 @@ from nonebot import logger
 from vo.character_response import CharacterResponse
 
 
+def convert_dict_attributes_to_json(data: List[dict]):
+    """
+    将字典对象转为json
+    """
+    if not data:
+        return data
+    for item in data:
+        if "talent_tree" in item:
+            item['talent_tree'] = json.dumps(item['talent_tree'])
+        if "arena_skill" in item:
+            item['arena_skill'] = json.dumps(item['arena_skill'])
+        if "awakening_passive" in item:
+            item['awakening_passive'] = json.dumps(item['awakening_passive'])
+        if "extra" in item:
+            item['extra'] = json.dumps(item['extra'])
+        if "skins" in item:
+            item['skins'] = json.dumps(item['skins'])
+        if "avatars" in item:
+            item['avatars'] = json.dumps(item['avatars'])
+        if "tags" in item:
+            item['tags'] = json.dumps(item['tags'])
+    return data
+
+
 def convert_json_to_characters(data: List[dict]):
     characters = []
     if not data:

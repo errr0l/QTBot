@@ -931,48 +931,48 @@
         ],
         "nicknames": "夏洛特",
         "arena_skill": {
-            "name": "Bloody Kiss",
+            "name": "猩红之吻",
             "icon": "//static.wikitide.net/projectqtwiki/9/98/A39.png",
             "cooldown": 7,
             "descriptions": [
-                "Inflict 0.4x Charlotte's Attack as Lighthing Damage on 3 Enemies.\n\nIncrease All Enemies' Damage Taken by 5% for 5 rounds.\n\nGrant Draining effect to Charlotte; 20% of Damage inflicted will be restored as HP for 5 Rounds.",
-                "Inflict 0.45x Charlotte's Attack as Lighthing Damage on 3 Enemies.\n\nIncrease All Enemies' Damage Taken by 10% for 5 rounds.\n\nGrant Draining effect to Charlotte; 25% of Damage inflicted will be restored as HP for 5 Rounds.",
-                "Inflict 0.5x Charlotte's Attack as Lighthing Damage on 3 Enemies.\n\nIncrease All Enemies' Damage Taken by 15% for 5 rounds.\n\nGrant Draining effect to Charlotte; 30% of Damage inflicted will be restored as HP for 5 Rounds.",
-                "Inflict 0.55x Charlotte's Attack as Lighthing Damage on 3 Enemies.\n\nIncrease All Enemies' Damage Taken by 20% for 5 rounds.\n\nGrant Draining effect to Charlotte; 35% of Damage inflicted will be restored as HP for 5 Rounds.",
-                "Inflict 0.6x Charlotte's Attack as Lighthing Damage on 3 Enemies.\n\nIncrease All Enemies' Damage Taken by 25% for 5 rounds.\n\nGrant Draining effect to Charlotte; 45% of Damage inflicted will be restored as HP for 5 Rounds."
+                "对3名敌人造成角色攻击力0.4倍的雷属性伤害。\n\n使所有敌人受到的伤害增加5%。\n\n夏洛特获得「吸血」效果，将造成伤害的20%转化为生命值，持续5回合。",
+                "对3名敌人造成角色攻击力0.45倍的雷属性伤害。\n\n使所有敌人受到的伤害增加10%。\n\n夏洛特获得「吸血」效果，将造成伤害的25%转化为生命值，持续5回合。",
+                "对3名敌人造成角色攻击力0.5倍的雷属性伤害。\n\n使所有敌人受到的伤害增加15%。\n\n夏洛特获得「吸血」效果，将造成伤害的30%转化为生命值，持续5回合。",
+                "对3名敌人造成角色攻击力0.55倍的雷属性伤害。\n\n使所有敌人受到的伤害增加20%。\n\n夏洛特获得「吸血」效果，将造成伤害的35%转化为生命值，持续5回合。",
+                "对3名敌人造成角色攻击力0.6倍的雷属性伤害。\n\n使所有敌人受到的伤害增加25%。\n\n夏洛特获得「吸血」效果，将造成伤害的40%转化为生命值，持续5回合。"
             ]
         },
         "story_skill": null,
         "awakening_passive": {
-            "name": "Devil's Jealousy",
+            "name": "魔鬼的嫉妒",
             "icon": "//static.wikitide.net/projectqtwiki/9/98/A39.png",
             "descriptions": [
-                "Regular Attack Inflicts 0.4x Charlotte's Attack as Lighthing Damage on 2 Enemies.\n\nIncrease Charlotte's Damage by 10% for 12 Rounds.\n\nAt the beginning of the battle, Charlotte's 70% Chance to Evade \"Paralysis\", and 50% Chance to Evade on 2 Characters \"Poison\" for 12 Rounds.",
-                "Regular Attack Inflicts 0.3x Charlotte's Attack as Lighthing Damage on 3 Enemies.\n\nIncrease Charlotte's Damage by 20% for 16 Rounds.\n\nAt the beginning of the battle, Charlotte's 80% Chance to Evade \"Paralysis\", and 60% Chance to Evade on 2 Characters \"Poison\" for 16 Rounds.",
-                "Regular Attack Inflicts 0.4x Charlotte's Attack as Lighthing Damage on 3 Enemies.\n\nIncrease Charlotte's Damage by 35% for 16 Rounds.\n\nAt the beginning of the battle, Charlotte's 100% Chance to Evade \"Paralysis\", and 70% Chance to Evade on 2 Characters \"Poison\" for 16 Rounds."
+                "普通攻击对2名敌人造成相当于角色攻击力0.4倍的伤害。\n\n提升夏洛特10%伤害，持续12回合。\n\n战斗开始时，夏洛特70%概率免疫\"麻痹\"，2名角色50%概率免疫\"中毒\"，持续12回合",
+                "普通攻击对3名敌人造成相当于角色攻击力0.3倍的伤害。\n\n提升夏洛特20%伤害，持续12回合。\n\n战斗开始时，夏洛特80%概率免疫\"麻痹\"，2名角色60%概率免疫\"中毒\"，持续16回合",
+                "普通攻击对3名敌人造成相当于角色攻击力0.4倍的伤害。\n\n提升夏洛特35%伤害，持续12回合。\n\n战斗开始时，夏洛特100%概率免疫\"麻痹\"，2名角色70%概率免疫\"中毒\"，持续16回合"
             ],
             "instructions": null,
             "extra": null
         },
         "talent_tree": {
-            "name": "Soul of the Fallen Wings",
+            "name": "折翼之魂",
             "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
             "descriptions": [
-                "Increase Charlotte's Attack by 1%.",
-                "Increase Charlotte's Attack by 3%.",
-                "Increase Charlotte's Attack by 5%.",
-                "Increase Charlotte's Attack by 7%.",
-                "Increase Charlotte's Attack by 9%.",
-                "Increase Charlotte's Attack by 11%, HP by 3%.\n\nIncrease 2 Lightning Characters' Attack Damage to Water Characters by 3%.",
-                "Increase Charlotte's Attack by 12%, HP by 6%.\n\nIncrease 2 Lightning Characters' Attack Damage to Water Characters by 6%.",
-                "Increase Charlotte's Attack by 13%, HP by 9%.\n\nIncrease 2 Lightning Characters' Attack Damage to Water Characters by 9%.",
-                "Increase Charlotte's Attack by 14%, HP by 12%.\n\nIncrease 2 Lightning Characters' Attack Damage to Water Characters by 12%.",
-                "Increase Charlotte's Attack by 15%, HP by 15%.\n\nIncrease 2 Lightning Characters' Attack Damage to Water Characters by 15%."
+                "提升夏洛特1%攻击力",
+                "提升夏洛特3%攻击力",
+                "提升夏洛特5%攻击力",
+                "提升夏洛特7%攻击力",
+                "提升夏洛特9%攻击力",
+                "提升夏洛特11%攻击力, 3%血量。\n\n提升2名雷角色对水角色的伤害3%。",
+                "提升夏洛特12%攻击力, 6%血量。\n\n提升2名雷角色对水角色的伤害6%。",
+                "提升夏洛特13%攻击力, 9%血量。\n\n提升2名雷角色对水角色的伤害9%。",
+                "提升夏洛特14%攻击力, 12%血量。\n\n提升2名雷角色对水角色的伤害12%。",
+                "提升夏洛特15%攻击力, 15%血量。\n\n提升2名雷角色对水角色的伤害15%。"
             ],
             "instructions": null,
             "extra": "+2250+2750+500"
         },
-        "background": "The second S-class experimental body sent by the mysterious organization, claiming \nto be Scarlett's sister.\n\nOne night, while the transfer was hooking up with Scarlett, the sudden appearance of a mysterious lady interrupted them. The lady had a pair of demon wings similar to Scarlett's, and her name was Charlotte. Her eyes sparkled with flames of jealousy, clearly displeased with the close relationship between the transfer and Scarlett. Charlotte, like Scarlett, has demon wings. She is jealous of the close relationship between the transfer and Scarlett, Charlotte coldly watches them, a hint of disdainful smile curling at the corners of her mouth, as if suggesting her contempt for the transfer. She showed a strong sense of possessiveness, which left Scarlett in puzzle. Scarlett had never heard of this \"sister\" and secretly wondered how there could be others when she was clearly the last and only experimental body. This sudden situation made her uneasy.\n\nCharlotte claims to be here to assist the transfer and Scarlett in completing a \"Great Mission.\" The Academy has officially received a recommendation letter from the organization, thus accepting her as a third-year scholar. Scarlett also received confirmation from the organization regarding Charlotte's identity. Charlotte roasts the transfer’s various perverse behaviors to satisfy his own desires and gives him little \"punishments\". She thinks her \"punishments\" have a significant effect on the transfer, but in truth, for someone trained by Juliana, these little antics are simply nothing. Instead, the acts make him feel Charlotte's childishness. Facing Charlotte's behavior, Scarlett's heart flattered. She didn't know how to deal with this suddenly emerged \"sister\". The intertwining of jealousy and unease made her confused and anxious. What is Charlotte's true purpose? How will her appearance change their relationship? As the night deepens, the mystery also deepens.",
+        "background": "神秘组织送来的第二具S级实验体，自称是斯嘉丽的妹妹。\n\n某夜，转学生正与斯嘉丽亲热时，一位神秘女子突然出现打断了他们。那女子与斯嘉丽一样，拥有恶魔之翼，名叫夏洛特。她眼中闪烁着嫉妒的火焰，显然对转学生与斯嘉丽的亲密关系极为不满。她嫉妒转学生与斯嘉丽的亲密关系，冷眼旁观时嘴角勾起一抹轻蔑的微笑，仿佛在暗示对转学生的鄙夷。她展现出强烈的占有欲，令斯嘉丽困惑不已。斯嘉丽从未听闻过这位“妹妹”的存在，暗自疑惑为何会有他人出现 —— 她明明是最后也是唯一的实验体。突如其来的状况令她心生不安。\n\n夏洛特声称此行是为了协助转学生与斯嘉丽完成一项“伟大使命”。学院已正式收到该组织的推荐信，故接纳她为三年级学者。斯嘉丽也从组织处确认了夏洛特的身份。夏洛特为满足私欲，不断挑拨转学生做出种种乖张行径，并施以微不足道的“惩罚”。她自以为这些“惩罚”对转学生效果显著，实则对受过朱莉安娜训练的他而言，这些小把戏根本不值一提。这些举动反而让他感受到夏洛特的幼稚。面对夏洛特的行径，斯嘉丽内心翻涌。她不知如何应对这个突然冒出的“妹妹”，嫉妒与不安交织让她困惑焦躁。夏洛特的真实目的何在？她的出现将如何改变她们的关系？随着夜色渐深，谜团也愈发浓重。",
         "club": "艺术",
         "element": "雷",
         "year": 3,
@@ -981,15 +981,15 @@
             "height": "156cm",
             "weight": "41kg",
             "body_size": "34E-22-23",
-            "birthday": "Dec 26th"
+            "birthday": "12-26"
         },
         "skins": null,
-        "hobbies": "Being Clingy To Her Sister",
+        "hobbies": "黏着她姐姐",
         "type": 1,
-        "tags": null,
+        "tags": "魅魔的妹妹",
         "created_at": null,
         "last_updated": "2026-01-28 02:12:36",
-        "translated": null
+        "translated": 1
     },
     {
         "id": 19,
@@ -1046,7 +1046,7 @@
             "//static.wikitide.net/projectqtwiki/thumb/4/4e/ScarlettAwakened.png/320px-ScarlettAwakened.png",
             "//static.wikitide.net/projectqtwiki/thumb/0/0d/ScarlettAwakenedChibi.png/320px-ScarlettAwakenedChibi.png"
         ],
-        "nicknames": "魅魔",
+        "nicknames": "魅魔、斯嘉丽",
         "arena_skill": {
             "name": "恶魔的诅咒",
             "icon": "//static.wikitide.net/projectqtwiki/thumb/b/b8/A37.png/40px-A37.png",
@@ -1981,48 +1981,48 @@
         ],
         "nicknames": "比莉、比例、比利",
         "arena_skill": {
-            "name": "Exorcism",
+            "name": "驱魔",
             "icon": "//static.wikitide.net/projectqtwiki/thumb/7/7f/A4.png/40px-A4.png",
             "cooldown": 6,
             "descriptions": [
-                "Inflict 1x this Character's Attack as Lightning Damage on 1 Enemy\n\nGrant Damage Absorb effect to 3 allied Characters; decrease Damage Taken by 10% and Restore this Reduction as HP for 5 Rounds",
-                "Inflict 1.1x this Character's Attack as Lightning Damage on 1 Enemy\n\nGrant Damage Absorb effect to 3 allied Characters; decrease Damage Taken by 15% and Restore this Reduction as HP for 5 Rounds",
-                "Inflict 1.2x this Character's Attack as Lightning Damage on 1 Enemy\n\nGrant Damage Absorb effect to 3 allied Characters; decrease Damage Taken by 20% and Restore this Reduction as HP for 5 Rounds",
-                "Inflict 1.3x this Character's Attack as Lightning Damage on 1 Enemy\n\nGrant Damage Absorb effect to 3 allied Characters; decrease Damage Taken by 25% and Restore this Reduction as HP for 5 Rounds",
-                "Inflict 1.5x this Character's Attack as Lightning Damage on 1 Enemy\n\nGrant Damage Absorb effect to 3 allied Characters; decrease Damage Taken by 30% and Restore this Reduction as HP for 5 Rounds"
+                "对1名敌人造成1倍角色攻击力的雷属性伤害。\n\n赋予3名角色伤害吸收效果；使其受到的伤害减少10%，并将减少的伤害转为生命值，持续5回合。",
+                "对1名敌人造成1.1倍角色攻击力的雷属性伤害。\n\n赋予3名角色伤害吸收效果；使其受到的伤害减少15%，并将减少的伤害转为生命值，持续5回合。",
+                "对1名敌人造成1.2倍角色攻击力的雷属性伤害。\n\n赋予3名角色伤害吸收效果；使其受到的伤害减少20%，并将减少的伤害转为生命值，持续5回合。",
+                "对1名敌人造成1.3倍角色攻击力的雷属性伤害。\n\n赋予3名角色伤害吸收效果；使其受到的伤害减少25%，并将减少的伤害转为生命值，持续5回合。",
+                "对1名敌人造成1.5倍角色攻击力的雷属性伤害。\n\n赋予3名角色伤害吸收效果；使其受到的伤害减少30%，并将减少的伤害转为生命值，持续5回合。"
             ]
         },
         "story_skill": null,
         "awakening_passive": {
-            "name": "Anti-ghost constitution",
+            "name": "御灵",
             "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
             "descriptions": [
-                "Increase 3 other Characters' Attack by 7% for 10 Rounds",
-                "Increase 3 other Characters' Attack by 14% for 10 Rounds",
-                "Increase 3 other Characters' Attack by 25% for 10 Rounds"
+                "提升自身外3名角色7%攻击力，持续10回合",
+                "提升自身外3名角色14%攻击力，持续10回合",
+                "提升自身外3名角色25%攻击力，持续10回合"
             ],
             "instructions": null,
             "extra": null
         },
         "talent_tree": {
-            "name": "Release Potential",
+            "name": "释放潜能",
             "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
             "descriptions": [
-                "Increase 2 allied Characters' Attack and HP by 1%",
-                "Increase 2 allied Characters' Attack and HP by 2%",
-                "Increase 2 allied Characters' Attack and HP by 3%",
-                "Increase 2 allied Characters' Attack and HP by 4%",
-                "Increase 2 allied Characters' Attack and HP by 5%",
-                "Increase 2 allied Characters' Attack and HP by 6%",
-                "Increase 2 allied Characters' Attack and HP by 7%",
-                "Increase 2 allied Characters' Attack and HP by 8%",
-                "Increase 2 allied Characters' Attack and HP by 9%",
-                "Increase 2 allied Characters' Attack and HP by 10%"
+                "提升2名角色1%攻击力和血量",
+                "提升2名角色2%攻击力和血量",
+                "提升2名角色3%攻击力和血量",
+                "提升2名角色4%攻击力和血量",
+                "提升2名角色5%攻击力和血量",
+                "提升2名角色6%攻击力和血量",
+                "提升2名角色7%攻击力和血量",
+                "提升2名角色8%攻击力和血量",
+                "提升2名角色9%攻击力和血量",
+                "提升2名角色10%攻击力和血量"
             ],
             "instructions": null,
             "extra": "+500+4750+750"
         },
-        "background": "The Campus' ghost detective master. She has high-tech ghost detective equipment.\n\nShe believes ghosts don't exist and wants to prove this to the world. She's been carrying out ghost detective activities, solving many haunted mysteries. She participates in the ghost detective activity organized by the Student Union each year on Halloween, scouting out the heavily haunted old school building. In order to prove the existence of ghosts to her, Senpai and Geneva decide to prank her in the old school building. After realizing the existence of Geneva, Billie becomes a Ghost Hunter and wants to eliminate all ghosts in the world, thereby asserting that ghosts don't exist, which made Geneva avoid her from that point on.",
+        "background": "校园里的捉鬼大师。她拥有高科技的捉鬼装备。\n\n她坚信幽灵不存在，并想向全世界证明这一点。她持续开展捉鬼活动，破解了许多闹鬼谜案。每年万圣节，她都会参加学生会组织的捉鬼活动，深入闹鬼最严重的旧教学楼探查。为向她证明幽灵的存在，前辈与婕妮娃决定在旧校舍对她恶作剧。目睹婕妮娃后，比莉转而成为猎鬼者，誓要消灭世间所有幽灵以证明其不存在，此举导致婕妮娃从此避之不及。",
         "club": "运动",
         "element": "雷",
         "year": 3,
@@ -2034,12 +2034,12 @@
             "birthday": "Nov 25"
         },
         "skins": null,
-        "hobbies": "Ghost Detective",
+        "hobbies": "灵异调查",
         "type": 1,
         "tags": null,
         "created_at": null,
         "last_updated": "2026-01-28 02:12:36",
-        "translated": null
+        "translated": 1
     },
     {
         "id": 35,
@@ -2492,48 +2492,48 @@
         ],
         "nicknames": "doro、桃乐丝",
         "arena_skill": {
-            "name": "Symphony of Fate",
+            "name": "命运交响曲",
             "icon": "//static.wikitide.net/projectqtwiki/c/ce/A38.png",
             "cooldown": 7,
             "descriptions": [
-                "Inflict 0.55x Dorothy's Attack as Wind Damage on 2 Enemies.\n\nInflict extra 0.2x Dorothy's Attack as Wind Damage if Target is non-Fire type.\n\nIncrease All Characters' Damage by 8% for 4 Rounds.",
-                "Inflict 0.6x Dorothy's Attack as Wind Damage on 2 Enemies.\n\nInflict extra 0.25x Dorothy's Attack as Wind Damage if Target is non-Fire type.\n\nIncrease All Characters' Damage by 8% for 5 Rounds.",
-                "Inflict 0.7x Dorothy's Attack as Wind Damage on 2 Enemies.\n\nInflict extra 0.3x Dorothy's Attack as Wind Damage if Target is non-Fire type.\n\nIncrease All Characters' Damage by 12% for 5 Rounds.",
-                "Inflict 0.8x Dorothy's Attack as Wind Damage on 2 Enemies.\n\nInflict extra 0.35x Dorothy's Attack as Wind Damage if Target is non-Fire type.\n\nIncrease All Characters' Damage by 16% for 5 Rounds.",
-                "Inflict 0.85x Dorothy's Attack as Wind Damage on 2 Enemies.\n\nInflict extra 0.4x Dorothy's Attack as Wind Damage if Target is non-Fire type.\n\nIncrease All Characters' Damage by 20% for 5 Rounds."
+                "对2名敌人造成角色攻击力0.55倍的风属性伤害。\n\n如果目标不是火角色，则额外造成角色攻击力0.2倍的风属性伤害。\n\n提升所有角色8%伤害，持续4回合。",
+                "对2名敌人造成角色攻击力0.6倍的风属性伤害。\n\n如果目标不是火角色，则额外造成角色攻击力0.25倍的风属性伤害。\n\n提升所有角色8%伤害，持续5回合。",
+                "对2名敌人造成角色攻击力0.7倍的风属性伤害。\n\n如果目标不是火角色，则额外造成角色攻击力0.4倍的风属性伤害。\n\n提升所有角色12%伤害，持续5回合。",
+                "对2名敌人造成角色攻击力0.8倍的风属性伤害。\n\n如果目标不是火角色，则额外造成角色攻击力0.35倍的风属性伤害。\n\n提升所有角色16%伤害，持续5回合。",
+                "对2名敌人造成角色攻击力0.85倍的风属性伤害。\n\n如果目标不是火角色，则额外造成角色攻击力0.4倍的风属性伤害。\n\n提升所有角色20%伤害，持续5回合。"
             ]
         },
         "story_skill": null,
         "awakening_passive": {
-            "name": "Final Movement",
+            "name": "终章",
             "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
             "descriptions": [
-                "At the beginning of battle, Increase Dorothy's Attack by 10% for 12 Rounds.\n\nAt the beginning of battle, Increase All Enemies' Damage Taken by 15% for 8 rounds.\n\nAt the beginning of battle, Decrease all Characters' Damage taken by 10% for 10 Rounds.",
-                "At the beginning of battle, Increase Dorothy's Attack by 20% for 12 Rounds.\n\nAt the beginning of battle, Increase All Enemies' Damage Taken by 20% for 8 rounds.\n\nAt the beginning of battle, Decrease all Characters' Damage taken by 15% for 10 Rounds.",
-                "At the beginning of battle, Increase Dorothy's Attack by 30% for 12 Rounds.\n\nAt the beginning of battle, Increase All Enemies' Damage Taken by 25% for 8 rounds.\n\nAt the beginning of battle, Decrease all Characters' Damage taken by 20% for 10 Rounds."
+                "战斗开始时，提升角色攻击力10%，持续12回合。\n\n战斗开始时，增加所有敌人受到的伤害10%，持续8回合。\n\n战斗开始时，降低所有角色受到的伤害10%，持续10回合。",
+                "战斗开始时，提升角色攻击力20%，持续12回合。\n\n战斗开始时，增加所有敌人受到的伤害20%，持续8回合。\n\n战斗开始时，降低所有角色受到的伤害15%，持续10回合。",
+                "战斗开始时，提升角色攻击力30%，持续12回合。\n\n战斗开始时，增加所有敌人受到的伤害25%，持续8回合。\n\n战斗开始时，降低所有角色受到的伤害20%，持续10回合。"
             ],
             "instructions": null,
             "extra": null
         },
         "talent_tree": {
-            "name": "Master of Instruments",
+            "name": "乐器大师",
             "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
             "descriptions": [
-                "Increase Dorothy's HP by 1%",
-                "Increase Dorothy's HP by 2%",
-                "Increase Dorothy's HP by 3%",
-                "Increase Dorothy's HP by 4%",
-                "Increase Dorothy's HP by 5%",
-                "Increase Dorothy's HP by 6%, Attack by 3%\n\nIncrease All Wind Characters' Attack Damage to Lightning Characters by 3%",
-                "Increase Dorothy's HP by 7%, Attack by 6%\n\nIncrease All Wind Characters' Attack Damage to Lightning Characters by 6%",
-                "Increase Dorothy's HP by 9%, Attack by 9%\n\nIncrease All Wind Characters' Attack Damage to Lightning Characters by 9%",
-                "Increase Dorothy's HP by 12%, Attack by 12%\n\nIncrease All Wind Characters' Attack Damage to Lightning Characters by 12%",
-                "Increase Dorothy's HP by 15%, Attack by 15%\n\nIncrease All Wind Characters' Attack Damage to Lightning Characters by 15%"
+                "提升角色血量1%",
+                "提升角色血量2%",
+                "提升角色血量3%",
+                "提升角色血量4%",
+                "提升角色血量5%",
+                "提升角色血量6%, 攻击力3%\n\n提升所有风角色对雷角色的伤害3%",
+                "提升角色血量7%, 攻击力6%\n\n提升所有风角色对雷角色的伤害6%",
+                "提升角色血量9%, 攻击力9%\n\n提升所有风角色对雷角色的伤害9%",
+                "提升角色血量12%, 攻击力12%\n\n提升所有风角色对雷角色的伤害12%",
+                "提升角色血量15%, 攻击力15%\n\n提升所有风角色对雷角色的伤害15%"
             ],
             "instructions": null,
             "extra": "+2250+3250+500"
         },
-        "background": "The teacher who teaches mathematics and music in the Campus, also the one who discovered Flora's talent for playing flute.\n\nDorothy is a colleague of Clara and Esther. She is sitting right next to Clara in the staff room. Since she looks younger than Clara, she often jokes with Clara by calling her \"Sister\". Dorothy was found in the current infected area of the Thirteenth Academy City. The rescue personnel immediately took her for isolation and examination. Miraculously, Dorothy was not infected at all. However, when she woke up, she could not remember anything. The name \"Dorothy\" was the name of a supporting character in one of the novels she read during her recovery. She was moved by the character's personality and attitude towards life, and hoped to live like her, so she took the same name for herself. She is also very curious about her past.\n\nDue to Dorothy's miraculous survival, the Campus is very concerned about her body structure and past, so they invited her to the Campus to conduct various studies on the condition of assisting Dorothy in regaining her memory. Although Dorothy lost her memory, she was unexpectedly smart, especially with her exceptional talent in music. She is proficient in basically all musical instruments, so the principal has arranged for her to teach Music.",
+        "background": "在校园里教数学和音乐的老师，也是发现芙罗拉天赋的人。\n\n桃乐丝是克拉拉和艾斯特的同事。她在员工教职室里就坐在克拉拉旁边。由于她看起来比克拉拉年轻，常开玩笑称呼克拉拉为“姐姐”。桃乐丝是在第十三学园都市现今的感染区被发现的，救援人员立即将她带走进行隔离和检查。奇迹般地，桃乐丝完全未受感染。然而苏醒后她丧失了全部记忆。“桃乐丝”这个名字源自康复期间阅读的小说中一位配角，她深受该角色的人格魅力与生活态度感动，渴望活出同样的生命姿态，遂以此名自称。她也对自己过往经历怀有强烈的好奇心。\n\n由于桃乐丝奇迹般的生还，校园方面对其身体构造和过往经历极为关注，遂邀请她入校接受各项研究，条件是协助她恢复记忆。尽管丧失记忆，桃乐丝却意外地聪慧过人，尤其在音乐方面展现出非凡天赋 —— 她几乎精通所有乐器演奏，因此校长安排她担任音乐教师。",
         "club": "艺术",
         "element": "风",
         "year": 3,
@@ -2542,15 +2542,15 @@
             "height": "173cm",
             "weight": "52kg",
             "body_size": "38C-25-24",
-            "birthday": "May 17"
+            "birthday": "05-17"
         },
         "skins": null,
-        "hobbies": "Stroll in the Rain",
+        "hobbies": "雨中散步",
         "type": 1,
         "tags": null,
         "created_at": null,
         "last_updated": "2026-01-28 02:12:36",
-        "translated": null
+        "translated": 1
     },
     {
         "id": 42,

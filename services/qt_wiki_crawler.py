@@ -89,7 +89,8 @@ def parse_character_page(entry: dict) -> Character:
 
     soup = entry.get("soup")
     if not soup:
-        soup = BeautifulSoup(entry.get("html"), 'lxml')
+        html = entry.pop("html")
+        soup = BeautifulSoup(html, 'lxml')
     char_info = soup.find("div", id="char-info")
 
     tables = char_info.select(".infobox-table.fill")
@@ -192,8 +193,8 @@ def parse_goodness_page(entry: dict) -> Character:
         "type": entry.get("type")
     }
     soup = entry.get("soup")
-    html = entry.pop("html")
     if not soup:
+        html = entry.pop("html")
         soup = BeautifulSoup(html, 'lxml')
     char_info = soup.find("div", id="char-info")
 
@@ -331,7 +332,7 @@ class QTWikiCrawler:
     def scrape_character_and_save(self, name):
         character = self.scrape_character(name)
         self.character_service.save_character(character)
-        return character.name
+        return character
 
     # def scrape_character_and_update(self, name):
     #     character = self.scrape_character(name)

@@ -37,7 +37,9 @@ QQ_BOTS='[
 
 2、其他配置
 
-config.example.ini重命名为config.ini，如果要将数据放到谷歌表格时，需要部署Apps Scripts，脚本代码位于"根目录/apps_scripts"，部署脚本后，将生成的链接填写到apps_scripts区域；
+config.example.ini重命名为config.ini；
+
+如果要将数据放到谷歌表格时（这个主要是因为，表格某种程度上，比数据库更好管理，当然，不接入谷歌表格其实也ok），需要部署Apps Scripts，脚本代码位于"根目录/apps_scripts"，部署脚本后，将生成的链接填写到apps_scripts区域；
 
 如果要接入翻译功能，则需要前往百度开放平台申请翻译app，一般是"通用翻译"。
 
@@ -53,10 +55,17 @@ endpoint=http://api.fanyi.baidu.com/api/trans/vip/translate
 [crawler]
 list_page_paths=/wiki/Character_List,/wiki/Goddess_List
 
-[apps_scripts]
-api_key=随机生成的字符，用于apps scripts的简单校验
+[storage]
+# google_sheets或local_json
+type=local_json
+
+[google_sheets]
+api_key=随机生成字符
 save_characters_endpoint=保存角色端点
 get_characters_endpoint=获取数据端点
+
+[local_json]
+file_path=data/characters.json
 ```
 ## 运行
 

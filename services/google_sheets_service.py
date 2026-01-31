@@ -4,9 +4,10 @@ import requests
 from nonebot import logger
 
 from services.character_service import CharacterService
+from services.storage_service import StorageService
 
 
-class GoogleSheetsService:
+class GoogleSheetsService(StorageService):
     """谷歌表格服务"""
 
     def __init__(
@@ -38,11 +39,11 @@ class GoogleSheetsService:
             except Exception as error:
                 logger.error(error)
 
-    def push_character_attributes_to_google_sheets(self):
-        # todo 推送指定属性，根据name查找
-        pass
+    # def push_character_attributes_to_google_sheets(self):
+    #     # todo 推送指定属性，根据name查找
+    #     pass
 
-    def push_characters_to_google_sheets(self, characters: List[dict]):
+    def push_characters(self, characters: List[dict]):
         """
         推送角色数据到远程表格；
         首次使用apps scripts来初始化数据，也就是说，机器人内，无需批量操作
