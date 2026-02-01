@@ -39,10 +39,6 @@ QQ_BOTS='[
 
 config.example.ini重命名为config.ini；
 
-如果要将数据放到谷歌表格时（这个主要是因为，表格某种程度上，比数据库更好管理，当然，不接入谷歌表格其实也ok），需要部署Apps Scripts，脚本代码位于"根目录/apps_scripts"，部署脚本后，将生成的链接填写到apps_scripts区域；
-
-如果要接入翻译功能，则需要前往百度开放平台申请翻译app，一般是"通用翻译"。
-
 ```text
 [db]
 db_path=data/wiki.db
@@ -67,6 +63,50 @@ get_characters_endpoint=获取数据端点
 [local_json]
 file_path=data/characters.json
 ```
+
+3、外部存储
+
+默认为本地json文件，如果想要多人协作，可考虑数据放到谷歌表格。
+
+1）本地json
+
+本地存储的方式比较简单，编辑data/characters.json文件后，@机器人同步文件数据即可。
+
+> @机器人 /su 同步数据
+
+```text
+[storage]
+type=local_json
+
+[local_json]
+file_path=data/characters.json
+```
+
+2）谷歌表格
+
+这种方式需要配合Apps Scripts来完成存取操作，所需脚本代码位于"根目录/apps_scripts/"文件夹内，并且部署机器人所在服务器需要能连接外网，否则无法访问：
+
+- 创建一个谷歌表格；
+- 将角色数据characters.json、角色字段映射field_mappings.json上传到谷歌硬盘，把新建表格的id、名称输入init_characters.js后，将脚本放到https://script.google.com/home?hl=zh-cn执行一次（该脚本无需部署），完成表格初始化；
+- 部署get_characters.js、save_characters.js脚本，部署的配置为"类型-Web应用，执行身份-我，有访问权限的人员-任何人"，将生成的链接填写到apps_scripts指定区域；
+- 部署脚本参数，秘钥、表格id、表格名称，其中，秘钥为随机生成，用于校验脚本的调用，设置到：项目设置 -> 脚本属性，API_KEY=秘钥，SHEET_ID=表格id，SHEET_NAME=表格名称，两个部署的脚步都需要；
+
+这时候，将谷歌表格的权限分享出去，就可以实现'多人协作+机器人同步数据'的工作模式了。
+
+注：Apps Scripts可免费使用，但额度有限，不应该频繁调用，不过应付这种低频场景应该还是错错有余的，[自行查看](https://developers.google.com/apps-script/guides/services/quotas?hl=zh-cn)
+
+```text
+[storage]
+type=google_sheets
+
+[google_sheets]
+api_key=随机生成字符
+save_characters_endpoint=保存角色端点
+get_characters_endpoint=获取数据端点
+```
+
+![image](./images/QQ20260201-0.jpeg)
+
 ## 运行
 
 依赖安装完成后，使用以下命令启动程序：
@@ -91,6 +131,12 @@ file_path=data/characters.json
 - 推送数据(至谷歌表格)
 
 ## 使用指南（面向普通用户）
+
+0、手册
+
+> @机器人 /帮助
+
+![image](./images/img_1.png)
 
 1、基本格式
 

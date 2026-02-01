@@ -4142,48 +4142,48 @@
         ],
         "nicknames": "真希、相机",
         "arena_skill": {
-            "name": "Flash Storm",
+            "name": "闪电风暴",
             "icon": "//static.wikitide.net/projectqtwiki/thumb/7/74/A36.png/40px-A36.png",
             "cooldown": 6,
             "descriptions": [
-                "Inflict 0.6x Maki's Attack as Water Damage on 2 Enemies. Inflict extra 0.1 or 0.2x Maki's Attack as Water Damage.\n\nIncrease All Enemies' Water Damage Taken by 5% for 5 rounds.",
-                "Inflict 0.7x Maki's Attack as Water Damage on 2 Enemies. Inflict extra 0.2 or 0.3x Maki's Attack as Water Damage.\n\nIncrease All Enemies' Water Damage Taken by 10% for 5 rounds.",
-                "Inflict 0.75x Maki's Attack as Water Damage on 2 Enemies. Inflict extra 0.3 or 0.4x Maki's Attack as Water Damage.\n\nIncrease All Enemies' Water Damage Taken by 15% for 5 rounds.",
-                "Inflict 0.8x Maki's Attack as Water Damage on 2 Enemies. Inflict extra 0.5 or 0.7x Maki's Attack as Water Damage.\n\nIncrease All Enemies' Water Damage Taken by 20% for 5 rounds.",
-                "Inflict 0.9x Maki's Attack as Water Damage on 2 Enemies. Inflict extra 0.6 or 0.8x Maki's Attack as Water Damage.\n\nIncrease All Enemies' Water Damage Taken by 25% for 5 rounds."
+                "对2名敌人造成真希攻击力0.6倍的水属性伤害。额外造成真希攻击力0.1或0.2倍的水属性伤害。\n\n提升所有敌人受到的水属性伤害5%，持续5回合。",
+                "对2名敌人造成真希攻击力0.7倍的水属性伤害。额外造成真希攻击力0.2或0.3倍的水属性伤害。\n\n提升所有敌人受到的水属性伤害10%，持续5回合。",
+                "对2名敌人造成真希攻击力0.75倍的水属性伤害。额外造成真希攻击力0.3或0.4倍的水属性伤害。\n\n提升所有敌人受到的水属性伤害15%，持续5回合。",
+                "对2名敌人造成真希攻击力0.8倍的水属性伤害。额外造成真希攻击力0.5或0.7倍的水属性伤害。\n\n提升所有敌人受到的水属性伤害20%，持续5回合。",
+                "对2名敌人造成真希攻击力0.9倍的水属性伤害。额外造成真希攻击力0.6或0.8倍的水属性伤害。\n\n提升所有敌人受到的水属性伤害25%，持续5回合。"
             ]
         },
         "story_skill": null,
         "awakening_passive": {
-            "name": "Shutter Prelude",
+            "name": "快门前奏",
             "icon": "//static.wikitide.net/projectqtwiki/b/b1/A6.png",
             "descriptions": [
-                "At the beginning of battle, Increase 3 Characters Attack 10% for 16 Rounds.\n\nAt the beginning of battle, Increase Maki's Damage by 10% for 16 Rounds.\n\nAt the beginning of the battle, Maki's 50% Chance to Evade \"Paralysis\" for 16 Rounds.\n\nAt the beginning of Maki's Move, 60% Chance to Increase Maki's Attack by 20% for 1 Round.",
-                "At the beginning of battle, Increase 3 Characters Attack 15% for 16 Rounds.\n\nAt the beginning of battle, Increase Maki's Damage by 20% for 16 Rounds.\n\nAt the beginning of the battle, Maki's 80% Chance to Evade \"Paralysis\" for 16 Rounds.\n\nAt the beginning of Maki's Move, 70% Chance to Increase Maki's Attack by 25% for 1 Round.",
-                "At the beginning of battle, Increase 3 Characters Attack 30% for 16 Rounds.\n\nAt the beginning of battle, Increase Maki's Damage by 30% for 16 Rounds.\n\nAt the beginning of the battle, Maki's 100% Chance to Evade \"Paralysis\", and 70% Chance to Evade on 1 Character \"Paralysis\" for 16 Rounds.\n\nAt the beginning of Maki's Move, 80% Chance to Increase Maki's Attack by 35% for 1 Round."
+                "战斗开始时，提升3名角色10%攻击力，持续16回合。\n\n战斗开始时, 提升真希10%伤害，持续16回合。\n\n战斗开始时，真希50%概率免疫\"麻痹\"持续16回合。\n\n真希的回合开始时, 60%概率提升自身20%攻击力，持续1回合。",
+                "战斗开始时，提升3名角色15%攻击力，持续16回合。\n\n战斗开始时, 提升真希20%伤害，持续16回合。\n\n战斗开始时，真希80%概率免疫\"麻痹\"持续16回合。\n\n真希的回合开始时, 70%概率提升自身25%攻击力，持续1回合。",
+                "战斗开始时，提升3名角色30%攻击力，持续16回合。\n\n战斗开始时, 提升真希30%伤害，持续16回合。\n\n战斗开始时，真希100%概率免疫\"麻痹\"，并且70%概率免疫1名角色\"麻痹\"，持续16回合。\n\n真希的回合开始时, 80%概率提升自身35%攻击力，持续1回合。"
             ],
             "instructions": null,
             "extra": null
         },
         "talent_tree": {
-            "name": "Flash Water Blade",
+            "name": "流光水刃",
             "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
             "descriptions": [
-                "Increase Maki's Attack by 1%.",
-                "Increase Maki's Attack by 3%.",
-                "Increase Maki's Attack by 5%.",
-                "Increase Maki's Attack by 7%.",
-                "Increase Maki's Attack by 9%.",
-                "Increase Maki's Attack by 11%, HP by 3%.\n\nIncrease 2 Water Characters' Attack Damage to Fire Characters by 3%.",
-                "Increase Maki's Attack by 12%, HP by 6%.\n\nIncrease 2 Water Characters' Attack Damage to Fire Characters by 6%.",
-                "Increase Maki's Attack by 13%, HP by 9%.\n\nIncrease 2 Water Characters' Attack Damage to Fire Characters by 9%.",
-                "Increase Maki's Attack by 14%, HP by 12%.\n\nIncrease 2 Water Characters' Attack Damage to Fire Characters by 12%.",
-                "Increase Maki's Attack by 15%, HP by 15%.\n\nIncrease 2 Water Characters' Attack Damage to Fire Characters by 15%."
+                "提升真希1%攻击力",
+                "提升真希3%攻击力",
+                "提升真希5%攻击力",
+                "提升真希7%攻击力",
+                "提升真希9%攻击力",
+                "提升真希11%攻击力, 3%血量。\n\n提升2名水角色对火角色3%水属性伤害。",
+                "提升真希12%攻击力, 6%血量。\n\n提升2名水角色对火角色6%水属性伤害。",
+                "提升真希13%攻击力, 9%血量。\n\n提升2名水角色对火角色9%水属性伤害。",
+                "提升真希14%攻击力, 12%血量。\n\n提升2名水角色对火角色12%水属性伤害。",
+                "提升真希15%攻击力, 15%血量。\n\n提升2名水角色对火角色15%水属性伤害。"
             ],
             "instructions": null,
             "extra": "+2500+3000+500"
         },
-        "background": "DA member of the Kamaitachi clan, Sherry and Mako's younger sister.\n\nMaki is the youngest sister among the three Kamaitachi sisters. She is clear-headed and speaks concisely and logically. She is able to calmly analyze even in crises, often assisting her sisters in thinking of countermeasures with a detailed mind. She has a graceful appearance and huge boobs, always carrying a hint of a humble elegance. Maki always brings a camera with her, capturing the subtle changes in the surroundings and people's mind in detail, recording the truth and emotions of this turbulent era through her lens.\n\nSince she was young, she has admired her sister Sherry for her gentleness—Whenever there are disputes or difficulties at home, Sherry can always use warm words with a tolerant attitude to calm everyone down. As long as Sherry is there, any difficulty can be easily overcome. Maki often quietly observes from the side, trying to learn from her sister to be a strong support. On the other hand, Maki secretly admires Mako for being free-spirited and unbound by rules, daring to challenge the authorities while acting according to her own desires. It is also the source of courage she deeply longs for but finds it difficult to imitate. Every time Mako takes her out on adventures, Maki captures her sister's bravery and happiness through the camera, which became a source of inspiration for her own creations.",
+        "background": "镰鼬一族的DA成员，雪莉与真琴的妹妹。\n\n真希是镰鼬三姐妹中最年幼的妹妹。她头脑清醒，言语简洁而富有逻辑性。即便身处危机也能冷静分析，常以细致的思维协助姐妹们制定对策。她拥有优雅的外表与丰满的胸脯，始终带着几分谦逊的优雅气质。真希常携相机出行，细致捕捉环境与人心间的微妙变化，用镜头记录动荡时代的真相与情感。\n\n自幼她便仰慕姐姐雪莉的温柔——每当家中争执或困境时，雪莉总能以包容态度和温暖话语安抚众人。只要雪莉在场，任何困难都能迎刃而解。真希常在旁默默观察，试图向姐姐学习成为坚实的后盾。另一方面，真希又暗自钦佩真琴那不拘一格的自由灵魂——她敢于挑战权威，随心而行。这份勇气正是真希内心渴求却难以企及的。每当真琴带她踏上冒险之旅，真希便用镜头捕捉姐姐的勇敢与欢愉，这些影像也成为她创作的灵感源泉。",
         "club": "艺术",
         "element": "水",
         "year": 3,
@@ -4192,15 +4192,15 @@
             "height": "170cm",
             "weight": "50kg",
             "body_size": "36D-23-35",
-            "birthday": "Jun 6"
+            "birthday": "06-06"
         },
         "skins": null,
-        "hobbies": "Photography",
+        "hobbies": "摄影",
         "type": 1,
         "tags": null,
         "created_at": null,
         "last_updated": "2026-01-28 02:12:36",
-        "translated": null
+        "translated": 1
     },
     {
         "id": 65,
@@ -4219,44 +4219,44 @@
             "icon": "//static.wikitide.net/projectqtwiki/thumb/b/b8/A37.png/40px-A37.png",
             "cooldown": 6,
             "descriptions": [
-                "Inflict 0.4x Mako's Attack as Fire Damage on 3 Enemies.\n\nChange 1 Enemy's Element to Wind Type for 2 Rounds.\n\nIncrease Mako's Damage by 10% for 5 Rounds.",
-                "Inflict 0.45x Mako's Attack as Fire Damage on 3 Enemies.\n\nChange 2 Enemies' Element to Wind Type for 2 Rounds.\n\nIncrease Mako's Damage by 15% for 5 Rounds.",
-                "Inflict 0.5x Mako's Attack as Fire Damage on 3 Enemies.\n\nChange 2 Enemies' Element to Wind Type for 3 Rounds.\n\nIncrease Mako's Damage by 20% for 5 Rounds.\n\nIf Anyone on the Pitch is Suffering \"Burn\" Effect, Increase Target's Fire Damage taken by 10% for 5 Rounds.",
-                "Inflict 0.55x Mako's Attack as Fire Damage on 3 Enemies.\n\nChange 3 Enemies' Element to Wind Type for 4 Rounds.\n\nIncrease Mako's Damage by 25% for 5 Rounds.\n\nIf Anyone on the Pitch is Suffering \"Burn\" Effect, Increase Target's Fire Damage taken by 15% for 5 Rounds.",
-                "Inflict 0.6x Mako's Attack as Fire Damage on 3 Enemies.\n\nChange 3 Enemies' Element to Wind Type for 5 Rounds.\n\nIncrease Mako's Damage by 30% for 5 Rounds.\n\nIf Anyone on the Pitch is Suffering \"Burn\" Effect, Increase Target's Fire Damage taken by 20% for 5 Rounds."
+                "对3名敌人造成真琴攻击力0.4倍火属性伤害。\n\n将1名敌人的类型改为火属性，持续2回合。\n\n提升真琴10%伤害，持续5回合。",
+                "对3名敌人造成真琴攻击力0.45倍火属性伤害。\n\n将2名敌人的类型改为火属性，持续2回合。\n\n提升真琴15%伤害，持续5回合。",
+                "对3名敌人造成真琴攻击力0.5倍火属性伤害。\n\n将2名敌人的类型改为火属性，持续3回合。\n\n提升真琴20%伤害，持续5回合。\n\n如果目标处于\"燃烧\"状态, 则使其所受到的伤害提升10%。",
+                "对3名敌人造成真琴攻击力0.55倍火属性伤害。\n\n将3名敌人的类型改为火属性，持续4回合。\n\n提升真琴25%伤害，持续5回合。\n\n如果目标处于\"燃烧\"状态, 则使其所受到的伤害提升15%。",
+                "对3名敌人造成真琴攻击力0.6倍火属性伤害。\n\n将3名敌人的类型改为火属性，持续5回合。\n\n提升真琴40%伤害，持续5回合。\n\n如果目标处于\"燃烧\"状态, 则使其所受到的伤害提升20%。"
             ]
         },
         "story_skill": null,
         "awakening_passive": {
-            "name": "Fiery Timbre",
+            "name": "炽热音色",
             "icon": "//static.wikitide.net/projectqtwiki/4/45/A7.png",
             "descriptions": [
-                "At the beginning of battle, increase 2 Fire Characters' Damage by 8% for 10 Rounds.\n\nAt the beginning of Mako's move, 70% increase Mako's Damage by 20% for 1 Round.",
-                "At the beginning of battle, increase 2 Fire Characters' Damage by 15% for 10 Rounds.\n\nAt the beginning of Mako's move, 70% increase Mako's Damage by 30% for 1 Round.",
-                "At the beginning of battle, increase 2 Fire Characters' Damage by 25% for 10 Rounds.\n\nAt the beginning of Mako's move, 70% increase Mako's Damage by 40% for 1 Round."
+                "战斗开始时，提升2名火角色8%伤害，持续10回合。\n\n真琴的回合开始时, 70%概率提升自身20%伤害，持续1回合。",
+                "战斗开始时，提升2名火角色15%伤害，持续10回合。\n\n真琴的回合开始时, 70%概率提升自身30%伤害，持续1回合。",
+                "战斗开始时，提升2名火角色25%伤害，持续10回合。\n\n真琴的回合开始时, 70%概率提升自身40%伤害，持续1回合。"
             ],
             "instructions": null,
             "extra": null
         },
         "talent_tree": {
-            "name": "Rock and roll spirit",
+            "name": "摇滚之魂",
             "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
             "descriptions": [
-                "Increase Mako's HP by 1%",
-                "Increase Mako's HP by 2%",
-                "Increase Mako's HP by 3%",
-                "Increase Mako's HP by 4%",
-                "Increase Mako's HP by 5%",
-                "Increase Mako's HP by 6%, Attack by 2%\n\nIncrease Mako's Attack Damage on Wind Character by 1%",
-                "Increase Mako's HP by 7%, Attack by 4%\n\nIncrease Mako's Attack Damage on Wind Character by 3%",
-                "Increase Mako's HP by 9%, Attack by 6%\n\nIncrease Mako's Attack Damage on Wind Character by 5%",
-                "Increase Mako's HP by 12%, Attack by 8%\n\nIncrease Mako's Attack Damage on Wind Character by 7%",
-                "Increase Mako's HP by 15%, Attack by 10%\n\nIncrease Mako's Attack Damage on Wind Character by 10%"
+                "提升真琴1%血量",
+                "提升真琴2%血量",
+                "提升真琴3%血量",
+                "提升真琴4%血量",
+                "提升真琴5%血量",
+                "提升真琴6%血量，2%攻击力。\n\n提升自身对风角色1%伤害。",
+                "提升真琴7%血量，4%攻击力。\n\n提升自身对风角色3%伤害。",
+                "提升真琴9%血量，6%攻击力。\n\n提升自身对风角色5%伤害。",
+                "提升真琴12%血量，8%攻击力。\n\n提升自身对风角色7%伤害。",
+                "提升真琴15%血量，10%攻击力。\n\n提升自身对风角色10%伤害。"
             ],
             "instructions": null,
             "extra": "+2500+3000+500"
         },
-        "background": "A member of the Kamaitachi clan, Sherry's younger sister. She also has a twin sister named Maki. The most flat-chested one amoung the three sisters.\n\nUnlike the cute gentle Sherry, Mako, the second eldest sister in the Sherry’s family, was rebellious, bossy and active, so people often mistaken Mako as the eldest sister. Mako likes to play tricks on others but would never do it to her own family. She sometimes teases her younger sister Maki, but still takes her around to broaden her horizons. It shows that Mako cherishes her family very much. She is the CEO of hot-wind control, the skill of vaporizing moisture in the air.\n\nBefore Sherry voluntarily sacrificed herself, Mako left the Kamaitachi village with Maki for the reason of broadening their horizons, traveling through various School Cities, completely ignoring the invasion of the infected to the planet. When she learnt of Sherry's decision to sacrifice herself, she rushed back to the village in an attempt to stop the tragedy. In the end, their eldest sister received help from the Wind God, and Mako and Maki were relieved. This event also marks the beginning of Mako's awareness of the harm the infected brought to the planet. She decided to follow Sherry's will and help people in distress in different School Cities.\n\nRecently, she has become obsessed with rock music. Besides visiting her elder sister, she has also formed a limited band with Taylor and Ingrid at the School. They are currently practicing hard for the stage performance at the School’s festival.",
+        "background": "镰鼬一族成员，雪莉的妹妹。她还有个双胞胎姐姐名叫真希。三姐妹中胸部最平坦的一位。\n\n与温柔可爱的雪莉不同，作为雪莉家的次女，真琴叛逆、霸道又活跃，常被误认为是长姐。她喜欢捉弄别人，但绝不会对家人下手。她时常捉弄妹妹真希，却仍带着妹妹四处见识世界，足见真琴对家人的珍视。她精通“热风控制术”，能将空气中的水分瞬间蒸发。\n\n在雪莉自愿献身之前，真琴以“开拓眼界”为由带着真希离开镰鼬村，游历各所学园都市，全然不知感染者已入侵行星。得知雪莉的牺牲决定后，她火速返回村庄试图阻止这场悲剧。最终长姐获得风神庇佑，真琴与真希才松了口气。此事也标志着真琴开始意识到感染者对星球的危害，她决心继承雪莉的遗志，在各学园都市救助困境中的人们。\n\n近来她痴迷于摇滚乐，除探望姐姐外，还在学园与泰勒、英格丽组成限定乐队。三人正为学园祭舞台演出全力排练。",
         "club": "艺术",
         "element": "火",
         "year": 3,
@@ -4268,7 +4268,7 @@
             "birthday": "Jun 6"
         },
         "skins": null,
-        "hobbies": "Boob job research",
+        "hobbies": "丰胸研究",
         "type": 1,
         "tags": null,
         "created_at": null,
@@ -5018,48 +5018,48 @@
         ],
         "nicknames": "雪莉、喜多川、辣妹",
         "arena_skill": {
-            "name": "Sweet Storm",
+            "name": "甜蜜风暴",
             "icon": "//static.wikitide.net/projectqtwiki/c/ce/A38.png",
             "cooldown": 7,
             "descriptions": [
-                "Increase Sherry's Attack Damage on Non-Fire Enemies by 5% for 1 Round.\n\nInflict 0.4x Sherry's Attack as Wind Damage on 3 Enemies (Regardless of Damage decreasing effect).\n\nIncrease 2 Enemies' Damage Taken by 5% for 5 rounds.",
-                "Increase Sherry's Attack Damage on Non-Fire Enemies by 10% for 1 Round.\n\nInflict 0.45x Sherry's Attack as Wind Damage on 3 Enemies (Regardless of Damage decreasing effect).\n\nIncrease 2 Enemies' Damage Taken by 10% for 5 rounds.",
-                "Increase Sherry's Attack Damage on Non-Fire Enemies by 15% for 1 Round.\n\nInflict 0.5x Sherry's Attack as Wind Damage on 3 Enemies (Regardless of Damage decreasing effect).\n\nIncrease 2 Enemies' Damage Taken by 15% for 5 rounds.",
-                "Increase Sherry's Attack Damage on Non-Fire Enemies by 20% for 1 Round.\n\nInflict 0.55x Sherry's Attack as Wind Damage on 3 Enemies (Regardless of Damage decreasing effect).\n\nIncrease 2 Enemies' Damage Taken by 20% for 5 rounds.",
-                "Increase Sherry's Attack Damage on Non-Fire Enemies by 25% for 1 Round.\n\nInflict 0.6x Sherry's Attack as Wind Damage on 3 Enemies (Regardless of Damage decreasing effect).\n\nIncrease 2 Enemies' Damage Taken by 30% for 5 rounds."
+                "提升雪莉对非火角色的伤害5%，持续1回合。\n\n对3名敌人造成相当于雪莉攻击力0.4倍的伤害 (无视减伤效果)。\n\n提升2名敌人受到的伤害5%，持续5回合。",
+                "提升雪莉对非火角色的伤害10%，持续1回合。\n\n对3名敌人造成相当于雪莉攻击力0.45倍的伤害 (无视减伤效果)。\n\n提升2名敌人受到的伤害10%，持续5回合。",
+                "提升雪莉对非火角色的伤害15%，持续1回合。\n\n对3名敌人造成相当于雪莉攻击力0.5倍的伤害 (无视减伤效果)。\n\n提升2名敌人受到的伤害15%，持续5回合。",
+                "提升雪莉对非火角色的伤害20%，持续1回合。\n\n对3名敌人造成相当于雪莉攻击力0.55倍的伤害 (无视减伤效果)。\n\n提升2名敌人受到的伤害20%，持续5回合。",
+                "提升雪莉对非火角色的伤害25%，持续1回合。\n\n对3名敌人造成相当于雪莉攻击力0.6倍的伤害 (无视减伤效果)。\n\n提升2名敌人受到的伤害30%，持续5回合。"
             ]
         },
         "story_skill": null,
         "awakening_passive": {
-            "name": "Blessed from Wind",
+            "name": "风之祝福",
             "icon": "//static.wikitide.net/projectqtwiki/6/64/A8.png",
             "descriptions": [
-                "At the beginning of Sherry's Move, 70% Chance to Increase Sherry's Attack by 20% for 1 Round.\n\nAt the beginning of Sherry's Move, 30% Chance to Evade \"Paralysis\" and \"Burn\" for 5 Rounds.",
-                "At the beginning of Sherry's Move, 70% Chance to Increase Sherry's Attack by 30% for 1 Round.\n\nAt the beginning of Sherry's Move, 40% Chance to Evade \"Paralysis\" and \"Burn\" for 5 Rounds.",
-                "At the beginning of Sherry's Move, 70% Chance to Increase Sherry's Attack by 40% for 1 Round.\n\nAt the beginning of Sherry's Move, 50% Chance to Evade \"Paralysis\" and \"Burn\" for 5 Rounds."
+                "雪莉的回合开始时，70%概率提升雪莉20%攻击力，持续1回合。\n\n雪莉的回合开始时, 30%概率免疫\"麻痹\"和\"燃烧\"，持续5回合。",
+                "雪莉的回合开始时，70%概率提升雪莉30%攻击力，持续1回合。\n\n雪莉的回合开始时, 40%概率免疫\"麻痹\"和\"燃烧\"，持续5回合。",
+                "雪莉的回合开始时，70%概率提升雪莉40%攻击力，持续1回合。\n\n雪莉的回合开始时, 50%概率免疫\"麻痹\"和\"燃烧\"，持续5回合。"
             ],
             "instructions": null,
             "extra": null
         },
         "talent_tree": {
-            "name": "Dessert Foodie",
+            "name": "甜点美食家",
             "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
             "descriptions": [
-                "Increases Sherry's HP by 1%.",
-                "Increases Sherry's HP by 2%.",
-                "Increases Sherry's HP by 3%.",
-                "Increases Sherry's HP by 4%.",
-                "Increases Sherry's HP by 5%.",
-                "Increases Sherry's HP by 6%, Attack by 2%.\n\nIncrease Sherry's Attack Damage on Lightning Character by 1%.",
-                "Increases Sherry's HP by 7%, Attack by 4%.\n\nIncrease Sherry's Attack Damage on Lightning Character by 3%.",
-                "Increases Sherry's HP by 8%, Attack by 6%.\n\nIncrease Sherry's Attack Damage on Lightning Character by 5%.",
-                "Increases Sherry's HP by 9%, Attack by 8%.\n\nIncrease Sherry's Attack Damage on Lightning Character by 7%.",
-                "Increases Sherry's HP by 10%, Attack by 10%.\n\nIncrease Sherry's Attack Damage on Lightning Character by 10%."
+                "提升自身1%血量",
+                "提升自身2%血量",
+                "提升自身3%血量",
+                "提升自身4%血量",
+                "提升自身5%血量",
+                "提升自身6%血量，2%攻击力。\n\n提升雪莉对雷角色的伤害1%。",
+                "提升自身7%血量，4%攻击力。\n\n提升雪莉对雷角色的伤害3%。",
+                "提升自身8%血量，6%攻击力。\n\n提升雪莉对雷角色的伤害5%。",
+                "提升自身9%血量，8%攻击力。\n\n提升雪莉对雷角色的伤害7%。",
+                "提升自身10%血量，10%攻击力。\n\n提升雪莉对雷角色的伤害10%。"
             ],
             "instructions": null,
             "extra": "+2250+2750+500"
         },
-        "background": "A girl who had an extremely sweet tooth, a member of the Kamaitachi Clan, was later saved by Wind God during the sacrifice.\n\nIn the village of the Kamaitachi Clan, generations of villagers worshipped the \"Wind God\" and prayed for divine protection. However, when the shadow of the infected bodies spread over the quiet village, the village chief interpreted the disaster as the wrath of the Wind God. Desperate to find a way to quell the god's wrath, she came up with an extreme plan to appease the god's anger -- by sacrificing the living. When Sherry learnt of this plan, she became the first villager to come forward, her heart filled with the desire to do her part for the village. The mysterious and distant Wind God witnessed all of this from heavens. She took pity on Sherry's bravery and sacrifice, and at the critical moment of the sacrifice, she reached out her hand of salvation and rescued Sherry from the middle of ocean. Afterwards, Sherry was blessed by the Wind God and became one of her messengers, and the Wind God promised Sherry that she would protect her village. Sherry was so grateful that she decided to go into the mortal world to help those innocent people who were also affected by the infected bodies, and to share the burden of the Wind God. Entering the school with a special indentity, Sherry not only devoted herself to her studies, but also provided assistance in battle. During one of the battles with senpai, she felt pursued him and begged him to teach her more skills to fight against the infected bodies. During her time on campus, she got to know Kirara, a friend from a very different background, who opened up a whole new world for Sherry by changing her traditional attire into a modern \"babe\" style. Learning about Sherry's sweet tooth, Kirara even guided her to become a shop-explorer, allowing her to taste more mouth-watering desserts at the most trendy shops on the Internet.",
+        "background": "一位嗜甜如命的少女，身为镰鼬族的成员，后来在祭祀中被风神所救。\n\n在镰鼬族的村落里，世代村民崇拜着“风神”，祈求神明庇佑。然而当感染者的阴影笼罩宁静村庄时，族长将这场灾祸解读为风神的怒火。为平息神怒，她竟提出以活人祭祀的极端方案。雪莉得知后毅然挺身而出，成为首位自愿献祭的村民，心中满是为村庄尽责的信念。神秘而遥远的风神在天界目睹了这一切。她怜悯雪莉的勇气与牺牲，在献祭的关键时刻，伸出救赎之手将雪莉从汪洋中救起。此后，雪莉受风神庇佑成为其使者，风神承诺将守护她的村庄。雪莉满怀感激，决定深入凡间帮助那些同样受感染者侵扰的无辜民众，分担风神的重任。以特殊身份进入校园后，她不仅刻苦学习，更在战斗中提供支援。某次与学长交战时，她感到被对方追击，便央求他传授更多对抗感染者的技能。校园生活中，她结识了出身迥异的友人琪拉拉。后者将雪莉的传统服饰改造为现代“辣妹”风格，为她开启全新世界。得知雪莉嗜甜的喜好后，琪拉拉更引导她成为“店铺探险家”，让她得以在网络最热门的店铺品尝令人垂涎的甜品。",
         "club": "艺术",
         "element": "风",
         "year": 3,
@@ -5071,7 +5071,7 @@
             "birthday": "Feb 6"
         },
         "skins": null,
-        "hobbies": "enjoy sweets",
+        "hobbies": "吃甜点",
         "type": 1,
         "tags": null,
         "created_at": null,
