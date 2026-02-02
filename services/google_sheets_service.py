@@ -10,6 +10,12 @@ from services.storage_service import StorageService
 class GoogleSheetsService(StorageService):
     """谷歌表格服务"""
 
+    def sync_data_from_list(self, characters: List[dict]):
+        pass
+
+    def sync_data_from_database(self, name: str):
+        pass
+
     def __init__(
             self,
             character_service: CharacterService,
@@ -43,25 +49,25 @@ class GoogleSheetsService(StorageService):
     #     # todo 推送指定属性，根据name查找
     #     pass
 
-    def push_characters(self, characters: List[dict]):
-        """
-        推送角色数据到远程表格；
-        首次使用apps scripts来初始化数据，也就是说，机器人内，无需批量操作
-        """
-        if not characters:
-            return False
-        logger.info(f"开始推送...")
-        payload = {
-            "apiKey": self.api_key,
-            "data": characters
-        }
-        response = requests.post(self.save_characters_endpoint, json=payload)
-        logger.info(f"status_code: {response.status_code}")
-        logger.info(response.text)
-        if response.status_code == 200:
-            try:
-                respData = response.json()
-                if respData.get("code") == 200:
-                    return True
-            except Exception as error:
-                logger.error(error)
+    # def push_characters(self, characters: List[dict]):
+    #     """
+    #     推送角色数据到远程表格；
+    #     首次使用apps scripts来初始化数据，也就是说，机器人内，无需批量操作
+    #     """
+    #     if not characters:
+    #         return False
+    #     logger.info(f"开始推送...")
+    #     payload = {
+    #         "apiKey": self.api_key,
+    #         "data": characters
+    #     }
+    #     response = requests.post(self.save_characters_endpoint, json=payload)
+    #     logger.info(f"status_code: {response.status_code}")
+    #     logger.info(response.text)
+    #     if response.status_code == 200:
+    #         try:
+    #             respData = response.json()
+    #             if respData.get("code") == 200:
+    #                 return True
+    #         except Exception as error:
+    #             logger.error(error)

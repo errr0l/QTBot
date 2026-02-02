@@ -36,7 +36,7 @@ def build_markdown_content(wiki_instructions: WikiInstructions, character_respon
         content = ""
         if 'height' in character_response.extra:
             sub_title += "身高"
-            content += character_response.extra['height']
+            content += str(character_response.extra['height'])
         if 'weight' in character_response.extra:
             sub_title += "/体重"
             content += f"/{character_response.extra['weight']}"

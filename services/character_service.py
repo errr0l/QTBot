@@ -96,6 +96,28 @@ class CharacterService:
                 json.dumps(character.tags, ensure_ascii=False) if character.tags else None
             ))
 
+    def update_character_with_fields(self, character: dict, fields: List[str]):
+        """更新角色指定字段"""
+        logger.info(fields)
+        if not fields:
+            return False
+        allowed_fields = [
+            "skins", "bonds", "awakening_passive", "awakening_passive",
+            "extra", "arena_skill", "background", "talent_tree", "club", "element", "year", "hobbies"]
+        sql_parts = []
+        for field in fields:
+            if field in allowed_fields and field in character:
+                sql_parts.append(f"{field} = :{field}")
+
+        if not sql_parts:
+            return False
+        sql = "UPDATE 'character' SET " + ", ".join(sql_parts) + " WHERE name = :name"
+        with self.db_helper.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute(sql, character)
+            logger.info(f"受影响行数：{cursor.rowcount}")
+            return True
+
     def update_characters(self, characters: List[dict]):
         """批量更新角色"""
         if not characters:

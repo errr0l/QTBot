@@ -1,5 +1,5 @@
 from dataclasses import dataclass, asdict
-from typing import List
+from typing import List, Union
 
 
 @dataclass
@@ -17,9 +17,9 @@ class Character:
     bonds: str
     hobbies: str
     type: int  # 角色类型；1=通常，2=女神
-    arena_skill: 'Character.CharacterSkill'  # 竞技场技能（静态）（默认显示五星）
-    awakening_passive: 'Character.CharacterPassiveSkill' = None  # 觉醒被动
-    talent_tree: 'Character.CharacterPassiveSkill' = None  # 天赋树
+    arena_skill: Union['Character.CharacterSkill', dict]  # 竞技场技能（静态）（默认显示五星）
+    awakening_passive: Union['Character.CharacterPassiveSkill', dict] = None  # 觉醒被动
+    talent_tree: Union['Character.CharacterPassiveSkill', dict] = None  # 天赋树
     extra: dict = None
     avatars: List[str] = None  # 随机返回
     skins: List[dict] = None
@@ -59,13 +59,14 @@ class Character:
     def to_dict(self):
         d = asdict(self)
         arena_skill = d['arena_skill']
-        if arena_skill:
+        # arena_skill有可能是dict
+        if arena_skill and isinstance(arena_skill, Character.CharacterSkill):
             d['arena_skill'] = arena_skill.to_dict()
         awakening_passive = d['awakening_passive']
-        if awakening_passive:
+        if awakening_passive and isinstance(arena_skill, Character.CharacterPassiveSkill):
             d['awakening_passive'] = awakening_passive.to_dict()
         arena_skill = d['arena_skill']
-        if arena_skill:
+        if arena_skill and isinstance(arena_skill, Character.CharacterPassiveSkill):
             d['arena_skill'] = arena_skill.to_dict()
 
         return d

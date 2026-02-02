@@ -10,6 +10,7 @@ from requests.exceptions import RequestException
 
 from services.character_service import CharacterService
 from nonebot import logger
+from utils.common import convert_single_dict_attributes_to_json
 
 
 def build_character_entry(entry: element.Tag) -> dict:
@@ -69,8 +70,18 @@ def set_skill_desc(nodes: List[element.Tag]):
     return skill_descriptions
 
 
+def get_skin_node_ids(node: element.Tag):
+    panel_top = node.find("ul", id="mw-panel-toc-list")
+    li_list = panel_top.find_all("li", recursive=False)
+    skin_node_ids = []
+    for item in li_list:
+        if "skin" in item.get("id").lower():
+            skin_node_ids.append(item.find("a").get("href"))
+    return skin_node_ids
+
+
 def parse_character_page(entry: dict) -> Character:
-    """解析角色页面，返回一个Character实体对象"""
+    """解析角色页面，返回一个Character实体对象, 注：此时该Character的技能为dict，parse_goodness_page同理"""
     if entry.get("type") == 2:
         return parse_goodness_page(entry)
     avatar = entry.get("avatar")
@@ -181,8 +192,36 @@ def parse_character_page(entry: dict) -> Character:
     bonds = []
     for item in divs:
         bonds.append(item.find("div", recursive=False).get_text(strip=True))
-    dict_character['bonds'] = ", ".join(bonds)
-    return Character(nicknames="", **dict_character)
+    dict_character['bonds'] = "、".join(bonds)
+
+    # 皮肤
+    skin_node_ids = get_skin_node_ids(soup)
+    skins = []
+    for item in skin_node_ids:
+        skin_h1 = soup.select_one(item)
+        if skin_h1:
+            skin = {
+                "name": skin_h1.get_text(strip=True),
+                "images": [],
+            }
+            character_info = skin_h1.find_next("section")
+
+            if not character_info:
+                continue
+            sections = character_info.find_all('div', class_="section")
+            if len(sections) != 2:
+                continue
+            images = sections[0].find_all("img")
+            for image in images:
+                skin['images'].append(image.get("src"))
+            values = sections[1].find_all("tr")[1:]
+            descriptions = []
+            for val in values[::-1]:
+                tds = val.find_all("td")
+                descriptions.append(f"{tds[0].get_text(strip=True)}\t{tds[1].get_text(strip=True)}\t{tds[2].get_text(strip=True)}\t{tds[3].get_text(strip=True)}")
+            skin['descriptions'] = descriptions
+            skins.append(skin)
+    return Character(nicknames="", skins=skins, **dict_character)
 
 
 def parse_goodness_page(entry: dict) -> Character:
@@ -334,10 +373,13 @@ class QTWikiCrawler:
         self.character_service.save_character(character)
         return character
 
-    # def scrape_character_and_update(self, name):
-    #     character = self.scrape_character(name)
-    #     self.character_service.update_character(character)
-    #     return character.name
+    def scrape_character_and_update_fields(self, name, fields: List[str]):
+        character = self.scrape_character(name=name)
+        dict_char = character.to_dict()
+        dict_char = convert_single_dict_attributes_to_json(dict_char)
+        r = self.character_service.update_character_with_fields(character=dict_char, fields=fields)
+        if r:
+            return character.name
 
     def scrape_character(self, name: str):
         character_entry = build_character_entry_v2(name)

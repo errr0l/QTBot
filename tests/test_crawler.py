@@ -8,7 +8,7 @@ from services.character_service import CharacterService
 
 
 if __name__ == "__main__":
-    crawler = QTWikiCrawler()
+    # crawler = QTWikiCrawler()
     # crawler.run()
     entry = {
         "name": "xxx",
@@ -17,21 +17,12 @@ if __name__ == "__main__":
         "awakened_avatar": ""
     }
 
-    with open("Athana.html", "r", encoding="utf-8") as _f:
+    with open("/Users/errol/Downloads/Kaia1.html", "r", encoding="utf-8") as _f:
         html = _f.read()
         entry['html'] = html
-        character = parse_goodness_page(entry)
-        # print(character.skins)
-        soup = BeautifulSoup(html, 'lxml')
-        # character_entry['soup'] = soup
-        description_tag = soup.find('meta', attrs={'name': 'description'})
-        print(description_tag)
-        if description_tag:
-            description = description_tag.get('content', '')
-            print(description)
-            # if description and 'Goddesses' in description:
-            #     # character_entry['type'] = 2
-            #     print(2)
+        # character = parse_goodness_page(entry)
+        character = parse_character_page(entry)
+        print(character.skins)
         # print("--")
         # print(character.talent_tree.descriptions)
         # print(character.bonds)

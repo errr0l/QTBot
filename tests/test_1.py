@@ -13,5 +13,10 @@ if __name__ == "__main__":
     # test1 = ["1", "2"]
     #
     # print(", ".join(test1))
-    params = "抓取数据:2"[4:].split(":")
-    print(params)
+    # params = "抓取数据:2"[4:].split(":")
+    _input = "更新:比例:skins"
+    # print(_input[3:].split(":"))
+    instructions = _input[3:].split(":")
+    print(instructions)
+    if len(instructions) != 2:
+        print("指令格式错误")
