@@ -5,11 +5,8 @@ from typing import List
 class StorageService(ABC):
     @abstractmethod
     def sync_data(self):
+        """外部存储同步至数据库"""
         pass
-
-    # @abstractmethod
-    # def push_characters(self, characters: List[dict]):
-    #     pass
 
     @abstractmethod
     def sync_data_from_database(self, name: str):

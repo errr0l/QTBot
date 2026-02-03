@@ -81,7 +81,7 @@ def get_skin_node_ids(node: element.Tag):
 
 
 def parse_character_page(entry: dict) -> Character:
-    """解析角色页面，返回一个Character实体对象, 注：此时该Character的技能为dict，parse_goodness_page同理"""
+    """解析角色页面，返回一个Character实体对象"""
     if entry.get("type") == 2:
         return parse_goodness_page(entry)
     avatar = entry.get("avatar")
@@ -150,9 +150,12 @@ def parse_character_page(entry: dict) -> Character:
     skill_cooldown = int(table_tr_list[1].find("td").get_text(strip=True))
     # 倒序，从1星开始添加
     skill_descriptions = set_skill_desc(table_tr_list[2].find_all("article")[::-1])
-    arena_skill = Character.CharacterSkill(
-        name=skill_name, icon=skill_icon, cooldown=skill_cooldown, descriptions=skill_descriptions)
-    dict_character['arena_skill'] = arena_skill
+    dict_character['arena_skill'] = {
+        "name": skill_name,
+        "icon": skill_icon,
+        "cooldown": skill_cooldown,
+        "descriptions": skill_descriptions
+    }
     # 觉醒卡面&小人【只有三年级角色，Emily未觉醒】
     if dict_character['year'] == "3" and len(skill_divs) > 1:
         awakened_form_h1 = skill_divs[1].find("h1", id="Awakened_Form")
@@ -166,9 +169,11 @@ def parse_character_page(entry: dict) -> Character:
         awakening_passive_name = table_tr_list[0].find("p").get_text(strip=True)
         awakening_passive_icon = table_tr_list[0].find("img").get("src")
         awakening_descriptions = set_skill_desc(table_tr_list[1].find_all("article")[::-1])
-        awakening_passive = Character.CharacterPassiveSkill(
-            name=awakening_passive_name, icon=awakening_passive_icon, descriptions=awakening_descriptions)
-        dict_character['awakening_passive'] = awakening_passive
+        dict_character['awakening_passive'] = {
+            "name": awakening_passive_name,
+            "icon": awakening_passive_icon,
+            "descriptions": awakening_descriptions
+        }
 
         # 天赋
         talent_tree_h1 = soup.find("h1", id="Talent_Tree")
@@ -181,10 +186,12 @@ def parse_character_page(entry: dict) -> Character:
         talent_tree_attributes = ""
         for item in dd_list:
             talent_tree_attributes += item.get_text(strip=True)
-        talent_tree = Character.CharacterPassiveSkill(
-            name=talent_tree_name,
-            icon=talent_tree_icon, descriptions=talent_tree_descriptions, extra=talent_tree_attributes)
-        dict_character['talent_tree'] = talent_tree
+        dict_character['talent_tree'] = {
+            "name": talent_tree_name,
+            "icon": talent_tree_icon,
+            "descriptions": talent_tree_descriptions,
+            "extra": talent_tree_attributes
+        }
 
     bonds_h1 = soup.find("h1", id="Bonds")
     bonds_section = bonds_h1.find_next("section")
@@ -276,9 +283,15 @@ def parse_goodness_page(entry: dict) -> Character:
         skill_icon = skill_img.get("src")
     skill_cooldown = int(table_tr_list[1].find("td").get_text(strip=True))
     skill_descriptions = set_skill_desc(table_tr_list[2].find_all("article")[::-1])
-    arena_skill = Character.CharacterSkill(
-        name=skill_name, icon=skill_icon, cooldown=skill_cooldown, descriptions=skill_descriptions)
-    dict_character['arena_skill'] = arena_skill
+    # arena_skill = Character.CharacterSkill(
+    #     name=skill_name, icon=skill_icon, cooldown=skill_cooldown, descriptions=skill_descriptions)
+    # dict_character['arena_skill'] = arena_skill
+    dict_character['arena_skill'] = {
+        "name": skill_name,
+        "icon": skill_icon,
+        "cooldown": skill_cooldown,
+        "descriptions": skill_descriptions
+    }
 
     # 皮肤
     panel_top = soup.find("ul", id="mw-panel-toc-list")

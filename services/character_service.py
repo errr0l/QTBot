@@ -44,9 +44,9 @@ def build_character_from_row(row):
     tags = d.pop("tags")
     return Character(
         **d,
-        arena_skill=Character.CharacterSkill(**arena_skill),
-        awakening_passive=Character.CharacterPassiveSkill(**json.loads(awakening_passive)) if awakening_passive else None,
-        talent_tree=Character.CharacterPassiveSkill(**json.loads(talent_tree)) if talent_tree else None,
+        arena_skill=arena_skill,
+        awakening_passive=json.loads(awakening_passive) if awakening_passive else None,
+        talent_tree=json.loads(talent_tree) if talent_tree else None,
         extra=json.loads(extra) if extra else None,
         skins=json.loads(skins) if skins else None,
         tags=json.loads(tags) if tags else None,
@@ -80,10 +80,10 @@ class CharacterService:
                 character.name,
                 json.dumps(character.avatars, ensure_ascii=False) if character.avatars else None,
                 character.nicknames,
-                json.dumps(character.arena_skill.__dict__, ensure_ascii=False),
-                json.dumps(character.awakening_passive.__dict__,
+                json.dumps(character.arena_skill, ensure_ascii=False),
+                json.dumps(character.awakening_passive,
                            ensure_ascii=False) if character.awakening_passive else None,
-                json.dumps(character.talent_tree.__dict__, ensure_ascii=False) if character.talent_tree else None,
+                json.dumps(character.talent_tree, ensure_ascii=False) if character.talent_tree else None,
                 character.background,
                 character.club,
                 character.element,
@@ -137,7 +137,7 @@ class CharacterService:
             logger.info(f"受影响行数：{cursor.rowcount}")
             return True
 
-    def get_character_by_name(self, name: str, data_type: int = 1) -> Union[Character, dict, None]:
+    def get_character_by_name(self, name: str) -> Union[Character, None]:
         """
         按标准名称查询；
         这里的角色，应该包含角色基础信息、角色技能，后续可能会加入皮肤、背景故事、活动等等
@@ -151,10 +151,7 @@ class CharacterService:
             row = conn.execute(sql, (name,)).fetchone()
             if not row:
                 return None
-            if data_type == 1:
-                return build_character_from_row(row)
-            else:
-                return build_dict_from_row(row)
+            return build_character_from_row(row)
 
     def build_character_map(self) -> Optional[dict]:
         """构建角色map"""

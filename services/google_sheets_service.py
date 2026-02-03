@@ -28,7 +28,7 @@ class GoogleSheetsService(StorageService):
         self.get_characters_endpoint = get_characters_endpoint
 
     def sync_data(self):
-        """同步数据（抓取数据时，默认会上传到google表格"""
+        """同步数据"""
         logger.info("开始同步...")
         params = {
             "apiKey": self.api_key,
@@ -44,10 +44,6 @@ class GoogleSheetsService(StorageService):
                     return True
             except Exception as error:
                 logger.error(error)
-
-    # def push_character_attributes_to_google_sheets(self):
-    #     # todo 推送指定属性，根据name查找
-    #     pass
 
     # def push_characters(self, characters: List[dict]):
     #     """

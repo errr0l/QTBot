@@ -13,19 +13,30 @@ from vo.character_response import CharacterResponse
 
 def convert_single_dict_attributes_to_json(item: dict):
     if "talent_tree" in item:
-        item['talent_tree'] = json.dumps(item['talent_tree'])
+        talent_tree_data = item['talent_tree']
+        if isinstance(talent_tree_data, dict):
+            item['talent_tree'] = json.dumps(talent_tree_data)
     if "arena_skill" in item:
-        item['arena_skill'] = json.dumps(item['arena_skill'])
+        arena_skill_data = item['arena_skill']
+        if isinstance(arena_skill_data, dict):
+            item['arena_skill'] = json.dumps(arena_skill_data)
     if "awakening_passive" in item:
-        item['awakening_passive'] = json.dumps(item['awakening_passive'])
+        awakening_passive_data = item['awakening_passive']
+        if isinstance(awakening_passive_data, dict):
+            item['awakening_passive'] = json.dumps(awakening_passive_data)
     if "extra" in item:
-        item['extra'] = json.dumps(item['extra'])
+        extra_data = item['extra']
+        if isinstance(extra_data, dict):
+            item['extra'] = json.dumps(extra_data)
     if "skins" in item:
-        item['skins'] = json.dumps(item['skins'])
+        if skins := item['skins']:
+            item['skins'] = skins if isinstance(skins, list) else json.dumps(skins)
     if "avatars" in item:
-        item['avatars'] = json.dumps(item['avatars'])
+        if avatars := item['avatars']:
+            item['avatars'] = avatars if isinstance(avatars, list) else json.dumps(avatars)
     if "tags" in item:
-        item['tags'] = json.dumps(item['tags'])
+        if tags := item['tags']:
+            item['tags'] = tags if isinstance(tags, list) else json.dumps(tags)
     return item
 
 
@@ -41,50 +52,40 @@ def convert_dict_attributes_to_json(data: List[dict]):
 
 
 def convert_json_to_characters(data: List[dict]):
+    """如果指定属性为字符串的话，则转为对应的类型"""
     characters = []
     if not data:
         return characters
     for item in data:
-        talent_tree = None
-        arena_skill = None
-        awakening_passive = None
         extra = None
         skins = None
         avatars = None
         if "talent_tree" in item:
-            talent_tree_data = item.pop("talent_tree")
-            if talent_tree_data:
-                talent_tree = Character.CharacterPassiveSkill(
-                    **(talent_tree_data if isinstance(talent_tree_data, dict) else json.loads(talent_tree_data))
-                )
+            talent_tree_data = item['talent_tree']
+            if isinstance(talent_tree_data, str):
+                item['talent_tree'] = json.loads(talent_tree_data)
         if "arena_skill" in item:
-            arena_skill_data = item.pop("arena_skill")
-            if arena_skill_data:
-                arena_skill = Character.CharacterSkill(
-                    **(arena_skill_data if isinstance(arena_skill_data, dict) else json.loads(arena_skill_data))
-                )
+            arena_skill_data = item['arena_skill']
+            if isinstance(arena_skill_data, str):
+                item['arena_skill'] = json.loads(arena_skill_data)
         if "awakening_passive" in item:
-            awakening_passive_data = item.pop("awakening_passive")
-            if awakening_passive_data:
-                awakening_passive = Character.CharacterPassiveSkill(
-                    **(awakening_passive_data if isinstance(awakening_passive_data, dict) else json.loads(
-                        awakening_passive_data))
-                )
+            awakening_passive_data = item['awakening_passive']
+            if isinstance(awakening_passive_data, str):
+                item['awakening_passive'] = json.loads(awakening_passive_data)
         if "extra" in item:
             if extra := item.pop("extra"):
-                extra = extra if isinstance(extra, dict) else json.loads(extra)
+                extra = extra if isinstance(extra, str) else json.loads(extra)
         if "skins" in item:
             if skins := item.pop("skins"):
-                skins = skins if isinstance(skins, list) else json.loads(skins)
+                skins = skins if isinstance(skins, str) else json.loads(skins)
         if "avatars" in item:
             if avatars := item.pop("avatars"):
-                avatars = avatars if isinstance(avatars, list) else json.loads(avatars)
+                avatars = avatars if isinstance(avatars, str) else json.loads(avatars)
+        if "tags" in item:
+            if tags := item['tags']:
+                item['tags'] = tags if isinstance(tags, str) else json.loads(tags)
         # 创建 Character 实例
-        char = Character(
-            talent_tree=talent_tree,
-            arena_skill=arena_skill,
-            extra=extra, skins=skins, avatars=avatars,
-            awakening_passive=awakening_passive, **item)
+        char = Character(extra=extra, skins=skins, avatars=avatars, **item)
         characters.append(char)
     return characters
 
@@ -246,10 +247,10 @@ def build_goodness_response(wiki_instructions: WikiInstructions, character: Char
     if char_response.star > 5:
         char_response.star = 5
     arena_skill_lv = char_response.star
-    arena_skill_desc = character.arena_skill.descriptions[char_response.star - 1]
+    arena_skill_desc = character.arena_skill.get("descriptions")[char_response.star - 1]
     char_response.arena_skill = CharacterResponse.Skill(
-        name=character.arena_skill.name,
-        lv=arena_skill_lv, desc=arena_skill_desc, cooldown=character.arena_skill.cooldown)
+        name=character.arena_skill.get("name"),
+        lv=arena_skill_lv, desc=arena_skill_desc, cooldown=character.arena_skill.get("cooldown"))
 
     if wiki_instructions.skin_order > 0:
         if character.skins is not None:
@@ -278,34 +279,34 @@ def build_character_response(wiki_instructions: WikiInstructions, character: Cha
     if char_response.star > 5:
         arena_skill_lv = 5
         # 当star大于5时，减5等于被动等级
-        arena_skill_desc = character.arena_skill.descriptions[4]
+        arena_skill_desc = character.arena_skill.get("descriptions")[4]
         # 1、2年级，个别3年级无觉醒被动
         if character.awakening_passive is not None:
             awakening_passive_lv = char_response.star - 5
-            awakening_passive_desc = character.awakening_passive.descriptions[awakening_passive_lv - 1]
+            awakening_passive_desc = character.awakening_passive.get("descriptions")[awakening_passive_lv - 1]
             char_response.awakening_passive = CharacterResponse.Skill(
-                name=character.awakening_passive.name,
+                name=character.awakening_passive.get("name"),
                 lv=awakening_passive_lv,
                 desc=awakening_passive_desc, cooldown=None)
     else:
         arena_skill_lv = char_response.star
-        arena_skill_desc = character.arena_skill.descriptions[char_response.star - 1]
+        arena_skill_desc = character.arena_skill.get("descriptions")[char_response.star - 1]
     char_response.arena_skill = CharacterResponse.Skill(
-        name=character.arena_skill.name,
-        lv=arena_skill_lv, desc=arena_skill_desc, cooldown=character.arena_skill.cooldown)
+        name=character.arena_skill.get("name"),
+        lv=arena_skill_lv, desc=arena_skill_desc, cooldown=character.arena_skill.get("cooldown"))
 
     # 同上
     if character.talent_tree is not None:
-        talent_tree_desc = character.talent_tree.descriptions[talent_lv - 1]
+        talent_tree_desc = character.talent_tree.get("descriptions")[talent_lv - 1]
         char_response.talent_tree = CharacterResponse.Skill(
-            name=character.talent_tree.name,
+            name=character.talent_tree.get("name"),
             lv=talent_lv,
             desc=talent_tree_desc, cooldown=None)
 
     # 处理被动技指令；
     # 目前只有一个，其他一些不涉及到数据显示的，不需要处理，如火刀被动加灼烧回合，但只存在于技能描述中，则不需要处理
     if char_response.awakening_passive is not None:
-        awakening_passive_instructions = character.awakening_passive.instructions
+        awakening_passive_instructions = character.awakening_passive.get("instructions")
         if awakening_passive_instructions and len(awakening_passive_instructions) > 0:
             for item in awakening_passive_instructions:
                 if item.get('name') == "arena_skill_cooldown_reduction":
