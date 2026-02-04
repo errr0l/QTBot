@@ -1614,50 +1614,50 @@
       "//static.wikitide.net/projectqtwiki/thumb/9/9a/AminaAwakened.png/320px-AminaAwakened.png",
       "//static.wikitide.net/projectqtwiki/thumb/4/41/AminaAwakenedChibi.png/320px-AminaAwakenedChibi.png"
     ],
-    "nicknames": "风忍",
+    "nicknames": "风忍、阿米娜",
     "arena_skill": {
-      "name": "Ninjutsu - Enchant Poison",
+      "name": "忍术·淬毒",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/6/6b/A3.png/40px-A3.png",
       "cooldown": 7,
       "descriptions": [
-        "Inflict 0.3x this Character's Attack as Wind Damage on 3 Enemies.\n\nCast Poison effect on 2 Enemies; inflicting 0.1x the Character's Attack of Damage each Round for 3 Rounds.\n\nCast Regular Attack silence effect on 1 Enemy; Target can not do Regular Attack for 3 Rounds.",
-        "Inflict 0.35x this Character's Attack as Wind Damage on 3 Enemies.\n\nCast Poison effect on 2 Enemies; inflicting 0.12x the Character's Attack of Damage each Round for 3 Rounds.\n\nCast Regular Attack silence effect on 1 Enemy; Target can not do Regular Attack for 3 Rounds.",
-        "Inflict 0.4x this Character's Attack as Wind Damage on 3 Enemies.\n\nCast Poison effect on 2 Enemies; inflicting 0.14x the Character's Attack of Damage each Round for 3 Rounds.\n\nCast Regular Attack silence effect on 1 Enemy; Target can not do Regular Attack for 4 Rounds.",
-        "Inflict 0.45x this Character's Attack as Wind Damage on 3 Enemies.\n\nCast Poison effect on 2 Enemies; inflicting 0.16x the Character's Attack of Damage each Round for 3 Rounds.\n\nCast Regular Attack silence effect on 1 Enemy; Target can not do Regular Attack for 4 Rounds.",
-        "Inflict 0.5x this Character's Attack as Wind Damage on 3 Enemies.\n\nCast Poison effect on 2 Enemies; inflicting 0.2x the Character's Attack of Damage each Round for 3 Rounds.\n\nCast Regular Attack silence effect on 1 Enemy; Target can not do Regular Attack for 5 Rounds."
+        "对3名敌人造成角色攻击力0.3倍的风属性伤害。\n\n对2名敌人施加「中毒」，每回合造成角色攻击力0.1倍伤害，持续3回合。\n\n对1名敌人施加「普攻沉默」效果，使其无法使用普通攻击，持续3回合。",
+        "对3名敌人造成角色攻击力0.35倍的风属性伤害。\n\n对2名敌人施加「中毒」，每回合造成角色攻击力0.12倍伤害，持续3回合。\n\n对1名敌人施加「普攻沉默」效果，使其无法使用普通攻击，持续3回合。",
+        "对3名敌人造成角色攻击力0.4倍的风属性伤害。\n\n对2名敌人施加「中毒」，每回合造成角色攻击力0.14倍伤害，持续3回合。\n\n对1名敌人施加「普攻沉默」效果，使其无法使用普通攻击，持续4回合。",
+        "对3名敌人造成角色攻击力0.45倍的风属性伤害。\n\n对2名敌人施加「中毒」，每回合造成角色攻击力0.16倍伤害，持续3回合。\n\n对1名敌人施加「普攻沉默」效果，使其无法使用普通攻击，持续4回合。",
+        "对3名敌人造成角色攻击力0.5倍的风属性伤害。\n\n对2名敌人施加「中毒」，每回合造成角色攻击力0.2倍伤害，持续3回合。\n\n对1名敌人施加「普攻沉默」效果，使其无法使用普通攻击，持续5回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Poisonous body",
+      "name": "剧毒之躯",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "At the beginning of Amina's move, increase Amina's Damage by 10% for 1 Round\n\nAt the beginning of Battle, Amina gains a 20% chance to Evade \"Burn\" and \"Poison\" for 10 Rounds",
-        "At the beginning of Amina's move, increase Amina's Damage by 21% for 1 Round\n\nAt the beginning of Battle, Amina gains a 40% chance to Evade \"Burn\" and \"Poison\" for 10 Rounds\n\n50% chance of extending the \"Poison effect\" and \"Regular Attack Silence effect\" by 1 round.",
-        "At the beginning of Amina's move, increase Amina's Damage by 35% for 1 Round\n\nAt the beginning of Battle, Amina gains a 70% chance to Evade \"Burn\" and \"Poison\" for 10 Rounds\n\nExtending the \"Poison effect\" and \"Regular Attack Silence effect\" by 1 round."
+        "在阿米娜的回合开始时, 提升自身10%伤害，持续1回合。\n\n回合开始时, 阿米娜20%的概率免疫\"燃烧\"和\"中毒\"，持续10回合。",
+        "在阿米娜的回合开始时, 提升自身21%伤害，持续1回合。\n\n回合开始时, 阿米娜40%的概率免疫\"燃烧\"和\"中毒\"，持续10回合。50%概率延长「中毒」和「普攻沉默」1回合。",
+        "在阿米娜的回合开始时, 提升自身35%伤害，持续1回合。\n\n回合开始时, 阿米娜70%的概率免疫\"燃烧\"和\"中毒\"，持续10回合。延长「中毒」和「普攻沉默」1回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Enhanced Ninjutsu",
+      "name": "强化忍术",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
       "descriptions": [
-        "Increase this Character's Attack by 1%, HP by 2%\n\nIncrease this Character's Attack Damage on Lightning Enemies by '",
-        "Increase this Character's Attack by 2%, HP by 3%\n\nIncrease this Character's Attack Damage on Lightning Enemies by '",
-        "Increase this Character's Attack by 3%, HP by 4%\n\nIncrease this Character's Attack Damage on Lightning Enemies by '",
-        "Increase this Character's Attack by 4%, HP by 5%\n\nIncrease this Character's Attack Damage on Lightning Enemies by '",
-        "Increase this Character's Attack by 5%, HP by 6%\n\nIncrease this Character's Attack Damage on Lightning Enemies by 1%",
-        "Increase this Character's Attack by 6%, HP by 7%\n\nIncrease this Character's Attack Damage on Lightning Enemies by 2%",
-        "Increase this Character's Attack by 7%, HP by 8%\n\nIncrease this Character's Attack Damage on Lightning Enemies by 3%",
-        "Increase this Character's Attack by 8%, HP by 9%\n\nIncrease this Character's Attack Damage on Lightning Enemies by 4%",
-        "Increase this Character's Attack by 9%, HP by 10%\n\nIncrease this Character's Attack Damage on Lightning Enemies by 5%",
-        "Increase this Character's Attack by 10%, HP by 15%\n\nIncrease this Character's Attack Damage on Lightning Enemies by 10%"
+        "提升角色1%攻击力，2%血量。",
+        "提升角色2%攻击力，3%血量。",
+        "提升角色3%攻击力，4%血量。",
+        "提升角色4%攻击力，5%血量。",
+        "提升角色5%攻击力，6%血量。\n\n提升自身对雷角色1%伤害。",
+        "提升角色6%攻击力，7%血量。\n\n提升自身对雷角色2%伤害。",
+        "提升角色7%攻击力，8%血量。\n\n提升自身对雷角色3%伤害。",
+        "提升角色8%攻击力，9%血量。\n\n提升自身对雷角色4%伤害。",
+        "提升角色9%攻击力，10%血量。\n\n提升自身对雷角色5%伤害。",
+        "提升角色10%攻击力，15%血量。\n\n提升自身对雷角色10%伤害。"
       ],
       "instructions": null,
       "extra": "+2250+3250+500"
     },
-    "background": "A senior ninja belonging to the same organization as Ellen, active in school as a sister.\n\nAfter receiving Ellen's report, the organization decided that Ellen might not be able to accomplish the mission objective, so they sent a senior ninja, Amina, to the Campus to carry out the mission. Amina entered the Campus under the fake identity of a student and approached the target, Senpai, very soon. She took advantage of Senpai's perverted personality to obtain a lot of useless information. However, due to Ellen's carelessness, the Student Council discovered the existence of the ninja organization and investigated Amina in detail, discovering that Amina was an android. The Student council president deliberately made their position clear to Amina and after some negotiation a temporary agreement was reached. The Student Council had since lifted its surveillance of Amina and had even offered her assistance.",
+    "background": "艾伦所属组织的一名资深忍者，以姐姐的身份活跃于校园。\n\n收到艾伦的报告后，组织判断她可能无法完成任务目标，遂派遣资深忍者阿米娜潜入校园执行任务。阿米娜以学生身份进入校园后，很快便接近了目标人物 —— 前辈。她利用学长好色的性格获取了大量无用情报。然而因艾伦疏忽，学生会察觉忍者组织存在并对阿米娜展开详细调查，发现其为仿生人。学生会会长刻意向阿米娜表明立场，经协商达成临时协议。此后学生会不仅解除对阿米娜的监视，甚至主动提供协助。",
     "club": "艺术",
     "element": "风",
     "year": 3,
@@ -1669,7 +1669,7 @@
       "birthday": "Nov 8th"
     },
     "skins": null,
-    "hobbies": "Eating Pine Nuts",
+    "hobbies": "吃松子",
     "type": 1,
     "tags": null,
     "created_at": null,
@@ -2987,48 +2987,48 @@
     ],
     "nicknames": "吉赛尔、火刀、烧匕",
     "arena_skill": {
-      "name": "Fiery Tachi Dance",
+      "name": "烈焰乱舞",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/b/b8/A37.png/40px-A37.png",
       "cooldown": 7,
       "descriptions": [
-        "Inflict 0.35x the Character's Attack as Fire Damage on 3 Enemies.\n\nCast Burn effect on 1 Enemy; inflicting 4% max HP Damage each Round for 4 Rounds.",
-        "Inflict 0.35x the Character's Attack as Fire Damage on 3 Enemies.\n\nCast Burn effect on 1 Enemy; inflicting 5% max HP Damage each Round for 4 Rounds.",
-        "Inflict 0.4x the Character's Attack as Fire Damage on 3 Enemies.\n\nCast Burn effect on 1 Enemy; inflicting 7% max HP Damage each Round for 4 Rounds.",
-        "Inflict 0.5x the Character's Attack as Fire Damage on 3 Enemies.\n\nCast Burn effect on 1 Enemy; inflicting 10% max HP Damage each Round for 4 Rounds.",
-        "Inflict 0.6x the Character's Attack as Fire Damage on 3 Enemies.\n\nCast Burn effect on 1 Enemy; inflicting 15% max HP Damage each Round for 4 Rounds."
+        "对3名敌人造成角色攻击力0.3倍的火属性伤害。\n\n对1名敌人施加「燃烧」，每回合造成相当于其4%最大生命值的伤害，持续4回合。",
+        "对3名敌人造成角色攻击力0.35倍的火属性伤害。\n\n对1名敌人施加「燃烧」，每回合造成相当于其5%最大生命值的伤害，持续4回合。",
+        "对3名敌人造成角色攻击力0.4倍的火属性伤害。\n\n对1名敌人施加「燃烧」，每回合造成相当于其7%最大生命值的伤害，持续4回合。",
+        "对3名敌人造成角色攻击力0.5倍的火属性伤害。\n\n对1名敌人施加「燃烧」，每回合造成相当于其10%最大生命值的伤害，持续4回合。",
+        "对3名敌人造成角色攻击力0.6倍的火属性伤害。\n\n对1名敌人施加「燃烧」，每回合造成相当于其15%最大生命值的伤害，持续4回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Katana Soul",
+      "name": "武士之魂",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "At the beginning of battle, Increase the Character's Attack by 9% for 16 Rounds.",
-        "At the beginning of battle, Increase the Character's Attack by 18% for 16 Rounds.\n\n50% chance of extending the \"Burn effect\" placed on enemies by 1 round.",
-        "At the beginning of battle, Increase the Character's Attack by 30% for 16 Rounds.\n\nExtend the \"Burn effect\" placed on enemies by 1 round."
+        "战斗开始时，提升角色9%攻击力，持续16回合。",
+        "战斗开始时，提升角色18%攻击力，持续16回合。\n\n50%延长\"燃烧\"效果一回合",
+        "战斗开始时，提升角色30%攻击力，持续16回合。\n\n延长\"燃烧\"效果一回合"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Dance of Kagerou",
+      "name": "阳炎",
       "icon": "//static.wikitide.net/projectqtwiki/4/45/A7.png",
       "descriptions": [
-        "Increase the Character's HP by 2%",
-        "Increase the Character's HP by 4%",
-        "Increase the Character's HP by 6%",
-        "Increase the Character's HP by 8%",
-        "Increase the Character's HP by 10%, Attack by 1%",
-        "Increase the Character's HP by 12%, Attack by 2%",
-        "Increase the Character's HP by 14%, Attack by 3%",
-        "Increase the Character's HP by 16%, Attack by 4%",
-        "Increase the Character's HP by 18%, Attack by 5%",
-        "Increase the Character's HP by 20%, Attack by 5%\n\n5% dodging All Attack from Enemy"
+        "提升角色2%血量。",
+        "提升角色4%血量。",
+        "提升角色6%血量。",
+        "提升角色8%血量。",
+        "提升角色10%血量，1%攻击力。",
+        "提升角色12%血量，2%攻击力。",
+        "提升角色14%血量，3%攻击力。",
+        "提升角色16%血量，4%攻击力。",
+        "提升角色18%血量，5%攻击力。",
+        "提升角色20%血量，6%攻击力。\n\n5%概率闪避攻击（包括普攻和技能）。"
       ],
       "instructions": null,
       "extra": "+2500+3000+500"
     },
-    "background": "Gifted in swordsmanship, and dedicated to be the world's best.\n\nMember of the fox clan who has come to find a cure for her infected sister.",
+    "background": "剑术天赋异禀，立志登上世界之巅。\n\n狐狸家族的一员，前来为其受感染的妹妹寻找治疗方法。",
     "club": "艺术",
     "element": "火",
     "year": 3,
@@ -3788,50 +3788,50 @@
       "//static.wikitide.net/projectqtwiki/thumb/9/93/LouisaAwakened.png/320px-LouisaAwakened.png",
       "//static.wikitide.net/projectqtwiki/thumb/8/83/LouisaAwakenedChibi.png/320px-LouisaAwakenedChibi.png"
     ],
-    "nicknames": "钢琴",
+    "nicknames": "钢琴、钢琴兔、路易莎",
     "arena_skill": {
-      "name": "Fairy's Music",
+      "name": "妖精之歌",
       "icon": "//static.wikitide.net/projectqtwiki/9/98/A39.png",
       "cooldown": 5,
       "descriptions": [
-        "Inflict 0.4x the Character's Attack as Lightning Damage on 3 Enemies.\n\nIncrease 3 Enemies' Damage Taken by 10% from Art Club for 5 Rounds.\n\nIncrease the Character's Damage by 10% for 5 Rounds.",
-        "Inflict 0.45x the Character's Attack as Lightning Damage on 3 Enemies.\n\nIncrease 3 Enemies' Damage Taken by 12% from Art Club for 5 Rounds.\n\nIncrease the Character's Damage by 12% for 5 Rounds.",
-        "Inflict 0.5x the Character's Attack as Lightning Damage on 3 Enemies.\n\nIncrease 3 Enemies' Damage Taken by 14% from Art Club for 5 Rounds.\n\nIncrease the Character's Damage by 14% for 5 Rounds.",
-        "Inflict 0.55x the Character's Attack as Lightning Damage on 3 Enemies.\n\nIncrease 3 Enemies' Damage Taken by 16% from Art Club for 5 Rounds.\n\nIncrease the Character's Damage by 16% for 5 Rounds.",
-        "Inflict 0.6x the Character's Attack as Lightning Damage on 3 Enemies.\n\nIncrease 3 Enemies' Damage Taken by 20% from Art Club for 5 Rounds.\n\nIncrease the Character's Damage by 20% for 5 Rounds."
+        "对3名敌人造成角色攻击力0.4倍的雷属性伤害。\n\n使3名敌人受到艺术角色的伤害增加10%，持续5回合。\n\n提升自身10%伤害，持续5回合。",
+        "对3名敌人造成角色攻击力0.45倍的雷属性伤害。\n\n使3名敌人受到艺术角色的伤害增加12%，持续5回合。\n\n提升自身12%伤害，持续5回合。",
+        "对3名敌人造成角色攻击力0.5倍的雷属性伤害。\n\n使3名敌人受到艺术角色的伤害增加14%，持续5回合。\n\n提升自身14%伤害，持续5回合。",
+        "对3名敌人造成角色攻击力0.55倍的雷属性伤害。\n\n使3名敌人受到艺术角色的伤害增加16%，持续5回合。\n\n提升自身16%伤害，持续5回合。",
+        "对3名敌人造成角色攻击力0.6倍的雷属性伤害。\n\n使3名敌人受到艺术角色的伤害增加20%，持续5回合。\n\n提升自身20%伤害，持续5回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "The Third Mov",
+      "name": "第三乐章",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
       "descriptions": [
-        "At the beginning of battle, Increase the Character's Damage by 6% for 8 Rounds.\n\nAt the beginning of battle, Increase the Character's Attack by 5% for 6 Rounds.",
-        "At the beginning of battle, Increase the Character's Damage by 12% for 8 Rounds.\n\nAt the beginning of battle, Increase the Character's Attack by 10% for 6 Rounds.",
-        "At the beginning of battle, Increase the Character's Damage by 20% for 8 Rounds.\n\nAt the beginning of battle, Increase the Character's Attack by 15% for 6 Rounds."
+        "战斗开始时，提升自身6%伤害，持续8回合。\n\n战斗开始时，提升自身5%攻击力，持续6回合。",
+        "战斗开始时，提升自身12%伤害，持续8回合。\n\n战斗开始时，提升自身10%攻击力，持续6回合。",
+        "战斗开始时，提升自身20%伤害，持续8回合。\n\n战斗开始时，提升自身15%攻击力，持续6回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Performance Talent",
+      "name": "演奏天赋",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
       "descriptions": [
-        "Increase this Character's Attack by 1%\n\nIncrease this Character's HP by 2%",
-        "Increase this Character's Attack by 2%\n\nIncrease this Character's HP by 3%",
-        "Increase this Character's Attack by 3%\n\nIncrease this Character's HP by 4%",
-        "Increase this Character's Attack by 4%\n\nIncrease this Character's HP by 5%",
-        "Increase this Character's Attack by 5%\n\nIncrease this Character's HP by 6%\n\nDecrease this Character's damage taken by 5%",
-        "Increase this Character's Attack by 6%\n\nIncrease this Character's HP by 7%\n\nDecrease this Character's damage taken by 6%",
-        "Increase this Character's Attack by 7%\n\nIncrease this Character's HP by 8%\n\nDecrease this Character's damage taken by 7%",
-        "Increase this Character's Attack by 8%\n\nIncrease this Character's HP by 9%\n\nDecrease this Character's damage taken by 8%",
-        "Increase this Character's Attack by 9%\n\nIncrease this Character's HP by 10%\n\nDecrease this Character's damage taken by 9%",
-        "Increase this Character's Attack by 10%\n\nIncrease this Character's HP by 15%\n\nDecrease this Character's damage taken by 10%"
+        "提升自身1%攻击力，2%血量。",
+        "提升自身2%攻击力，3%血量。",
+        "提升自身3%攻击力，4%血量。",
+        "提升自身4%攻击力，5%血量。",
+        "提升自身5%攻击力，6%血量。\n\n使自身受到的伤害降低5%。",
+        "提升自身6%攻击力，7%血量。\n\n使自身受到的伤害降低6%。",
+        "提升自身7%攻击力，8%血量。\n\n使自身受到的伤害降低7%。",
+        "提升自身8%攻击力，9%血量。\n\n使自身受到的伤害降低8%。",
+        "提升自身9%攻击力，10%血量。\n\n使自身受到的伤害降低9%。",
+        "提升自身10%攻击力，15%血量。\n\n使自身受到的伤害降低10%。"
       ],
       "instructions": null,
       "extra": "+2250+3250+500"
     },
-    "background": "Timid, blessed by the spirit of music, inspired people with self-composed songs\n\nLouisa was too timid and afraid of offending people, so she didn't dare to talk to those around her. She even fainted when she saw an infected body...\n\nWhen Louisa realised that she was too weak to be of any use and felt like she was holding everyone back, she heard Evelyn's voice.\n\nIt was at this moment that Evelyn's song captivated Louisa and soothed her low self-esteem, which in turn lifted her up.\nFor the first time, Louisa felt that music could be a source of hope and strength, so she continued to practise writing lyrics and composing songs in the hope that one day she could inspire others with her music.\n\nOne night, when Louisa found a calm, deserted lake to sing her finished song, some glowing notes suddenly appeared on the surface of the lake and slowly drifted towards her, followed by a colourful pentagram! It turned out that the music she had written had been approved by the spirit of music, who had even given her the power of some of the notes. \nShe had since received great acclaim for her musical performances and was now able to contribute in her own way to the fight against the infected bodies.",
+    "background": "怯懦的露易莎，蒙受音乐之灵的眷顾，用自创的歌谣点燃人们的心灵\n\n露易莎过于胆怯，生怕得罪他人，因此不敢与周围人交谈。她甚至在见到感染者时昏厥过去……\n\n当露易莎意识到自己软弱无能，觉得拖累了所有人时，伊芙琳的歌声传入了她的耳中。\n\n伊芙琳的歌声在这一刻俘获了露易莎的心，抚平了她低落的自尊，使她重获力量。\n露易莎初次体会到音乐能成为希望与力量的源泉，从此坚持创作歌词谱写旋律，期盼有朝一日能用音乐激励他人。\n\n某夜，当露易莎在寂静的湖畔唱出完成的乐曲时，湖面突然浮现闪烁的音符，缓缓飘向她，随后竟出现绚丽的五线谱！原来她的创作获得了音乐之灵的认可，对方甚至将部分音符的力量赋予了她。\n此后她的音乐演出广受赞誉，并以独特方式投身对抗感染者的战斗。",
     "club": "艺术",
     "element": "雷",
     "year": 3,
@@ -3843,7 +3843,7 @@
       "birthday": "April 11th"
     },
     "skins": null,
-    "hobbies": "Music",
+    "hobbies": "音乐",
     "type": 1,
     "tags": null,
     "created_at": null,
@@ -3936,48 +3936,48 @@
     ],
     "nicknames": "露娜、风锤",
     "arena_skill": {
-      "name": "Moonlight Katanas",
+      "name": "月光闪",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/b/b8/A37.png/40px-A37.png",
       "cooldown": 6,
       "descriptions": [
-        "Inflict 1.1x the Character's Attack as Wind Damage on 1 Enemy.\n\nInflict extra 0.2x, 0.3x the Character's Attack as Wind Damage on another 2 Lightning Enemies.",
-        "Inflict 1.2x the Character's Attack as Wind Damage on 1 Enemy.\n\nInflict extra 0.25x, 0.37x the Character's Attack as Wind Damage on another 2 Lightning Enemies.",
-        "Inflict 1.4x the Character's Attack as Wind Damage on 1 Enemy.\n\nInflict extra 0.3x, 0.45x the Character's Attack as Wind Damage on another 2 Lightning Enemies.",
-        "Inflict 1.6x the Character's Attack as Wind Damage on 1 Enemy.\n\nInflict extra 0.35x, 0.5x the Character's Attack as Wind Damage on another 2 Lightning Enemies.",
-        "Inflict 1.8x the Character's Attack as Wind Damage on 1 Enemy.\n\nInflict extra 0.5x, 0.75x the Character's Attack as Wind Damage on another 2 Lightning Enemies."
+        "对1名敌人造成造成角色攻击力1.1倍的风属性伤害。\n\n额外对2名雷敌人造成角色攻击力0.2，0.3倍的风属性伤害。",
+        "对1名敌人造成造成角色攻击力1.2倍的风属性伤害。\n\n额外对2名雷敌人造成角色攻击力0.25，0.37倍的风属性伤害。",
+        "对1名敌人造成造成角色攻击力1.4倍的风属性伤害。\n\n额外对2名雷敌人造成角色攻击力0.3，0.45倍的风属性伤害。",
+        "对1名敌人造成造成角色攻击力1.6倍的风属性伤害。\n\n额外对2名雷敌人造成角色攻击力0.35，0.5倍的风属性伤害。",
+        "对1名敌人造成造成角色攻击力1.8倍的风属性伤害。\n\n额外对2名雷敌人造成角色攻击力0.5，0.75倍的风属性伤害。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "God Hand",
+      "name": "神之手",
       "icon": "//static.wikitide.net/projectqtwiki/9/9a/A11.png",
       "descriptions": [
-        "At the beginning of battle, Change 1 non-Lightning Type Enemy's Element to Lightning Type for 8 Rounds.",
-        "At the beginning of battle, Change 1 non-Lightning Type Enemy's Element to Lightning Type for 12 Rounds.\n\nAt the beginning of battle, Increase 2 Lightning Type Enemies Damage taken by 5% for 12 Rounds.",
-        "At the beginning of battle, Change 1 non-Lightning Type Enemy's Element to Lightning Type for 16 Rounds.\n\nAt the beginning of battle, Increase 2 Lightning Type Enemies Damage taken by 10% for 16 Rounds."
+        "战斗开始时, 转换1名非雷敌人为雷属性，持续8回合。",
+        "战斗开始时, 转换1名非雷敌人为雷属性，持续12回合。\n\n战斗开始时, 使2名雷敌人受到的伤害增加5%，持续12回合。",
+        "战斗开始时, 转换1名非雷敌人为雷属性，持续16回合。\n\n战斗开始时, 使2名雷敌人受到的伤害增加10%，持续16回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Dance of Kamikaze",
+      "name": "风神加护",
       "icon": "//static.wikitide.net/projectqtwiki/6/64/A8.png",
       "descriptions": [
-        "Increase this Character's Attack Damage to Lightning Characters by 1%",
-        "Increase this Character's Attack Damage to Lightning Characters by 2%",
-        "Increase this Character's Attack Damage to Lightning Characters by 3%",
-        "Increase this Character's Attack Damage to Lightning Characters by 4%",
-        "Increase this Character's Attack Damage to Lightning Characters by 5%\n\nDecrease all allied Characters' Lightning Damage taken by 1%",
-        "Increase this Character's Attack Damage to Lightning Characters by 6%\n\nDecrease all allied Characters' Lightning Damage taken by 2%",
-        "Increase this Character's Attack Damage to Lightning Characters by 7%\n\nDecrease all allied Characters' Lightning Damage taken by 3%",
-        "Increase this Character's Attack Damage to Lightning Characters by 8%\n\nDecrease all allied Characters' Lightning Damage taken by 4%",
-        "Increase this Character's Attack Damage to Lightning Characters by 9%\n\nDecrease all allied Characters' Lightning Damage taken by 5%",
-        "Increase this Character's Attack Damage to Lightning Characters by 10%\n\nDecrease all allied Characters' Lightning Damage taken by 5%\n\nIncrease this Character's Skill Damage by 10%"
+        "提升自身对雷角色1%伤害。",
+        "提升自身对雷角色2%伤害。",
+        "提升自身对雷角色3%伤害。",
+        "提升自身对雷角色4%伤害。",
+        "提升自身对雷角色5%伤害。\n\n使所有友方受到的雷属性伤害减少1%。",
+        "提升自身对雷角色6%伤害。\n\n使所有友方受到的雷属性伤害减少2%。",
+        "提升自身对雷角色7%伤害。\n\n使所有友方受到的雷属性伤害减少3%。",
+        "提升自身对雷角色8%伤害。\n\n使所有友方受到的雷属性伤害减少4%。",
+        "提升自身对雷角色9%伤害。\n\n使所有友方受到的雷属性伤害减少5%。",
+        "提升自身对雷角色10%伤害。\n\n使所有友方受到的雷属性伤害减少5%。\n\n提升自身技能伤害10%。"
       ],
       "instructions": null,
       "extra": "+2250+3250+500"
     },
-    "background": "A white fox of the Fox Clan and Mina's acquaintance. She is straightforward and mean to everyone.\n\nSince she was a child she's been known to be very smart and loves to forge Katanas. She hated staying in her village, so in defiance she cut her hair and left the village. When Giselle and other members of the Fox Clan came to the Campus, she thought they came to bring her back to the Village. She played pranks on them to try and prevent them from trying to bring her back, but once Mina was able to explain why they were there, she stopped her tricks.",
+    "background": "狐族的一只白狐，也是米娜的熟人。她性格直率，对谁都刻薄。\n\n自幼便以聪慧著称，酷爱锻造日本刀。厌恶村落生活，为示抗争剪去长发离村而去。当吉赛尔与其他狐族成员来到校园时，她以为对方是来带她回村的。她不断恶作剧阻挠对方，直到米娜解释来意后才停息。",
     "club": "艺术",
     "element": "风",
     "year": 3,
@@ -3989,7 +3989,7 @@
       "birthday": "Oct 15th"
     },
     "skins": null,
-    "hobbies": "Forging Katanas",
+    "hobbies": "锻造武士刀",
     "type": 1,
     "tags": null,
     "created_at": null,
@@ -4374,48 +4374,48 @@
     ],
     "nicknames": "米娜",
     "arena_skill": {
-      "name": "Thunder Slash",
+      "name": "雷霆斩",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/3/38/A34.png/40px-A34.png",
       "cooldown": 7,
       "descriptions": [
-        "Inflict 1x the Character's Attack as Lightning Damage on 1 Enemy. Inflict an extra 0x or 0.5x the Character's Attack as Lightning Damage",
-        "Inflict 1.05x the Character's Attack as Lightning Damage on 1 Enemy. Inflict an extra 0x, 0.5x, or 0.75x the Character's Attack as Lightning Damage",
-        "Inflict 1.15x the Character's Attack as Lightning Damage on 1 Enemy. Inflict an extra 0.25x, 0.5x, or 0.75x the Character's Attack as Lightning Damage",
-        "Inflict 1.25x the Character's Attack as Lightning Damage on 1 Enemy. Inflict an extra 0.5x or 0.75x the Character's Attack as Lightning Damage",
-        "Inflict 1.4x the Character's Attack as Lightning Damage on 1 Enemy. Inflict an extra 0.5x, 0.75x, or 1x the Character's Attack as Lightning Damage"
+        "对1名敌人造成角色攻击力1倍的雷属性伤害。额外造成0或0.5倍雷属性伤害。",
+        "对1名敌人造成角色攻击力1.05倍的雷属性伤害。额外造成0，0.5，或0.75倍雷属性伤害。",
+        "对1名敌人造成角色攻击力1.15倍的雷属性伤害。额外造成0.25，0.5，或0.75倍雷属性伤害。",
+        "对1名敌人造成角色攻击力1.25倍的雷属性伤害。额外造成0.5，或0.75倍雷属性伤害。",
+        "对1名敌人造成角色攻击力1.4倍的雷属性伤害。额外造成0.5，0.75，或1倍雷属性伤害。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Water Breaker!",
+      "name": "破水",
       "icon": "//static.wikitide.net/projectqtwiki/9/98/A39.png",
       "descriptions": [
-        "Regular Attack inflicts 0.55x the Characters Attack as Lightning Damage on 2 Enemies.",
-        "Regular Attack inflicts 0.4x the Characters Attack as Lightning Damage on 3 Enemies.\n\nIncrease the character's Attack by 15% for 4 rounds at the beginning of the battle.",
-        "Regular Attack inflicts 0.35x the Characters Attack as Lightning Damage on All Enemies.\n\nIncrease the character's Attack by 30% for 4 rounds at the beginning of the battle."
+        "普通攻击对2名敌人造成相当于角色攻击力0.55倍的雷属性伤害。",
+        "普通攻击对3名敌人造成相当于角色攻击力0.4倍的雷属性伤害。\n\n战斗开始时，提升角色15%攻击力，持续4回合。",
+        "普通攻击对所有敌人造成相当于角色攻击力0.35倍的雷属性伤害。\n\n战斗开始时，提升角色30%攻击力，持续4回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Dance of Mikazuchi",
+      "name": "御雷",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
       "descriptions": [
-        "Increase the Characters' Attack by 1%, HP by 2%",
-        "Increase the Characters' Attack by 2%, HP by 3%",
-        "Increase the Characters' Attack by 3%, HP by 4%",
-        "Increase the Characters' Attack by 4%, HP by 5%",
-        "Increase the Characters' Attack by 5%, HP by 6%\n\nIncrease the Character's Attack Damage on Water Character by 1%",
-        "Increase the Characters' Attack by 6%, HP by 7%\n\nIncrease the Character's Attack Damage on Water Character by 2%",
-        "Increase the Characters' Attack by 7%, HP by 8%\n\nIncrease the Character's Attack Damage on Water Character by 3%",
-        "Increase the Characters' Attack by 8%, HP by 9%\n\nIncrease the Character's Attack Damage on Water Character by 4%",
-        "Increase the Characters' Attack by 9%, HP by 10%\n\nIncrease the Character's Attack Damage on Water Character by 5%",
-        "Increase the Characters' Attack by 10%, HP by 15%\n\nIncrease the Character's Attack Damage on Water Character by 10%"
+        "提升角色1%攻击力, 2%血量。",
+        "提升角色2%攻击力, 3%血量。",
+        "提升角色3%攻击力, 4%血量。",
+        "提升角色4%攻击力, 5%血量。",
+        "提升角色5%攻击力, 6%血量。\n\n提升自身对水角色1%伤害。",
+        "提升角色6%攻击力, 7%血量。\n\n提升自身对水角色2%伤害。",
+        "提升角色7%攻击力, 8%血量。\n\n提升自身对水角色3%伤害。",
+        "提升角色8%攻击力, 9%血量。\n\n提升自身对水角色4%伤害。",
+        "提升角色9%攻击力, 10%血量。\n\n提升自身对水角色5%伤害。",
+        "提升角色10%攻击力, 15%血量。\n\n提升自身对水角色10%伤害。"
       ],
       "instructions": null,
       "extra": "+2250+3250+500"
     },
-    "background": "A Friend of Giselle's Sister. She trained under the same Master as Giselle, but she uses two Katanas.\n\nTo help her friend, she followed Giselle into the Campus. However, she was found immediately by Giselle because of her consipcuous ears. Her aggressiveness is making trouble for Giselle all the time.",
+    "background": "吉赛尔妹妹的朋友，与吉赛尔是同一个师傅，但她使用两把太刀。\n\n为了帮助朋友，而跟随吉赛尔进入校园。然而，因为她那醒目的耳朵，马上就被吉赛尔发现了。她的好斗的性格总是给吉赛尔惹麻烦。",
     "club": "艺术",
     "element": "雷",
     "year": 3,
@@ -4427,9 +4427,9 @@
       "birthday": "Aug 13th"
     },
     "skins": null,
-    "hobbies": "Katanas",
+    "hobbies": "武士刀",
     "type": 1,
-    "tags": null,
+    "tags": "普通攻击是群体攻击的小狐狸",
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
     "translated": null
@@ -5542,48 +5542,48 @@
     ],
     "nicknames": "维奥莱特、水狐、水壶",
     "arena_skill": {
-      "name": "Arcane Trick",
+      "name": "奥术诡计",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "cooldown": 6,
       "descriptions": [
-        "Inflict 0.4x the Character's Attack as Water Damage on 3 Enemies.\n\nChange 1 Enemy's Element to Fire Type for 2 Rounds.",
-        "Inflict 0.45x the Character's Attack as Water Damage on 3 Enemies.\n\nChange 2 Enemies' Element to Fire Type for 2 Rounds.",
-        "Inflict 0.5x the Character's Attack as Water Damage on 3 Enemies.\n\nChange 2 Enemies' Element to Fire Type for 3 Rounds.",
-        "Inflict 0.55x the Character's Attack as Water Damage on 3 Enemies.\n\nChange 3 Enemies' Element to Fire Type for 3 Rounds.",
-        "Inflict 0.6x the Character's Attack as Water Damage on 3 Enemies.\n\nChange 3 Enemies' Element to Fire Type for 4 Rounds."
+        "对3名敌人造成角色攻击0.4倍的水属性伤害。\n\n转换1名敌人为火属性，持续2回合。",
+        "对3名敌人造成角色攻击0.45倍的水属性伤害。\n\n转换2名敌人为火属性，持续2回合。",
+        "对3名敌人造成角色攻击0.5倍的水属性伤害。\n\n转换2名敌人为火属性，持续3回合。",
+        "对3名敌人造成角色攻击0.55倍的水属性伤害。\n\n转换3名敌人为火属性，持续3回合。",
+        "对3名敌人造成角色攻击0.6倍的水属性伤害。\n\n转换3名敌人为火属性，持续4回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Arcane Expert",
+      "name": "奥术专家",
       "icon": "//static.wikitide.net/projectqtwiki/d/d5/A5.png",
       "descriptions": [
-        "Increase the Characters Damage by 20% if Enemy is Suffering Debuff effect\n\n50% chance to extend the character's \"Elemental change effect\" on all Characters by 1 Round",
-        "Increase the Characters Damage by 40% if Enemy is Suffering Debuff effect\n\n70% chance to extend the character's \"Elemental change effect\" on all Characters by 1 Round",
-        "Increase the Characters Damage by 70% if Enemy is Suffering Debuff effect\n\n100% chance to extend the character's \"Elemental change effect\" on all Characters by 1 Round"
+        "若敌人身上有减益效果，则提升自身20%伤害。\n\n50%概率延长\"元素转换\"效果1回合。",
+        "若敌人身上有减益效果，则提升自身40%伤害。\n\n70%概率延长\"元素转换\"效果1回合。",
+        "若敌人身上有减益效果，则提升自身70%伤害。\n\n100%概率延长\"元素转换\"效果1回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Dance of Souha",
+      "name": "蒼羽",
       "icon": "//static.wikitide.net/projectqtwiki/b/b1/A6.png",
       "descriptions": [
-        "Increase the Characters' HP by 2%\n\n2 allied Water Characters invalidate Burn effect for 5 rounds",
-        "Increase the Characters' HP by 4%\n\n2 allied Water Characters invalidate Burn effect for 6 rounds",
-        "Increase the Characters' HP by 6%\n\n2 allied Water Characters invalidate Burn effect for 7 rounds",
-        "Increase the Characters' HP by 8%\n\n2 allied Water Characters invalidate Burn effect for 8 rounds",
-        "Increase the Characters' HP by 10%\n\n2 allied Water Characters invalidate Burn effect for 9 rounds",
-        "Increase the Characters' HP by 12%, Recovery by 3%\n\n2 allied Water Characters invalidate Burn effect for 10 rounds",
-        "Increase the Characters' HP by 14%, Recovery by 6%\n\n2 allied Water Characters invalidate Burn effect for 12 rounds",
-        "Increase the Characters' HP by 16%, Recovery by 9%\n\n2 allied Water Characters invalidate Burn effect for 14 rounds",
-        "Increase the Characters' HP by 18%, Recovery by 12%\n\n2 allied Water Characters invalidate Burn effect for 16 rounds",
-        "Increase the Characters' HP by 20%, Recovery by 15%\n\n2 allied Water Characters invalidate Burn effect for 16 rounds"
+        "提升角色2%血量。\n\n使2名水队友免疫「燃烧」，持续5回合。",
+        "提升角色4%血量。\n\n使2名水队友免疫「燃烧」，持续6回合。",
+        "提升角色6%血量。\n\n使2名水队友免疫「燃烧」，持续7回合。",
+        "提升角色8%血量。\n\n使2名水队友免疫「燃烧」，持续8回合。",
+        "提升角色10%血量。\n\n使2名水队友免疫「燃烧」，持续9回合。",
+        "提升角色12%血量，3%回复量。\n\n使2名水队友免疫「燃烧」，持续10回合。",
+        "提升角色14%血量，6%回复量。\n\n使2名水队友免疫「燃烧」，持续12回合。",
+        "提升角色16%血量，9%回复量。\n\n使2名水队友免疫「燃烧」，持续14回合。",
+        "提升角色18%血量，12%回复量。\n\n使2名水队友免疫「燃烧」，持续16回合。",
+        "提升角色20%血量，15%回复量。\n\n使2名水队友免疫「燃烧」，持续16回合。"
       ],
       "instructions": null,
       "extra": "+2500+3000+500"
     },
-    "background": "She and Giselle both studied under the same teacher, and she's like a sister to Giselle.\n\nShe is an extraordinary genius of magic. Her attentive face commands a great deal of respect. However, she's hiding her disgust towards Giselle since she has always felt that Giselle is a threat to her position within the Fox Clan.",
+    "background": "她和吉赛尔曾师从同一位师傅，对吉赛尔而言如同亲姐妹。\n\n她是位非凡的魔法天才，那张专注的面容令人肃然起敬。然而她始终对吉赛尔怀有厌恶之情，因为她始终认为吉赛尔威胁着自己在狐族中的地位。",
     "club": "艺术",
     "element": "水",
     "year": 3,
@@ -5595,7 +5595,7 @@
       "birthday": "Jan 20th"
     },
     "skins": null,
-    "hobbies": "Foxes",
+    "hobbies": "狐狸",
     "type": 1,
     "tags": null,
     "created_at": null,
