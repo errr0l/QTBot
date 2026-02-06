@@ -29,14 +29,17 @@ def convert_single_dict_attributes_to_json(item: dict):
         if isinstance(extra_data, dict):
             item['extra'] = json.dumps(extra_data)
     if "skins" in item:
-        if skins := item['skins']:
-            item['skins'] = skins if isinstance(skins, list) else json.dumps(skins)
+        skins = item['skins']
+        if isinstance(skins, list):
+            item['skins'] = json.dumps(skins)
     if "avatars" in item:
-        if avatars := item['avatars']:
-            item['avatars'] = avatars if isinstance(avatars, list) else json.dumps(avatars)
+        avatars = item['avatars']
+        if isinstance(avatars, list):
+            item['avatars'] = json.dumps(avatars)
     if "tags" in item:
-        if tags := item['tags']:
-            item['tags'] = tags if isinstance(tags, list) else json.dumps(tags)
+        tags = item['tags']
+        if isinstance(tags, list):
+            item['tags'] = json.dumps(tags)
     return item
 
 

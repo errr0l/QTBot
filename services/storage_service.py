@@ -17,3 +17,7 @@ class StorageService(ABC):
     def sync_data_from_list(self, characters: List[dict]):
         """将传入的角色数据列表同步至外部存储"""
         pass
+
+    @abstractmethod
+    def sync_data_from_dict(self, character: dict):
+        pass

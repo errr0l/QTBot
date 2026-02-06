@@ -87,10 +87,12 @@ async def runner2(
         running_tasks.pop(user_id, None)
 
 
-async def runner3(event: Event, user_id, crawler: QTWikiCrawler, name: str, fields: str):
+async def runner3(
+        event: Event, user_id, storage_service: StorageService, crawler: QTWikiCrawler, name: str, fields: str):
     try:
         result = await asyncio.to_thread(crawler.scrape_character_and_update_fields, name, fields.split(","))
-        message = "成功" if result else "失败：请请查看日志获取详细信息"
+        sync_result = storage_service.sync_data_from_dict(result)
+        message = "成功" if sync_result else "失败：请请查看日志获取详细信息"
         logger.info(f"result: {message}")
         bot = get_bot()
         await bot.send(event=event, message=message, at_sender=True)
@@ -164,7 +166,7 @@ async def handle_super(event: Event, args=CommandArg()):
         )
         running_tasks[user_id] = task
     elif _input.startswith("抓取更新:"):
-        instructions = _input[3:].split(":")
+        instructions = _input[5:].split(":")
         if len(instructions) != 2:
             await super_cmd.finish("指令格式错误")
 
@@ -178,6 +180,7 @@ async def handle_super(event: Event, args=CommandArg()):
             runner3(
                 event,
                 user_id,
+                storage_service=storage_service,
                 crawler=crawler, name=canonical_name, fields=fields)
         )
         running_tasks[user_id] = task

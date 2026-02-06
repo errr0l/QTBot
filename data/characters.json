@@ -275,48 +275,48 @@
     ],
     "nicknames": "白狼",
     "arena_skill": {
-      "name": "Fang of Fenrir",
+      "name": "芬里尔獠牙",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "cooldown": 6,
       "descriptions": [
-        "Inflict 0.5x Blair's Attack as Water Damage on 2 Enemies.\n\nDecrease All Characters' Skill Damage taken by 5% for 6 rounds.\n\nCast Bleeding effect on 2 Enemies; inflicting 2% target Character's Attack Damage each Round. Bleeding effect can be only removed by using Directly Healing Skill.",
-        "Inflict 0.55x Blair's Attack as Water Damage on 2 Enemies.\n\nDecrease All Characters' Skill Damage taken by 10% for 6 rounds.\n\nCast Bleeding effect on 2 Enemies; inflicting 4% target Character's Attack Damage each Round. Bleeding effect can be only removed by using Directly Healing Skill.",
-        "Inflict 0.6x Blair's Attack as Water Damage on 2 Enemies.\n\nDecrease All Characters' Skill Damage taken by 15% for 6 rounds.\n\nCast Bleeding effect on 3 Enemies; inflicting 4% target Character's Attack Damage each Round. Bleeding effect can be only removed by using Directly Healing Skill.",
-        "Inflict 0.65x Blair's Attack as Water Damage on 2 Enemies.\n\nDecrease All Characters' Skill Damage taken by 20% for 6 rounds.\n\nCast Bleeding effect on 3 Enemies; inflicting 5% target Character's Attack Damage each Round. Bleeding effect can be only removed by using Directly Healing Skill.",
-        "Inflict 0.7x Blair's Attack as Water Damage on 2 Enemies.\n\nDecrease All Characters' Skill Damage taken by 25% for 6 rounds.\n\nCast Bleeding effect on 3 Enemies; inflicting 7% target Character's Attack Damage each Round. Bleeding effect can be only removed by using Directly Healing Skill."
+        "对2名敌人造成角色攻击力0.5倍的水属性伤害。\n\n使所有角色受到的伤害降低5%，持续6回合。\n\n对2名敌人施加「流血」，每回合造成角色攻击力2%的伤害。「流血」只能被直接回复血量的技能移除。",
+        "对2名敌人造成角色攻击力0.55倍的水属性伤害。\n\n使所有角色受到的伤害降低10%，持续6回合。\n\n对2名敌人施加「流血」，每回合造成角色攻击力4%的伤害。「流血」只能被直接回复血量的技能移除。",
+        "对2名敌人造成角色攻击力0.6倍的水属性伤害。\n\n使所有角色受到的伤害降低15%，持续6回合。\n\n对3名敌人施加「流血」，每回合造成角色攻击力4%的伤害。「流血」只能被直接回复血量的技能移除。",
+        "对2名敌人造成角色攻击力0.65倍的水属性伤害。\n\n使所有角色受到的伤害降低20%，持续6回合。\n\n对3名敌人施加「流血」，每回合造成角色攻击力5%的伤害。「流血」只能被直接回复血量的技能移除。",
+        "对2名敌人造成角色攻击力0.7倍的水属性伤害。\n\n使所有角色受到的伤害降低25%，持续6回合。\n\n对3名敌人施加「流血」，每回合造成角色攻击力7%的伤害。「流血」只能被直接回复血量的技能移除。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Aloof Girl",
+      "name": "冰山美人",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A31.png",
       "descriptions": [
-        "At the beginning of battle, Decrease Blair's Damage taken by 10% for 16 rounds.\n\nAt the beginning of battle, Grant Taunt effect on Blair; 2 Non-Lightning Enemies Attack Blair as the First Priority and Lightning Enemies Attack Other Teammates as the First Priority for 8 Rounds.",
-        "At the beginning of battle, Decrease Blair's Damage taken by 15% for 16 rounds.\n\nAt the beginning of battle, Grant Taunt effect on Blair; All Non-Lightning Enemies Attack Blair as the First Priority and Lightning Enemies Attack Other Teammates as the First Priority for 8 Rounds.",
-        "At the beginning of battle, Decrease Blair's Damage taken by 25% for 16 rounds.\n\nAt the beginning of battle, Grant Taunt effect on Blair; All Non-Lightning Enemies Attack Blair as the First Priority and Lightning Enemies Attack Other Teammates as the First Priority for 8 Rounds."
+        "战斗开始时，使自身受到的伤害降低10%，持续16回合。\n\n战斗开始时，自身获得「嘲讽」，2名非雷敌人优先攻击布莱尔，雷敌人游戏攻击其他队友，持续8回合。",
+        "战斗开始时，使自身受到的伤害降低15%，持续16回合。\n\n战斗开始时，自身获得「嘲讽」，所有非雷敌人优先攻击布莱尔，雷敌人游戏攻击其他队友，持续8回合。",
+        "战斗开始时，使自身受到的伤害降低25%，持续16回合。\n\n战斗开始时，自身获得「嘲讽」，所有非雷敌人优先攻击布莱尔，雷敌人游戏攻击其他队友，持续8回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Lineage Pride",
+      "name": "血脉荣耀",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase the Character's HP by 1%",
-        "Increase the Character's HP by 2%",
-        "Increase the Character's HP by 3%, Recovery by 2%",
-        "Increase the Character's HP by 4%, Recovery by 4%",
-        "Increase the Character's HP by 5%, Recovery by 6%",
-        "Increase the Character's HP by 7%, Recovery by 8%",
-        "Increase the Character's HP by 9%, Recovery by 10%",
-        "Increase the Character's HP by 11%, Recovery by 13%\n\nDecrease 3 other Characters' non-Lightning Damage taken by 3%.",
-        "Increase the Character's HP by 13%, Recovery by 16%\n\nDecrease 3 other Characters' non-Lightning Damage taken by 6%.",
-        "Increase the Character's HP by 15%, Recovery by 20%\n\nDecrease 3 other Characters' non-Lightning Damage taken by 10%."
+        "提升自身1%血量。",
+        "提升自身2%血量。",
+        "提升自身3%血量, 2%回复量。",
+        "提升自身4%血量, 4%回复量。",
+        "提升自身5%血量, 6%回复量。",
+        "提升自身7%血量, 8%回复量。",
+        "提升自身9%血量, 10%回复量。",
+        "提升自身11%血量, 13%回复量。\n\n使其他3名队友受到的非雷属性伤害降低3%。",
+        "提升自身13%血量, 16%回复量。\n\n使其他3名队友受到的非雷属性伤害降低6%。",
+        "提升自身15%血量, 20%回复量。\n\n使其他3名队友受到的非雷属性伤害降低10%。"
       ],
       "instructions": null,
       "extra": "+750+4500+750"
     },
-    "background": "Confident and aloof, she is indifferent to things around her, unless that thing will affect her.\n\nBlair is a wolf-fox hybrid who inherited the physical strength wolf and a beauty of a fox. Javelin shooting is her specialty and she excels at it. With extraordinary eyesight, Blair became a long-time champion, without even using all her strength to achieve top results. However, she is as solitary as a lone wolf, giving off the impression of an unapproachable girl shrouded in mystery. However, this made Senpai more intrigued, so he began to follow Blair, hoping to get the attention of this icy beauty…",
+    "background": "自信而疏离，她对周遭事物漠不关心，除非那件事会影响到她。\n\n布莱尔是狼与狐的混血儿，继承了狼的强健体魄与狐的绝世美貌。标枪投掷是她的专长，她在这方面表现卓越。凭借超凡的视力，布莱尔长期蝉联冠军，甚至无需全力便能取得顶尖成绩。然而她孤僻如独狼，散发着神秘莫测的不可接近感。这反而更勾起了前辈的好奇，于是他开始尾随布莱尔，企图吸引这位冰山美人的注意...",
     "club": "运动",
     "element": "水",
     "year": 3,
@@ -325,15 +325,15 @@
       "height": 172,
       "weight": 54,
       "body_size": "36G-25-36",
-      "birthday": "Dec 1"
+      "birthday": "12-01"
     },
     "skins": null,
-    "hobbies": "Javelin",
+    "hobbies": "标枪",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 6,
@@ -524,11 +524,11 @@
       "icon": "//static.wikitide.net/projectqtwiki/thumb/0/06/G1.png/40px-G1.png",
       "cooldown": 5,
       "descriptions": [
-        "对两名敌人造成妮姬0.3倍攻击力的伤害。\n\n战斗开始时，对两名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.05。五回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低10%",
-        "对两名敌人造成妮姬0.35倍攻击力的伤害。\n\n战斗开始时，对两名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.10。五回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低16%",
-        "对两名敌人造成妮姬0.4倍攻击力的伤害。\n\n战斗开始时，对两名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.15。五回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低23%",
-        "对两名敌人造成妮姬0.45倍攻击力的伤害。\n\n战斗开始时，对两名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.20。五回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低30%",
-        "对两名敌人造成妮姬0.5倍攻击力的伤害。\n\n战斗开始时，对两名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.25。五回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低40%"
+        "对2名敌人造成妮姬0.3倍攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.05。5回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低10%",
+        "对2名敌人造成妮姬0.35倍攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.10。5回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低16%",
+        "对2名敌人造成妮姬0.4倍攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.15。5回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低23%",
+        "对2名敌人造成妮姬0.45倍攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.20。5回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低30%",
+        "对2名敌人造成妮姬0.5倍攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加火盾效果；火盾值为妮姬初始生命值的0.25。5回合内，若角色受到直接伤害，则优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量HP。\n\n战斗开始时，使2名运动角色受到的伤害降低40%"
       ]
     },
     "story_skill": null,
@@ -570,7 +570,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 11,
@@ -612,7 +612,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 12,
@@ -637,7 +637,7 @@
     "story_skill": null,
     "awakening_passive": null,
     "talent_tree": null,
-    "background": "名为“伊斯塔尔”（Ishtar）的女神战士，以爱与生育女神之名命名，沉睡于第12学园都市的地下深处\n\n第四位觉醒的女神战士伊斯塔尔，如同古神话中的形象，拥有丰满的身材，是目前所有复活的女神战士中胸围最大的一位。她非常重视一个人的内在修养。起初，那位学生将她视为一位严厉的女士。然而，由于他的目光总是离不开她那两座巨大的乳房，伊斯塔尔觉得那位学生不过是个带着抗体的变态\n\n然而，在与那位男性学者完成几次任务后，伊斯塔尔逐渐改变了看法，同意接受男学生的能量补充。一旦尝试，便无法回头。优雅高贵的伊斯塔尔，在她的敏感部位被男生轻抚后，每天都想与他发生性关系。她在床上完全成了他的“猎物”，开始宠溺起这位男生",
+    "background": "名为“伊斯塔尔”的女神战士，以爱与生育女神之名命名，沉睡于第12学园都市的地下深处\n\n第四位觉醒的女神战士伊斯塔尔，如同古神话中的形象，拥有丰满的身材，是目前所有复活的女神战士中胸围最大的一位。她非常重视一个人的内在修养。起初，那位学生将她视为一位严厉的女士。然而，由于他的目光总是离不开她那两座巨大的乳房，伊斯塔尔觉得那位学生不过是个带着抗体的变态\n\n然而，在与那位男性学者完成几次任务后，伊斯塔尔逐渐改变了看法，同意接受男学生的能量补充。一旦尝试，便无法回头。优雅高贵的伊斯塔尔，在她的敏感部位被男生轻抚后，每天都想与他发生性关系。她在床上完全成了他的“猎物”，开始宠溺起这位男生",
     "club": "全能",
     "element": "",
     "year": "",
@@ -654,7 +654,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 13,
@@ -669,11 +669,11 @@
       "icon": "//static.wikitide.net/projectqtwiki/thumb/4/45/G3.png/40px-G3.png",
       "cooldown": 6,
       "descriptions": [
-        "为两名角色回复0.5倍瓦纳迪斯回复量的血量.\n\n为1名角色施加「净化」效果，持续2回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成1倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加1名艺术角色8%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升10%。\n\n回合开始时，使3个非文学角色受到的常规伤害降低8%，持续16回合",
-        "为两名角色回复0.6倍瓦纳迪斯回复量的血量.\n\n为1名角色施加「净化」效果，持续2回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成1.2倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加2名艺术或科学角色8%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升15%。\n\n回合开始时，使3个非文学角色受到的常规伤害降低12%，持续16回合",
-        "为两名角色回复0.8倍瓦纳迪斯回复量的血量.\n\n为2名角色施加「净化」效果，持续3回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成1.4倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加2名艺术或科学角色12%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升20%。\n\n回合开始时，使所有非文学角色受到的常规伤害降低16%，持续16回合，水、雷角色额外降低5%",
-        "为两名角色回复1倍瓦纳迪斯回复量的血量.\n\n为2名角色施加「净化」效果，持续3回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成1.6倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加2名艺术或科学角色16%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升25%。\n\n回合开始时，使所有非文学角色受到的常规伤害降低20%，持续16回合，水、雷角色额外降低10%",
-        "为两名角色回复1.2倍瓦纳迪斯回复量的血量.\n\n为2名角色施加「净化」效果，持续3回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成2倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加2名艺术或科学角色20%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升30%。\n\n回合开始时，使所有非文学角色受到的常规伤害降低25%，持续16回合，水、雷角色额外降低15%"
+        "为2名角色回复0.5倍瓦纳迪斯回复量的血量.\n\n为1名角色施加「净化」效果，持续2回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成1倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加1名艺术角色8%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升10%。\n\n回合开始时，使3个非文学角色受到的常规伤害降低8%，持续16回合",
+        "为2名角色回复0.6倍瓦纳迪斯回复量的血量.\n\n为1名角色施加「净化」效果，持续2回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成1.2倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加2名艺术或科学角色8%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升15%。\n\n回合开始时，使3个非文学角色受到的常规伤害降低12%，持续16回合",
+        "为2名角色回复0.8倍瓦纳迪斯回复量的血量.\n\n为2名角色施加「净化」效果，持续3回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成1.4倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加2名艺术或科学角色12%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升20%。\n\n回合开始时，使所有非文学角色受到的常规伤害降低16%，持续16回合，水、雷角色额外降低5%",
+        "为2名角色回复1倍瓦纳迪斯回复量的血量.\n\n为2名角色施加「净化」效果，持续3回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成1.6倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加2名艺术或科学角色16%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升25%。\n\n回合开始时，使所有非文学角色受到的常规伤害降低20%，持续16回合，水、雷角色额外降低10%",
+        "为2名角色回复1.2倍瓦纳迪斯回复量的血量.\n\n为2名角色施加「净化」效果，持续3回合；每成功消除1个燃烧/中毒/雷电效果，对1名敌人造成2倍瓦纳迪斯攻击力的伤害。（「净化」将成功净化1次或回合数后失效）。\n\n回合开始时，增加2名艺术或科学角色20%的生命值。\n\n战斗开始时，使2名艺术或科学角色的伤害在16回合内提升30%。\n\n回合开始时，使所有非文学角色受到的常规伤害降低25%，持续16回合，水、雷角色额外降低15%"
       ]
     },
     "story_skill": null,
@@ -696,7 +696,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 14,
@@ -757,7 +757,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 15,
@@ -799,7 +799,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 16,
@@ -947,9 +947,9 @@
       "name": "魔鬼的嫉妒",
       "icon": "//static.wikitide.net/projectqtwiki/9/98/A39.png",
       "descriptions": [
-        "普通攻击对2名敌人造成相当于角色攻击力0.4倍的伤害。\n\n提升夏洛特10%伤害，持续12回合。\n\n战斗开始时，夏洛特70%概率免疫\"麻痹\"，2名角色50%概率免疫\"中毒\"，持续12回合",
-        "普通攻击对3名敌人造成相当于角色攻击力0.3倍的伤害。\n\n提升夏洛特20%伤害，持续12回合。\n\n战斗开始时，夏洛特80%概率免疫\"麻痹\"，2名角色60%概率免疫\"中毒\"，持续16回合",
-        "普通攻击对3名敌人造成相当于角色攻击力0.4倍的伤害。\n\n提升夏洛特35%伤害，持续12回合。\n\n战斗开始时，夏洛特100%概率免疫\"麻痹\"，2名角色70%概率免疫\"中毒\"，持续16回合"
+        "普通攻击对2名敌人造成角色攻击力0.4倍的雷属性伤害。\n\n提升自身10%伤害，持续12回合。\n\n战斗开始时，自身70%概率免疫\"麻痹\"，2名角色50%概率免疫\"中毒\"，持续12回合",
+        "普通攻击对3名敌人造成角色攻击力0.3倍的雷属性伤害。\n\n提升自身20%伤害，持续12回合。\n\n战斗开始时，自身80%概率免疫\"麻痹\"，2名角色60%概率免疫\"中毒\"，持续16回合",
+        "普通攻击对3名敌人造成角色攻击力0.4倍的雷属性伤害。\n\n提升自身35%伤害，持续12回合。\n\n战斗开始时，自身100%概率免疫\"麻痹\"，2名角色70%概率免疫\"中毒\"，持续16回合"
       ],
       "instructions": null,
       "extra": null
@@ -1064,9 +1064,9 @@
       "name": "恶魔的声音",
       "icon": "//static.wikitide.net/projectqtwiki/4/45/A7.png",
       "descriptions": [
-        "减少2名攻击力最高的敌人8%攻击力，持续8回合。",
-        "减少2名攻击力最高的敌人16%攻击力，持续8回合。",
-        "减少2名攻击力最高的敌人30%攻击力，持续8回合。"
+        "使2名攻击力最高的敌人攻击力降低8%，持续8回合。",
+        "使2名攻击力最高的敌人攻击力降低16%，持续8回合。",
+        "使2名攻击力最高的敌人攻击力降低30%，持续8回合。"
       ],
       "instructions": null,
       "extra": null
@@ -1075,16 +1075,16 @@
       "name": "克服火弱",
       "icon": "//static.wikitide.net/projectqtwiki/5/52/A16.png",
       "descriptions": [
-        "减少2名友方火角色受到的水属性伤害1%",
-        "减少2名友方火角色受到的水属性伤害2%",
-        "减少2名友方火角色受到的水属性伤害3%",
-        "减少2名友方火角色受到的水属性伤害4%",
-        "减少2名友方火角色受到的水属性伤害5%",
-        "减少2名友方火角色受到的水属性伤害6%",
-        "减少2名友方火角色受到的水属性伤害7%",
-        "减少2名友方火角色受到的水属性伤害8%",
-        "减少2名友方火角色受到的水属性伤害9%",
-        "减少2名友方火角色受到的水属性伤害10%"
+        "使2名友方火角色受到的水属性伤害降低1%",
+        "使2名友方火角色受到的水属性伤害降低2%",
+        "使2名友方火角色受到的水属性伤害降低3%",
+        "使2名友方火角色受到的水属性伤害降低4%",
+        "使2名友方火角色受到的水属性伤害降低5%",
+        "使2名友方火角色受到的水属性伤害降低6%",
+        "使2名友方火角色受到的水属性伤害降低7%",
+        "使2名友方火角色受到的水属性伤害降低8%",
+        "使2名友方火角色受到的水属性伤害降低9%",
+        "使2名友方火角色受到的水属性伤害降低10%"
       ],
       "instructions": null,
       "extra": "+1500+3750+750"
@@ -1098,7 +1098,7 @@
       "height": "170cm",
       "weight": "52,4kg",
       "body_size": "36E-23-36",
-      "birthday": "June 26"
+      "birthday": "06-26"
     },
     "skins": null,
     "hobbies": "可爱的动物",
@@ -1106,7 +1106,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 21,
@@ -1374,7 +1374,7 @@
       "height": "168cm",
       "weight": "54kg",
       "body_size": "38E-24-37",
-      "birthday": "Oct 28"
+      "birthday": "10-28"
     },
     "skins": "",
     "hobbies": "学习",
@@ -1382,7 +1382,7 @@
     "tags": "",
     "created_at": "",
     "last_updated": "2026-01-27T18:12:36.000Z",
-    "translated": ""
+    "translated": 1
   },
   {
     "id": 26,
@@ -1395,17 +1395,17 @@
       "//static.wikitide.net/projectqtwiki/thumb/9/96/AeonsEchoPersephoneAwakened.png/320px-AeonsEchoPersephoneAwakened.png",
       "//static.wikitide.net/projectqtwiki/thumb/b/bb/AeonsEchoPersephoneAwakenedChibi.png/320px-AeonsEchoPersephoneAwakenedChibi.png"
     ],
-    "nicknames": "冥后, 珀耳塞福涅, AeonsEchoPersephone",
+    "nicknames": "冥后、珀耳塞福涅、AeonsEchoPersephone",
     "arena_skill": {
       "name": "怨诗",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A31.png",
       "cooldown": 5,
       "descriptions": [
-        "对1名敌人造成1倍珀耳塞福涅攻击力的水属性伤害.\n\n50%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人10%伤害和回复量，持续4回合。",
-        "对1名敌人造成1.15倍珀耳塞福涅攻击力的水属性伤害.\n\n60%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人15%伤害和回复量，持续4回合。",
-        "对1名敌人造成1.3倍珀耳塞福涅攻击力的水属性伤害.\n\n65%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人20%伤害和回复量，持续4回合。",
-        "对1名敌人造成1.4倍珀耳塞福涅攻击力的水属性伤害.\n\n70%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人25%伤害和回复量，持续4回合。",
-        "对1名敌人造成1.5倍珀耳塞福涅攻击力的水属性伤害.\n\n80%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人30%伤害和回复量，持续4回合。"
+        "对1名敌人造成角色攻击力1倍的水属性伤害.\n\n50%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人10%伤害和回复量，持续4回合。",
+        "对1名敌人造成角色攻击力1.15倍的水属性伤害.\n\n60%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人15%伤害和回复量，持续4回合。",
+        "对1名敌人造成角色攻击力1.3倍的水属性伤害.\n\n65%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人20%伤害和回复量，持续4回合。",
+        "对1名敌人造成角色攻击力1.4倍的水属性伤害.\n\n70%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人25%伤害和回复量，持续4回合。",
+        "对1名敌人造成角色攻击力1.5倍的水属性伤害.\n\n80%概率使1名敌人晕眩，持续2回合。\n\n减少2名攻击力最高的敌人30%伤害和回复量，持续4回合。"
       ]
     },
     "story_skill": null,
@@ -1413,9 +1413,9 @@
       "name": "冥界统治者",
       "icon": "//static.wikitide.net/projectqtwiki/5/52/A16.png",
       "descriptions": [
-        "战斗开始时，为珀耳塞福涅施加持续治疗效果，每回合回复其0.2倍回复量的生命值，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的15%伤害，持续16回合。\n\n战斗开始时，珀耳塞福涅造成的伤害提升10%，持续16回合。",
-        "战斗开始时，为珀耳塞福涅施加持续治疗效果，每回合回复其0.25倍回复量的生命值，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的25%伤害，持续16回合。\n\n战斗开始时，珀耳塞福涅造成的伤害提升15%，持续16回合。",
-        "战斗开始时，为珀耳塞福涅施加持续治疗效果，每回合回复其0.3倍回复量的生命值，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的30%伤害，持续16回合。\n\n战斗开始时，珀耳塞福涅造成的伤害提升25%，持续16回合。"
+        "战斗开始时，为自身施加持续治疗效果，每回合回复其0.2倍回复量的生命值，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的15%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升10%，持续16回合。",
+        "战斗开始时，为自身施加持续治疗效果，每回合回复其0.25倍回复量的生命值，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的25%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升15%，持续16回合。",
+        "战斗开始时，为自身施加持续治疗效果，每回合回复其0.3倍回复量的生命值，持续16回合。\n\n战斗开始时，降低所有水属性角色受到的30%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升25%，持续16回合。"
       ],
       "instructions": null,
       "extra": null
@@ -1666,7 +1666,7 @@
       "height": "171cm",
       "weight": "55kg",
       "body_size": "36G-24-36",
-      "birthday": "Nov 8th"
+      "birthday": "11-08"
     },
     "skins": null,
     "hobbies": "吃松子",
@@ -1674,7 +1674,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 30,
@@ -1687,50 +1687,51 @@
       "//static.wikitide.net/projectqtwiki/thumb/f/ff/AmoraAwakened.png/320px-AmoraAwakened.png",
       "//static.wikitide.net/projectqtwiki/thumb/9/9e/AmoraAwakenedChibi.png/320px-AmoraAwakenedChibi.png"
     ],
-    "nicknames": "风妈、园丁",
+    "nicknames": "风妈、园丁、阿莫拉",
     "arena_skill": {
-      "name": "Pineapple Bomb",
+      "name": "菠萝炸弹",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/0/0b/A46.png/40px-A46.png",
       "cooldown": 5,
       "descriptions": [
-        "Inflict 0.6x the Character's Attack as Wind Damage on 2 Enemies.\n\nRestore 1.0x the Character's Recovery of HP.\n\nDecrease 2 Enemies' Damage by 10% for 4 rounds.",
-        "Inflict 0.65x the Character's Attack as Wind Damage on 2 Enemies.\n\nRestore 1.2x the Character's Recovery of HP.\n\nDecrease 2 Enemies' Damage by 15% for 4 rounds.",
-        "Inflict 0.7x the Character's Attack as Wind Damage on 2 Enemies.\n\nRestore 1.4x the Character's Recovery of HP.\n\nDecrease 2 Enemies' Damage by 20% for 4 rounds.",
-        "Inflict 0.75x the Character's Attack as Wind Damage on 2 Enemies.\n\nRestore 1.6x the Character's Recovery of HP.\n\nDecrease 2 Enemies' Damage by 25% for 4 rounds.",
-        "Inflict 0.8x the Character's Attack as Wind Damage on 2 Enemies.\n\nRestore 1.8x the Character's Recovery of HP.\n\nDecrease 2 Enemies' Damage by 30% for 4 rounds."
+        "对2名敌人造成角色攻击力0.6倍的风属性伤害，\n\n回复自身回复量1倍的血量。\n\n降低2名敌人10%伤害，持续4回合。",
+        "对2名敌人造成角色攻击力0.65倍的风属性伤害，\n\n回复自身回复量1.2倍的血量。\n\n降低2名敌人15%伤害，持续4回合。",
+        "对2名敌人造成角色攻击力0.7倍的风属性伤害，\n\n回复自身回复量1.4倍的血量。\n\n降低2名敌人20%伤害，持续4回合。",
+        "对2名敌人造成角色攻击力0.75倍的风属性伤害，\n\n回复自身回复量1.6倍的血量。\n\n降低2名敌人25%伤害，持续4回合。",
+        "对2名敌人造成角色攻击力0.8倍的风属性伤害，\n\n回复自身回复量1.8倍的血量。\n\n降低2名敌人30%伤害，持续4回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Crazy Plant",
+      "name": "狂野植物",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "At the beginning of the battle, increase all Character's Attack by 5% for 8 rounds.",
-        "At the beginning of the battle, increase all Character's Attack by 10% for 8 rounds.\n\nIncrease the Character's recovery by 30% if the Team's HP is or below 70%.",
-        "At the beginning of the battle, increase all Character's Attack by 20% for 8 rounds.\n\nIncrease the Character's recovery by 50% if the Team's HP is or below 70%."
+        "战斗开始时，提升所有角色5%攻击力，持续8回合。",
+        "战斗开始时，提升所有角色10%攻击力，持续8回合。\n\n若队伍血量在70%或以下，则提升自身30%回复量。",
+        "战斗开始时，提升所有角色20%攻击力，持续8回合。\n\n若队伍血量在70%或以下，则提升自身50%回复量。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Garden Manager",
+      "name": "花园管理",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase the Character's HP by 1%.\n\nIncrease the Character's Recovery by 1%.",
-        "Increase the Character's HP by 2%.\n\nIncrease the Character's Recovery by 2%.",
-        "Increase the Character's HP by 3%.\n\nIncrease the Character's Recovery by 3%.",
-        "Increase the Character's HP by 4%.\n\nIncrease the Character's Recovery by 4%.",
-        "Increase the Character's HP by 5%.\n\nIncrease the Character's Recovery by 5%.\n\nIncrease the Character's Healing by 5%.",
-        "Increase the Character's HP by 7%.\n\nIncrease the Character's Recovery by 7%.\n\nIncrease the Character's Healing by 10%.",
-        "Increase the Character's HP by 9%.\n\nIncrease the Character's Recovery by 9%.\n\nIncrease the Character's Healing by 20%.",
-        "Increase the Character's HP by 11%.\n\nIncrease the Character's Recovery by 11%.\n\nIncrease the Character's Healing by 30%.",
-        "Increase the Character's HP by 13%.\n\nIncrease the Character's Recovery by 13%.\n\nIncrease the Character's Healing by 40%.",
-        "Increase the Character's HP by 15%.\n\nIncrease the Character's Recovery by 15%.\n\nIncrease the Character's Healing by 50%."
+        "提升自身1%血量。\n\n提升自身1%回复量。",
+        "提升自身2%血量。\n\n提升自身2%回复量。",
+        "提升自身3%血量。\n\n提升自身3%回复量。",
+        "提升自身4%血量。\n\n提升自身4%回复量。",
+        "提升自身5%血量。\n\n提升自身5%回复量。\n\n提升自身5%回复效果。",
+        "提升自身5%血量。\n\n提升自身7%回复量。\n\n提升自身10%回复效果。",
+        "提升自身7%血量。\n\n提升自身9%回复量。\n\n提升自身20%回复效果。",
+        "提升自身11%血量。\n\n提升自身11%回复量。\n\n提升自身30%回复效果。",
+        "提升自身13%血量。\n\n提升自身13%回复量。\n\n提升自身40%回复效果。",
+        "提升自身15%血量。\n\n提升自身15%回复量。\n\n提升自身50%回复效果。"
       ],
       "instructions": null,
       "extra": "+1500+2750+1750"
     },
-    "background": "The manager of the School's City garden, everything in the school was like her family.\n\nAs the School City's garden manager and botany teacher, Amora took care of her plants on a regular basis every day. To Amora, treating people was just like treating plants, and it was her responsibility to nurture and protect each and every one of her students, hoping that they would all grow up strong and healthy. Amora's friendly and cheerful personality had made her students enjoy her botany classes. As Amora was well versed in all kinds of plants, she was able to use the properties of different plants as weapons and she would go to the front line when fighting infected bodies, so whenever she was, people felt safe and secure.",
+    "background": "学园都市花园的管理员，学校里的所有事物都如同她的家人。\n\n作为学园都市花园的管理员兼植物学教师，阿莫拉每天都会定期照料她的植物。对她而言，对待学生就像照料植物，培育守护每个学生是她的责任，她希望他们都能茁壮成长。阿莫拉亲切开朗的性格让学生们都喜欢她的植物学课。她精通各类植物特性，能将不同植物的特性转化为武器，在对抗感染体时总冲锋在前，无论身处何处，人们都因她的存在而感到安心。",
+    "background1": "The manager of the School's City garden, everything in the school was like her family.\n\nAs the School City's garden manager and botany teacher, Amora took care of her plants on a regular basis every day. To Amora, treating people was just like treating plants, and it was her responsibility to nurture and protect each and every one of her students, hoping that they would all grow up strong and healthy. Amora's friendly and cheerful personality had made her students enjoy her botany classes. As Amora was well versed in all kinds of plants, she was able to use the properties of different plants as weapons and she would go to the front line when fighting infected bodies, so whenever she was, people felt safe and secure.",
     "club": "文学",
     "element": "风",
     "year": 3,
@@ -1739,10 +1740,10 @@
       "height": "176cm",
       "weight": "61kg",
       "body_size": "37G–26–37",
-      "birthday": "Jan 19th"
+      "birthday": "01-19"
     },
     "skins": null,
-    "hobbies": "Planting",
+    "hobbies": "种植",
     "type": 1,
     "tags": null,
     "created_at": null,
@@ -1990,9 +1991,9 @@
       "name": "御灵",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "提升自身外3名角色7%攻击力，持续10回合",
-        "提升自身外3名角色14%攻击力，持续10回合",
-        "提升自身外3名角色25%攻击力，持续10回合"
+        "提升自身外3名角色7%攻击力，持续10回合。",
+        "提升自身外3名角色14%攻击力，持续10回合。",
+        "提升自身外3名角色25%攻击力，持续10回合。"
       ],
       "instructions": null,
       "extra": null
@@ -2001,16 +2002,16 @@
       "name": "释放潜能",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "提升2名角色1%攻击力和血量",
-        "提升2名角色2%攻击力和血量",
-        "提升2名角色3%攻击力和血量",
-        "提升2名角色4%攻击力和血量",
-        "提升2名角色5%攻击力和血量",
-        "提升2名角色6%攻击力和血量",
-        "提升2名角色7%攻击力和血量",
-        "提升2名角色8%攻击力和血量",
-        "提升2名角色9%攻击力和血量",
-        "提升2名角色10%攻击力和血量"
+        "提升2名角色1%攻击力和血量。",
+        "提升2名角色2%攻击力和血量。",
+        "提升2名角色3%攻击力和血量。",
+        "提升2名角色4%攻击力和血量。",
+        "提升2名角色5%攻击力和血量。",
+        "提升2名角色6%攻击力和血量。",
+        "提升2名角色7%攻击力和血量。",
+        "提升2名角色8%攻击力和血量。",
+        "提升2名角色9%攻击力和血量。",
+        "提升2名角色10%攻击力和血量。"
       ],
       "instructions": null,
       "extra": "+500+4750+750"
@@ -2024,7 +2025,7 @@
       "height": "167cm",
       "weight": "64kg",
       "body_size": "36E-23-36",
-      "birthday": "Nov 25"
+      "birthday": "11-25"
     },
     "skins": [
       {
@@ -2067,48 +2068,48 @@
     ],
     "nicknames": "卡米尔、卡婊、风刀",
     "arena_skill": {
-      "name": "Unleash the Pride",
+      "name": "绽放荣耀",
       "icon": "//static.wikitide.net/projectqtwiki/c/ce/A38.png",
       "cooldown": 7,
       "descriptions": [
-        "Inflict 0.25x the Characters Attack as Wind Damage on 3 Enemies.\n\nIncrease the Character's Attack by 90% for 5 Rounds.",
-        "Inflict 0.25x the Characters Attack as Wind Damage on 3 Enemies.\n\nIncrease the Character's Attack by 110% for 5 Rounds.",
-        "Inflict 0.25x the Characters Attack as Wind Damage on 3 Enemies.\n\nIncrease the Character's Attack by 140% for 5 Rounds.",
-        "Inflict 0.25x the Characters Attack as Wind Damage on 3 Enemies.\n\nIncrease the Character's Attack by 190% for 5 Rounds.",
-        "Inflict 0.25x the Characters Attack as Wind Damage on 3 Enemies.\n\nIncrease the Character's Attack by 250% for 5 Rounds."
+        "对3名敌人造成角色攻击力0.25倍的风属性伤害。\n\n提升自身90%攻击力，持续5回合。",
+        "对3名敌人造成角色攻击力0.25倍的风属性伤害。\n\n提升自身110%攻击力，持续5回合。",
+        "对3名敌人造成角色攻击力0.25倍的风属性伤害。\n\n提升自身140%攻击力，持续5回合。",
+        "对3名敌人造成角色攻击力0.25倍的风属性伤害。\n\n提升自身190%攻击力，持续5回合。",
+        "对3名敌人造成角色攻击力0.25倍的风属性伤害。\n\n提升自身250%攻击力，持续5回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Tactic Armor",
+      "name": "战术装甲",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "At the beginning of battle, Increase the Character's Skill Damage by 30% for 20 Rounds.",
-        "At the beginning of battle, Increase the Character's Skill Damage by 70% for 20 Rounds.\n\nGrant Attack Decrease Immunity effect to the Character, 50% Invalidate Attack Decrease Effect.",
-        "At the beginning of battle, Increase the Character's Skill Damage by 120% for 20 Rounds.\n\nGrant Attack Decrease Immunity effect to the Character, 100% Invalidate Attack Decrease Effect."
+        "战斗开始时，提升自身30%技能伤害，持续20回合。",
+        "战斗开始时，提升自身70%技能伤害，持续20回合。\n\n自身获得「攻击力降低」免疫，50%免疫攻击力降低效果。",
+        "战斗开始时，提升自身120%技能伤害，持续20回合。\n\n自身获得「攻击力降低」免疫，100%免疫攻击力降低效果。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Zephyr Barrier",
+      "name": "泽菲尔屏障",
       "icon": "//static.wikitide.net/projectqtwiki/2/23/A19.png",
       "descriptions": [
-        "Decrease 2 allied Art Characters' Damage taken by 2%",
-        "Decrease 2 allied Art Characters' Damage taken by 4%",
-        "Decrease 2 allied Art Characters' Damage taken by 6%",
-        "Decrease 2 allied Art Characters' Damage taken by 8%",
-        "Decrease 2 allied Art Characters' Damage taken by 10%\n\nIncrease the Character's Attack Damage on Lightning Character by 2%",
-        "Decrease 2 allied Art Characters' Damage taken by 12%\n\nIncrease the Character's Attack Damage on Lightning Character by 4%",
-        "Decrease 2 allied Art Characters' Damage taken by 14%\n\nIncrease the Character's Attack Damage on Lightning Character by 6%",
-        "Decrease 2 allied Art Characters' Damage taken by 17%\n\nIncrease the Character's Attack Damage on Lightning Character by 8%",
-        "Decrease 2 allied Art Characters' Damage taken by 20%\n\nIncrease the Character's Attack Damage on Lightning Character by 10%",
-        "Decrease 2 allied Art Characters' Damage taken by 25%\n\nIncrease the Character's Attack Damage on Lightning Character by 10%\n\nIncrease the Character's HP by 10%"
+        "使2名艺术角色受到的伤害降低2%。",
+        "使2名艺术角色受到的伤害降低4%。",
+        "使2名艺术角色受到的伤害降低6%。",
+        "使2名艺术角色受到的伤害降低8%。",
+        "使2名艺术角色受到的伤害降低10%。\n\n使自身对雷角色的伤害增加2%。",
+        "使2名艺术角色受到的伤害降低12%。\n\n使自身对雷角色的伤害增加4%。",
+        "使2名艺术角色受到的伤害降低14%。\n\n使自身对雷角色的伤害增加6%。",
+        "使2名艺术角色受到的伤害降低17%。\n\n使自身对雷角色的伤害增加8%。",
+        "使2名艺术角色受到的伤害降低20%。\n\n使自身对雷角色的伤害增加10%。",
+        "使2名艺术角色受到的伤害降低25%。\n\n使自身对雷角色的伤害增加10%。\n\n提升自身10%血量。"
       ],
       "instructions": null,
       "extra": "+2250+3250+500"
     },
-    "background": "Cool on the outside, but not good with communicating with people.\n\nEntered the Campus as a tester for a new battle costume. Pays no attention to anything around.",
+    "background": "一个外表冷酷，不善于交际的人。\n\n作为新式战斗服的测试员进入校园，对周围的一切都漠不关心。",
     "club": "艺术",
     "element": "风",
     "year": 3,
@@ -2117,15 +2118,15 @@
       "height": "155cm",
       "weight": "46kg",
       "body_size": "34D-24-35",
-      "birthday": "Sep 24th"
+      "birthday": "09-24"
     },
     "skins": null,
-    "hobbies": "Technological Appliances",
+    "hobbies": "电子设备",
     "type": 1,
-    "tags": null,
+    "tags": ["(曾经的)一刀99999"],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 36,
@@ -2745,7 +2746,7 @@
       "height": "176cm",
       "weight": "60kg",
       "body_size": "36G-27-37",
-      "birthday": "Aug 23"
+      "birthday": "08-23"
     },
     "skins": null,
     "hobbies": "骑摩托",
@@ -2753,7 +2754,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 45,
@@ -3037,15 +3038,15 @@
       "height": "164cm",
       "weight": "53kg",
       "body_size": "33E-23-34",
-      "birthday": "Jul 22nd"
+      "birthday": "07-22"
     },
     "skins": null,
-    "hobbies": "Swords",
+    "hobbies": "剑术",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 49,
@@ -3644,48 +3645,48 @@
     ],
     "nicknames": "莉莉、火拳、丽丽",
     "arena_skill": {
-      "name": "Heavy Firearms",
+      "name": "重装火力",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/b/b8/A37.png/40px-A37.png",
       "cooldown": 6,
       "descriptions": [
-        "Before dealing Damage, Increase 2 allied Characters' Damage by 5% for 5 Rounds\n\nInflict 0.4x this Character's Attack as Fire Damage on 3 Enemies\n\nCast Burn effect on 3 Enemies; inflicting 1% max HP Damage each Round for 4 Rounds",
-        "Before dealing Damage, Increase 2 allied Characters' Damage by 10% for 5 Rounds\n\nInflict 0.45x this Character's Attack as Fire Damage on 3 Enemies\n\nCast Burn effect on 3 Enemies; inflicting 2% max HP Damage each Round for 4 Rounds",
-        "Before dealing Damage, Increase 2 allied Characters' Damage by 15% for 5 Rounds\n\nInflict 0.5x this Character's Attack as Fire Damage on 3 Enemies\n\nCast Burn effect on 3 Enemies; inflicting 3% max HP Damage each Round for 4 Rounds",
-        "Before dealing Damage, Increase 2 allied Characters' Damage by 20% for 5 Rounds\n\nInflict 0.55x this Character's Attack as Fire Damage on 3 Enemies\n\nCast Burn effect on 3 Enemies; inflicting 4% max HP Damage each Round for 4 Rounds",
-        "Before dealing Damage, Increase 2 allied Characters' Damage by 25% for 5 Rounds\n\nInflict 0.6x this Character's Attack as Fire Damage on 3 Enemies\n\nCast Burn effect on 3 Enemies; inflicting 5% max HP Damage each Round for 4 Rounds"
+        "造成伤害前，使2友方角色伤害增加5%，持续5回合。\n\n对3名敌人造成角色攻击力0.4倍的火属性伤害。\n\n对3名敌人施加「燃烧」，每回合造成1%最大生命值的伤害，持续4回合。",
+        "造成伤害前，使2友方角色伤害增加10%，持续5回合。\n\n对3名敌人造成角色攻击力0.45倍的火属性伤害。\n\n对3名敌人施加「燃烧」，每回合造成2%最大生命值的伤害，持续4回合。",
+        "造成伤害前，使2友方角色伤害增加15%，持续5回合。\n\n对3名敌人造成角色攻击力0.5倍的火属性伤害。\n\n对3名敌人施加「燃烧」，每回合造成3%最大生命值的伤害，持续4回合。",
+        "造成伤害前，使2友方角色伤害增加20%，持续5回合。\n\n对3名敌人造成角色攻击力0.55倍的火属性伤害。\n\n对3名敌人施加「燃烧」，每回合造成4%最大生命值的伤害，持续4回合。",
+        "造成伤害前，使2友方角色伤害增加25%，持续5回合。\n\n对3名敌人造成角色攻击力0.6倍的火属性伤害。\n\n对3名敌人施加「燃烧」，每回合造成5%最大生命值的伤害，持续4回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Armed Enhancement",
+      "name": "武装强化",
       "icon": "//static.wikitide.net/projectqtwiki/7/7f/A4.png",
       "descriptions": [
-        "At the beginning of battle, increase this Character's Skill Damage by 8% for 12 Rounds",
-        "At the beginning of battle, increase this Character's Skill Damage by 16% for 12 Rounds\n\nAt the beginning of battle, increase this Character's Attack by 5% for 16 Rounds",
-        "At the beginning of battle, increase this Character's Skill Damage by 30% for 12 Rounds\n\nAt the beginning of battle, increase this Character's Attack by 10% for 16 Rounds"
+        "战斗开始时，提升自身8%技能伤害，持续12回合。",
+        "战斗开始时，提升自身16%技能伤害，持续12回合。\n\n战斗开始时，提升自身5%攻击力，持续16回合。",
+        "战斗开始时，提升自身30%技能伤害，持续12回合。\n\n战斗开始时，提升自身10%攻击力，持续16回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Mechanical Armor",
+      "name": "机械装甲",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase this Character's Attack by 1%\n\nDecrease this Character's Damage taken by 1%",
-        "Increase this Character's Attack by 2%\n\nDecrease this Character's Damage taken by 2%",
-        "Increase this Character's Attack by 3%\n\nDecrease this Character's Damage taken by 3%",
-        "Increase this Character's Attack by 4%\n\nDecrease this Character's Damage taken by 4%",
-        "Increase this Character's Attack by 5%\n\nDecrease this Character's Damage taken by 5%",
-        "Increase this Character's Attack by 6%\n\nDecrease this Character's Damage taken by 6%\n\nIncrease this Character's Skill Damage by 2%",
-        "Increase this Character's Attack by 7%\n\nDecrease this Character's Damage taken by 7%\n\nIncrease this Character's Skill Damage by 4%",
-        "Increase this Character's Attack by 8%\n\nDecrease this Character's Damage taken by 8%\n\nIncrease this Character's Skill Damage by 6%",
-        "Increase this Character's Attack by 9%\n\nDecrease this Character's Damage taken by 9%\n\nIncrease this Character's Skill Damage by 8%",
-        "Increase this Character's Attack by 10%\n\nDecrease this Character's Damage taken by 10%\n\nIncrease this Character's Skill Damage by 10%"
+        "提升自身1%攻击力。\n\n使自身受到的伤害降低1%。",
+        "提升自身2%攻击力。\n\n使自身受到的伤害降低2%。",
+        "提升自身3%攻击力。\n\n使自身受到的伤害降低3%。",
+        "提升自身4%攻击力。\n\n使自身受到的伤害降低4%。",
+        "提升自身5%攻击力。\n\n使自身受到的伤害降低5%。",
+        "提升自身6%攻击力。\n\n使自身受到的伤害降低6%。\n\n提升自身2%技能伤害。",
+        "提升自身7%攻击力。\n\n使自身受到的伤害降低7%。\n\n提升自身4%技能伤害。",
+        "提升自身8%攻击力。\n\n使自身受到的伤害降低8%。\n\n提升自身6%技能伤害。",
+        "提升自身9%攻击力。\n\n使自身受到的伤害降低9%。\n\n提升自身8%技能伤害。",
+        "提升自身10%攻击力。\n\n使自身受到的伤害降低10%。\n\n提升自身10%技能伤害。"
       ],
       "instructions": null,
       "extra": "+2500+3000+500"
     },
-    "background": "An AI of the same type as Elva. A natural goofball.\n\nA battle-type Mecha Girl that really loves heavy weapons. She sneaked into the transport that took Elva and was crazy about studying the heavy weapons on the transport. Finally, she came to the Campus with Elva.",
+    "background": "一个和艾娃同类型的人工智能，天生是个捣蛋鬼。\n\n热爱重型武器的战斗型机甲少女，她偷偷溜进了搭载艾尔瓦的运输机，对运输机上的重型武器如痴如醉地研究。最终，她与艾尔瓦一同来到了校园。",
     "club": "艺术",
     "element": "火",
     "year": 3,
@@ -3694,10 +3695,10 @@
       "height": "159cm",
       "weight": "45kg",
       "body_size": "36D-25-35",
-      "birthday": "Mar 30"
+      "birthday": "03-30"
     },
     "skins": null,
-    "hobbies": "Heavy Weapons",
+    "hobbies": "重武器",
     "type": 1,
     "tags": null,
     "created_at": null,
@@ -3840,7 +3841,7 @@
       "height": "166cm",
       "weight": "45kg",
       "body_size": "34E-20-34",
-      "birthday": "April 11th"
+      "birthday": "04-11"
     },
     "skins": null,
     "hobbies": "音乐",
@@ -3848,7 +3849,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 60,
@@ -3986,7 +3987,7 @@
       "height": "160cm",
       "weight": "44kg",
       "body_size": "33C-22-28",
-      "birthday": "Oct 15th"
+      "birthday": "10-15"
     },
     "skins": null,
     "hobbies": "锻造武士刀",
@@ -3994,7 +3995,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 62,
@@ -4187,11 +4188,11 @@
         "提升真希5%攻击力",
         "提升真希7%攻击力",
         "提升真希9%攻击力",
-        "提升真希11%攻击力, 3%血量。\n\n提升2名水角色对火角色3%水属性伤害。",
-        "提升真希12%攻击力, 6%血量。\n\n提升2名水角色对火角色6%水属性伤害。",
-        "提升真希13%攻击力, 9%血量。\n\n提升2名水角色对火角色9%水属性伤害。",
-        "提升真希14%攻击力, 12%血量。\n\n提升2名水角色对火角色12%水属性伤害。",
-        "提升真希15%攻击力, 15%血量。\n\n提升2名水角色对火角色15%水属性伤害。"
+        "提升真希11%攻击力, 3%血量。\n\n使2名水角色对火角色的伤害增加3%。",
+        "提升真希12%攻击力, 6%血量。\n\n使2名水角色对火角色的伤害增加6%。",
+        "提升真希13%攻击力, 9%血量。\n\n使2名水角色对火角色的伤害增加9%。",
+        "提升真希14%攻击力, 12%血量。\n\n使2名水角色对火角色的伤害增加12%。",
+        "提升真希15%攻击力, 15%血量。\n\n使2名水角色对火角色的伤害增加15%。"
       ],
       "instructions": null,
       "extra": "+2500+3000+500"
@@ -4278,7 +4279,7 @@
       "height": "170cm",
       "weight": "50kg",
       "body_size": "34D-23-34",
-      "birthday": "Jun 6"
+      "birthday": "06-06"
     },
     "skins": null,
     "hobbies": "丰胸研究",
@@ -4286,7 +4287,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 66,
@@ -4364,14 +4365,7 @@
   {
     "id": 67,
     "name": "Mina",
-    "avatars": [
-      "//static.wikitide.net/projectqtwiki/thumb/4/4a/MinaAlbum.png/256px-MinaAlbum.png",
-      "//static.wikitide.net/projectqtwiki/thumb/e/e1/MinaAwakenedAlbum.png/256px-MinaAwakenedAlbum.png",
-      "//static.wikitide.net/projectqtwiki/thumb/6/6b/Mina.png/320px-Mina.png",
-      "//static.wikitide.net/projectqtwiki/thumb/0/07/MinaChibi.png/320px-MinaChibi.png",
-      "//static.wikitide.net/projectqtwiki/thumb/3/32/MinaAwakened.png/320px-MinaAwakened.png",
-      "//static.wikitide.net/projectqtwiki/thumb/f/f4/MinaAwakenedChibi.png/320px-MinaAwakenedChibi.png"
-    ],
+    "avatars": "[\"//static.wikitide.net/projectqtwiki/thumb/4/4a/MinaAlbum.png/256px-MinaAlbum.png\", \"//static.wikitide.net/projectqtwiki/thumb/e/e1/MinaAwakenedAlbum.png/256px-MinaAwakenedAlbum.png\", \"//static.wikitide.net/projectqtwiki/thumb/6/6b/Mina.png/320px-Mina.png\", \"//static.wikitide.net/projectqtwiki/thumb/0/07/MinaChibi.png/320px-MinaChibi.png\", \"//static.wikitide.net/projectqtwiki/thumb/3/32/MinaAwakened.png/320px-MinaAwakened.png\", \"//static.wikitide.net/projectqtwiki/thumb/f/f4/MinaAwakenedChibi.png/320px-MinaAwakenedChibi.png\"]",
     "nicknames": "米娜",
     "arena_skill": {
       "name": "雷霆斩",
@@ -4418,21 +4412,62 @@
     "background": "吉赛尔妹妹的朋友，与吉赛尔是同一个师傅，但她使用两把太刀。\n\n为了帮助朋友，而跟随吉赛尔进入校园。然而，因为她那醒目的耳朵，马上就被吉赛尔发现了。她的好斗的性格总是给吉赛尔惹麻烦。",
     "club": "艺术",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "吉赛尔、佐伊",
     "extra": {
       "height": "160cm",
       "weight": "50kg",
       "body_size": "33B-21-33",
-      "birthday": "Aug 13th"
+      "birthday": "08-13"
     },
-    "skins": null,
+    "skins": [
+      {
+        "name": "侦查员",
+        "images": [
+          "//static.wikitide.net/projectqtwiki/thumb/8/88/MinaSkin1.png/320px-MinaSkin1.png",
+          "//static.wikitide.net/projectqtwiki/thumb/1/11/MinaSkin1Chibi.png/320px-MinaSkin1Chibi.png"
+        ],
+        "descriptions": [
+          "1\t236\t275\t55",
+          "2\t475\t554\t110",
+          "3\t715\t834\t165",
+          "4\t955\t1114\t221",
+          "5\t1195\t1394\t277",
+          "6\t1436\t1676\t333",
+          "7\t1703\t1989\t395",
+          "8\t2024\t2364\t469",
+          "9\t2451\t2864\t568",
+          "10\t3065\t3583\t710"
+        ]
+      },
+      {
+        "name": "婚纱",
+        "images": [
+          "//static.wikitide.net/projectqtwiki/thumb/9/97/MinaSkinWedding.png/320px-MinaSkinWedding.png",
+          "//static.wikitide.net/projectqtwiki/thumb/a/a5/MinaSkinWeddingChibi.png/320px-MinaSkinWeddingChibi.png"
+        ],
+        "descriptions": [
+          "1\t254\t297\t59",
+          "2\t511\t598\t119",
+          "3\t772\t903\t179",
+          "4\t1036\t1212\t240",
+          "5\t1307\t1529\t303",
+          "6\t1581\t1850\t367",
+          "7\t1872\t2190\t434",
+          "8\t2219\t2597\t514",
+          "9\t2673\t3129\t619",
+          "10\t3340\t3911\t773"
+        ]
+      }
+    ],
     "hobbies": "武士刀",
     "type": 1,
-    "tags": "普通攻击是群体攻击的小狐狸",
+    "tags": [
+      "普通攻击是群体攻击的小狐狸", "buff最幽默"
+    ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 68,
@@ -4578,7 +4613,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 70,
@@ -5081,7 +5116,7 @@
       "height": "170cm",
       "weight": "52kg",
       "body_size": "36F-24-36",
-      "birthday": "Feb 6"
+      "birthday": "02-06"
     },
     "skins": null,
     "hobbies": "吃甜点",
@@ -5089,7 +5124,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 77,
@@ -5104,48 +5139,48 @@
     ],
     "nicknames": "索菲亚、老鸨",
     "arena_skill": {
-      "name": "The Mystery of Snacks",
+      "name": "零食的奥秘",
       "icon": "//static.wikitide.net/projectqtwiki/9/98/A39.png",
       "cooldown": 7,
       "descriptions": [
-        "Inflict 0.55x Sofia's Attack as Lightning Damage on 2 Enemies\n\nInflict extra 0.55x Sofia's Attack as Lightning Damage on 1 Enemy.\n\nIncrease 2 Enemies' Damage Taken by 5% for 4 rounds.",
-        "Inflict 0.6x Sofia's Attack as Lightning Damage on 2 Enemies\n\nInflict extra 0.6x Sofia's Attack as Lightning Damage on 1 Enemy.\n\nIncrease 2 Enemies' Damage Taken by 10% for 4 rounds.",
-        "Inflict 0.65x Sofia's Attack as Lightning Damage on 2 Enemies\n\nInflict extra 0.65x Sofia's Attack as Lightning Damage on 1 Enemy.\n\nIncrease 2 Enemies' Damage Taken by 15% for 4 rounds.",
-        "Inflict 0.75x Sofia's Attack as Lightning Damage on 2 Enemies\n\nInflict extra 0.7x Sofia's Attack as Lightning Damage on 1 Enemy.\n\nIncrease 2 Enemies' Damage Taken by 20% for 4 rounds.",
-        "Inflict 0.85x Sofia's Attack as Lightning Damage on 2 Enemies\n\nInflict extra 0.8x Sofia's Attack as Lightning Damage on 1 Enemy.\n\nIncrease 2 Enemies' Damage Taken by 25% for 4 rounds."
+        "对2名敌人造成角色攻击力0.55倍的雷属性伤害。\n\n额外对1名敌人造成角色攻击力0.55倍的雷属性伤害。\n\n使2名敌人受到的伤害增加5%，持续4回合。",
+        "对2名敌人造成角色攻击力0.6倍的雷属性伤害。\n\n额外对1名敌人造成角色攻击力0.6倍的雷属性伤害。\n\n使2名敌人受到的伤害增加10%，持续4回合。",
+        "对2名敌人造成角色攻击力0.65倍的雷属性伤害。\n\n额外对1名敌人造成角色攻击力0.65倍的雷属性伤害。\n\n使2名敌人受到的伤害增加15%，持续4回合。",
+        "对2名敌人造成角色攻击力0.75倍的雷属性伤害。\n\n额外对1名敌人造成角色攻击力0.7倍的雷属性伤害。\n\n使2名敌人受到的伤害增加20%，持续4回合。",
+        "对2名敌人造成角色攻击力0.85倍的雷属性伤害。\n\n额外对1名敌人造成角色攻击力0.8倍的雷属性伤害。\n\n使2名敌人受到的伤害增加25%，持续4回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "The Art of Creation",
+      "name": "创作的艺术",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
       "descriptions": [
-        "At the beginning of battle, Increase Sofia's Attack by 10% for 8 Rounds.\n\nAt the beginning of battle, Increase All Enemies' Lightning Damage taken by 10% for 8 Rounds.\n\nAt the beginning of battle, Increase Sofia's Skill Damage by 15% for 12 Rounds.",
-        "At the beginning of battle, Increase Sofia's Attack by 20% for 8 Rounds.\n\nAt the beginning of battle, Increase All Enemies' Lightning Damage taken by 15% for 8 Rounds.\n\nAt the beginning of battle, Increase Sofia's Skill Damage by 25% for 12 Rounds.",
-        "At the beginning of battle, Increase Sofia's Attack by 30% for 8 Rounds.\n\nAt the beginning of battle, Increase All Enemies' Lightning Damage taken by 20% for 8 Rounds.\n\nAt the beginning of battle, Increase Sofia's Skill Damage by 35% for 12 Rounds."
+        "战斗开始时，提升自身10%攻击力，持续8回合。\n\n战斗开始时，使所有敌人受到的伤害增加10%，持续8回合。\n\n战斗开始时，提升自身15%技能伤害，持续12回合。",
+        "战斗开始时，提升自身20%攻击力，持续8回合。\n\n战斗开始时，使所有敌人受到的伤害增加15%，持续8回合。\n\n战斗开始时，提升自身25%技能伤害，持续12回合。",
+        "战斗开始时，提升自身30%攻击力，持续8回合。\n\n战斗开始时，使所有敌人受到的伤害增加20%，持续8回合。\n\n战斗开始时，提升自身35%技能伤害，持续12回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Lazy Genius",
+      "name": "懒散天才",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase Sofia's HP by 1%.",
-        "Increase Sofia's HP by 2%.",
-        "Increase Sofia's HP by 3%.",
-        "Increase Sofia's HP by 4%.",
-        "Increase Sofia's HP by 5%.",
-        "Increase Sofia's HP by 6%.\n\nIncrease Sofia's Attack Damage on Water & Lightning Character by 3%.\n\nIncrease Sofia's Skill Damage by 2%.",
-        "Increase Sofia's HP by 7%.\n\nIncrease Sofia's Attack Damage on Water & Lightning Character by 6%.\n\nIncrease Sofia's Skill Damage by 4%.",
-        "Increase Sofia's HP by 8%.\n\nIncrease Sofia's Attack Damage on Water & Lightning Character by 9%.\n\nIncrease Sofia's Skill Damage by 6%.",
-        "Increase Sofia's HP by 9%.\n\nIncrease Sofia's Attack Damage on Water & Lightning Character by 12%.\n\nIncrease Sofia's Skill Damage by 8%.",
-        "Increase Sofia's HP by 15%.\n\nIncrease Sofia's Attack Damage on Water & Lightning Character by 15%.\n\nIncrease Sofia's Skill Damage by 10%."
+        "提升自身1%血量。",
+        "提升自身2%血量。",
+        "提升自身3%血量。",
+        "提升自身4%血量。",
+        "提升自身5%血量。",
+        "提升自身6%血量。\n\n使自身对水&雷角色的伤害增加3%。\n\n提升自身2%技能伤害。",
+        "提升自身7%血量。\n\n使自身对水&雷角色的伤害增加6%。\n\n提升自身4%技能伤害。",
+        "提升自身8%血量。\n\n使自身对水&雷角色的伤害增加9%。\n\n提升自身6%技能伤害。",
+        "提升自身9%血量。\n\n使自身对水&雷角色的伤害增加12%。\n\n提升自身8%技能伤害。",
+        "提升自身10%血量。\n\n使自身对水&雷角色的伤害增加15%。\n\n提升自身10%技能伤害。"
       ],
       "instructions": null,
       "extra": "+2250+3250+500"
     },
-    "background": "A lazy genius scientist, you are no stranger to her.\n\nLooks like a senior student on the outside, but she is actually early 27 years old. Since she always hides in the lab for R&D and rarely exposes to sunlight, her skin is very pale. She is no athlete with no strength. She is skilled at R&D, but lacking self-care ability. Casual in nature and in clothing, but surprisingly has a sweet tooth - a big fan of snacks and sweets. Often racking her brains to research and publish so she always gets hungry. Yet, she doesn't gain weight easily. She usually shows little emotion on her face, but when seeing a snack she wants to eat, she will show a very cute expression.\n\nThe reason for making the teleportation device is simply because it seemed interesting. the original world was invaded by the Vexis virus, yet she was still devoted to developing a teleportation device. She made the device at the last moment before the world was destroyed and escaped to your world. During the process of collecting information, she discovered that you have a characteristic of being attractive to the opposite sex, listing you as a target of observation. She wants to know what actions you will take after going to other worlds, so she entices you to become her special agent and go to other worlds to collect different snacks.",
+    "background": "一个懒惰的天才科学家，对你来说，并不陌生。\n\n外表看起来像个高年级学生，但实际上才27岁出头。由于她总是躲在实验室里做研发工作，很少晒太阳，所以皮肤很白皙。她不是运动员，也没什么力气，还缺乏自我照顾的能力，但很擅长研发。性格和衣着都很随意，不过，令人惊讶的是，她特别爱吃甜食，甚至可以说是零食和糖果的狂热粉。她经常绞尽脑汁地研究和发表论文，所以总是感到饥饿。然而，她不容易长胖。她脸上通常没什么表情，但当看到她想吃的小吃时，她会露出非常可爱的表情。\n\n制造传送装置的原因仅仅是因为它看起来很有趣。原本的世界被维克斯病毒入侵，但她仍然致力于开发传送装置。在世界毁灭前的最后一刻，她制造出了这个装置，并逃到了你所在的世界。在收集信息的过程中，她发现你具有吸引异性的特质，于是将你列为观察目标。她想知道你去其他世界后会采取什么行动，因此引诱你成为她的特工，去其他世界收集不同的零食。",
     "club": "艺术",
     "element": "雷",
     "year": 3,
@@ -5592,7 +5627,7 @@
       "height": "168cm",
       "weight": "54kg",
       "body_size": "38F-22-37",
-      "birthday": "Jan 20th"
+      "birthday": "01-20"
     },
     "skins": null,
     "hobbies": "狐狸",
@@ -5600,7 +5635,7 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 84,
@@ -6899,7 +6934,7 @@
     ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 111,
@@ -6992,7 +7027,7 @@
     ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 112,
@@ -7135,7 +7170,7 @@
     ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 113,
@@ -7198,7 +7233,7 @@
     ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 114,
@@ -7265,7 +7300,7 @@
     ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 115,

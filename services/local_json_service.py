@@ -35,9 +35,7 @@ class LocalJsonService(StorageService):
         self.character_service = character_service
         self.file_path = file_path
 
-    def sync_data_from_database(self, name: str):
-        character = self.character_service.get_character_by_name(name=name)
-        character = character.to_dict()
+    def sync_data_from_dict(self, character: dict):
         hit = False
         with open(self.file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -51,6 +49,11 @@ class LocalJsonService(StorageService):
         with open(self.file_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
             return True
+
+    def sync_data_from_database(self, name: str):
+        character = self.character_service.get_character_by_name(name=name)
+        character = character.to_dict()
+        return self.sync_data_from_dict(character)
 
     def sync_data(self):
         with open(self.file_path, 'r', encoding='utf-8') as f:

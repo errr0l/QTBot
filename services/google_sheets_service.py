@@ -10,6 +10,9 @@ from services.storage_service import StorageService
 class GoogleSheetsService(StorageService):
     """谷歌表格服务"""
 
+    def sync_data_from_dict(self, character: dict):
+        pass
+
     def sync_data_from_list(self, characters: List[dict]):
         pass
 

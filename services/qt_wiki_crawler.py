@@ -392,7 +392,7 @@ class QTWikiCrawler:
         dict_char = convert_single_dict_attributes_to_json(dict_char)
         r = self.character_service.update_character_with_fields(character=dict_char, fields=fields)
         if r:
-            return character.name
+            return character
 
     def scrape_character(self, name: str):
         character_entry = build_character_entry_v2(name)
