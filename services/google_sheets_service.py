@@ -17,6 +17,7 @@ class GoogleSheetsService(StorageService):
         pass
 
     def sync_data_from_database(self, name: str):
+        """还在犹豫，要不要实现这个。其实本地方式已经足够了"""
         pass
 
     def __init__(

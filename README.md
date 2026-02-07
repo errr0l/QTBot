@@ -72,7 +72,7 @@ file_path=data/characters.json
 
 本地存储的方式比较简单，编辑data/characters.json文件后，@机器人同步文件数据即可。
 
-> @机器人 /su 同步数据
+> @机器人 /su 同步至数据库
 
 ```text
 [storage]
@@ -91,7 +91,7 @@ file_path=data/characters.json
 - 部署get_characters.js、save_characters.js脚本，部署的配置为"类型-Web应用，执行身份-我，有访问权限的人员-任何人"，将生成的链接填写到apps_scripts指定区域；
 - 部署脚本参数，秘钥、表格id、表格名称，其中，秘钥为随机生成，用于校验脚本的调用，设置到：项目设置 -> 脚本属性，API_KEY=秘钥，SHEET_ID=表格id，SHEET_NAME=表格名称，两个脚本都需要；
 
-这时候，将谷歌表格的权限分享出去，就可以实现'多人协作+机器人同步数据'的工作模式了。
+这时候，将谷歌表格的权限分享出去，就可以实现'多人协作+机器人同步数据'的工作模式了，操作方式同上。
 
 注：Apps Scripts可免费使用，但额度有限，不应该频繁调用，不过应付这种低频场景应该还是错错有余的，[自行查看](https://developers.google.com/apps-script/guides/services/quotas?hl=zh-cn)
 

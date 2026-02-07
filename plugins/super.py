@@ -64,9 +64,9 @@ async def runner2(
                     [char.to_dict() for char in characters]
                 )
                 if push_result:
-                    lines.append("- 推送成功")
+                    lines.append("- 已同步")
                 else:
-                    lines.append("- 推送失败")
+                    lines.append("- 同步失败")
             else:
                 lines.append("- 失败, 抓取到0条数据")
             if len(skip_names) > 0:

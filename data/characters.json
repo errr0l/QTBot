@@ -2214,48 +2214,48 @@
     ],
     "nicknames": "克里斯蒂娜、圣诞",
     "arena_skill": {
-      "name": "Merry Christmas!",
+      "name": "圣诞快乐!",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
       "cooldown": 6,
       "descriptions": [
-        "Cast Mantra effect on 4 Random Characters: Inflict 1% Damage of Enemy's Team Max HP for each Enemy targeted; Restore 1% of Team's Max HP for each friendly teammate targeted.",
-        "Cast Mantra effect on 4 Random Characters: Inflict 2% Damage of Enemy's Team Max HP for each Enemy targeted; Restore 2% of Team's Max HP for each friendly teammate targeted.",
-        "Cast Mantra effect on 4 Random Characters: Inflict 3% Damage of Enemy's Team Max HP for each Enemy targeted; Restore 3% of Team's Max HP for each friendly teammate targeted.",
-        "Cast Mantra effect on 4 Random Characters: Inflict 4% Damage of Enemy's Team Max HP for each Enemy targeted; Restore 4% of Team's Max HP for each friendly teammate targeted.",
-        "Cast Mantra effect on 4 Random Characters: Inflict 7% Damage of Enemy's Team Max HP for each Enemy targeted; Restore 7% of Team's Max HP for each friendly teammate targeted."
+        "对4名随机角色施加「咒语」效果，若是敌人，每个造成敌方队伍最大生命值1%的伤害；若为队友，每个回复队伍最大生命值1%的血量。",
+        "对4名随机角色施加「咒语」效果，若是敌人，每个造成敌方队伍最大生命值2%的伤害；若为队友，每个回复队伍最大生命值2%的血量。",
+        "对4名随机角色施加「咒语」效果，若是敌人，每个造成敌方队伍最大生命值3%的伤害；若为队友，每个回复队伍最大生命值3%的血量。",
+        "对4名随机角色施加「咒语」效果，若是敌人，每个造成敌方队伍最大生命值4%的伤害；若为队友，每个回复队伍最大生命值4%的血量。",
+        "对4名随机角色施加「咒语」效果，若是敌人，每个造成敌方队伍最大生命值7%的伤害；若为队友，每个回复队伍最大生命值7%的血量。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Boxing Day",
+      "name": "节礼日",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "At the beginning of battle, Increase all non-Literature Characters' Attack by 7% for 10 Rounds.",
-        "At the beginning of battle, Increase all non-Literature Characters' Attack by 13% for 10 Rounds.",
-        "At the beginning of battle, Increase all non-Literature Characters' Attack by 18% for 12 Rounds."
+        "战斗开始时，提升所有非文学角色7%攻击力，持续10回合。",
+        "战斗开始时，提升所有非文学角色13%攻击力，持续10回合。",
+        "战斗开始时，提升所有非文学角色18%攻击力，持续12回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Release Potential",
+      "name": "释放潜能",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase 2 allied Characters' Attack and HP by 1%",
-        "Increase 2 allied Characters' Attack and HP by 2%",
-        "Increase 2 allied Characters' Attack and HP by 3%",
-        "Increase 2 allied Characters' Attack and HP by 4%",
-        "Increase 2 allied Characters' Attack and HP by 5%",
-        "Increase 2 allied Characters' Attack and HP by 6%",
-        "Increase 2 allied Characters' Attack and HP by 7%",
-        "Increase 2 allied Characters' Attack and HP by 8%",
-        "Increase 2 allied Characters' Attack and HP by 9%",
-        "Increase 2 allied Characters' Attack and HP by 10%"
+        "提升2名角色1%攻击力和血量。",
+        "提升2名角色2%攻击力和血量。",
+        "提升2名角色3%攻击力和血量。",
+        "提升2名角色4%攻击力和血量。",
+        "提升2名角色5%攻击力和血量。",
+        "提升2名角色6%攻击力和血量。",
+        "提升2名角色7%攻击力和血量。",
+        "提升2名角色8%攻击力和血量。",
+        "提升2名角色9%攻击力和血量。",
+        "提升2名角色10%攻击力和血量。"
       ],
       "instructions": null,
       "extra": "+1500+2750+1750"
     },
-    "background": "She loves to party and drink with Clara, even though she's a lightweight.\n\nShe has had no luck since she was born. Once, she accidentally fell into an AmXXXn Box (known for being the world's largest online marketplace), but no one noticed she was missing even after she was shipped to some unknown place.",
+    "background": "她喜欢和克拉拉一起聚会喝酒，尽管她酒量很差。\n\n她自出生以来就厄运连连。有一次，她不小心掉进了一个X马逊盒子（以世界上最大的在线市场而闻名），但即使她被运送到某个未知的地方，也没人注意到她不见了。",
     "club": "文学",
     "element": "火",
     "year": 3,
@@ -2267,12 +2267,12 @@
       "birthday": "Dec 26th"
     },
     "skins": null,
-    "hobbies": "Partying",
+    "hobbies": "聚会",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 38,
@@ -4482,48 +4482,48 @@
     ],
     "nicknames": "诺娃、火棍",
     "arena_skill": {
-      "name": "Flame Strike",
+      "name": "烈焰打击",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/b/b8/A37.png/40px-A37.png",
       "cooldown": 5,
       "descriptions": [
-        "Inflict 0.3x Nova's Attack as Fire Damage on 3 Enemies.\n\nInflict extra 0.1x Nova's Attack as Fire Damage if Target is non-Water type.\n\nIncrease 2 Fire Character's Attack by 7% for 4 Rounds.",
-        "Inflict 0.35x Nova's Attack as Fire Damage on 3 Enemies.\n\nInflict extra 0.13x Nova's Attack as Fire Damage if Target is non-Water type.\n\nIncrease 2 Fire Character's Attack by 10% for 4 Rounds.",
-        "Inflict 0.4x Nova's Attack as Fire Damage on 3 Enemies.\n\nInflict extra 0.15x Nova's Attack as Fire Damage if Target is non-Water type.\n\nIncrease 2 Fire Character's Attack by 15% for 4 Rounds.\n\n30% Possibility of Casting Stun effect on 1 Enemy for 3 Rounds.",
-        "Inflict 0.45x Nova's Attack as Fire Damage on 3 Enemies.\n\nInflict extra 0.18x Nova's Attack as Fire Damage if Target is non-Water type.\n\nIncrease 2 Fire Character's Attack by 20% for 4 Rounds.\n\n40% Possibility of Casting Stun effect on 1 Enemy for 3 Rounds.",
-        "Inflict 0.5x Nova's Attack as Fire Damage on 3 Enemies.\n\nInflict extra 0.2x Nova's Attack as Fire Damage if Target is non-Water type.\n\nIncrease 2 Fire Character's Attack by 30% for 4 Rounds.\n\n50% Possibility of Casting Stun effect on 1 Enemy for 3 Rounds."
+        "对3名敌人造成角色攻击力0.3倍的火属性伤害。\n\n如果目标不是水元素，则使攻击倍率额外提升0.1。\n\n提升2名火角色7%攻击力，持续4回合。",
+        "对3名敌人造成角色攻击力0.35倍的火属性伤害。\n\n如果目标不是水元素，则使攻击倍率额外提升0.13。\n\n提升2名火角色10%攻击力，持续4回合。",
+        "对3名敌人造成角色攻击力0.4倍的火属性伤害。\n\n如果目标不是水元素，则使攻击倍率额外提升0.15。\n\n提升2名火角色15%攻击力，持续4回合。\n\n30%概率击晕1名敌人，持续3回合。",
+        "对3名敌人造成角色攻击力0.45倍的火属性伤害。\n\n如果目标不是水元素，则使攻击倍率额外提升0.18。\n\n提升2名火角色20%攻击力，持续4回合。\n\n40%概率击晕1名敌人，持续3回合。",
+        "对3名敌人造成角色攻击力0.5倍的火属性伤害。\n\n如果目标不是水元素，则使攻击倍率额外提升0.2。\n\n提升2名火角色30%攻击力，持续4回合。\n\n50%概率击晕1名敌人，持续3回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Instability Incarnation",
+      "name": "不稳定化身",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "At the beginning of Nova's move. 50% chance to increase Nova's Damage by 10% for 1 Round.\n\n10% chance to increase Nova's Damage by another 30% for 1 Round.",
-        "At the beginning of Nova's move. 60% chance to increase Nova's Damage by 20% for 1 Round.\n\n20% chance to increase Nova's Damage by another 40% for 1 Round.",
-        "At the beginning of Nova's move. 70% chance to increase Nova's Damage by 30% for 1 Round.\n\n30% chance to increase Nova's Damage by another 50% for 1 Round."
+        "自身回合开始时，50%概率提升10%伤害，持续1回合。\n\n10%概率额外提升30%伤害，持续1回合。",
+        "自身回合开始时，60%概率提升20%伤害，持续1回合。\n\n20%概率额外提升40%伤害，持续1回合。",
+        "自身回合开始时，70%概率提升30%伤害，持续1回合。\n\n30%概率额外提升50%伤害，持续1回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Struggle Instinct",
+      "name": "抗争本能",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase the Character's Attack by 1%.",
-        "Increase the Character's Attack by 2%.",
-        "Increase the Character's Attack by 3%.",
-        "Increase the Character's Attack by 4%.",
-        "Increase the Character's Attack by 5%.",
-        "Increase the Character's Attack by 7%.",
-        "Increase the Character's Attack by 9%.",
-        "Increase the Character's Attack by 11%.",
-        "Increase the Character's Attack by 13%.",
-        "Increase the Character's Attack by 15%."
+        "提升自身1%攻击力。",
+        "提升自身2%攻击力。",
+        "提升自身3%攻击力。",
+        "提升自身4%攻击力。",
+        "提升自身5%攻击力。",
+        "提升自身7%攻击力。",
+        "提升自身9%攻击力。",
+        "提升自身11%攻击力。",
+        "提升自身13%攻击力。",
+        "提升自身15%攻击力。"
       ],
       "instructions": null,
       "extra": "+2500+3000+500"
     },
-    "background": "An exceptional student from a ghost village who was suspicious of senpai.\n\nOne of the ghost villagers who entered the Campus as an exceptional student. On her first day in the camp, she had already developed a good relationship with the people she had met. She was a lively and cheerful person who was very sportive. The number of students using the forbidden black magic at the school was growing and the student union temporarily called them the 'Fifth Club'. Together with three other clubs, Nova joined the fight against the Fifth Club and temporarily defended her club against the Fifth Club.\nNova was a defiant person at heart and did not believe that the key to saving the world existed in this campus, so her main goal was to come to the campus to see what was going on. She was very suspicious of senpai's activities on campus.",
+    "background": "一个来自鬼村的优秀学生，对前辈心存怀疑。\n\n以优等生的身份进入校园的其中一名鬼族村民。在学校的第一天，她就已经与结识的人建立了良好的关系。她是一个活泼开朗的人，非常热爱运动。在学校里，使用禁制黑魔法的学生越来越多，学生会暂时称他们为“第五俱乐部”。诺瓦与其他三个俱乐部联手，加入了对抗第五俱乐部的斗争，并暂时保卫自己的俱乐部免受第五俱乐部的侵害。\n诺瓦本质上是个叛逆的人，她不相信拯救世界的钥匙会在这个校园里，所以她的主要目的就是来到校园，看看这里到底发生了什么。她对前辈在校园里的活动非常怀疑。",
     "club": "艺术",
     "element": "火",
     "year": 3,
@@ -4535,12 +4535,12 @@
       "birthday": "Nov 11"
     },
     "skins": null,
-    "hobbies": "Cooking",
+    "hobbies": "烹饪",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 69,
@@ -4845,50 +4845,50 @@
       "//static.wikitide.net/projectqtwiki/thumb/e/e5/SakuyaAwakened.png/320px-SakuyaAwakened.png",
       "//static.wikitide.net/projectqtwiki/thumb/8/86/SakuyaAwakenedChibi.png/320px-SakuyaAwakenedChibi.png"
     ],
-    "nicknames": "咲夜、樱花、樱花妹、宵夜",
+    "nicknames": "咲夜、樱花妹、宵夜",
     "arena_skill": {
-      "name": "Thousand Origami Cranes Cure",
+      "name": "折纸鹤祈福",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/b/b8/A37.png/40px-A37.png",
       "cooldown": 5,
       "descriptions": [
-        "Inflict 0.55x Sakuya's Attack as Fire Damage on 2 Enemies.\n\nGrant healing-over-time effect to 3 Characters, recovering 0.15x the Characters' Recovery of HP each Round for 4 Rounds.\n\nCast Shield Effect on all Characters; Shield value is 0.1x of Sakuya's Recovery. Deduct Character's Shield value first if Character was attacked by Direct Attack for 5 rounds, all type of Shield effects do not stack until the effect is done.",
-        "Inflict 0.6x Sakuya's Attack as Fire Damage on 2 Enemies.\n\nGrant healing-over-time effect to All Characters, recovering 0.15x the Characters' Recovery of HP each Round for 4 Rounds.\n\nCast Shield Effect on all Characters; Shield value is 0.2x of Sakuya's Recovery. Deduct Character's Shield value first if Character was attacked by Direct Attack for 5 rounds, all type of Shield effects do not stack until the effect is done.",
-        "Inflict 0.65x Sakuya's Attack as Fire Damage on 2 Enemies.\n\nGrant healing-over-time effect to All Characters, recovering 0.2x the Characters' Recovery of HP each Round for 4 Rounds.\n\nCast Shield Effect on all Characters; Shield value is 0.25x of Sakuya's Recovery. Deduct Character's Shield value first if Character was attacked by Direct Attack for 5 rounds, all type of Shield effects do not stack until the effect is done.",
-        "Inflict 0.7x Sakuya's Attack as Fire Damage on 2 Enemies.\n\nGrant healing-over-time effect to All Characters, recovering 0.25x the Characters' Recovery of HP each Round for 4 Rounds.\n\nCast Shield Effect on all Characters; Shield value is 0.3x of Sakuya's Recovery. Deduct Character's Shield value first if Character was attacked by Direct Attack for 5 rounds, all type of Shield effects do not stack until the effect is done.",
-        "Inflict 0.75x Sakuya's Attack as Fire Damage on 2 Enemies.\n\nGrant healing-over-time effect to All Characters, recovering 0.3x the Characters' Recovery of HP each Round for 5 Rounds.\n\nCast Shield Effect on all Characters; Shield value is 0.4x of Sakuya's Recovery. Deduct Character's Shield value first if Character was attacked by Direct Attack for 5 rounds, all type of Shield effects do not stack until the effect is done."
+        "对2名敌人造成角色攻击力0.55倍的火属性伤害。\n\n为3名角色施加「持续回复」，每回合回复相当于角色回复量0.15倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.1倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
+        "对2名敌人造成角色攻击力0.6倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于角色回复量0.15倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.2倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
+        "对2名敌人造成角色攻击力0.65倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于角色回复量0.2倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.25倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
+        "对2名敌人造成角色攻击力0.7倍的火属性伤害。\n\n为所有角色施加持「持续回复」，每回合回复相当于角色回复量0.25倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.3倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
+        "对2名敌人造成角色攻击力0.75倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于角色回复量0.3倍的血量，持续5回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.4倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Falls of Cherry Blossom",
+      "name": "樱花飘落",
       "icon": "//static.wikitide.net/projectqtwiki/0/0b/A46.png",
       "descriptions": [
-        "Increase Sakuya's healing by 30%.\n\nAt the beginning of battle, Decrease 2 Enemies' Damage by 10% for 10 Rounds.\n\nAt the beginning of the battle, 50% Chance to Evade on 2 Characters \"Paralysis\" for 8 Rounds; this effect targets the 2 Character with the highest attack.",
-        "Increase Sakuya's healing by 40%.\n\nAt the beginning of battle, Decrease 2 Enemies' Damage by 15% for 10 Rounds.\n\nAt the beginning of the battle, 60% Chance to Evade on 2 Characters \"Paralysis\" for 8 Rounds; this effect targets the 2 Character with the highest attack.",
-        "Increase Sakuya's healing by 50%.\n\nAt the beginning of battle, Decrease 2 Enemies' Damage by 20% for 10 Rounds.\n\nAt the beginning of the battle, 70% Chance to Evade on 2 Characters \"Paralysis\" for 8 Rounds; this effect targets the 2 Character with the highest attack."
+        "提升自身30%回复效果。\n\n战斗开始时，使2名敌人的伤害降低10%，持续10回合。\n\n战斗开始时，50%概率使2名攻击力最高的角色免疫\"麻痹\"，持续8回合。",
+        "提升自身40%回复效果。\n\n战斗开始时，使2名敌人的伤害降低15%，持续10回合。\n\n战斗开始时，60%概率使2名攻击力最高的角色免疫\"麻痹\"，持续8回合。",
+        "提升自身50%回复效果。\n\n战斗开始时，使2名敌人的伤害降低20%，持续10回合。\n\n战斗开始时，70%概率使2名攻击力最高的角色免疫\"麻痹\"，持续8回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Release Potential",
+      "name": "释放潜能",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase 2 Characters' Attack and HP by 1%",
-        "Increase 2 Characters' Attack and HP by 2%",
-        "Increase 2 Characters' Attack and HP by 3%",
-        "Increase 2 Characters' Attack and HP by 4%",
-        "Increase 2 Characters' Attack and HP by 5%",
-        "Increase 2 Characters' Attack and HP by 6%",
-        "Increase 2 Characters' Attack and HP by 7%",
-        "Increase 2 Characters' Attack and HP by 8%",
-        "Increase 2 Characters' Attack and HP by 9%",
-        "Increase 2 Characters' Attack and HP by 10%"
+        "提升2名角色1%攻击力&血量。",
+        "提升2名角色2%攻击力&血量。",
+        "提升2名角色3%攻击力&血量。",
+        "提升2名角色4%攻击力&血量。",
+        "提升2名角色5%攻击力&血量。",
+        "提升2名角色6%攻击力&血量。",
+        "提升2名角色7%攻击力&血量。",
+        "提升2名角色8%攻击力&血量。",
+        "提升2名角色9%攻击力&血量。",
+        "提升2名角色10%攻击力&血量。"
       ],
       "instructions": null,
       "extra": "+1500+2750+1750"
     },
-    "background": "One of The Seven Mysteries in the Campus. It is said that you can only meet her in the courtyard of the Campus at night.\n\nIn the ancient East, there is a saying: ”A year's plan starts with spring.” - It refers to the arrival of spring that makes plants sprout and grow. The thirteenth Academy City welcomes spring with blossoms, and the Campus is no exception. Under the hard work of the botany teacher Amora, not only has the garden flourished, but even the courtyard within the Campus has recently become lush and vibrant. It attracts many scholars to linger in the courtyard during breaks, some taking a short nap, while others sit under the trees reading. Yet, recently some students exaggeratedly pointed out that the plants in the courtyard have the effect of eliminating negative emotions and purifying physically and mentally, though Amora insists that all the plants she takes care of are just ordinary ones.\n\nOne day in the middle of the night, after the mission ended, you dragged your exhausted body back to the Campus to complete the mission report. As you were passing through the Campus courtyard on your way back to the dormitory, you saw a young girl in uniform sitting under a large tree full of pink blossoms, gazing at the crescent moon in the sky. You were attracted by her figure and walked slowly towards the tree. She gracefully floated down in front of you, touched your cheek, and the coldness from her fingertips made you want to warm up this pitiful beauty immediately. Forgetting all fatigue and holding hands with the beauty, she seemed to approve of your actions in silence. Both of you fell onto the grass covered in petals, embracing each other. The next day when you woke up, you were disheveled lying under the tree. The beauty had disappeared, but you distinctly remembered the warmth left on your body from the one night stand with her. That night, you came to the courtyard alone again, and the beauty did appear in front of you, yet her figure had become more mature...",
+    "background": "校园七大谜团之一。据说唯有在深夜的校园庭院中才能邂逅她的身影。\n\n古东方有云：“一年之计在于春” —— 意指春日来临催生万物萌发。第十三学园都市以繁花迎接春天，校园亦不例外。在植物学教师阿莫拉的辛勤耕耘下，不仅花园生机盎然，连校园内的庭院近日也变得葱郁生机勃勃。课余时分，常有学子流连庭院，或小憩片刻，或树下读书。不过近日有学生夸张地宣称庭院植物具有消除负面情绪、净化身心之效，阿莫拉却坚称自己照料的都是寻常植物。\n\n某夜任务结束后，你拖着疲惫的身躯回到校园撰写任务报告。途经庭院返回宿舍时，看见身着制服的少女正坐在粉色花团锦簇的大树下，凝望着天际的弯月。她的身影令你心神荡漾，你缓缓走向树下。她轻盈飘落至你面前，指尖轻触你脸颊的冰凉，让你迫切想温暖这般可怜的美丽。忘却所有疲惫，你牵起她的手，她沉默中似乎默许了你的举动。两人跌落满是花瓣的草地，紧紧相拥。次日醒来，你蓬头垢面地躺在树下。美人已然消失，但你清晰记得与她一夜情留下的体温。当夜你再度独赴庭院，美人确然现身，只是身姿已更显成熟...",
     "club": "文学",
     "element": "火",
     "year": 3,
@@ -4897,15 +4897,15 @@
       "height": "168cm",
       "weight": "44kg",
       "body_size": "34D-23-32",
-      "birthday": "Mar 29th"
+      "birthday": "03-29"
     },
     "skins": null,
-    "hobbies": "Admiring The Moon",
+    "hobbies": "赏月",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 74,
