@@ -1836,48 +1836,48 @@
     ],
     "nicknames": "精灵、风奶",
     "arena_skill": {
-      "name": "Ancient Magic",
+      "name": "上古魔术",
       "icon": "//static.wikitide.net/projectqtwiki/c/ce/A38.png",
       "cooldown": 6,
       "descriptions": [
-        "Inflict 0.5x this Character's Attack as Wind Damage on 2 Enemies\n\nIncrease all allied Character's Damage by 10% for 5 Rounds\n\nGrant healing-over-time effect to 3 Characters, recovering 0.15x the Characters' Recovery of HP each Round for 5 Rounds.",
-        "Inflict 0.55x this Character's Attack as Wind Damage on 2 Enemies\n\nIncrease all allied Character's Damage by 15% for 5 Rounds\n\nGrant healing-over-time effect to 3 Characters, recovering 0.18x the Characters' Recovery of HP each Round for 5 Rounds.",
-        "Inflict 0.6x this Character's Attack as Wind Damage on 2 Enemies\n\nIncrease all allied Character's Damage by 20% for 5 Rounds\n\nGrant healing-over-time effect to 3 Characters, recovering 0.22x the Characters' Recovery of HP each Round for 5 Rounds.",
-        "Inflict 0.65x this Character's Attack as Wind Damage on 2 Enemies\n\nIncrease all allied Character's Damage by 25% for 5 Rounds\n\nGrant healing-over-time effect to 3 Characters, recovering 0.26x the Characters' Recovery of HP each Round for 5 Rounds.",
-        "Inflict 0.7x this Character's Attack as Wind Damage on 2 Enemies\n\nIncrease all allied Character's Damage by 30% for 5 Rounds\n\nGrant healing-over-time effect to 3 Characters, recovering 0.3x the Characters' Recovery of HP each Round for 5 Rounds."
+        "对2名敌人造成角色攻击力0.5倍的风属性伤害。\n\n使所有角色的伤害提升10%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.15倍的血量，持续5回合。",
+        "对2名敌人造成角色攻击力0.55倍的风属性伤害。\n\n使所有角色的伤害提升15%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.18倍的血量，持续5回合。",
+        "对2名敌人造成角色攻击力0.6倍的风属性伤害。\n\n使所有角色的伤害提升20%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.22倍的血量，持续5回合。",
+        "对2名敌人造成角色攻击力0.65倍的风属性伤害。\n\n使所有角色的伤害提升25%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.26倍的血量，持续5回合。",
+        "对2名敌人造成角色攻击力0.7倍的风属性伤害。\n\n使所有角色的伤害提升30%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.3倍的血量，持续5回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Ancient Trap",
+      "name": "远古陷阱",
       "icon": "//static.wikitide.net/projectqtwiki/9/9a/A11.png",
       "descriptions": [
-        "At the beginning of the battle, Increase all Enemies' Damage taken by 5% for 5 Rounds",
-        "At the beginning of the battle, Increase all Enemies' Damage taken by 10% for 5 Rounds",
-        "At the beginning of the battle, Increase all Enemies' Damage taken by 18% for 5 Rounds"
+        "战斗开始时，使所有敌人受到的伤害增加5%，持续5回合。",
+        "战斗开始时，使所有敌人受到的伤害增加10%，持续5回合。",
+        "战斗开始时，使所有敌人受到的伤害增加18%，持续5回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Overcome weakness-Wind",
+      "name": "克服风弱",
       "icon": "//static.wikitide.net/projectqtwiki/f/f9/A17.png",
       "descriptions": [
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 1%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 2%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 3%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 4%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 5%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 6%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 7%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 8%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 9%",
-        "Decrease 2 allied Wind Characters' Fire Damage taken by 10%"
+        "使2名风角色受到的伤害减少1%",
+        "使2名风角色受到的伤害减少2%",
+        "使2名风角色受到的伤害减少3%",
+        "使2名风角色受到的伤害减少4%",
+        "使2名风角色受到的伤害减少5%",
+        "使2名风角色受到的伤害减少6%",
+        "使2名风角色受到的伤害减少7%",
+        "使2名风角色受到的伤害减少8%",
+        "使2名风角色受到的伤害减少9%",
+        "使2名风角色受到的伤害减少10%"
       ],
       "instructions": null,
       "extra": "+1500+2750+1750"
     },
-    "background": "An interracial exchange student who lacks common sense.\n\nShe lived in a place far away from the crowds before she entered the campus as an exchange student and therefore lacks common sense.\n\nShe was noticed by Senpai very soon since she arrived and was instilled lots of sexual values by Senpai. Although other students quickly corrected her values, she still admires Senpai very much.\n\nAlthough she looks kind, she has enough power to deal with any battle. And if you observe her carefully, you might find a different side of her…",
+    "background": "一位缺乏常识的跨种族交换生。\n\n她作为交换生进入校园前，一直生活在远离人群的地方，因此缺乏社会常识。\n\n她刚到校不久就被Senpai注意到了，并被Senpai灌输了许多性观念。尽管其他同学很快纠正了她的观念，她依然非常崇拜Senpai。\n\n外表看似温顺，实则拥有应对任何战斗的实力。若仔细观察，或许能发现她不为人知的一面...",
     "club": "文学",
     "element": "风",
     "year": 3,
@@ -1889,12 +1889,12 @@
       "birthday": "Jun 14"
     },
     "skins": null,
-    "hobbies": "Planting",
+    "hobbies": "种植",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 33,
@@ -2269,7 +2269,7 @@
     "skins": null,
     "hobbies": "聚会",
     "type": 1,
-    "tags": null,
+    "tags": ["百分比"],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
     "translated": 1
