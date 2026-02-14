@@ -167,7 +167,8 @@ def parse_character_page(entry: dict) -> Character:
         awakening_passive_div = awakening_passive_h1.parent.find_next("div")
         table_tr_list = awakening_passive_div.select(".info-table tr")
         awakening_passive_name = table_tr_list[0].find("p").get_text(strip=True)
-        awakening_passive_icon = table_tr_list[0].find("img").get("src")
+        awakening_passive_icon = table_tr_list[0].find("img")
+        awakening_passive_icon = awakening_passive_icon.get("src") if awakening_passive_icon else ""
         awakening_descriptions = set_skill_desc(table_tr_list[1].find_all("article")[::-1])
         dict_character['awakening_passive'] = {
             "name": awakening_passive_name,
@@ -180,7 +181,8 @@ def parse_character_page(entry: dict) -> Character:
         talent_tree_section = talent_tree_h1.find_next("section")
         talent_tree_name_div = talent_tree_section.find("div")
         talent_tree_name = talent_tree_name_div.find("p").get_text(strip=True)
-        talent_tree_icon = talent_tree_name_div.find("img").get("src")
+        talent_tree_icon = talent_tree_name_div.find("img")
+        talent_tree_icon = talent_tree_icon.get("src") if talent_tree_icon else ""
         talent_tree_descriptions = set_skill_desc(talent_tree_section.find_all("article")[::-1])
         dd_list = talent_tree_section.find("dl").find_all("dd")
         talent_tree_attributes = ""
@@ -316,7 +318,8 @@ def parse_goodness_page(entry: dict) -> Character:
             skill_section = skin_h1.parent.find_next_sibling("div")
             table_tr_list = skill_section.select(".info-table tr")
             skill_name = table_tr_list[0].find("p", class_="skill-name").get_text(strip=True)
-            skill_icon = table_tr_list[0].find("img").get("src")
+            skill_img = table_tr_list[0].find("img")
+            skill_icon = skill_img.get("src") if skill_img else ""
             passive_skill = {
                 "name": skill_name,
                 "icon": skill_icon,

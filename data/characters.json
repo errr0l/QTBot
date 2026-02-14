@@ -10,50 +10,50 @@
       "//static.wikitide.net/projectqtwiki/thumb/d/d1/JulianaAwakened.png/320px-JulianaAwakened.png",
       "//static.wikitide.net/projectqtwiki/thumb/2/22/JulianaAwakenedChibi.png/320px-JulianaAwakenedChibi.png"
     ],
-    "nicknames": "雷鞭、木马",
+    "nicknames": "雷鞭、朱莉安娜、木马",
     "arena_skill": {
-      "name": "Thunder Whip",
+      "name": "雷鞭",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/3/38/A34.png/40px-A34.png",
       "cooldown": 7,
       "descriptions": [
-        "Inflict 1x the Character's Attack as Lightning Damage on 1 Enemy. This attack will target a Water Enemy first.",
-        "Inflict 1.1x the Character's Attack as Lightning Damage on 1 Enemy. This attack will target a Water Enemy first.",
-        "Inflict 1.2x the Character's Attack as Lightning Damage on 1 Enemy. This attack will target a Water Enemy first.",
-        "Inflict 1.35x the Character's Attack as Lightning Damage on 1 Enemy. This attack will target a Water Enemy first.",
-        "Inflict 1.5x the Character's Attack as Lightning Damage on 1 Enemy. This attack will target a Water Enemy first."
+        "对1名敌人造成1倍角色攻击力的雷属性伤害。此次攻击优先攻击水角色。",
+        "对1名敌人造成1.1倍角色攻击力的雷属性伤害。此次攻击优先攻击水角色。",
+        "对1名敌人造成1.2倍角色攻击力的雷属性伤害。此次攻击优先攻击水角色。",
+        "对1名敌人造成1.35倍角色攻击力的雷属性伤害。此次攻击优先攻击水角色。",
+        "对1名敌人造成1.5倍角色攻击力的雷属性伤害。此次攻击优先攻击水角色。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Troy",
+      "name": "特洛伊",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase this character's Damage by 15%, if Team's HP is at or below 60%",
-        "Increase this character's Damage by 30%, if Team's HP is at or below 65%",
-        "Increase this character's Damage by 50%, if Team's HP is at or below 70%"
+        "如果队伍血量在60%或以下，提升自身15%伤害。",
+        "如果队伍血量在65%或以下，提升自身30%伤害。",
+        "如果队伍血量在70%或以下，提升自身50%伤害。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Dauntless",
+      "name": "无畏",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
       "descriptions": [
-        "3 allied Lightning Characters invalidate Fear effect for 18 rounds",
-        "3 allied Lightning Characters invalidate Fear effect for 21 rounds",
-        "3 allied Lightning Characters invalidate Fear effect for 24 rounds",
-        "3 allied Lightning Characters invalidate Fear effect for 27 rounds",
-        "3 allied Lightning Characters invalidate Fear effect for 30 rounds",
-        "Increase 3 allied Lightning Characters' Attack by 2% for 32 rounds\n\n3 allied Lightning Characters invalidate Fear effect for 32 rounds",
-        "Increase 3 allied Lightning Characters' Attack by 4% for 34 rounds\n\n3 allied Lightning Characters invalidate Fear effect for 34 rounds",
-        "Increase 3 allied Lightning Characters' Attack by 6% for 36 rounds\n\n3 allied Lightning Characters invalidate Fear effect for 36 rounds",
-        "Increase 3 allied Lightning Characters' Attack by 8% for 38 rounds\n\n3 allied Lightning Characters invalidate Fear effect for 38 rounds",
-        "Increase 3 allied Lightning Characters' Attack by 10% for 40 rounds\n\n3 allied Lightning Characters invalidate Fear effect for 40 rounds"
+        "使3名友方角色免疫「恐惧」，持续18回合。",
+        "使3名友方角色免疫「恐惧」，持续21回合。",
+        "使3名友方角色免疫「恐惧」，持续24回合。",
+        "使3名友方角色免疫「恐惧」，持续27回合。",
+        "使3名友方角色免疫「恐惧」，持续30回合。",
+        "使3名友方角色攻击力提高2%，持续32回合。\n\n使3名友方角色免疫「恐惧」，持续32回合。",
+        "使3名友方角色攻击力提高4%，持续34回合。\n\n使3名友方角色免疫「恐惧」，持续34回合。",
+        "使3名友方角色攻击力提高6%，持续36回合。\n\n使3名友方角色免疫「恐惧」，持续36回合。",
+        "使3名友方角色攻击力提高8%，持续38回合。\n\n使3名友方角色免疫「恐惧」，持续38回合。",
+        "使3名友方角色攻击力提高10%，持续40回合。\n\n使3名友方角色免疫「恐惧」，持续40回合。"
       ],
       "instructions": null,
       "extra": "+2250+3250+500"
     },
-    "background": "Vice Chairman of the Student Council. The typical Sadism Queen\n\nThe Chairman's right-hand man that works with high efficiency and speed. Most of the students are afraid of her lofty air and tone. Only a few students have the guts to challenge her superiority.",
+    "background": "学生会副主席，典型的施虐女王。\n\n作为主席的得力助手，她办事高效迅捷。多数学生畏惧她高高在上的气势与语气，仅有少数学生敢于挑战她的权威。",
     "club": "艺术",
     "element": "雷",
     "year": 3,
@@ -62,15 +62,15 @@
       "height": "172cm",
       "weight": "62kg",
       "body_size": "37G-28-38",
-      "birthday": "Mar 21st"
+      "birthday": "3-21"
     },
     "skins": null,
-    "hobbies": "Riding",
+    "hobbies": "骑马",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 2,
@@ -89,10 +89,10 @@
       "icon": "//static.wikitide.net/projectqtwiki/thumb/1/1d/A33.png/40px-A33.png",
       "cooldown": 5,
       "descriptions": [
-        "Inflict 1x the Character's Attack as as Wind Damage on 1 Enemy.\n\nReflect 40% of Skill Attack Damage to the Enemy for 4 Rounds. (Does not include Damage-over-Time effects)",
-        "Inflict 1.1x the Character's Attack as as Wind Damage on 1 Enemy.\n\nReflect 50% of Skill Attack Damage to the Enemy for 5 Rounds. (Does not include Damage-over-Time effects)",
-        "Inflict 1.3x the Character's Attack as as Wind Damage on 1 Enemy.\n\nReflect 60% of Skill Attack Damage to the Enemy for 6 Rounds. (Does not include Damage-over-Time effects)",
-        "Inflict 1.4x the Character's Attack as as Wind Damage on 1 Enemy.\n\nReflect 70% of Skill Attack Damage to the Enemy for 7 Rounds. (Does not include Damage-over-Time effects)",
+        "对1名敌人造成角色1倍攻击力的风属性伤害。\n\n反射40%的技能伤害给敌人，持续4回合。(不包括异常伤害)",
+        "对1名敌人造成角色1.1倍攻击力的风属性伤害。\n\n反射50%的技能伤害给敌人，持续5回合。(不包括异常伤害)",
+        "对1名敌人造成角色1.3倍攻击力的风属性伤害。\n\n反射60%的技能伤害给敌人，持续6回合。(不包括异常伤害)",
+        "对1名敌人造成角色1.4倍攻击力的风属性伤害。\n\n反射70%的技能伤害给敌人，持续7回合。(不包括异常伤害)",
         "对1名敌人造成角色1.5倍攻击力的风属性伤害。\n\n反射80%的技能伤害给敌人，持续8回合。(不包括异常伤害)"
       ]
     },
@@ -101,32 +101,32 @@
       "name": "疯狂的兔子",
       "icon": "//static.wikitide.net/projectqtwiki/7/7f/A4.png",
       "descriptions": [
-        "At the beginning of battle, decrease all Characters Damage taken by 5% for 8 Rounds.",
-        "At the beginning of battle, decrease all Characters Damage taken by 8% for 10 Rounds.",
+        "战斗开始时, 使所有所有角色受到的伤害降低5%，持续8回合",
+        "战斗开始时, 使所有所有角色受到的伤害降低8%，持续10回合",
         "战斗开始时, 使所有所有角色受到的伤害降低10%，持续16回合"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Release Potential",
+      "name": "释放潜能",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase 2 allied Characters' Attack and HP by 1%",
-        "Increase 2 allied Characters' Attack and HP by 2%",
-        "Increase 2 allied Characters' Attack and HP by 3%",
-        "Increase 2 allied Characters' Attack and HP by 4%",
-        "Increase 2 allied Characters' Attack and HP by 5%",
-        "Increase 2 allied Characters' Attack and HP by 6%",
-        "Increase 2 allied Characters' Attack and HP by 7%",
-        "Increase 2 allied Characters' Attack and HP by 8%",
-        "Increase 2 allied Characters' Attack and HP by 9%",
-        "Increase 2 allied Characters' Attack and HP by 10%"
+        "提升2名友方角色1%攻击力与血量。",
+        "提升2名友方角色2%攻击力与血量。",
+        "提升2名友方角色3%攻击力与血量。",
+        "提升2名友方角色4%攻击力与血量。",
+        "提升2名友方角色5%攻击力与血量。",
+        "提升2名友方角色6%攻击力与血量。",
+        "提升2名友方角色7%攻击力与血量。",
+        "提升2名友方角色8%攻击力与血量。",
+        "提升2名友方角色9%攻击力与血量。",
+        "提升2名友方角色10%攻击力与血量。"
       ],
       "instructions": null,
       "extra": "+750+4500+750"
     },
-    "background": "A Magician. She loves doing magic tricks, but her carelessness always ends up with her making a fool of herself\n\nPulling rabbits from her top hat is her signature magic trick. At one point, due to her excessive magic performances, the Campus was overrun by an extraordinary amount of rabbits. This led the Campus to banning her Signature trick and forced her to learn new tricks.",
+    "background": "一个魔术师，她喜欢表演魔术，但她的粗心大意总是让她出丑。\n\n从她的礼帽中变出兔子是她的招牌魔术。有一次，由于她过度的魔术表演，校园里出现了数量惊人的兔子。这导致校园禁止她表演这一招牌戏法，并要求她学习新的戏法。",
     "club": "运动",
     "element": "风",
     "year": 3,
@@ -135,7 +135,7 @@
       "height": "166cm",
       "weight": "43kg",
       "body_size": "33D-24-36",
-      "birthday": "Nov 7th"
+      "birthday": "11-07"
     },
     "skins": "",
     "hobbies": "兔子魔法",
@@ -143,7 +143,7 @@
     "tags": "",
     "created_at": "",
     "last_updated": "2026-01-26T22:42:20.000Z",
-    "translated": ""
+    "translated": 1
   },
   {
     "id": 3,
@@ -202,15 +202,15 @@
     ],
     "nicknames": "蓝鸟",
     "arena_skill": {
-      "name": "Rocket Shot",
+      "name": "火箭推进",
       "icon": "//static.wikitide.net/projectqtwiki/5/52/A16.png",
       "cooldown": 5,
       "descriptions": [
-        "Inflict 1x this Character's Attack as Water Damage on 1 Enemy\n\nDecrease all allied Water Characters' Damage taken by 10% for 5 Rounds",
-        "Inflict 1.1x this Character's Attack as Water Damage on 1 Enemy\n\nDecrease all allied Water Characters' Damage taken by 15% for 5 Rounds",
-        "Inflict 1.2x this Character's Attack as Water Damage on 1 Enemy\n\nDecrease all allied Water Characters' Damage taken by 20% for 5 Rounds",
-        "Inflict 1.3x this Character's Attack as Water Damage on 1 Enemy\n\nDecrease all allied Water Characters' Damage taken by 30% for 5 Rounds",
-        "Inflict 1.5x this Character's Attack as Water Damage on 1 Enemy\n\nDecrease all allied Water Characters' Damage taken by 40% for 5 Rounds"
+        "对1名敌人造成1倍角色攻击力的水属性伤害。\n\n使所有水队友受到的伤害降低10%，持续5回合。",
+        "对1名敌人造成1.1倍角色攻击力的水属性伤害。\n\n使所有水队友受到的伤害降低15%，持续5回合。",
+        "对1名敌人造成1.2倍角色攻击力的水属性伤害。\n\n使所有水队友受到的伤害降低20%，持续5回合。",
+        "对1名敌人造成1.3倍角色攻击力的水属性伤害。\n\n使所有水队友受到的伤害降低30%，持续5回合。",
+        "对1名敌人造成1.5倍角色攻击力的水属性伤害。\n\n使所有水队友受到的伤害降低40%，持续5回合。"
       ]
     },
     "story_skill": null,
@@ -218,32 +218,32 @@
       "name": "Ace",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Increase this Character's HP by 15%",
-        "Increase this Character's HP by 25%",
-        "Increase this Character's HP by 40%"
+        "提升自身15%血量。",
+        "提升自身25%血量。",
+        "提升自身40%血量。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Anti-Stress trait-Spt",
+      "name": "支援型抗压特质",
       "icon": "//static.wikitide.net/projectqtwiki/5/52/A16.png",
       "descriptions": [
-        "Decrease 2 allied Sport Character's Damage taken by 1%\n\nDecrease 2 Enemies' Attack by 1% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 2%\n\nDecrease 2 Enemies' Attack by 2% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 3%\n\nDecrease 2 Enemies' Attack by 3% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 4%\n\nDecrease 2 Enemies' Attack by 4% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 5%\n\nDecrease 2 Enemies' Attack by 5% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 6%\n\nDecrease 2 Enemies' Attack by 6% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 7%\n\nDecrease 2 Enemies' Attack by 7% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 8%\n\nDecrease 2 Enemies' Attack by 8% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 9%\n\nDecrease 2 Enemies' Attack by 9% for 8 Rounds",
-        "Decrease 2 allied Sport Character's Damage taken by 10%\n\nDecrease 2 Enemies' Attack by 10% for 8 Rounds"
+        "使2名友方体育角色受到的伤害降低1%。\n\n降低2名敌人1%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低2%。\n\n降低2名敌人2%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低3%。\n\n降低2名敌人3%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低4%。\n\n降低2名敌人4%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低5%。\n\n降低2名敌人5%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低6%。\n\n降低2名敌人6%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低7%。\n\n降低2名敌人7%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低8%。\n\n降低2名敌人8%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低9%。\n\n降低2名敌人9%攻击力，持续8回合。",
+        "使2名友方体育角色受到的伤害降低10%。\n\n降低2名敌人10%攻击力，持续8回合。"
       ],
       "instructions": null,
       "extra": "+750+4500+750"
     },
-    "background": "The ace of the Golf Society. She has the most advanced smart pole bag.\n\nBorn into a family of golfers she inherited her mothers smart pole bag and invincible jersey. She is full of confidence in her own skills. Her smart pole bag will directly observe the surrounding environment and eject the most suitable club for the user, even weapons to protect the user. With her superb skills and her equipment, she has won every competition.\n\nAfter entering the Campus she joined Rachel's Club and mingled with many others. Since a tied battle with Amy, her smart pole bag sometimes automatically pops out different sex toys, much to her annoyance.",
+    "background": "高尔夫协会的王牌。她拥有最先进的智能球杆包。\n\n生于高尔夫世家，她继承了母亲的智能球杆包与无敌球衣。她对自己球技充满自信。她的智能球杆包能实时扫描环境，自动弹出最适合的球杆，甚至能变出武器保护使用者。凭借精湛球技与装备加持，她所参加的比赛从未落败。\n\n进入校园后加入瑞秋社团，与众多成员交往。自与艾米打成平手后，她的智能球杆包偶尔会自动弹出各类情趣玩具，令她倍感困扰。",
     "club": "运动",
     "element": "水",
     "year": 3,
@@ -252,15 +252,15 @@
       "height": "172cm",
       "weight": "53kg",
       "body_size": "35E-22-36",
-      "birthday": "Oct 16"
+      "birthday": "10-16"
     },
     "skins": null,
-    "hobbies": "Playing Golf",
+    "hobbies": "打高尔夫",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 5,
@@ -1413,9 +1413,9 @@
       "name": "冥界统治者",
       "icon": "//static.wikitide.net/projectqtwiki/5/52/A16.png",
       "descriptions": [
-        "战斗开始时，为自身施加持续治疗效果，每回合回复其0.2倍回复量的生命值，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的15%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升10%，持续16回合。",
-        "战斗开始时，为自身施加持续治疗效果，每回合回复其0.25倍回复量的生命值，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的25%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升15%，持续16回合。",
-        "战斗开始时，为自身施加持续治疗效果，每回合回复其0.3倍回复量的生命值，持续16回合。\n\n战斗开始时，降低所有水属性角色受到的30%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升25%，持续16回合。"
+        "战斗开始时，为自身施加「持续回复」，每回合回复自身回复量0.2倍的血量，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的15%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升10%，持续16回合。",
+        "战斗开始时，为自身施加「持续回复」，每回合回复自身回复量0.25倍的血量，持续14回合。\n\n战斗开始时，降低所有水属性角色受到的25%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升15%，持续16回合。",
+        "战斗开始时，为自身施加「持续回复」，每回合回复自身回复量0.3倍的血量，持续16回合。\n\n战斗开始时，降低所有水属性角色受到的30%伤害，持续16回合。\n\n战斗开始时，自身造成的伤害提升25%，持续16回合。"
       ],
       "instructions": null,
       "extra": null
@@ -1444,10 +1444,10 @@
     "year": 3,
     "bonds": "吉赛尔, 星神",
     "extra": {
-      "height": "-",
-      "weight": "-",
-      "body_size": "-",
-      "birthday": "-"
+      "height": "",
+      "weight": "",
+      "body_size": "",
+      "birthday": ""
     },
     "skins": null,
     "hobbies": "挑选训练工具",
@@ -1840,11 +1840,11 @@
       "icon": "//static.wikitide.net/projectqtwiki/c/ce/A38.png",
       "cooldown": 6,
       "descriptions": [
-        "对2名敌人造成角色攻击力0.5倍的风属性伤害。\n\n使所有角色的伤害提升10%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.15倍的血量，持续5回合。",
-        "对2名敌人造成角色攻击力0.55倍的风属性伤害。\n\n使所有角色的伤害提升15%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.18倍的血量，持续5回合。",
-        "对2名敌人造成角色攻击力0.6倍的风属性伤害。\n\n使所有角色的伤害提升20%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.22倍的血量，持续5回合。",
-        "对2名敌人造成角色攻击力0.65倍的风属性伤害。\n\n使所有角色的伤害提升25%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.26倍的血量，持续5回合。",
-        "对2名敌人造成角色攻击力0.7倍的风属性伤害。\n\n使所有角色的伤害提升30%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于角色回复量0.3倍的血量，持续5回合。"
+        "对2名敌人造成角色攻击力0.5倍的风属性伤害。\n\n使所有角色的伤害提升10%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于自身回复量0.15倍的血量，持续5回合。",
+        "对2名敌人造成角色攻击力0.55倍的风属性伤害。\n\n使所有角色的伤害提升15%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于自身回复量0.18倍的血量，持续5回合。",
+        "对2名敌人造成角色攻击力0.6倍的风属性伤害。\n\n使所有角色的伤害提升20%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于自身回复量0.22倍的血量，持续5回合。",
+        "对2名敌人造成角色攻击力0.65倍的风属性伤害。\n\n使所有角色的伤害提升25%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于自身回复量0.26倍的血量，持续5回合。",
+        "对2名敌人造成角色攻击力0.7倍的风属性伤害。\n\n使所有角色的伤害提升30%，持续5回合。\n\n对3名角色施加「持续回复」，每回合回复相当于自身回复量0.3倍的血量，持续5回合。"
       ]
     },
     "story_skill": null,
@@ -2123,7 +2123,9 @@
     "skins": null,
     "hobbies": "电子设备",
     "type": 1,
-    "tags": ["(曾经的)一刀99999"],
+    "tags": [
+      "(曾经的)一刀99999"
+    ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
     "translated": 1
@@ -2269,7 +2271,9 @@
     "skins": null,
     "hobbies": "聚会",
     "type": 1,
-    "tags": ["百分比"],
+    "tags": [
+      "百分比"
+    ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
     "translated": 1
@@ -4008,7 +4012,7 @@
       "//static.wikitide.net/projectqtwiki/thumb/7/7a/MabelAwakened.png/320px-MabelAwakened.png",
       "//static.wikitide.net/projectqtwiki/thumb/6/64/MabelAwakenedChibi.png/320px-MabelAwakenedChibi.png"
     ],
-    "nicknames": "梅布尔、眉笔",
+    "nicknames": "梅布尔、眉笔、咖啡",
     "arena_skill": {
       "name": "Death Rose",
       "icon": "//static.wikitide.net/projectqtwiki/9/9a/A11.png",
@@ -4463,7 +4467,8 @@
     "hobbies": "武士刀",
     "type": 1,
     "tags": [
-      "普通攻击是群体攻击的小狐狸", "buff最幽默"
+      "普通攻击是群体攻击的小狐狸",
+      "buff最幽默"
     ],
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
@@ -4851,11 +4856,11 @@
       "icon": "//static.wikitide.net/projectqtwiki/thumb/b/b8/A37.png/40px-A37.png",
       "cooldown": 5,
       "descriptions": [
-        "对2名敌人造成角色攻击力0.55倍的火属性伤害。\n\n为3名角色施加「持续回复」，每回合回复相当于角色回复量0.15倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.1倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
-        "对2名敌人造成角色攻击力0.6倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于角色回复量0.15倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.2倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
-        "对2名敌人造成角色攻击力0.65倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于角色回复量0.2倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.25倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
-        "对2名敌人造成角色攻击力0.7倍的火属性伤害。\n\n为所有角色施加持「持续回复」，每回合回复相当于角色回复量0.25倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.3倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
-        "对2名敌人造成角色攻击力0.75倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于角色回复量0.3倍的血量，持续5回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.4倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。"
+        "对2名敌人造成角色攻击力0.55倍的火属性伤害。\n\n为3名角色施加「持续回复」，每回合回复相当于自身回复量0.15倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.1倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
+        "对2名敌人造成角色攻击力0.6倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于自身回复量0.15倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.2倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
+        "对2名敌人造成角色攻击力0.65倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于自身回复量0.2倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.25倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
+        "对2名敌人造成角色攻击力0.7倍的火属性伤害。\n\n为所有角色施加持「持续回复」，每回合回复相当于自身回复量0.25倍的血量，持续4回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.3倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。",
+        "对2名敌人造成角色攻击力0.75倍的火属性伤害。\n\n为所有角色施加「持续回复」，每回合回复相当于自身回复量0.3倍的血量，持续5回合。\n\n为所有角色施加「护盾」，护盾值为自身回复量的0.4倍。五回合内，受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。"
       ]
     },
     "story_skill": null,
@@ -5431,48 +5436,48 @@
     ],
     "nicknames": "尤娜、于娜、宇娜",
     "arena_skill": {
-      "name": "Blood's Karma",
+      "name": "血之业力",
       "icon": "//static.wikitide.net/projectqtwiki/6/63/A9.png",
       "cooldown": 5,
       "descriptions": [
-        "Before the Damage, grant Draining Effect to all allied Characters; 5% of Damage inflicted will be restored as HP for 4 Rounds\n\nInflict 1x the Character's Attack as Water Damage on 1 Enemy.\n\nIncrease all allied Characters' Attack by 5% for 3 Rounds",
-        "Before the Damage, grant Draining Effect to all allied Characters; 10% of Damage inflicted will be restored as HP for 4 Rounds\n\nInflict 1.05x the Character's Attack as Water Damage on 1 Enemy.\n\nIncrease all allied Characters' Attack by 7% for 3 Rounds",
-        "Before the Damage, grant Draining Effect to all allied Characters; 15% of Damage inflicted will be restored as HP for 4 Rounds\n\nInflict 1.15x the Character's Attack as Water Damage on 1 Enemy.\n\nIncrease all allied Characters' Attack by 9% for 3 Rounds",
-        "Before the Damage, grant Draining Effect to all allied Characters; 20% of Damage inflicted will be restored as HP for 4 Rounds\n\nInflict 1.25x the Character's Attack as Water Damage on 1 Enemy.\n\nIncrease all allied Characters' Attack by 12% for 3 Rounds",
-        "Before the Damage, grant Draining Effect to all allied Characters; 30% of Damage inflicted will be restored as HP for 4 Rounds\n\nInflict 1.5x the Character's Attack as Water Damage on 1 Enemy.\n\nIncrease all allied Characters' Attack by 15% for 3 Rounds"
+        "造成伤害前，给所有角色施加「吸血」，将造成伤害的5%转为血量，持续4回合。\n\n对1名敌人造成1倍角色攻击力的水属性伤害。\n\n使所有友方角色攻击力提升5%，持续3回合。",
+        "造成伤害前，给所有角色施加「吸血」，将造成伤害的10%转为血量，持续4回合。\n\n对1名敌人造成1.05倍角色攻击力的水属性伤害。\n\n使所有友方角色攻击力提升7%，持续3回合。",
+        "造成伤害前，给所有角色施加「吸血」，将造成伤害的15%转为血量，持续4回合。\n\n对1名敌人造成1.15倍角色攻击力的水属性伤害。\n\n使所有友方角色攻击力提升9%，持续3回合。",
+        "造成伤害前，给所有角色施加「吸血」，将造成伤害的20%转为血量，持续4回合。\n\n对1名敌人造成1.25倍角色攻击力的水属性伤害。\n\n使所有友方角色攻击力提升12%，持续3回合。",
+        "造成伤害前，给所有角色施加「吸血」，将造成伤害的30%转为血量，持续4回合。\n\n对1名敌人造成1.5倍角色攻击力的水属性伤害。\n\n使所有友方角色攻击力提升15%，持续3回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Noble Blood",
+      "name": "高贵血统",
       "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
       "descriptions": [
-        "Extend the \"Draining Effect\" and \"Attack Increase Effect\" caused by Una on all allied Characters by 1 round\n\nAt the beginning of battle, increase allied Water or Art Characters' Attack by 5% for 8 Rounds, this effect does not stack upon itself",
-        "Extend the \"Draining Effect\" and \"Attack Increase Effect\" caused by Una on all allied Characters by 2 rounds\n\nAt the beginning of battle, increase allied Water or Art Characters' Attack by 10% for 10 Rounds, this effect does not stack upon itself",
-        "Extend the \"Draining Effect\" and \"Attack Increase Effect\" caused by Una on all allied Characters by 2 rounds\n\nAt the beginning of battle, increase allied Water or Art Characters' Attack by 15% for 12 Rounds, this effect does not stack upon itself"
+        "延长于娜施加的\"吸血\"和\"攻击提升\"1回合。\n\n战斗开始时，使所有友方水或艺术角色攻击力提升5%，持续8回合，该效果不叠加。",
+        "延长于娜施加的\"吸血\"和\"攻击提升\"2回合。\n\n战斗开始时，使所有友方水或艺术角色攻击力提升10%，持续10回合，该效果不叠加。",
+        "延长于娜施加的\"吸血\"和\"攻击提升\"2回合。\n\n战斗开始时，使所有友方水或艺术角色攻击力提升15%，持续12回合，该效果不叠加。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Primitive Instinct",
+      "name": "原始本能",
       "icon": "//static.wikitide.net/projectqtwiki/b/b1/A6.png",
       "descriptions": [
-        "2 allied Water Characters invalidate Stamp of Fire effect for 18 rounds",
-        "2 allied Water Characters invalidate Stamp of Fire effect for 21 rounds",
-        "2 allied Water Characters invalidate Stamp of Fire effect for 24 rounds",
-        "2 allied Water Characters invalidate Stamp of Fire effect for 27 rounds",
-        "2 allied Water Characters invalidate Stamp of Fire effect for 30 rounds",
-        "Increase 2 allied Water Characters' Attack by 2% for 32 rounds\n\n2 allied Water Characters invalidate Stamp of Fire effect for 32 rounds",
-        "Increase 2 allied Water Characters' Attack by 4% for 34 rounds\n\n2 allied Water Characters invalidate Stamp of Fire effect for 34 rounds",
-        "Increase 2 allied Water Characters' Attack by 6% for 36 rounds\n\n2 allied Water Characters invalidate Stamp of Fire effect for 36 rounds",
-        "Increase 2 allied Water Characters' Attack by 8% for 38 rounds\n\n2 allied Water Characters invalidate Stamp of Fire effect for 38 rounds",
-        "Increase 2 allied Water Characters' Attack by 10% for 40 rounds\n\n2 allied Water Characters invalidate Stamp of Fire effect for 40 rounds"
+        "使2名友方水角色免疫「火印」，持续18回合。",
+        "使2名友方水角色免疫「火印」，持续21回合。",
+        "使2名友方水角色免疫「火印」，持续24回合。",
+        "使2名友方水角色免疫「火印」，持续27回合。",
+        "使2名友方水角色免疫「火印」，持续30回合。",
+        "使2名友方水角色攻击力提升2%，持续32回合。\n\n使2名友方水角色免疫「火印」，持续32回合。",
+        "使2名友方水角色攻击力提升4%，持续34回合。\n\n使2名友方水角色免疫「火印」，持续34回合。",
+        "使2名友方水角色攻击力提升6%，持续36回合。\n\n使2名友方水角色免疫「火印」，持续36回合。",
+        "使2名友方水角色攻击力提升8%，持续38回合。\n\n使2名友方水角色免疫「火印」，持续38回合。",
+        "使2名友方水角色攻击力提升10%，持续40回合。\n\n使2名友方水角色免疫「火印」，持续40回合。"
       ],
       "instructions": null,
       "extra": "+2000+2250+1750"
     },
-    "background": "Shy, but clingy to people she likes.\n\nPrincess of Uranus that came to the Campus looking for the next Male King.",
+    "background": "害羞，但很粘她喜欢的人。\n\n来到校园寻找下一任国王的乌拉诺斯公主。",
     "club": "文学",
     "element": "水",
     "year": 3,
@@ -5481,15 +5486,15 @@
       "height": "170cm",
       "weight": "55kg",
       "body_size": "33D-23-33",
-      "birthday": "Feb 21st"
+      "birthday": "02-21"
     },
     "skins": null,
-    "hobbies": "Black Tea",
+    "hobbies": "红茶",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 82,
@@ -6895,9 +6900,9 @@
       "name": "小心荆棘",
       "icon": "",
       "descriptions": [
-        "战斗开始时，为安妮特获得持续治疗效果，每回合恢复安妮特回复量0.3倍的HP，持续10回合。\n战斗开始时，使3名敌人的攻击力降低10%，持续10回合。",
-        "战斗开始时，为安妮特获得持续治疗效果，每回合恢复安妮特回复量0.4倍的HP，持续10回合。\n战斗开始时，使3名敌人的攻击力降低15%，持续10回合。",
-        "战斗开始时，为安妮特获得持续治疗效果，每回合恢复安妮特回复量0.6倍的HP，持续10回合。\n战斗开始时，使3名敌人的攻击力降低20%，持续10回合。"
+        "战斗开始时，为安妮特获得「持续回复」，每回合恢复自身回复量0.3倍的血量，持续10回合。\n战斗开始时，使3名敌人的攻击力降低10%，持续10回合。",
+        "战斗开始时，为安妮特获得「持续回复」，每回合恢复自身回复量0.4倍的血量，持续10回合。\n战斗开始时，使3名敌人的攻击力降低15%，持续10回合。",
+        "战斗开始时，为安妮特获得「持续回复」，每回合恢复自身回复量0.6倍的血量，持续10回合。\n战斗开始时，使3名敌人的攻击力降低20%，持续10回合。"
       ],
       "instructions": null,
       "extra": null
@@ -7342,6 +7347,69 @@
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
+    "translated": 1
+  },
+  {
+    "name": "Seraphina",
+    "nicknames": "塞拉菲娜、马娘、雷棍、otto",
+    "background": "她与朱莉安娜同根同源，也是学院冬季盛典“拥抱节”的策划者。作为学院“耐力赛”与“机动挑战赛”的常胜冠军，她是后辈们仰慕学习的榜样。\n\n半人马族的后裔天生拥有惊人的运动天赋与强韧体魄。塞拉菲娜在族内年度特种竞速赛中屡创佳绩，以“雪抱”之名驰骋于各类险峻赛道。她敏锐的判断力与超凡的耐力，使她成为族内最耀眼的年轻运动员。无论草原、峡谷还是山丘，她的传奇故事广为流传。\n\n自从次空间开启后，各族间的文化交流日益频繁。半人马族主动与人类合作，共同举办多项大型活动，其中就包括他们传统的独特竞速赛事。这项赛事一旦举行，便成为延续百年的盛大庆典。塞拉菲娜作为交流代表受邀前往地球参加跨界竞赛，却在某次活动中遭遇不明感染体袭击赛场。赛道瞬间化作战场，塞拉菲娜亲眼目睹了混乱中的生离死别。那一刻，象征荣耀的冠军奖杯在她眼中显得如此渺小而无力。事件过后，那些充满绝望与破碎的眼神永远烙印在她脑海。\n\n自此，塞拉菲娜毅然告别熟悉的竞速舞台。她将自幼锤炼的体魄与意志，转化为守护前线的坚韧力量。如今她既是战场上疾风般的战士，亦是同伴最坚实的后盾——既能穿梭险境速救伤员，又能运用特殊能力抚慰伤者、振奋士气。",
+    "club": "艺术",
+    "element": "雷",
+    "year": "3",
+    "bonds": "雷恩、雷鞭",
+    "hobbies": "跑步",
+    "type": 1,
+    "arena_skill": {
+      "name": "踏雪飞驰",
+      "icon": "//static.wikitide.net/projectqtwiki/9/98/A39.png",
+      "cooldown": 5,
+      "descriptions": [
+        "对2名敌人造成角色攻击力0.6倍的雷属性伤害。\n\n35%概率使1名非风敌人「晕眩」，使其2回合无法行动。\n\n使所有雷角色攻击力提升10%，持续5回合。",
+        "对2名敌人造成角色攻击力0.7倍的雷属性伤害。\n\n40%概率使2名非风敌人「晕眩」，使其2回合无法行动。\n\n使所有雷角色攻击力提升15%，持续5回合。",
+        "对2名敌人造成角色攻击力0.75倍的雷属性伤害。\n\n50%概率使2名非风敌人「晕眩」，使其2回合无法行动。\n\n使所有雷角色攻击力提升20%，非雷角色提升5%，持续5回合。",
+        "对2名敌人造成角色攻击力0.8倍的雷属性伤害。\n\n50%概率使3名非风敌人「晕眩」，使其2回合无法行动。\n\n使所有雷角色攻击力提升25%，非雷角色提升10%，持续5回合。",
+        "对2名敌人造成角色攻击力0.9倍的雷属性伤害。\n\n50%概率使所有非风敌人「晕眩」，使其2回合无法行动。\n\n使所有雷角色攻击力提升30%，非雷角色提升15%，持续5回合。"
+      ]
+    },
+    "awakening_passive": {
+      "name": "七彩天马",
+      "icon": "",
+      "descriptions": [
+        "60%概率免疫攻击力降低。\n\n使自身技能伤害增加20%。\n\n使自身对水角色的伤害增加15%，持续16回合。\n\n战斗开始时，使2名非风敌人攻击力降低10%，持续16回合。",
+        "80%概率免疫攻击力降低。\n\n使自身技能伤害增加30%。\n\n使自身对水角色的伤害增加25%，持续16回合。\n\n战斗开始时，使2名非风敌人攻击力降低20%，持续16回合。",
+        "100%概率免疫攻击力降低。\n\n使自身技能伤害增加50%。\n\n使自身对水角色的伤害增加35%，持续16回合。\n\n战斗开始时，使2名非风敌人攻击力降低30%，持续16回合。"
+      ]
+    },
+    "talent_tree": {
+      "name": "健康体魄 - II",
+      "icon": "//static.wikitide.net/projectqtwiki/e/e9/A2.png",
+      "descriptions": [
+        "提升自身血量1%。",
+        "提升自身血量2%。",
+        "提升自身血量3%。",
+        "提升自身血量4%。",
+        "提升自身血量5%。",
+        "提升自身血量6%。",
+        "提升自身血量8%。",
+        "提升自身血量10%。",
+        "提升自身血量12%。",
+        "提升自身血量15%。"
+      ],
+      "extra": "+2250+3250+500"
+    },
+    "extra": {
+      "height": "167cm",
+      "weight": "54kg",
+      "body_size": "35E-23-32",
+      "birthday": "12-15"
+    },
+    "avatars": "[\"//static.wikitide.net/projectqtwiki/thumb/3/35/Seraphina.png/320px-Seraphina.png\", \"//static.wikitide.net/projectqtwiki/thumb/2/2e/SeraphinaAwakened.png/320px-SeraphinaAwakened.png\"]",
+    "skins": null,
+    "tags": null,
+    "id": 116,
+    "story_skill": null,
+    "created_at": null,
+    "last_updated": "2026-02-11 14:46:57",
     "translated": 1
   }
 ]
