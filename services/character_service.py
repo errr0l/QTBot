@@ -1,5 +1,6 @@
 import json
 import sqlite3
+from datetime import datetime
 from typing import Optional, List, Union
 from entities.character import Character
 from dependency_injector.wiring import inject, Provide
@@ -30,7 +31,8 @@ def build_dict_from_row(row):
         "tags": row['tags'],
         "created_at": row['created_at'],
         "last_updated": row['last_updated'],
-        "translated": row['translated']
+        "translated": row['translated'],
+        "story_skill": row["story_skill"]
     }
 
 
@@ -68,13 +70,31 @@ class CharacterService:
         for char in characters:
             self.save_character(char)
 
+    def get_all_characters(self):
+        """
+        多查story_skill字段，用于哈希比较
+        """
+        sql = """
+        SELECT id, name, avatars, nicknames, arena_skill, story_skill, awakening_passive, talent_tree, bonds,
+        background, club, element, year, hobbies, type, extra, skins, tags,
+        created_at, last_updated, translated FROM character
+        """
+        result = []
+        with self.db_helper.get_connection() as conn:
+            conn.row_factory = sqlite3.Row
+            rows = conn.execute(sql).fetchall()
+            for row in rows:
+                result.append(build_dict_from_row(row))
+        return result
+
     def save_character(self, character: Character):
         sql = """
         INSERT OR IGNORE INTO character
         (name, avatars, nicknames, arena_skill, awakening_passive, talent_tree, background, club,
-        element, `year`, bonds, hobbies, type, extra, skins, tags)
+        element, `year`, bonds, hobbies, type, extra, skins, tags, created_at)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """
+        created_at = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         with self.db_helper.get_connection() as conn:
             conn.execute(sql, (
                 character.name,
@@ -93,7 +113,8 @@ class CharacterService:
                 character.type,
                 json.dumps(character.extra, ensure_ascii=False) if character.extra else None,
                 json.dumps(character.skins, ensure_ascii=False) if character.skins else None,
-                json.dumps(character.tags, ensure_ascii=False) if character.tags else None
+                json.dumps(character.tags, ensure_ascii=False) if character.tags else None,
+                created_at
             ))
 
     def update_character_with_fields(self, character: dict, fields: List[str]):

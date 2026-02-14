@@ -111,11 +111,11 @@ async def runner4(
         user_id, storage_service: StorageService, name_mapper: NameMapper):
     try:
         result = await asyncio.to_thread(storage_service.sync_data)
-        if result:
+        if result > 1:
             message = success
             name_mapper.refresh_index()
         else:
-            message = execution_error
+            message = "无需更新"
         logger.info(f"result: {message}")
         bot = get_bot()
 

@@ -1,10 +1,12 @@
+from datetime import datetime
 from typing import List
 
 from services.storage_service import StorageService
 
 from services.character_service import CharacterService
 import json
-from utils.common import convert_dict_attributes_to_json
+from utils.common import convert_dict_attributes_to_json, hash_character
+from nonebot import logger
 
 
 class LocalJsonService(StorageService):
@@ -59,19 +61,25 @@ class LocalJsonService(StorageService):
         with open(self.file_path, 'r', encoding='utf-8') as f:
             characters = json.load(f)
             convert_dict_attributes_to_json(characters)
-        self.character_service.update_characters(characters=characters)
-        return True
-
-    # def push_characters(self, characters: List[dict]):
-    #     # 1. 读取现有数据
-    #     with open(self.file_path, 'r', encoding='utf-8') as f:
-    #         data = json.load(f)
-    #
-    #     # 2. 添加新对象
-    #     for char in characters:
-    #         data.append(char)
-    #
-    #     # 3. 写回文件
-    #     with open(self.file_path, 'w', encoding='utf-8') as f:
-    #         json.dump(data, f, ensure_ascii=False, indent=2)
-    #         return True
+        characters_in_db = self.character_service.get_all_characters()
+        pending = []
+        # 生成映射
+        name_2_characters_in_db = {char['name']: char for char in characters_in_db}
+        last_updated = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        for char in characters:
+            char_name = char.get('name', '')
+            if not char_name:
+                continue
+            # 有一种情况，当数据不存在于数据库中时，会被跳过，即该方法只能同步数据，而无法插入数据
+            char_in_db = name_2_characters_in_db.get(char_name)
+            if char_in_db and hash_character(char_in_db) != hash_character(char):
+                char['last_updated'] = last_updated
+                if 'created_at' not in char:
+                    char['created_at'] = last_updated
+                pending.append(char)
+        if not pending:
+            logger.info(f"无需更新")
+            return 1
+        else:
+            self.character_service.update_characters(characters=pending)
+            return 2

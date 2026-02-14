@@ -1,3 +1,4 @@
+import hashlib
 import random
 import re
 import json
@@ -366,3 +367,13 @@ def build_help_guide() -> List[str]:
     lines.append("[例如]")
     lines.append("/查询 雅典娜:tl")
     return lines
+
+
+def hash_character(character: dict):
+    # 跳过时间
+    if 'last_updated' in character:
+        character.pop('last_updated')
+    if 'created_at' in character:
+        character.pop('created_at')
+    s = json.dumps(character, sort_keys=True)
+    return hashlib.md5(s.encode()).hexdigest()

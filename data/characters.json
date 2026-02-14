@@ -56,7 +56,7 @@
     "background": "学生会副主席，典型的施虐女王。\n\n作为主席的得力助手，她办事高效迅捷。多数学生畏惧她高高在上的气势与语气，仅有少数学生敢于挑战她的权威。",
     "club": "艺术",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "Natalia、温妮",
     "extra": {
       "height": "172cm",
@@ -129,7 +129,7 @@
     "background": "一个魔术师，她喜欢表演魔术，但她的粗心大意总是让她出丑。\n\n从她的礼帽中变出兔子是她的招牌魔术。有一次，由于她过度的魔术表演，校园里出现了数量惊人的兔子。这导致校园禁止她表演这一招牌戏法，并要求她学习新的戏法。",
     "club": "运动",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "Crystal、艾米",
     "extra": {
       "height": "166cm",
@@ -173,7 +173,7 @@
     "background": "Genius shooter.  It's rumored that no bullet of hers has ever missed its target.\n\nUnsociable but very loyal servant of the student union president. Good at sharpshooting.",
     "club": "科学",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "Erica、水拳",
     "extra": {
       "height": "149cm",
@@ -246,7 +246,7 @@
     "background": "高尔夫协会的王牌。她拥有最先进的智能球杆包。\n\n生于高尔夫世家，她继承了母亲的智能球杆包与无敌球衣。她对自己球技充满自信。她的智能球杆包能实时扫描环境，自动弹出最适合的球杆，甚至能变出武器保护使用者。凭借精湛球技与装备加持，她所参加的比赛从未落败。\n\n进入校园后加入瑞秋社团，与众多成员交往。自与艾米打成平手后，她的智能球杆包偶尔会自动弹出各类情趣玩具，令她倍感困扰。",
     "club": "运动",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "蛋糕、佐伊",
     "extra": {
       "height": "172cm",
@@ -319,7 +319,7 @@
     "background": "自信而疏离，她对周遭事物漠不关心，除非那件事会影响到她。\n\n布莱尔是狼与狐的混血儿，继承了狼的强健体魄与狐的绝世美貌。标枪投掷是她的专长，她在这方面表现卓越。凭借超凡的视力，布莱尔长期蝉联冠军，甚至无需全力便能取得顶尖成绩。然而她孤僻如独狼，散发着神秘莫测的不可接近感。这反而更勾起了前辈的好奇，于是他开始尾随布莱尔，企图吸引这位冰山美人的注意...",
     "club": "运动",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "凤鸟、蛋糕",
     "extra": {
       "height": 172,
@@ -363,7 +363,7 @@
     "background": "Physically unmatched but mentally dumb.  Enthusiastic in helping people.\n\nAn idiot with exceptional body strength and reflexes. Only admitted by the Campus as a special case because of her sense of justice.",
     "club": "运动",
     "element": "水",
-    "year": 1,
+    "year": "1",
     "bonds": "爱丽丝、Pamela",
     "extra": {
       "height": "165cm",
@@ -407,7 +407,7 @@
     "background": "A helpful girl who is the core of her community.  Most of the students are counting on her.\n\nAlthough she been taken advantage of by others, she has never complained. Once, she was asked for sex by a stranger, but she didn't turn them down. A secret video clip shows that she seems to be satisfied when having sex with a stranger.",
     "club": "运动",
     "element": "风",
-    "year": 2,
+    "year": "2",
     "bonds": "Kirara、蛋糕",
     "extra": {
       "height": "175cm",
@@ -451,7 +451,7 @@
     "background": "She's talented in drawing, and has the ability that can make her thoughts come true.\n\nShe has been hopelessly addicted to drawing since she was a little girl. Due to her extreme inability to take care of herself, one of her thoughts come to life, DaVinci, helps take care of her daily life. It also aids in her drawings.",
     "club": "艺术",
     "element": "火",
-    "year": 2,
+    "year": "2",
     "bonds": "维纳斯、佐伊",
     "extra": {
       "height": "152cm",
@@ -495,7 +495,7 @@
     "background": "She is a beast coming from another Dimension. A determined girl.\n\nShe traveled constantly around the world looking for pure and determined virgins. After being completely tamed by the protagonist, she now seduces any females who are close to him. Every time she sees through their personas, she feels nothing but disappointment.",
     "club": "科学",
     "element": "火",
-    "year": 2,
+    "year": "2",
     "bonds": "米娜、蛋糕",
     "extra": {
       "height": "158cm",
@@ -812,67 +812,67 @@
       "//static.wikitide.net/projectqtwiki/thumb/2/20/AmyAwakened.png/320px-AmyAwakened.png",
       "//static.wikitide.net/projectqtwiki/thumb/6/60/AmyAwakenedChibi.png/320px-AmyAwakenedChibi.png"
     ],
-    "nicknames": "艾米",
+    "nicknames": "艾米、狗子",
     "arena_skill": {
-      "name": "Overtaking Counter",
+      "name": "超车计数器",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/7/7f/A4.png/40px-A4.png",
       "cooldown": 5,
       "descriptions": [
-        "Inflict 1.05x the Character's Attack as Lightning Damage on 1 Enemy.\n\nReflect 20% of Regular Attack Damage to the Enemy for 4 Rounds.",
-        "Inflict 1.1x the Character's Attack as Lightning Damage on 1 Enemy.\n\nReflect 30% of Regular Attack Damage to the Enemy for 5 Rounds.",
-        "Inflict 1.15x the Character's Attack as Lightning Damage on 1 Enemy.\n\nReflect 40% of Regular Attack Damage to the Enemy for 6 Rounds.",
-        "Inflict 1.25x the Character's Attack as Lightning Damage on 1 Enemy.\n\nReflect 60% of Regular Attack Damage to the Enemy for 7 Rounds.",
-        "Inflict 1.4x the Character's Attack as Lightning Damage on 1 Enemy.\n\nReflect 100% of Regular Attack Damage to the Enemy for 8 Rounds."
+        "对1名敌人造成1.05倍角色攻击力的雷属性伤害。\n\n反射20%普通攻击伤害给敌人，持续4回合。",
+        "对1名敌人造成1.1倍角色攻击力的雷属性伤害。\n\n反射30%普通攻击伤害给敌人，持续5回合。",
+        "对1名敌人造成1.15倍角色攻击力的雷属性伤害。\n\n反射40%普通攻击伤害给敌人，持续6回合。",
+        "对1名敌人造成1.25倍角色攻击力的雷属性伤害。\n\n反射60%普通攻击伤害给敌人，持续7回合。",
+        "对1名敌人造成1.4倍角色攻击力的雷属性伤害。\n\n反射100%普通攻击伤害给敌人，持续8回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Pioneer",
+      "name": "先锋",
       "icon": "//static.wikitide.net/projectqtwiki/7/7f/A4.png",
       "descriptions": [
-        "At the beginning of the battle, decrease all Characters Damage taken by 8% for 6 Rounds.",
-        "At the beginning of the battle, decrease all Characters Damage taken by 16% for 6 Rounds.",
-        "At the beginning of the battle, decrease all Characters Damage taken by 30% for 6 Rounds."
+        "战斗开始时，使所有队友受到的伤害降低8%，持续6回合。",
+        "战斗开始时，使所有队友受到的伤害降低16%，持续6回合。",
+        "战斗开始时，使所有队友受到的伤害降低30%，持续6回合。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Club Exchange-Sci",
+      "name": "俱乐部交流-科学",
       "icon": "//static.wikitide.net/projectqtwiki/c/ce/A38.png",
       "descriptions": [
-        "Increase 2 allied Science Characters' Recovery by 2%, Attack by 1%",
-        "Increase 2 allied Science Characters' Recovery by 4%, Attack by 2%",
-        "Increase 2 allied Science Characters' Recovery by 6%, Attack by 3%",
-        "Increase 2 allied Science Characters' Recovery by 8%, Attack by 4%",
-        "Increase 2 allied Science Characters' Recovery by 10%, Attack by 5%",
-        "Increase 2 allied Science Characters' Recovery by 12%, Attack by 6%",
-        "Increase 2 allied Science Characters' Recovery by 14%, Attack by 7%",
-        "Increase 2 allied Science Characters' Recovery by 16%, Attack by 8%",
-        "Increase 2 allied Science Characters' Recovery by 18%, Attack by 9%",
-        "Increase 2 allied Science Characters' Recovery by 20%, Attack by 10%"
+        "提升2名友方科学角色2%回复量，1%攻击力。",
+        "提升2名友方科学角色4%回复量，2%攻击力。",
+        "提升2名友方科学角色6%回复量，3%攻击力。",
+        "提升2名友方科学角色8%回复量，4%攻击力。",
+        "提升2名友方科学角色10%回复量，5%攻击力。",
+        "提升2名友方科学角色12%回复量，6%攻击力。",
+        "提升2名友方科学角色14%回复量，7%攻击力。",
+        "提升2名友方科学角色16%回复量，8%攻击力。",
+        "提升2名友方科学角色18%回复量，9%攻击力。",
+        "提升2名友方科学角色20%回复量，10%攻击力。"
       ],
       "instructions": null,
       "extra": "+500+4750+750"
     },
-    "background": "Sports enthusiast who speaks about nothing but sports.\n\nA bad student of the dog-ear clan. \"Exiled\" to the Campus because she hurt one of her kind.",
+    "background": "一个只谈体育的体育爱好者。\n\n狗耳族中的坏学生。因伤害同族而被“流放”到校园。",
     "club": "运动",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "Pamela、艾伯塔",
     "extra": {
       "height": "167cm",
       "weight": "55kg",
       "body_size": "33G-22-34",
-      "birthday": "Mar 17th"
+      "birthday": "3-17"
     },
     "skins": null,
-    "hobbies": "Sports",
+    "hobbies": "运动",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 17,
@@ -902,7 +902,7 @@
     "background": "Rachel's younger sister. The Chairman of the Bridge Society. She has done so much for the Bridge Society\n\nSince she rejected Rachel's invitation, the Bridge Society has been bullied for a long time. To attract new members she is cosplaying as a bunny girl, but her efforts are proving fruitless.",
     "club": "艺术",
     "element": "风",
-    "year": 2,
+    "year": "2",
     "bonds": "Rachel、艾伯塔",
     "extra": {
       "height": "166cm",
@@ -975,7 +975,7 @@
     "background": "神秘组织送来的第二具S级实验体，自称是斯嘉丽的妹妹。\n\n某夜，转学生正与斯嘉丽亲热时，一位神秘女子突然出现打断了他们。那女子与斯嘉丽一样，拥有恶魔之翼，名叫夏洛特。她眼中闪烁着嫉妒的火焰，显然对转学生与斯嘉丽的亲密关系极为不满。她嫉妒转学生与斯嘉丽的亲密关系，冷眼旁观时嘴角勾起一抹轻蔑的微笑，仿佛在暗示对转学生的鄙夷。她展现出强烈的占有欲，令斯嘉丽困惑不已。斯嘉丽从未听闻过这位“妹妹”的存在，暗自疑惑为何会有他人出现 —— 她明明是最后也是唯一的实验体。突如其来的状况令她心生不安。\n\n夏洛特声称此行是为了协助转学生与斯嘉丽完成一项“伟大使命”。学院已正式收到该组织的推荐信，故接纳她为三年级学者。斯嘉丽也从组织处确认了夏洛特的身份。夏洛特为满足私欲，不断挑拨转学生做出种种乖张行径，并施以微不足道的“惩罚”。她自以为这些“惩罚”对转学生效果显著，实则对受过朱莉安娜训练的他而言，这些小把戏根本不值一提。这些举动反而让他感受到夏洛特的幼稚。面对夏洛特的行径，斯嘉丽内心翻涌。她不知如何应对这个突然冒出的“妹妹”，嫉妒与不安交织让她困惑焦躁。夏洛特的真实目的何在？她的出现将如何改变她们的关系？随着夜色渐深，谜团也愈发浓重。",
     "club": "艺术",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "魅魔、索菲亚",
     "extra": {
       "height": "156cm",
@@ -1019,7 +1019,7 @@
     "background": "She's a mean-looking bad girl who always hangs around Pamela\n\nHer appearance belies the true nature of her character. She has a strong sense of justice, and is quick to anger. She also has a tendency to get very shy as well. Tiffany absolutely loves Tigers and collects tiger related accessories.",
     "club": "科学",
     "element": "风",
-    "year": 2,
+    "year": "2",
     "bonds": "Ellen、水拳",
     "extra": {
       "height": "165cm",
@@ -1092,7 +1092,7 @@
     "background": "她看似冷漠，实则善于照顾他人。\n\n她不仅是位植入了远古恶魔DNA的漂亮交换生，更是来自某个组织的S级实验体。因能操控火焰而被称为“火焰女王”。虽然她看似难以接近，却对可爱的小动物和弱小者毫无抵抗力。",
     "club": "科学",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "尤娜、维奥莱特",
     "extra": {
       "height": "170cm",
@@ -1136,7 +1136,7 @@
     "background": "Maiden who learns magic to maintain world peace.\n\nAt the age of 4, she watched her family die at the hands of the infected. Since then, she aims at joining the Campus to avoid tragedies like hers from happening again.",
     "club": "运动",
     "element": "雷",
-    "year": 2,
+    "year": "2",
     "bonds": "Ingrid、爱丽丝",
     "extra": {
       "height": "146cm",
@@ -1209,7 +1209,7 @@
     "background": "Clara's classmate.  She became a ghost after suffering in a prank accident.\n\nShe is always vexed by thinking about what prank to do next. When she first became a ghost, she was at a loss of what to do. But, one day, she realized that being a ghost can help her prankster nature! Now, she is completely satisfied that she became a ghost.",
     "club": "科学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "克拉拉、艾伯塔",
     "extra": {
       "height": "164cm",
@@ -1253,7 +1253,7 @@
     "background": "A girl who has just become a Magical Girl. She's skilled at using Flying Magic.\n\nShe's had endless fantasies since her childhood and decided to be a Magical Girl. After starting her journey as a Magical Girl, she's realized that her power is insignificant. Therefore, she is trying hard to convince Bonnie and Chris to team up for the world.",
     "club": "艺术",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "Bonnie、雷鞭",
     "extra": {
       "height": "150cm",
@@ -1297,7 +1297,7 @@
     "background": "The ace of Snooker Society.  Her society has become part of Rachel's the 5th Club.\n\nShe was forced to take part in the 5th Club's activities.  She helps with annexing other societies through her tactics learnt in snooker.  She always thinks of escaping from Rachel's control, but she doesn't dare say anything because of her timidity.",
     "club": "运动",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "Rachel、米娜",
     "extra": {
       "height": "167cm",
@@ -1368,7 +1368,7 @@
     "background": "学生会主席为人极其认真且自律。\n\n作为学生会主席，艾莲娜对学院的方方面面都极为关注，深受全体学生敬重。虽然艾莲娜做事十分严肃，但她懂得在该认真时认真，该玩乐时尽兴，因此也深受众人喜爱。\n但她内心也藏着少女情怀，和许多女孩一样，渴望爱情。",
     "club": "科学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "雷鞭、克拉拉",
     "extra": {
       "height": "168cm",
@@ -1441,7 +1441,7 @@
     "background": "据说她与神秘的雅典娜女士来自同一个地方。\n\n在遥远的希腊神界，冥界女王珀耳塞福涅生来叛逆，天生厌恶规则与安排。某夜，空间裂隙将她从熟悉的极乐城卷入充满战争与异变者的世界。此处文明残垣断壁，学园林立，强者为尊，弱者如草芥。降临异界的珀耳塞福涅冷眼观望着混乱与绝望，对自诩为年轻战士的群体漠不关心，更对所谓救世主理想嗤之以鼻。\n\n然而她很快遇见一位拥有抗体的稀世青年。因特殊身份，青年成为异界少女们的领袖，试图与珀耳塞福涅结盟。面对青年邀约，珀耳塞福涅冷言回应绝不臣服于任何人。即便如此，她仍对青年抗拒命运的勇气与意志萌生微弱兴趣，决定暂且观察这个世界的动向。",
     "club": "科学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "吉赛尔, 星神",
     "extra": {
       "height": "",
@@ -1514,7 +1514,7 @@
     "background": "Busty alien princess.  Gentle on the outside, but quite slutty underneath.\n\nAlien royalty who is looking for other races' support to win the throne from her sister, the rightful heir.",
     "club": "科学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "Jodie、尤娜",
     "extra": {
       "height": "162cm",
@@ -1587,7 +1587,7 @@
     "background": "Winni's buddy in the Swimming Club. A free-spirited and nimble surfing lover.\n\nBecause of her innate talent and training in surfing, she has got impressive balance that made the Campus pick her. Since there is no Surfing Club at the Campus, she joined the Swimming club. She always watches the weather news. Every time she's turned on after surfing, she borrows Winni's toys to cool down.",
     "club": "运动",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "佐伊、温妮",
     "extra": {
       "height": "173cm",
@@ -1660,7 +1660,7 @@
     "background": "艾伦所属组织的一名资深忍者，以姐姐的身份活跃于校园。\n\n收到艾伦的报告后，组织判断她可能无法完成任务目标，遂派遣资深忍者阿米娜潜入校园执行任务。阿米娜以学生身份进入校园后，很快便接近了目标人物 —— 前辈。她利用学长好色的性格获取了大量无用情报。然而因艾伦疏忽，学生会察觉忍者组织存在并对阿米娜展开详细调查，发现其为仿生人。学生会会长刻意向阿米娜表明立场，经协商达成临时协议。此后学生会不仅解除对阿米娜的监视，甚至主动提供协助。",
     "club": "艺术",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "雷鞭、露娜",
     "extra": {
       "height": "171cm",
@@ -1731,10 +1731,9 @@
       "extra": "+1500+2750+1750"
     },
     "background": "学园都市花园的管理员，学校里的所有事物都如同她的家人。\n\n作为学园都市花园的管理员兼植物学教师，阿莫拉每天都会定期照料她的植物。对她而言，对待学生就像照料植物，培育守护每个学生是她的责任，她希望他们都能茁壮成长。阿莫拉亲切开朗的性格让学生们都喜欢她的植物学课。她精通各类植物特性，能将不同植物的特性转化为武器，在对抗感染体时总冲锋在前，无论身处何处，人们都因她的存在而感到安心。",
-    "background1": "The manager of the School's City garden, everything in the school was like her family.\n\nAs the School City's garden manager and botany teacher, Amora took care of her plants on a regular basis every day. To Amora, treating people was just like treating plants, and it was her responsibility to nurture and protect each and every one of her students, hoping that they would all grow up strong and healthy. Amora's friendly and cheerful personality had made her students enjoy her botany classes. As Amora was well versed in all kinds of plants, she was able to use the properties of different plants as weapons and she would go to the front line when fighting infected bodies, so whenever she was, people felt safe and secure.",
     "club": "文学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "艾伯塔、火骑",
     "extra": {
       "height": "176cm",
@@ -1807,7 +1806,7 @@
     "background": "A happy girl who became friends with many of her classmates. She loves wearing cat costumes.\n\nShe is great at socialising and was able to make friends with basically all the students. In particular, many of the transfer students had become her close friends. Although people wondered, she never told why she is always wearing cat costumes. She is a member of the Ura-Discipline Committee and works directly under the authority of the school management. She's responsible for monitoring the list of dangerous people. As a result, she pushed herself to be on good terms with all the students, despite hating them. As the number of special students in the school grew, she complained and demanded overtime pay from the school administration. As a child, she was taught that people aren't wary of cats, so she wears strange cat costumes.",
     "club": "文学",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "艾米、温妮",
     "extra": {
       "height": "157cm",
@@ -1880,7 +1879,7 @@
     "background": "一位缺乏常识的跨种族交换生。\n\n她作为交换生进入校园前，一直生活在远离人群的地方，因此缺乏社会常识。\n\n她刚到校不久就被Senpai注意到了，并被Senpai灌输了许多性观念。尽管其他同学很快纠正了她的观念，她依然非常崇拜Senpai。\n\n外表看似温顺，实则拥有应对任何战斗的实力。若仔细观察，或许能发现她不为人知的一面...",
     "club": "文学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "旗袍、伊芙琳",
     "extra": {
       "height": "154cm",
@@ -1953,7 +1952,7 @@
     "background": "This year's School Summer Swimsuit Festival is a real treat for the eyes.\n\nThe annual Summer Swimsuit Festival is here again! This time the most popular swimsuit girl is... Oh?! There's two of them! The two monsters, one is the mature and sexy Tamamo no Mae and the other is the cute and adorable Vampire Queen, are a great contrast! Which style do you like? Only a kid would only choose one! Haha!",
     "club": "文学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "天龙、水拳",
     "extra": {
       "height": "",
@@ -2112,7 +2111,7 @@
     "background": "一个外表冷酷，不善于交际的人。\n\n作为新式战斗服的测试员进入校园，对周围的一切都漠不关心。",
     "club": "艺术",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "Fanny、克拉拉",
     "extra": {
       "height": "155cm",
@@ -2187,7 +2186,7 @@
     "background": "A resolute and sickly girl. A metallic maid takes care of her daily life.\n\nShe falls in love at first sight with the Protagonist. When she decided to give him chocolate on Valentine's Day, she made some without her metallic maid's support, and they turned out inedible.",
     "club": "文学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "米娜、Natalia",
     "extra": {
       "height": "154cm",
@@ -2260,7 +2259,7 @@
     "background": "她喜欢和克拉拉一起聚会喝酒，尽管她酒量很差。\n\n她自出生以来就厄运连连。有一次，她不小心掉进了一个X马逊盒子（以世界上最大的在线市场而闻名），但即使她被运送到某个未知的地方，也没人注意到她不见了。",
     "club": "文学",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "吉赛尔、温妮",
     "extra": {
       "height": "165cm",
@@ -2335,7 +2334,7 @@
     "background": "Two devils suddenly appear at a Christmas party and give everyone an exciting performance.\n\nAt the Christmas party, Abyssal Warden appears with the tamed Vampire Queen. When everyone is amazed by Warden's abilities, Queen's expression seems to be hiding some secrets?!",
     "club": "运动",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "薇薇安、海丽",
     "extra": {
       "height": "",
@@ -2408,7 +2407,7 @@
     "background": "Feared on the battlefield as the \"Azure Demon\".  Marital status: Single.\n\nA Campus graduate who is currently a Science teacher. This 28-year-old lady is yearning for a strong man's love.",
     "club": "科学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "维纳斯、艾米",
     "extra": {
       "height": "166cm",
@@ -2481,7 +2480,7 @@
     "background": "An illegal-transformed dolphin beauty who enjoys having sex with humans.\n\nOne of the endangered species survivors found and rescued by the Eighth Academy's search team. She communicates with human through telepathy. Due to her strong sexual desire, she often seduced caretakers to hook up with her. During the days of having sex with humans, she realized that the dolphin's body is incapable of performing the most suitable sex with humans, and gradually longed to become a human being. Later, she succeeded in seducing an experimental team and secretly carried out an animal transformation project. Eventually, she became the first dolphin beauty.\nLater, the experimental team was punished by the Eighth Academy City Government for \"illegally transforming endangered animals\". Dolly was exiled to the Thirteenth Academy City.",
     "club": "文学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "比莉、天龙",
     "extra": {
       "height": "172cm",
@@ -2554,7 +2553,7 @@
     "background": "在校园里教数学和音乐的老师，也是发现芙罗拉天赋的人。\n\n桃乐丝是克拉拉和艾斯特的同事。她在员工教职室里就坐在克拉拉旁边。由于她看起来比克拉拉年轻，常开玩笑称呼克拉拉为“姐姐”。桃乐丝是在第十三学园都市现今的感染区被发现的，救援人员立即将她带走进行隔离和检查。奇迹般地，桃乐丝完全未受感染。然而苏醒后她丧失了全部记忆。“桃乐丝”这个名字源自康复期间阅读的小说中一位配角，她深受该角色的人格魅力与生活态度感动，渴望活出同样的生命姿态，遂以此名自称。她也对自己过往经历怀有强烈的好奇心。\n\n由于桃乐丝奇迹般的生还，校园方面对其身体构造和过往经历极为关注，遂邀请她入校接受各项研究，条件是协助她恢复记忆。尽管丧失记忆，桃乐丝却意外地聪慧过人，尤其在音乐方面展现出非凡天赋 —— 她几乎精通所有乐器演奏，因此校长安排她担任音乐教师。",
     "club": "艺术",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "克拉拉、凯娅",
     "extra": {
       "height": "173cm",
@@ -2627,7 +2626,7 @@
     "background": "An AI learning what it means to have a \"heart\".\n\nState-of-the-art AI sent to the Campus by the mechanical life clan, whose sole purpose is to learn human's \"heart\".",
     "club": "艺术",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "克拉拉、Fanny",
     "extra": {
       "height": "160cm",
@@ -2671,7 +2670,7 @@
     "background": "A lover of panty photos whose come from another dimension. Also well known as an Information Broker.\n\nAfter graduation she was still having fun uncovering secrets. One day while investigating a national conspiracy, she uncovered a gateway that connected to another world. She decided to explore this new world with her old partner, Patti.",
     "club": "运动",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "蛋糕、芙罗拉",
     "extra": {
       "height": "159cm",
@@ -2744,7 +2743,7 @@
     "background": "校园学生教务主任，她最大的秘密是年龄。\n\n年轻的艾斯特毕业后便被派往抗击感染者的前线。她不仅是位出色的战士，更是杰出的教官，这些年来培养了无数英勇战士。近期因抗疫战事升级，艾斯特被任命为学生教务主任。\n\n据传她曾是“暴走族”成员，人称“幽灵杀手之女”。平日温婉可人，训练课上却化身“魔鬼教官”，令学园多数女学员闻风丧胆。令人意外的是，她与学生会会长关系始终疏离。\n\n自从当了老师，她总听到关于Senpai的传闻，渐渐对Senpai产生了兴趣。",
     "club": "运动",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "克拉拉、艾米",
     "extra": {
       "height": "176cm",
@@ -2817,7 +2816,7 @@
     "background": "No. 1 singer at the Campus. Everyone is fascinated by her songs.\n\nThe Campus has picked her for her extensive vocal range that contains extraordinary power. Her emotion can change the type and strength of power. Although she is familiar with the Literature Club and the Singing Club, she aims to create the Jokes Study Club with Kirara, her best listener.",
     "club": "文学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "Kirara、水拳",
     "extra": {
       "height": "159cm",
@@ -2890,7 +2889,7 @@
     "background": "She is good at playing trumpet. She always performs with her vintage off-key trumpet.\n\nHer off-key trumpet is a vintage instrument. She has never considered buying a new trumpet just because she always masturbates with that trumpet in private. Maybe that is the reason why her trumpet is being off-key.",
     "club": "文学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "爱丽丝、维纳斯",
     "extra": {
       "height": "167cm",
@@ -2963,7 +2962,7 @@
     "background": "She provides a love letter express service named \"Mystery Express\" during Valentine's Day.\n\nEvery Valentine's Day she provides a love letter express service to help shy students express their love. One day, she noticed that the recipient of all the love letters was Senpai. This caused her to gain interest in Senpai and eventually she fell in love with him. This year, Senpai once again is the most popular recipient of love letters. However, there is only one letter in his locker on Valentine's Day! Where are the other letters? Who wrote the single letter? This is the story of Freya and Senpai.",
     "club": "科学",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "维纳斯、蛋糕",
     "extra": {
       "height": "163cm",
@@ -3036,7 +3035,7 @@
     "background": "剑术天赋异禀，立志登上世界之巅。\n\n狐狸家族的一员，前来为其受感染的妹妹寻找治疗方法。",
     "club": "艺术",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "卡米尔、Bonnie",
     "extra": {
       "height": "164cm",
@@ -3109,7 +3108,7 @@
     "background": "She's good at roller skating.  She also said that she could read someone's mind through her glasses.\n\nFull of a sense of justice, she's always meddling in the affairs of other people. Especially the affairs of those that she feels are unacceptable. She has a bad relationship with troubled teens, but perceive that they are doing bad things.",
     "club": "运动",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "艾米、佐伊",
     "extra": {
       "height": "157cm",
@@ -3182,7 +3181,7 @@
     "background": "It's Halloween again! Monsters related to Halloween look a bit different from the usual?\n\nDuring this festival of ghosts and monsters The Witch and Succubus compete for the Strongest Monster's throne. During the competition, both women were neck and neck. To determine who will be the Champion both decided to see who has the best body!",
     "club": "科学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "Taylor、温妮",
     "extra": {
       "height": "",
@@ -3255,7 +3254,7 @@
     "background": "Student proficient in mechanical engineering, has a unique physical condition.\n\nBefore coming to the campus, she already built self-made weapons to fight off the infected due to her keen interest in mechanical engineering, which is forgotten knowledge. After being invited to the Campus, she created a new technological system of combining mechanical and modern science, which she learnt at the Campus. Due to an inherited trait running in her family, she has a very sensitive body. Any body contact with another person, regardless of gender, arouses her sexual desire and makes her wet, prolonged contact even causes her to squirt. Therefore, before she entered the campus, she avoided physical contact with others carefully and suppressed her sexual desires. However, that suppression only made her even more sensitive. When Lucy and Katherine learned about her condition, they decided to create a special diet for her to improve her situation. Afterwards, her reactions to bodily contact began to improve, but it also caused her long repressed sexual desire to emerge.",
     "club": "科学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "克里斯蒂娜、维纳斯",
     "extra": {
       "height": "157cm",
@@ -3328,7 +3327,7 @@
     "background": "A girl who comes from a sun-drenched country. She really likes the sunshine.\n\nIn midsummer, she always goes to the beach, enjoying the sunshine of summer that only lasts for a few months.  Except for summer, we almost couldn't see her.  Some said she hides in her home since the sunshine of midsummer has been lost.",
     "club": "艺术",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "Maggie、海丽",
     "extra": {
       "height": "158cm",
@@ -3401,7 +3400,7 @@
     "background": "Non-Resident Intern Psychologist, responsible for providing psychological counseling to students. She likes to make coffee for others.\n\nA graduate of the Campus, Clara and Esther's junior. She now specializes in fire-leading abilities and is an expert in Social Psychology, Environmental Psychology, Behavior Psychology, Traffic Psychology, and so on. She looks professional in a suit, but often brings up coffee or her favorite items whe she talks, which ruins her image as an expert. It's also one of the reasons why she hasn't gotten her professional qualification. Thus, she is trying her best to improve and disguise herself.\n\nKahve only appears in the Campus's nurse's office on certain days to provide psychological counseling for students. Students can come to her to talk about their problems. Khave has an obsession with ground coffee, so the nurse's office are filled with the scent of various types of coffee when she is on duty. She even has a hobby of grinding coffee beans and putting them in a tuny pouch to carry around with her, and she will pull it out to sniff when she has a bad day. According to her, she will have a good better after sniffing it, which is also one of her ways to enjoy coffee. She often secretly takes away the equipments in the science room, such as Bunsen burner and beakers to make coffee, and Clara was furious when she finds out.",
     "club": "科学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "艾斯特、伊芙琳",
     "extra": {
       "height": "168cm",
@@ -3474,7 +3473,7 @@
     "background": "The Chairman of the Boarding Council. She is gentle and treats every student equally.\n\nShe was appointed as the Chairman of the Boarding Council to manage the dormitory because of her superb organisational skills. She is loved by the students in the dorm, however, some students trouble her all the time.",
     "club": "文学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "雷鞭、蛋糕",
     "extra": {
       "height": "170cm",
@@ -3547,7 +3546,7 @@
     "background": "A smart girl who is very good at Chinese cuisine.\n\nShe learned of the Eastern cuisine culture during literature class and fell in love with it quickly. She became a master of the Eastern cuisine already after studying it for a short time. In her learning period, she and Lucy became best friends and often created East-West fusion dishes. However, she was fascinated by a legendary eastern dish titled the \"Dark Dishes\", with which she threatened the stomachs of many students.",
     "club": "文学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "薇薇安、蛋糕",
     "extra": {
       "height": "168cm",
@@ -3620,7 +3619,7 @@
     "background": "A party DJ at the Campus who drives everyone's emotions at the summer event.\n\nShe is a fashionable hot girl at the Campus. She is proficient in all areas of music and has an excellent understanding of music theory. She can use acoustic waves to attack. Although she performs great on the battlefield, she prefers to be a party DJ and share her music.",
     "club": "科学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "伊芙琳、蛋糕",
     "extra": {
       "height": "166cm",
@@ -3693,7 +3692,7 @@
     "background": "一个和艾娃同类型的人工智能，天生是个捣蛋鬼。\n\n热爱重型武器的战斗型机甲少女，她偷偷溜进了搭载艾尔瓦的运输机，对运输机上的重型武器如痴如醉地研究。最终，她与艾尔瓦一同来到了校园。",
     "club": "艺术",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "水拳、卡罗琳",
     "extra": {
       "height": "159cm",
@@ -3766,7 +3765,7 @@
     "background": "An exchange student who comes from abroad. It is said that she is very popular in her country.\n\nShe loves dressing up as a maid with a cat ears headband, but she has no talent of being a real maid. When someone is watching her, she's unable to fight the urge to masturbate.",
     "club": "文学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "蛋糕、薇薇安",
     "extra": {
       "height": "162cm",
@@ -3839,7 +3838,7 @@
     "background": "怯懦的露易莎，蒙受音乐之灵的眷顾，用自创的歌谣点燃人们的心灵\n\n露易莎过于胆怯，生怕得罪他人，因此不敢与周围人交谈。她甚至在见到感染者时昏厥过去……\n\n当露易莎意识到自己软弱无能，觉得拖累了所有人时，伊芙琳的歌声传入了她的耳中。\n\n伊芙琳的歌声在这一刻俘获了露易莎的心，抚平了她低落的自尊，使她重获力量。\n露易莎初次体会到音乐能成为希望与力量的源泉，从此坚持创作歌词谱写旋律，期盼有朝一日能用音乐激励他人。\n\n某夜，当露易莎在寂静的湖畔唱出完成的乐曲时，湖面突然浮现闪烁的音符，缓缓飘向她，随后竟出现绚丽的五线谱！原来她的创作获得了音乐之灵的认可，对方甚至将部分音符的力量赋予了她。\n此后她的音乐演出广受赞誉，并以独特方式投身对抗感染者的战斗。",
     "club": "艺术",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "维纳斯、精灵",
     "extra": {
       "height": "166cm",
@@ -3912,7 +3911,7 @@
     "background": "A thoughtful girl who always takes care of junior like a sister.  She is outstanding in Home Economics\n\nShe has no immunity against Junior Students. Sometimes, she can't stop herself and will do something unpredictable to take care of her junior students.",
     "club": "科学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "Fanny、艾伯塔",
     "extra": {
       "height": "172cm",
@@ -3985,7 +3984,7 @@
     "background": "狐族的一只白狐，也是米娜的熟人。她性格直率，对谁都刻薄。\n\n自幼便以聪慧著称，酷爱锻造日本刀。厌恶村落生活，为示抗争剪去长发离村而去。当吉赛尔与其他狐族成员来到校园时，她以为对方是来带她回村的。她不断恶作剧阻挠对方，直到米娜解释来意后才停息。",
     "club": "艺术",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "Cecilia、维奥莱特",
     "extra": {
       "height": "160cm",
@@ -4058,7 +4057,7 @@
     "background": "Raccoon girl with super brains.\n\nMabel was just an ordinary Raccoon girl, her parents were both researchers of infected bodies. However, in an accident when she was a child, she mistakenly drank a half-finished antibody vaccine. Because the vaccine was only a half-finished product, it was very likely to be fatal after entering her body, but Mabel not only did not appear to be in danger of her life, but it also made her brain more developed, smarter than ever, and physically more powerful.",
     "club": "科学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "婕妮娃、蓝鸟",
     "extra": {
       "height": "165cm",
@@ -4131,7 +4130,7 @@
     "background": "Born from a Valentine's Day wish. As sweet as chocolate.\n\nEvery Valentine's Day, everyone who is spending it alone makes a wish, \"I hope to get a Valentine's Day chocolate full of love\". So everyone's thoughts and magic will let the chocolate Power Witch Maeve be born. This chocolate witch can feel sincere love and yearn for the prayer of chocolate, thereby protecting many boys and girls from being affected by other things in their love, and trying their best to help boys and girls get a Valentine's Day chocolate, or convey their hearts. The chocolate witch was finally discovered by the magical girls on the Campus and she was invited to become a member of the magical girls to protect everyone's hearts.",
     "club": "科学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "佐伊、艾米",
     "extra": {
       "height": "165cm",
@@ -4204,7 +4203,7 @@
     "background": "镰鼬一族成员，雪莉与真琴的妹妹。\n\n真希是镰鼬三姐妹中最年幼的妹妹。她头脑清醒，言语简洁而富有逻辑性。即便身处危机也能冷静分析，常以细致的思维协助姐妹们制定对策。她拥有优雅的外表与丰满的胸脯，始终带着几分谦逊的优雅气质。真希常携相机出行，细致捕捉环境与人心间的微妙变化，用镜头记录动荡时代的真相与情感。\n\n自幼她便仰慕姐姐雪莉的温柔——每当家中争执或困境时，雪莉总能以包容态度和温暖话语安抚众人。只要雪莉在场，任何困难都能迎刃而解。真希常在旁默默观察，试图向姐姐学习成为坚实的后盾。另一方面，真希又暗自钦佩真琴那不拘一格的自由灵魂——她敢于挑战权威，随心而行。这份勇气正是真希内心渴求却难以企及的。每当真琴带她踏上冒险之旅，真希便用镜头捕捉姐姐的勇敢与欢愉，这些影像也成为她创作的灵感源泉。",
     "club": "艺术",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "真琴、薇薇安",
     "extra": {
       "height": "170cm",
@@ -4277,7 +4276,7 @@
     "background": "镰鼬一族成员，雪莉的妹妹。她还有个双胞胎妹妹名叫真希。三姐妹中胸部最平坦的一位。\n\n与温柔可爱的雪莉不同，作为雪莉家的次女，真琴叛逆、霸道又活跃，常被误认为是长姐。她喜欢捉弄别人，但绝不会对家人下手。她时常捉弄妹妹真希，却仍带着妹妹四处见识世界，足见真琴对家人的珍视。她精通“热风控制术”，能将空气中的水分瞬间蒸发。\n\n在雪莉自愿献身之前，真琴以“开拓眼界”为由带着真希离开镰鼬村，游历各所学园都市，全然不知感染者已入侵行星。得知雪莉的牺牲决定后，她火速返回村庄试图阻止这场悲剧。最终长姐获得风神庇佑，真琴与真希才松了口气。此事也标志着真琴开始意识到感染者对星球的危害，她决心追随雪莉的志向，在各学园都市救助困境中的人们。\n\n近来她痴迷于摇滚乐，除探望姐姐外，还在学园与泰勒、英格丽组成限定乐队。三人正为学园祭舞台演出全力排练。",
     "club": "艺术",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "雪莉、雷鞭",
     "extra": {
       "height": "170cm",
@@ -4350,7 +4349,7 @@
     "background": "An awesome knight who is very popular at the Campus.\n\nShe has a strong sense of pride in her knighthood. Her big boobs have been bothering her so much because she cannot put on her regular suit of armor. She is very popular among girls at the Campus and gets noticed by Senpai. She has been ignoring Senpai's invitations until…",
     "club": "运动",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "海丽、米娜",
     "extra": {
       "height": "174cm",
@@ -4531,7 +4530,7 @@
     "background": "一个来自鬼村的优秀学生，对前辈心存怀疑。\n\n以优等生的身份进入校园的其中一名鬼族村民。在学校的第一天，她就已经与结识的人建立了良好的关系。她是一个活泼开朗的人，非常热爱运动。在学校里，使用禁制黑魔法的学生越来越多，学生会暂时称他们为“第五俱乐部”。诺瓦与其他三个俱乐部联手，加入了对抗第五俱乐部的斗争，并暂时保卫自己的俱乐部免受第五俱乐部的侵害。\n诺瓦本质上是个叛逆的人，她不相信拯救世界的钥匙会在这个校园里，所以她的主要目的就是来到校园，看看这里到底发生了什么。她对前辈在校园里的活动非常怀疑。",
     "club": "艺术",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "舞娘、薇薇安",
     "extra": {
       "height": "165cm",
@@ -4604,7 +4603,7 @@
     "background": "来自第一学园都市的神秘女子。无人知晓她的真实容貌。\n\n某日，第十三学园都市的所有学者被召集至礼堂，校长郑重介绍了这位蒙着双眼的女子——雷恩。她是第一学园的三年级学者。她的着装与你们截然不同，令众人不禁猜测第一学园都市是否存在显著的文化差异。作为临时交流学者，她将在第十三学园都市暂住，协助对抗感染者。\n\n自她到来后，“陛下”便成了她的代名词。或许是那双长期蒙蔽的双眼，散发出独特的神秘感。她气场强大得令普通学者难以靠近，更无人敢直呼其名。学院最初安排玛格丽特担任她的贴身护卫，这或许是校方暗藏的趣味安排，却很快遭到玛格丽特女性粉丝团的强烈反对。经雷恩与学院深入协商后，出人意料地选定你担任护卫。随着与“陛下”相处日久，你愈发渴望揭开她神秘的面纱。",
     "club": "运动",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "芙蕾雅、艾莲娜",
     "extra": {
       "height": "167cm",
@@ -4677,7 +4676,7 @@
     "background": "Master of fire magic, who had recognized (by mistake) senpai to be her savior\n\nShe had a similar experience to Chris, having lost her family to the infected bodies and having her town destroyed, so she transferred to the protagonist's school. Her memory was so vague that she only remembered being saved by a mysterious man who used fire magic. In order to find her savior and never wanting to see another unfortunate person like her in the world again, she learnt all about fire magic from Scarlett in the hope that she could use this power to protect others and attract her savior's attention. Roselyn's talent for fire magic was so strong that she was making rapid progress. however she knew almost nothing about anything other than fire magic and was a fool. When she saw senpai using fire magic during a practice, she mistook him for the savior she was looking for.",
     "club": "科学",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "海丽、格蕾丝",
     "extra": {
       "height": "155cm",
@@ -4750,7 +4749,7 @@
     "background": "A rare rabbit clan member, was discovered during the fight against the Virus and invited to the Campus.\n\nShe makes use of her sensitive ears and flexible body to fight against the infected with her handmade bubble shooter. She was known as the 'bomber' on the battlefield because of how powerful it is.\n\nAs a rabbit, she is in heat all the time, which was easy to see with her circling around Senpai. To avoid this, she ordered a protective mask to avoid Senpais smell.",
     "club": "科学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "水拳、尤娜",
     "extra": {
       "height": "163cm",
@@ -4823,7 +4822,7 @@
     "background": "An eastern girl who is passionate about calligraphy and aims to pass on this culture.\n\nThrough the sustained influence of her father (a Shinto priest and calligrapher), she became interested in calligraphy and ink art. Because of her bloodline of Onmyoji, she is able to use spells and control powerful guardian spirits in battle. Although they are powerful, the cost is high as well. Saika has to regularly provide her essence to replenish their spiritual power. To Natalia, Saika is a good rival in art at the campus.",
     "club": "艺术",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "Natalia、薇薇安",
     "extra": {
       "height": "153cm",
@@ -4896,7 +4895,7 @@
     "background": "校园七大谜团之一。据说唯有在深夜的校园庭院中才能邂逅她的身影。\n\n古东方有云：“一年之计在于春” —— 意指春日来临催生万物萌发。第十三学园都市以繁花迎接春天，校园亦不例外。在植物学教师阿莫拉的辛勤耕耘下，不仅花园生机盎然，连校园内的庭院近日也变得葱郁生机勃勃。课余时分，常有学子流连庭院，或小憩片刻，或树下读书。不过近日有学生夸张地宣称庭院植物具有消除负面情绪、净化身心之效，阿莫拉却坚称自己照料的都是寻常植物。\n\n某夜任务结束后，你拖着疲惫的身躯回到校园撰写任务报告。途经庭院返回宿舍时，看见身着制服的少女正坐在粉色花团锦簇的大树下，凝望着天际的弯月。她的身影令你心神荡漾，你缓缓走向树下。她轻盈飘落至你面前，指尖轻触你脸颊的冰凉，让你迫切想温暖这般可怜的美丽。忘却所有疲惫，你牵起她的手，她沉默中似乎默许了你的举动。两人跌落满是花瓣的草地，紧紧相拥。次日醒来，你蓬头垢面地躺在树下。美人已然消失，但你清晰记得与她一夜情留下的体温。当夜你再度独赴庭院，美人确然现身，只是身姿已更显成熟...",
     "club": "文学",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "婕妮娃、雷恩",
     "extra": {
       "height": "168cm",
@@ -4969,7 +4968,7 @@
     "background": "A lady responsible for the parade performance in the amusement park of the Thirteenth Academy City. Her energetic and cheerful personality is popular among children.\n\nEvery night at 9 o'clock, the amusement park in the Thirteenth  Academy City holds a parade performance, and Schastye always shows the best smile to everyone at the front of the parade. However, only a few employees know that she is not human, but a mechanical doll. She did not have a name in the past. Her mechanical design is similar to Elva and Lilly, but the model is relatively older. She has combat functions, but they are not fully developed, because its creator is human, not a mechanical life form, which makes her an illegally developed product. One day, she was abandoned by her creator at a street corner in the City. After countless aimless nights spent, she was drawn by the dazzling lights to the amusement park, quietly watching the parade performance.",
     "club": "科学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "卡罗琳、风妈",
     "extra": {
       "height": "160cm",
@@ -5042,7 +5041,7 @@
     "background": "Amy's distant relative, an outstanding exchange scholar from the ninth Academy City\n\nUnlike the lively and energetic Amy and others from the dog clan, Serina is naturally colorblind, seeing only on black and white in her world. She has been ostracized by other children, with only kind-hearted Amy playing with her. Serina spends all day at home reading, making her exceptionally shy, not good at interacting with anyone other than her parents and Amy. Immersed in books, she loves reading adventure stories, especially those that describe protagonists reincarnating in another world, making her yearn for the day she can embark on such a journey.\n\nThe intelligent Serina received an opportunity to be the exchange scholar to other Academic Cities. Without a second thought, she chose to study abroad for a short term in the thirteenth Academic City where Amy is.",
     "club": "科学",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "艾米、夏洛特",
     "extra": {
       "height": "162cm",
@@ -5115,7 +5114,7 @@
     "background": "一位嗜甜如命的少女，身为镰鼬族的成员，后来在祭祀中被风神所救。\n\n在镰鼬族的村落里，世代村民崇拜着“风神”，祈求神明庇佑。然而当感染者的阴影笼罩宁静村庄时，族长将这场灾祸解读为风神的怒火。为平息神怒，她竟提出以活人祭祀的极端方案。雪莉得知后毅然挺身而出，成为首位自愿献祭的村民，心中满是为村庄尽责的信念。神秘而遥远的风神在天界目睹了这一切。她怜悯雪莉的勇气与牺牲，在献祭的关键时刻，伸出救赎之手将雪莉从汪洋中救起。此后，雪莉受风神庇佑成为其使者，风神承诺将守护她的村庄。雪莉满怀感激，决定深入凡间帮助那些同样受感染者侵扰的无辜民众，分担风神的重任。以特殊身份进入校园后，她不仅刻苦学习，更在战斗中提供支援。某次与学长交战时，她感到被对方追击，便央求他传授更多对抗感染者的技能。校园生活中，她结识了出身迥异的友人琪拉拉。后者将雪莉的传统服饰改造为现代“辣妹”风格，为她开启全新世界。得知雪莉嗜甜的喜好后，琪拉拉更引导她成为“店铺探险家”，让她得以在网络最热门的店铺品尝令人垂涎的甜品。",
     "club": "艺术",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "蓝鸟、梅芙",
     "extra": {
       "height": "170cm",
@@ -5188,7 +5187,7 @@
     "background": "一个懒惰的天才科学家，对你来说，并不陌生。\n\n外表看起来像个高年级学生，但实际上才27岁出头。由于她总是躲在实验室里做研发工作，很少晒太阳，所以皮肤很白皙。她不是运动员，也没什么力气，还缺乏自我照顾的能力，但很擅长研发。性格和衣着都很随意，不过，令人惊讶的是，她特别爱吃甜食，甚至可以说是零食和糖果的狂热粉。她经常绞尽脑汁地研究和发表论文，所以总是感到饥饿。然而，她不容易长胖。她脸上通常没什么表情，但当看到她想吃的小吃时，她会露出非常可爱的表情。\n\n制造传送装置的原因仅仅是因为它看起来很有趣。原本的世界被维克斯病毒入侵，但她仍然致力于开发传送装置。在世界毁灭前的最后一刻，她制造出了这个装置，并逃到了你所在的世界。在收集信息的过程中，她发现你具有吸引异性的特质，于是将你列为观察目标。她想知道你去其他世界后会采取什么行动，因此引诱你成为她的特工，去其他世界收集不同的零食。",
     "club": "艺术",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "旗袍、莉莉",
     "extra": {
       "height": "168cm",
@@ -5261,7 +5260,7 @@
     "background": "Feathered Queen and Dragon Girl are showing off their supernatural sexiness with their summer swimsuits.\n\nOne Summer Day, two monster girls sneaked out of their rooms while the Security Guards weren't looking. Normally, the Dragon Girl appears pushy and aggressive while the Feathered Queen appears soft and tender. However, it appears the roles have reversed in the summer?!",
     "club": "艺术",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "艾伯塔、维奥莱特",
     "extra": {
       "height": "",
@@ -5334,7 +5333,7 @@
     "background": "A reindeer herder who lost her memory in an accident and use mystic power. She loves Aurora.\n\nTashia and an injured Reindeer, Valentin, were saved by the Campus from an accident in the Extreme North Region. The doctor had made a diagnosis which is retrograde amnesia. She forgot everything except her name, the reindeer's name, her favorite (Aurora), and the way to use the mysterious power of her crook. If she holds her crook and wishes under Aurora, her desire will be realized under certain conditions by her crook.\n\nBecause of her amnesia, she became curious about everything. She is close to Una and Alberta, especially Alberta. Alberta is like a sister to Tashia in that she usually teaches Tashia different kinds of nobles' sexual techniques.",
     "club": "艺术",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "尤娜、艾伯塔",
     "extra": {
       "height": "165cm",
@@ -5407,7 +5406,7 @@
     "background": "A royal family member of Uranus, also Una's relative. She seems to have come to the Academy City for a special reason.\n\nUna's aunt, the diplomat from Uranus, who travelled from her homeland to visit the 13th Academy City. With her tight schedule, she would only stay for a month before traveling to the next planet to continue her visit. The sudden visit of one of the Uranus royal family members has thrown the city's goverment into chaos. You have been assigned to be Tia's envoy to show her around the city with Una.\nAccording to Una, this aunt was born an unintended pregnancy many years after her grandmother gave birth to Una's mother, so she's like a gentle elder sister close in age to Una.",
     "club": "运动",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "尤娜、凤鸟",
     "extra": {
       "height": "175cm",
@@ -5480,7 +5479,7 @@
     "background": "害羞，但很粘她喜欢的人。\n\n来到校园寻找下一任国王的乌拉诺斯公主。",
     "club": "文学",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "Nydia、Erica",
     "extra": {
       "height": "170cm",
@@ -5553,7 +5552,7 @@
     "background": "Entered the Campus to find out about herself.\n\nA girl of miracle who was born to an infected mother. Able to control mysterious powers and likes reading.",
     "club": "文学",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "尤娜、吉赛尔",
     "extra": {
       "height": "174cm",
@@ -5626,7 +5625,7 @@
     "background": "她和吉赛尔曾师从同一位师傅，对吉赛尔而言如同亲姐妹。\n\n她是位非凡的魔法天才，那张专注的面容令人肃然起敬。然而她始终对吉赛尔怀有厌恶之情，因为她始终认为吉赛尔威胁着自己在狐族中的地位。",
     "club": "艺术",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "莫妮卡、吉赛尔",
     "extra": {
       "height": "168cm",
@@ -5699,7 +5698,7 @@
     "background": "Secretary of The Student Council who is addicted to detective fiction.\n\nShe yearns to be the great detective depicted in fiction and always imagines her heroic bearing as that of a great detective. She is a virgin but experienced in anal sex.",
     "club": "文学",
     "element": "风",
-    "year": 3,
+    "year": "3",
     "bonds": "米娜、Rayna",
     "extra": {
       "height": "156cm",
@@ -5772,7 +5771,7 @@
     "background": "A lively, talkative girl.  Amy's best friend.\n\nShe always talks about sports with Amy, but sometimes they also talk about sex toys. She always embarrasses Amy because she'll spill the beans about Amy's love of playing with sex toys.",
     "club": "运动",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "艾米、尤娜",
     "extra": {
       "height": "173cm",
@@ -5845,7 +5844,7 @@
     "background": "She is a gymnastics genius, well known as the \"Fairy of Gymnastics\"\n\nShe is constantly pestered by Phyllis to be taught Gymnastic Skills. Unfortunately for Phyllis, she constantly plays tricks on her because she thinks Phyllis is a hopeless idiot. To everyone else, those two are as close as sisters.",
     "club": "运动",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "蛋糕、Rayna",
     "extra": {
       "height": "171cm",
@@ -5889,7 +5888,7 @@
     "background": "Mina's fox maid. She is a gentle and kind big sister.\n\nShe went to the Campus immediately after hearing the news that Mina was missing. She now supports Mina's difficult mission in trying to help her friend.",
     "club": "文学",
     "element": "风",
-    "year": 2,
+    "year": "2",
     "bonds": "Jodie、米娜",
     "extra": {
       "height": "164cm",
@@ -5933,7 +5932,7 @@
     "background": "A senior who's always a sunshine and admired by juniors.\n\nA maiden who was imprisoned by her boyfriend for enslaving. Yearns to be loved.",
     "club": "文学",
     "element": "风",
-    "year": 2,
+    "year": "2",
     "bonds": "Hazel、卡米尔",
     "extra": {
       "height": "168cm",
@@ -5977,7 +5976,7 @@
     "background": "Born to a musical family, but dedicated to be a magic girl.\n\nMagic maiden from a different dimension. Joined the Campus on her country's command. A wild kid all in all.",
     "club": "运动",
     "element": "火",
-    "year": 2,
+    "year": "2",
     "bonds": "水拳、Ingrid",
     "extra": {
       "height": "148cm",
@@ -6021,7 +6020,7 @@
     "background": "A shy girl who comes from the Country of Snow. She can summon Shikigami through doing origami\n\nShe came to the Campus to learn the cultures of different countries. After she met her good friend Priscilla, she became hooked on BL (Boy's Love). Her Web Serial Novel (which is written under a pseudonym) is very popular among the students on the Campus.",
     "club": "文学",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "Kylie、芙罗拉",
     "extra": {
       "height": "168cm",
@@ -6065,7 +6064,7 @@
     "background": "A hardcore gamer and a passionate cosplayer.  Her great wish is to compete at the cosplay contests.\n\nShe became a pro cosplayer after watching several live cosplay contests. She has a God-given talent at sewing and prop making. Moreover, she can perfectly imitate any moves or countenances of her favorite characters.",
     "club": "科学",
     "element": "雷",
-    "year": 2,
+    "year": "2",
     "bonds": "Kirara、卡米尔",
     "extra": {
       "height": "166cm",
@@ -6109,7 +6108,7 @@
     "background": "An unsociable Ninja. She was trained by a mysterious Ninja Organization\n\nHer body secretes special hormones that cause her breasts to enlarge during sex. Even though she is immature, her body (combined with her skills as a Ninja) made her the best candidate to infiltrate the Campus and find its secrets.",
     "club": "科学",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "Elizabeth、雷鞭",
     "extra": {
       "height": "164cm",
@@ -6153,7 +6152,7 @@
     "background": "She has been educated as a noble. She has a wide array of knowledge and good at Sports, mainly Tennis.\n\nShe is a magnate's only daughter. It was love at first sight when she saw the Protagonist in a TV News Report, and came to the Campus to pursue him. To avoid troubles on the Campus, she's keeping a low profile.",
     "club": "运动",
     "element": "雷",
-    "year": 2,
+    "year": "2",
     "bonds": "Kirara、薇薇安",
     "extra": {
       "height": "175cm",
@@ -6197,7 +6196,7 @@
     "background": "Hates all infected.\n\nThe clan she served was slaughtered by infected, so she came to learn the way to kill the infected.",
     "club": "艺术",
     "element": "火",
-    "year": 2,
+    "year": "2",
     "bonds": "艾伯塔、Jodie",
     "extra": {
       "height": "159cm",
@@ -6241,7 +6240,7 @@
     "background": "Giselle put on her nightwear, and changed her type incredibly at the same time!?\n\nAfter an intense exercise, she calmed down and reminded what happened earlier. Then, her body started to get hot again and even went to find her darling to escape her loneliness in nightwear.",
     "club": "文学",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "卡米尔、温妮",
     "extra": {
       "height": "164cm",
@@ -6285,7 +6284,7 @@
     "background": "Model student that has the trust of the entire school.\n\nA girl with unmatched strength who wields a two-handed axe. Chosen by the school as head prefect. Cares a lot about her ass.",
     "club": "运动",
     "element": "风",
-    "year": 2,
+    "year": "2",
     "bonds": "艾米、维纳斯",
     "extra": {
       "height": "163cm",
@@ -6329,7 +6328,7 @@
     "background": "A Cat Girl with a pitch perfect voice who loves electronic music.\n\nA noble of the cat-ear clan. Applied to study electronic music in the Campus.",
     "club": "运动",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "Bonnie、Chris",
     "extra": {
       "height": "166cm",
@@ -6373,7 +6372,7 @@
     "background": "Even if she did nothing, she can still catch your eyes.\n\nShe was born on Valentine's day. Maybe with this reason, she is the most attractive girl in the Campus. She always cheers others up with her smile.",
     "club": "运动",
     "element": "火",
-    "year": 2,
+    "year": "2",
     "bonds": "Jodie、Pamela",
     "extra": {
       "height": "164cm",
@@ -6417,7 +6416,7 @@
     "background": "A fashionable girl. Unexpectedly, she is always amused by low-level jokes.\n\nShe goes to the Campus to learn the Art of Seducing Males with Body Language from Clara. Her future goal is finding a Sugar Daddy who can satisfy her unlimited wants.",
     "club": "艺术",
     "element": "雷",
-    "year": 2,
+    "year": "2",
     "bonds": "Erica、艾伯塔",
     "extra": {
       "height": "167cm",
@@ -6461,7 +6460,7 @@
     "background": "Member of Archery Society. The heir of traditional Kyudo.\n\nDuring her childhood she learned Kyudo, which caused her to become a conscientious and upstanding student. Outside of Kyudo, she knows very little of the rest of the world. This has led her to be extremely curious about everything on the Campus. However, she's too shy to ask about those things.",
     "club": "运动",
     "element": "火",
-    "year": 2,
+    "year": "2",
     "bonds": "Emma、薇薇安",
     "extra": {
       "height": "154cm",
@@ -6505,7 +6504,7 @@
     "background": "Likes studying curses, and always curses people she doesn't like.\n\nHas the ability to harm people with curses. Hoping to reunite with her missing green-haired sister.",
     "club": "文学",
     "element": "雷",
-    "year": 2,
+    "year": "2",
     "bonds": "Priscilla、Hazel",
     "extra": {
       "height": "177cm",
@@ -6549,7 +6548,7 @@
     "background": "A Girl who came from another world. She has a secret and a mysterious aspect to her personality\n\nA few years after graduation she stumbled into another world to find her missing lover. However, she noticed his personality was completely different. But, most importantly, too many bitches were seducing him! It was time to eliminate the competition!",
     "club": "艺术",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "维纳斯、Erica",
     "extra": {
       "height": "165cm",
@@ -6593,7 +6592,7 @@
     "background": "Chairman of Chess Society.  She has charisma and incomparable analysis capability.\n\nShe leads the Chess Society in order to overcome a long decline. Currently, she is leading her Society to try and annex other Societies in order to establish the 5th Club on the Campus.",
     "club": "艺术",
     "element": "水",
-    "year": 2,
+    "year": "2",
     "bonds": "Crystal、尤娜",
     "extra": {
       "height": "167cm",
@@ -6637,7 +6636,7 @@
     "background": "A noble, book girl who wants to live an ordinary life, but her Shikigami often makes trouble.\n\nBecause of her lineage and her inherited ability to summon Shikigami, she can not live an ordinary life. Unfortunately, she summoned a historic ancient Shikigami called, \"Original Sin.\" Which is irritable and childish.",
     "club": "文学",
     "element": "火",
-    "year": 2,
+    "year": "2",
     "bonds": "Rayna、海丽",
     "extra": {
       "height": "155cm",
@@ -6681,7 +6680,7 @@
     "background": "Clara's Student. She's rated as a more dangerous scientist than Clara.\n\nShe spends her time studying love potions, but can never seem to find willing test subjects among the students on the Campus. Because of this, she is considered somewhat dangerous to students and she always finds herself lonely.",
     "club": "科学",
     "element": "风",
-    "year": 2,
+    "year": "2",
     "bonds": "佐伊、克拉拉",
     "extra": {
       "height": "168cm",
@@ -6725,7 +6724,7 @@
     "background": "A punk girl who is addicted to rock music.\n\nShe has been in love with rock music since her first time to meet music. Her style is also gradually changing to punk style. Although she looks like a troubled teen, she never makes trouble for anyone. She is just having a consuming passion for music.",
     "club": "文学",
     "element": "雷",
-    "year": 2,
+    "year": "2",
     "bonds": "雷鞭、Ingrid",
     "extra": {
       "height": "168cm",
@@ -6769,7 +6768,7 @@
     "background": "A girl who is willing to do anything as long as she gets food.\n\nIf you provide the right food, she will kill a god for you.",
     "club": "艺术",
     "element": "雷",
-    "year": 1,
+    "year": "1",
     "bonds": "Phyllis、Priscilla",
     "extra": {
       "height": "162cm",
@@ -6813,7 +6812,7 @@
     "background": "Gang leader who never turns her back on anyone.\n\nGrumpy girl who was forced to enter the Campus because of her exceptional fighting capabilites.",
     "club": "科学",
     "element": "火",
-    "year": 1,
+    "year": "1",
     "bonds": "吉赛尔、艾米",
     "extra": {
       "height": "174cm",
@@ -6857,7 +6856,7 @@
     "background": "A weird girl who can control spirits.\n\nAble to control spirits. Joined the Campus for its collection of books regarding spirits. Has a dark personality.",
     "club": "文学",
     "element": "风",
-    "year": 1,
+    "year": "1",
     "bonds": "Chris、Nydia",
     "extra": {
       "height": "168cm",
@@ -6928,7 +6927,7 @@
     "background": "她是个胆小的女孩，害怕周围人的看法，所以就离家出走。但被人选中后，她就会坚持不懈。\n\n安妮特是一朵修行了数千年的紫色玫瑰。化作人形后，她遇到了一个让她一见钟情的男孩。花仙子们遇到心仪的男孩时，胸前就会显现出与自己花种相符的图案。安妮特一路追踪男孩，发现他竟然是学园都市的学生，于是为了爱情也进入了这所学校。后来，她甚至在情人节那天向学园都市的学生们售卖鲜花。她本身就是一朵象征着“永恒之爱”的紫色玫瑰，希望学园都市里所有的恋人都能幸福美满地在一起。",
     "club": "文学",
     "element": "火",
-    "year": 3,
+    "year": "3",
     "bonds": "露西、芙蕾雅",
     "extra": null,
     "skins": null,
@@ -6993,7 +6992,7 @@
     "background": "因其在龙族中强大的战斗力而闻名，它能够在战斗中解封感染者的身体。\n\n随着科技的发展，人们逐渐遗忘了一些古老而强大的生物，认为它们只存在于传说之中。这些被遗忘的族群隐居在远离人类居住地的偏僻地方，默默繁衍，而姬丝妲的“水龙族”也是其中之一。\n\n数千年前，他们生活在深山之中，拥有远超人类的智慧。他们拥有完善的社会体系，而姬丝妲则是一名守卫，负责保护族人。她自幼便拥有奇异的力量。虽然日常生活中她显得迟钝笨拙，但她的战斗技巧却无人能及，几乎连龙族都难以匹敌。然而，看似强大的龙族却隐藏着致命的弱点。\n\n一天晚上，一群变异感染者突然袭击了龙族的领地。眼看着族人逐渐被感染者攻陷，姬丝妲意识到情况不妙。突然，一个熟悉的身影从感染者中走了出来，正是她的朋友——玛德琳。玛德琳长期以来一直受姬丝妲的压迫，对她怀恨在心。为了获得感染者的力量，超越姬丝妲，玛德琳背叛了族人。",
     "club": "艺术",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "露西、薇薇安",
     "extra": {
       "height": "159cm",
@@ -7099,7 +7098,7 @@
     "background": "她与吉赛尔师出同门，是师门里最年轻的弟子。她使用的是一把特殊的武士刀。\n作为一位被才华横溢的师姐们包围的师妹，她总是感到自卑。为此，露娜打造了一把特殊的武士刀来鼓励她。当所有师姐们聚集在校园时，她获得了校长的许可，与师姐们执行相同的任务。在校园里与师姐们会合后，她突然觉醒了自己的力量，意识到自己是传说中的九尾狐。在她的发情期中，她的九条尾巴会一条接一条地出现。发情周期越深入，可见的尾巴越多，她的力量也越强。传说中，九尾狐只在世界陷入危机时才会现身。",
     "club": "艺术",
     "element": "水",
-    "year": 3,
+    "year": "3",
     "bonds": "维纳斯、吉赛尔",
     "extra": {
       "height": "166cm",
@@ -7293,7 +7292,7 @@
     "background": "一个在对抗感染者战斗中突然出现的神秘的女孩。\\n\\n在一次大规模行动中，一道奇怪的光芒突然划破天际。当所有人回过神来时，他们惊讶地发现，在感染人群的中心站着一个手持巨盾的年轻女孩。她的战斗力远超科技所能测量的范畴，仅凭几招，她就消灭了所有在场的感染者。女孩自称是雅典娜，希腊神话中的智慧、战略和工艺之神。\\n\\n由于她的名字与女神战士同名，她暂时由负责照顾女神战士的男学生监护。雅典娜在原来的世界里从未与男性同住过，因此对此感到十分尴尬。\",",
     "club": "运动",
     "element": "雷",
-    "year": 3,
+    "year": "3",
     "bonds": "白狼、卡米尔",
     "extra": null,
     "skins": null,
