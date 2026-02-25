@@ -164,7 +164,7 @@ class CharacterService:
         这里的角色，应该包含角色基础信息、角色技能，后续可能会加入皮肤、背景故事、活动等等
         """
         sql = """
-        SELECT id, name, avatars, nicknames, arena_skill, awakening_passive, talent_tree, bonds,
+        SELECT id, name, avatars, nicknames, arena_skill, story_skill, awakening_passive, talent_tree, bonds,
         background, club, element, year, hobbies, type, extra, skins, tags, created_at, last_updated, translated FROM character WHERE name = ?
         """
         with self.db_helper.get_connection() as conn:

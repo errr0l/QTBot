@@ -114,8 +114,10 @@ async def runner4(
         if result > 1:
             message = success
             name_mapper.refresh_index()
-        else:
+        elif result == 1:
             message = "无需更新"
+        else:
+            message = execution_error
         logger.info(f"result: {message}")
         bot = get_bot()
 

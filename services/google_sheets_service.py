@@ -41,13 +41,15 @@ class GoogleSheetsService(StorageService):
         logger.info(f"status_code: {response.status_code}")
         if response.status_code == 200:
             try:
-                respData = response.json()
-                if respData.get("code") == 200 or respData.get("message") == 'ok':
-                    rows = respData.get("rows", [])
+                resp_data = response.json()
+                if resp_data.get("code") == 200 or resp_data.get("message") == 'ok':
+                    rows = resp_data.get("rows", [])
                     self.character_service.update_characters(characters=rows)
-                    return True
+                    return 2
             except Exception as error:
                 logger.error(error)
+
+        return 0
 
     # def push_characters(self, characters: List[dict]):
     #     """
