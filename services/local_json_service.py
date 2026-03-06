@@ -31,7 +31,7 @@ class LocalJsonService(StorageService):
 
         with open(self.file_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-            return True
+            return 1
 
     def __init__(self, character_service: CharacterService, file_path: str):
         self.character_service = character_service
@@ -50,7 +50,7 @@ class LocalJsonService(StorageService):
             data.append(character)
         with open(self.file_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-            return True
+            return 1
 
     def sync_data_from_database(self, name: str):
         character = self.character_service.get_character_by_name(name=name)

@@ -14,3 +14,5 @@ success = "成功"
 failure = "失败"
 
 repeated_instruction_error = "任务正在进行，请勿重复提交"
+
+not_supported = "暂不支持该功能"

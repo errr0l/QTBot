@@ -23,8 +23,9 @@ async def runner(
         result = await asyncio.to_thread(crawler.scrape_character_and_save, name)
         if result:
             message = f"[{name}]抓取成功"
-            storage_service.sync_data_from_database(name)
-            name_mapper.refresh_index()
+            sync_result = storage_service.sync_data_from_database(name)
+            if sync_result != -1:
+                name_mapper.refresh_index()
         else:
             message = f"[{name}]抓取失败，详情请查看日志"
         logger.info(f"result: {message}")
@@ -134,7 +135,10 @@ async def runner4(
 async def runner6(event, user_id, storage_service: StorageService, name: str):
     try:
         result = await asyncio.to_thread(storage_service.sync_data_from_database, name)
-        message = success if result else execution_error
+        if result == -1:
+            message = not_supported
+        else:
+            message = success if result else execution_error
         logger.info(f"message: {message}")
         bot = get_bot()
         await bot.send(event=event, message=message, at_sender=True)

@@ -89,11 +89,11 @@
       "icon": "//static.wikitide.net/projectqtwiki/thumb/1/1d/A33.png/40px-A33.png",
       "cooldown": 5,
       "descriptions": [
-        "对1名敌人造成角色1倍攻击力的风属性伤害。\n\n反射40%的技能伤害给敌人，持续4回合。(不包括异常伤害)",
-        "对1名敌人造成角色1.1倍攻击力的风属性伤害。\n\n反射50%的技能伤害给敌人，持续5回合。(不包括异常伤害)",
-        "对1名敌人造成角色1.3倍攻击力的风属性伤害。\n\n反射60%的技能伤害给敌人，持续6回合。(不包括异常伤害)",
-        "对1名敌人造成角色1.4倍攻击力的风属性伤害。\n\n反射70%的技能伤害给敌人，持续7回合。(不包括异常伤害)",
-        "对1名敌人造成角色1.5倍攻击力的风属性伤害。\n\n反射80%的技能伤害给敌人，持续8回合。(不包括异常伤害)"
+        "对1名敌人造成1倍角色攻击力的风属性伤害。\n\n反射40%的技能伤害给敌人，持续4回合。(不包括异常伤害)",
+        "对1名敌人造成1.1倍角色攻击力的风属性伤害。\n\n反射50%的技能伤害给敌人，持续5回合。(不包括异常伤害)",
+        "对1名敌人造成1.3倍角色攻击力的风属性伤害。\n\n反射60%的技能伤害给敌人，持续6回合。(不包括异常伤害)",
+        "对1名敌人造成1.4倍角色攻击力的风属性伤害。\n\n反射70%的技能伤害给敌人，持续7回合。(不包括异常伤害)",
+        "对1名敌人造成1.5倍角色攻击力的风属性伤害。\n\n反射80%的技能伤害给敌人，持续8回合。(不包括异常伤害)"
       ]
     },
     "story_skill": null,
@@ -514,21 +514,18 @@
   {
     "id": 10,
     "name": "Nike",
-    "avatars": [
-      "//static.wikitide.net/projectqtwiki/thumb/c/c5/Nike.png/320px-Nike.png",
-      "//static.wikitide.net/projectqtwiki/thumb/a/a5/NikeChibi.png/320px-NikeChibi.png"
-    ],
+    "avatars": "[\"//static.wikitide.net/projectqtwiki/thumb/c/c5/Nike.png/320px-Nike.png\", \"//static.wikitide.net/projectqtwiki/thumb/a/a5/NikeChibi.png/320px-NikeChibi.png\"]",
     "nicknames": "奈克、耐克、妮姬",
     "arena_skill": {
       "name": "女神的祝福",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/0/06/G1.png/40px-G1.png",
       "cooldown": 5,
       "descriptions": [
-        "对2名敌人造成0.3倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.05倍角色初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低10%。",
-        "对2名敌人造成0.35倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.10倍角色初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低16%。",
-        "对2名敌人造成0.4倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.15倍角色初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低23%。",
-        "对2名敌人造成0.45倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.20倍角色初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低30%。",
-        "对2名敌人造成0.5倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.25倍角色初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低40%。"
+        "对2名敌人造成0.3倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.05倍妮姬的初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低10%。",
+        "对2名敌人造成0.35倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.10倍妮姬的初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低16%。",
+        "对2名敌人造成0.4倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.15倍妮姬的初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低23%。",
+        "对2名敌人造成0.45倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.20倍妮姬的初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低30%。",
+        "对2名敌人造成0.5倍角色攻击力的伤害。\n\n战斗开始时，对2名攻击力最低的角色施加「火盾」；火盾值为0.25倍妮姬的初始生命值；5回合内，角色受到直接伤害，优先消耗盾值，所有类型的盾效果不会叠加。\n\n护盾持续时间结束时，剩余护盾值转为等量生命值。\n\n战斗开始时，使2名运动角色受到的伤害降低40%。"
       ]
     },
     "story_skill": null,
@@ -563,13 +560,31 @@
             "如果队伍血量在50%或以下，减少2名非文学角色的伤害30%，持续4回合"
           ]
         }
+      },
+      {
+        "name": "女仆",
+        "images": [
+          "//static.wikitide.net/projectqtwiki/thumb/2/25/NikeSkin2.png/320px-NikeSkin2.png",
+          "//static.wikitide.net/projectqtwiki/thumb/2/2f/NikeSkin2Chibi.png/320px-NikeSkin2Chibi.png"
+        ],
+        "passive_skill": {
+          "name": "女仆的礼仪",
+          "icon": "//static.wikitide.net/projectqtwiki/thumb/5/57/GS9.png/40px-GS9.png",
+          "descriptions": [
+            "若队伍血量在75%或以下，对2名非文学角色施加护盾: 护盾值为1倍妮姬的回复量。受到直接伤害时优先消耗，持续2回合，所有类型的盾效果不会叠加。\n\n若队伍血量在30%或以下，对2名非风角色施加「普攻沉默」; 目标无法普通攻击，持续4回合。",
+            "若队伍血量在75%或以下，对2名非文学角色施加护盾: 护盾值为1.2倍妮姬的回复量。受到直接伤害时优先消耗，持续2回合，所有类型的盾效果不会叠加。\n\n若队伍血量在30%或以下，对2名非风角色施加「普攻沉默」; 目标无法普通攻击，持续5回合。",
+            "若队伍血量在75%或以下，对2名非文学角色施加护盾: 护盾值为1.4倍妮姬的回复量。受到直接伤害时优先消耗，持续2回合，所有类型的盾效果不会叠加。\n\n若队伍血量在30%或以下，对2名非风角色施加「普攻沉默」; 目标无法普通攻击，持续5回合。",
+            "若队伍血量在75%或以下，对2名非文学角色施加护盾: 护盾值为1.6倍妮姬的回复量。受到直接伤害时优先消耗，持续2回合，所有类型的盾效果不会叠加。\n\n若队伍血量在30%或以下，对3名非风角色施加「普攻沉默」; 目标无法普通攻击，持续6回合。",
+            "若队伍血量在75%或以下，对2名非文学角色施加护盾: 护盾值为2倍妮姬的回复量。受到直接伤害时优先消耗，持续2回合，所有类型的盾效果不会叠加。\n\n若队伍血量在30%或以下，对3名非风角色施加「普攻沉默」; 目标无法普通攻击，持续6回合。"
+          ]
+        }
       }
     ],
     "hobbies": "",
     "type": 2,
     "tags": null,
-    "created_at": null,
-    "last_updated": "2026-01-28 02:12:36",
+    "created_at": "2026-02-14 18:16:29",
+    "last_updated": "2026-02-14 18:16:29",
     "translated": 1
   },
   {
@@ -1061,7 +1076,7 @@
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "恶魔的声音",
+      "name": "恶魔低语",
       "icon": "//static.wikitide.net/projectqtwiki/4/45/A7.png",
       "descriptions": [
         "使2名攻击力最高的敌人攻击力降低8%，持续8回合。",
@@ -1165,48 +1180,48 @@
     ],
     "nicknames": "婕妮娃、日内瓦、课桌、幽灵",
     "arena_skill": {
-      "name": "Ghostly Power",
+      "name": "幽魂之力",
       "icon": "//static.wikitide.net/projectqtwiki/thumb/3/38/A34.png/40px-A34.png",
       "cooldown": 6,
       "descriptions": [
-        "Inflict 1x the Character's Attack as Lightning Damage on 1 Enemy\n\nDecrease all Enemies Attack by 5% for 4 Rounds\n\nIncrease 1 Enemy's Damage taken by 10% for 2 Rounds.",
-        "Inflict 1.1x the Character's Attack as Lightning Damage on 1 Enemy\n\nDecrease all Enemies Attack by 10% for 4 Rounds\n\nIncrease 1 Enemy's Damage taken by 15% for 2 Rounds.",
-        "Inflict 1.3x the Character's Attack as Lightning Damage on 1 Enemy\n\nDecrease all Enemies Attack by 15% for 4 Rounds\n\nIncrease 1 Enemy's Damage taken by 20% for 2 Rounds.",
-        "Inflict 1.4x the Character's Attack as Lightning Damage on 1 Enemy\n\nDecrease all Enemies Attack by 20% for 4 Rounds\n\nIncrease 1 Enemy's Damage taken by 25% for 2 Rounds.",
-        "Inflict 1.5x the Character's Attack as Lightning Damage on 1 Enemy\n\nDecrease all Enemies Attack by 30% for 4 Rounds\n\nIncrease 1 Enemy's Damage taken by 30% for 2 Rounds."
+        "对1名角色造成1倍角色攻击力的雷属性伤害。\n\n使所有敌人的攻击力降低5%，持续4回合。\n\n使1名敌人受到的伤害提升10%，持续2回合。",
+        "对1名角色造成1.1倍角色攻击力的雷属性伤害。\n\n使所有敌人的攻击力降低10%，持续4回合。\n\n使1名敌人受到的伤害提升15%，持续2回合。",
+        "对1名角色造成1.3倍角色攻击力的雷属性伤害。\n\n使所有敌人的攻击力降低15%，持续4回合。\n\n使1名敌人受到的伤害提升20%，持续2回合。",
+        "对1名角色造成1.4倍角色攻击力的雷属性伤害。\n\n使所有敌人的攻击力降低20%，持续4回合。\n\n使1名敌人受到的伤害提升25%，持续2回合。",
+        "对1名角色造成1.5倍角色攻击力的雷属性伤害。\n\n使所有敌人的攻击力降低30%，持续4回合。\n\n使1名敌人受到的伤害提升30%，持续2回合。"
       ]
     },
     "story_skill": null,
     "awakening_passive": {
-      "name": "Trick and Treat!",
+      "name": "不给糖就捣蛋！",
       "icon": "//static.wikitide.net/projectqtwiki/2/23/A19.png",
       "descriptions": [
-        "Decrease all Characters Water Damage Taken by 5%.\n\nDecrease all Characters Damage taken by 5% dealt by Science Enemies.",
-        "Decrease all Characters Water Damage Taken by 10%.\n\nDecrease all Characters Damage taken by 10% dealt by Science Enemies.",
-        "Decrease all Characters Water Damage Taken by 20%.\n\nDecrease all Characters Damage taken by 20% dealt by Science Enemies."
+        "使所有水角色的伤害降低5%。\n\n使所有角色受到来自科学角色的伤害降低5%。",
+        "使所有水角色的伤害降低10%。\n\n使所有角色受到来自科学角色的伤害降低10%。",
+        "使所有水角色的伤害降低20%。\n\n使所有角色受到来自科学角色的伤害降低20%。"
       ],
       "instructions": null,
       "extra": null
     },
     "talent_tree": {
-      "name": "Anti-Stress trait-Sci",
+      "name": "抗压特质-科学",
       "icon": "//static.wikitide.net/projectqtwiki/9/98/A18.png",
       "descriptions": [
-        "Decrease 2 allied Science Characters' Damage taken by 1%",
-        "Decrease 2 allied Science Characters' Damage taken by 2%",
-        "Decrease 2 allied Science Characters' Damage taken by 3%",
-        "Decrease 2 allied Science Characters' Damage taken by 4%",
-        "Decrease 2 allied Science Characters' Damage taken by 5%",
-        "Decrease 2 allied Science Characters' Damage taken by 6%",
-        "Decrease 2 allied Science Characters' Damage taken by 7%",
-        "Decrease 2 allied Science Characters' Damage taken by 8%",
-        "Decrease 2 allied Science Characters' Damage taken by 9%",
-        "Decrease 2 allied Science Characters' Damage taken by 10%"
+        "使2名友方科学角色受到的伤害降低1%",
+        "使2名友方科学角色受到的伤害降低2%",
+        "使2名友方科学角色受到的伤害降低3%",
+        "使2名友方科学角色受到的伤害降低4%",
+        "使2名友方科学角色受到的伤害降低5%",
+        "使2名友方科学角色受到的伤害降低6%",
+        "使2名友方科学角色受到的伤害降低7%",
+        "使2名友方科学角色受到的伤害降低8%",
+        "使2名友方科学角色受到的伤害降低9%",
+        "使2名友方科学角色受到的伤害降低10%"
       ],
       "instructions": null,
       "extra": "+1500+3750+750"
     },
-    "background": "Clara's classmate.  She became a ghost after suffering in a prank accident.\n\nShe is always vexed by thinking about what prank to do next. When she first became a ghost, she was at a loss of what to do. But, one day, she realized that being a ghost can help her prankster nature! Now, she is completely satisfied that she became a ghost.",
+    "background": "克拉拉的同学。她在一次恶作剧事故中变成了幽灵。\n\n她总是为接下来要玩什么恶作剧而烦恼。刚变成幽灵时，她不知所措。但有一天，她意识到幽灵可以帮助她发挥恶作剧的天性！现在，她对自己变成幽灵感到非常满意。",
     "club": "科学",
     "element": "雷",
     "year": "3",
@@ -1215,15 +1230,15 @@
       "height": "164cm",
       "weight": "48kg",
       "body_size": "34E-25-35",
-      "birthday": "Oct 31st"
+      "birthday": "10-31"
     },
     "skins": null,
-    "hobbies": "Pranks",
+    "hobbies": "恶作剧",
     "type": 1,
     "tags": null,
     "created_at": null,
     "last_updated": "2026-01-28 02:12:36",
-    "translated": null
+    "translated": 1
   },
   {
     "id": 23,
@@ -2440,11 +2455,11 @@
       "icon": "//static.wikitide.net/projectqtwiki/thumb/7/74/A36.png/40px-A36.png",
       "cooldown": 5,
       "descriptions": [
-        "对2名敌人造成0.5倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.3倍朵莉的回复量。受到直接伤害时优先消耗，所有类型的盾效果不会叠加。\n\n回复0.4倍总回复量的血量。",
-        "对2名敌人造成0.55倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.4倍朵莉的回复量。受到直接伤害时优先消耗，所有类型的盾效果不会叠加。\n\n回复0.5倍总回复量的血量。",
-        "对2名敌人造成0.6倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.5倍朵莉的回复量。受到直接伤害时优先消耗，所有类型的盾效果不会叠加。\n\n回复0.6倍总回复量的血量。",
-        "对2名敌人造成0.65倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.65倍朵莉的回复量。受到直接伤害时优先消耗，所有类型的盾效果不会叠加。\n\n回复0.7倍总回复量的血量。",
-        "对2名敌人造成0.75倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.8倍朵莉的回复量。受到直接伤害时优先消耗，所有类型的盾效果不会叠加。\n\n回复0.8倍总回复量的血量。"
+        "对2名敌人造成0.5倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.3倍朵莉的回复量。受到直接伤害时优先消耗，持续5回合，所有类型的盾效果不会叠加。\n\n回复0.4倍总回复量的血量。",
+        "对2名敌人造成0.55倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.4倍朵莉的回复量。受到直接伤害时优先消耗，持续5回合，所有类型的盾效果不会叠加。\n\n回复0.5倍总回复量的血量。",
+        "对2名敌人造成0.6倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.5倍朵莉的回复量。受到直接伤害时优先消耗，持续5回合，所有类型的盾效果不会叠加。\n\n回复0.6倍总回复量的血量。",
+        "对2名敌人造成0.65倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.65倍朵莉的回复量。受到直接伤害时优先消耗，持续5回合，所有类型的盾效果不会叠加。\n\n回复0.7倍总回复量的血量。",
+        "对2名敌人造成0.75倍角色攻击力的水属性伤害。\n\n为所有角色施加「护盾」，护盾值为0.8倍朵莉的回复量。受到直接伤害时优先消耗，持续5回合，所有类型的盾效果不会叠加。\n\n回复0.8倍总回复量的血量。"
       ]
     },
     "story_skill": null,
