@@ -92,7 +92,7 @@ class CharacterService:
         INSERT OR IGNORE INTO character
         (name, avatars, nicknames, arena_skill, awakening_passive, talent_tree, background, club,
         element, `year`, bonds, hobbies, type, extra, skins, tags, created_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """
         created_at = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         with self.db_helper.get_connection() as conn:

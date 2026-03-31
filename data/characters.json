@@ -7425,5 +7425,44 @@
     "created_at": null,
     "last_updated": "2026-02-11 14:46:57",
     "translated": 1
+  },
+  {
+    "name": "Victoria",
+    "nicknames": "维多利亚",
+    "background": "The Goddess Warrior named after the Goddess of Fortune and Mysteries \"Victoria\", sleeping deep underground in the 7th Academy City.\n\nVictoria is a Goddess Warrior with a significant cognitive bias regarding her self-evaluation. She has always believed that she can eliminate the infected purely by good luck, but everyone knows she is a true genius. While others train hard to finally reach the top, that place is merely her starting point. However, her catchphrase is always: \"Mr. Scholar, you are amazing!\" For others, hearing \"you are amazing\" from Victoria in an admiring tone sounds like sarcasm. Over time, people in the Academy have kept their distance from her.\n\nOnly the male scholar who have been closed to her know that she is not mocking them. Victoria genuinely believes that every action of the male scholar is a genius's strategy, and every word is a carefully considered decree. She even admires and affirms everything about the male scholar. Victoria has a strong fondness for physical contact with others. After a victory in battle, she unconsciously hangs on the male scholar's arm, rubbing against him like a happy little animal, and occasionally gives him an \"energetic\" warm hug from behind—Of course, her impressive boobs also press against him hard.",
+    "club": "全能",
+    "element": "",
+    "year": "",
+    "bonds": "",
+    "hobbies": "",
+    "type": 2,
+    "arena_skill": {
+      "name": "胜利号角",
+      "icon": "//static.wikitide.net/projectqtwiki/thumb/0/06/G1.png/40px-G1.png",
+      "cooldown": 7,
+      "descriptions": [
+        "对1名敌人造成0.8倍角色攻击力的伤害。\n\n移除1名角色的1个负面效果。(优先移除「中毒/燃烧/雷霆」）\n\n回复1名角色相当于自身1.5倍回复量的血量。\n\n战斗开始时，使1名体育角色的血量提升10%，使2名艺术角色的攻击力提升10%，2名科学角色攻击力提升15%。\n\n为2名角色施加「技能反伤」效果，反射10%技能伤害给敌人，持续16回合。\n\n战斗开始时，使1名非水角色的技能伤害提升10%，持续16回合。\n\n战斗开始时，使1名水或雷角色的攻击力提升10%，2名火或风角色的攻击力提升10%，持续16回合。",
+        "对1名敌人造成0.9倍角色攻击力的伤害。\n\n移除1名角色的1个负面效果。(优先移除「中毒/燃烧/雷霆」）\n\n回复1名角色相当于自身1.8倍回复量的血量。\n\n战斗开始时，使2名体育角色的血量提升10%，使2名艺术角色的攻击力提升15%，2名科学角色攻击力提升20%。\n\n为2名角色施加「技能反伤」效果，反射15%技能伤害给敌人，持续16回合。\n\n战斗开始时，使2名非水角色的技能伤害提升10%，持续16回合。\n\n战斗开始时，使1名水或雷角色的攻击力提升15%，2名火或风角色的攻击力提升10%，持续16回合。",
+        "对1名敌人造成1倍角色攻击力的伤害。\n\n移除2名角色的1个负面效果。(优先移除「中毒/燃烧/雷霆」）\n\n回复1名角色相当于自身2.2倍回复量的血量。\n\n战斗开始时，使2名体育角色的血量提升15%，使2名艺术角色的攻击力提升20%，2名科学角色攻击力提升25%。\n\n为2名角色施加「技能反伤」效果，反射20%技能伤害给敌人，持续16回合。\n\n战斗开始时，使2名非水角色的技能伤害提升10%，持续16回合。\n\n战斗开始时，使1名水或雷角色的攻击力提升20%，2名火或风角色的攻击力提升15%，持续16回合。",
+        "对1名敌人造成1.2倍角色攻击力的伤害。\n\n移除2名角色1个的负面效果。(优先移除「中毒/燃烧/雷霆」）\n\n回复1名角色相当于自身2.5倍回复量的血量。\n\n战斗开始时，使2名体育角色的血量提升20%，使2名艺术角色的攻击力提升25%，2名科学角色攻击力提升30%。\n\n为2名角色施加「技能反伤」效果，反射25%技能伤害给敌人，持续16回合。\n\n战斗开始时，使2名非水角色的技能伤害提升15%，持续16回合。\n\n战斗开始时，使1名水或雷角色的攻击力提升25%，2名火或风角色的攻击力提升20%，持续16回合。",
+        "对1名敌人造成1.4倍角色攻击力的伤害。\n\n移除2名角色的1个负面效果。(优先移除「中毒/燃烧/雷霆」）\n\n回复1名角色相当于自身2.8倍回复量的血量。\n\n战斗开始时，使2名体育角色的血量提升25%，使2名艺术角色的攻击力提升30%，2名科学角色攻击力提升40%。\n\n为2名角色施加「技能反伤」效果，反射30%技能伤害给敌人，持续16回合。\n\n战斗开始时，使2名非水角色的技能伤害提升15%，持续16回合。\n\n战斗开始时，使1名水或雷角色的攻击力提升30%，2名火或风角色的攻击力提升25%，持续16回合。"
+      ]
+    },
+    "awakening_passive": null,
+    "talent_tree": null,
+    "extra": {
+      "height": "160cm",
+      "weight": "44kg",
+      "body_size": "34E-22-32",
+      "birthday": "11-06"
+    },
+    "avatars": "[\"//static.wikitide.net/projectqtwiki/thumb/1/1f/Victoria.png/320px-Victoria.png\"]",
+    "skins": null,
+    "tags": null,
+    "id": 117,
+    "story_skill": null,
+    "created_at": "2026-03-31 09:29:10",
+    "last_updated": "2026-03-31 01:29:10",
+    "translated": 1
   }
 ]
