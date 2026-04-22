@@ -68,6 +68,26 @@ class NameMapper:
         """刷新索引"""
         self._build_index()
 
+    def get_alia4characters(self):
+        """统计数据；只包含三年级角色与女神"""
+        result = {
+            "女神": [],
+            "角色": []
+        }
+        for char_data in self.data:
+            year = char_data['year']
+
+            if year == "3":
+                container = result['角色']
+            elif year is None or year == "":
+                container = result['女神']
+            else:
+                continue
+            aliases = char_data.get("aliases")
+            if aliases:
+                # 一般第一个别名是最常用的
+                container.append(aliases[0])
+        return result
     # def show_all(self):
     #     for key in self.name_index.keys():
     #         print(key, self.name_index.get(key))

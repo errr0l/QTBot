@@ -203,17 +203,19 @@ class CharacterService:
 
     def build_character_alias(self) -> Optional[List[dict]]:
         """构建别名mapper"""
-        sql = "SELECT name, nicknames FROM character"
+        sql = "SELECT name, nicknames, year FROM character"
         result = []
         with self.db_helper.get_connection() as conn:
             conn.row_factory = sqlite3.Row
             rows = conn.execute(sql).fetchall()
             for row in rows:
+                nicknames = row['nicknames']
                 character_aliases = {
                     "name": row['name'],
                     "aliases":
-                        [part.strip() for part in row['nicknames'].split("、")]
-                        if row['nicknames'] is not None else []
+                        [part.strip() for part in nicknames.split("、")]
+                        if nicknames is not None and nicknames != "" else [],
+                    "year": row['year']
                 }
                 result.append(character_aliases)
         return result

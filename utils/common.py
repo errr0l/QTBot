@@ -339,7 +339,10 @@ def build_help_guide() -> List[str]:
     """使用方式"""
     lines = ["「QTBot」使用指南"]
     lines.append("")
-    lines.append("基础: 返回[角色]满星级&天赋数据")
+    lines.append("基础1: 查看角色概览")
+    lines.append("- /查询 概览")
+    lines.append("")
+    lines.append("基础2: 返回[角色]满星级&天赋数据")
     lines.append("")
     lines.append("- /查询 [角色]")
     lines.append("")
@@ -361,11 +364,18 @@ def build_help_guide() -> List[str]:
     lines.append("3、雅典娜的背景故事")
     lines.append("/查询 雅典娜-背景")
     lines.append("")
-    lines.append("翻译「机翻」:")
-    lines.append("在[角色]之后，加上[:tl]参数可将文本翻译为中文")
+    return lines
+
+
+def build_character_overview(statistics: dict):
+    lines = ["「角色概览」"]
     lines.append("")
-    lines.append("[例如]")
-    lines.append("/查询 雅典娜:tl")
+    lines.append("注：只包含女神与三年级角色")
+    lines.append("")
+    for key in statistics.keys():
+        lines.append(f"- {key}")
+        lines.append("、".join(statistics.get(key)))
+        lines.append("")
     return lines
 
 

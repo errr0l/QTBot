@@ -6,7 +6,7 @@ from services.character_service import CharacterService
 from services.translation_service import TranslationService
 from utils.name_mapper import NameMapper
 from containers.global_conf import get_container
-from utils.common import parse_instructions, build_character_response, build_help_guide
+from utils.common import parse_instructions, build_character_response, build_help_guide, build_character_overview
 from utils.message_helper import build_markdown_content
 
 
@@ -23,6 +23,9 @@ async def handle_wiki(args=CommandArg()):
 
     if not _input or _input == "帮助" or _input.lower() == "help":
         await wiki_cmd.finish(MessageSegment.text("\n".join(build_help_guide())))
+    if _input == '概览' or _input == "角色概览":
+        lines = build_character_overview(name_mapper.get_alia4characters())
+        await wiki_cmd.finish(MessageSegment.text("\n".join(lines)))
     # 拆分指令；指令应该以角色名称开头，如：火棍-7星-天赋10，火棍-背景
     instructions = parse_instructions(_input)
     # 需要输入精准名称，不支持模糊查询，但是提供配置别名
