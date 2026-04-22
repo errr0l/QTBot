@@ -5,6 +5,7 @@ if __name__ == '__main__':
     character_service = CharacterService(db_helper=None)
     character = {
         "skins": 'ssss',
-        'arena_skill': 'aaaa'
+        'arena_skill': 'aaaa',
+        'name': "Athana"
     }
     character_service.update_character_with_fields(character=character, fields=['skins'])

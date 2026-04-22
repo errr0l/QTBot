@@ -1,4 +1,4 @@
-import re
+# import re
 
 if __name__ == "__main__":
     # pattern = r'(?:[1-8]|一|二|三|四|五|六|七|八)星'
@@ -14,9 +14,10 @@ if __name__ == "__main__":
     #
     # print(", ".join(test1))
     # params = "抓取数据:2"[4:].split(":")
-    _input = "更新:比例:skins"
+    # _input = "更新:比例:skins"
     # print(_input[3:].split(":"))
-    instructions = _input[3:].split(":")
-    print(instructions)
-    if len(instructions) != 2:
-        print("指令格式错误")
+    # instructions = _input[3:].split(":")
+    # print(instructions)
+    # if len(instructions) != 2:
+    #     print("指令格式错误")
+    print("skins".split(","))

@@ -93,8 +93,8 @@ async def runner3(
         event: Event, user_id, storage_service: StorageService, crawler: QTWikiCrawler, name: str, fields: str):
     try:
         result = await asyncio.to_thread(crawler.scrape_character_and_update_fields, name, fields.split(","))
-        sync_result = storage_service.sync_data_from_dict(result)
-        message = success if sync_result else execution_error
+        # sync_result = storage_service.sync_data_from_dict(result)
+        message = success if result else execution_error
         logger.info(f"result: {message}")
         bot = get_bot()
         await bot.send(event=event, message=message, at_sender=True)

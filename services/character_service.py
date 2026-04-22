@@ -126,12 +126,28 @@ class CharacterService:
             "skins", "bonds", "awakening_passive", "awakening_passive",
             "extra", "arena_skill", "background", "talent_tree", "club", "element", "year", "hobbies"]
         sql_parts = []
+        json_array_fields = ['skins', 'avatars']
+        temp_fields = []
         for field in fields:
             if field in allowed_fields and field in character:
                 sql_parts.append(f"{field} = :{field}")
+            if field in json_array_fields:
+                temp_fields.append(field)
 
         if not sql_parts:
             return False
+        # 如果包含json数组字段（目前只有两个，分别是skins和avatars，则以"增量"的形式更新，保持数据库中的不变，把新内容更新进去
+        if temp_fields:
+            original_character = self.get_character_by_name(character['name'])
+            for field in temp_fields:
+                original_value = original_character[field]
+                new_value = json.loads(character[field])
+                result = original_value.copy()
+                for i, item in enumerate(new_value):
+                    if i >= len(original_value):
+                        result.append(item)
+                character[field] = json.dumps(result)
+
         sql = "UPDATE 'character' SET " + ", ".join(sql_parts) + " WHERE name = :name"
         with self.db_helper.get_connection() as conn:
             cursor = conn.cursor()
