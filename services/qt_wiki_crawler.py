@@ -396,6 +396,11 @@ class QTWikiCrawler:
         if r:
             return dict_char
 
+    def scrape_latest_character(self) -> dict:
+        si = SuperInstructions()
+        si.count = 1
+        return self.run(super_instructions=si)
+
     def scrape_character(self, name: str):
         character_entry = build_character_entry_v2(name)
         character_entry['url'] = self.wiki_base_url + character_entry['url']
@@ -432,9 +437,6 @@ class QTWikiCrawler:
             entries = self.parse_list_page(url)
             all_entries = all_entries + entries
             time.sleep(6)
-        if super_instructions and 0 < super_instructions.count < len(all_entries):
-            logger.info(f"随机抓取{super_instructions.count}条...")
-            all_entries = random.sample(all_entries, super_instructions.count)
         filtered = []
         for entry in all_entries:
             if not force and entry.get("name") in character_map:
@@ -442,6 +444,10 @@ class QTWikiCrawler:
                 skip_names.append(entry.get("name"))
                 continue
             filtered.append(entry)
+        # 过滤后，随机
+        if super_instructions and 0 < super_instructions.count < len(filtered):
+            logger.info(f"随机抓取{super_instructions.count}条...")
+            filtered = random.sample(filtered, super_instructions.count)
         logger.info("开始抓取角色页面数据, 这个过程要花费一些时间...")
         for entry in filtered:
             url = entry.get("url")

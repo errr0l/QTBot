@@ -335,7 +335,32 @@ def build_character_response(wiki_instructions: WikiInstructions, character: Cha
     return char_response
 
 
-def build_help_guide() -> List[str]:
+def build_super_guide():
+    """使用方式"""
+    lines = ["「QTBot」超级用户使用指南"]
+    lines.append("")
+    lines.append("1: 抓取最新数据(一个)")
+    lines.append("- /su 抓取最新数据")
+    lines.append("")
+    lines.append("2: 同步本地数据至数据库")
+    lines.append("")
+    lines.append("- /su 同步至数据库")
+    lines.append("")
+    lines.append("3: 更新角色数据")
+    lines.append("- /su 更新:name:skins,arena_skill,talent_tree...")
+    lines.append("")
+    lines.append("4: 同步角色数据至外部存储")
+    lines.append("- /su 同步至外部存储:name")
+    lines.append("")
+    lines.append("5: 抓取角色数据")
+    lines.append("- /su 抓取-女神-10条数据")
+    lines.append("- /su 抓取-角色-10条数据")
+    lines.append("- /su 抓取-10条数据")
+    lines.append("- /su 抓取-[name]")
+    return lines
+
+
+def build_user_guide() -> List[str]:
     """使用方式"""
     lines = ["「QTBot」使用指南"]
     lines.append("")
@@ -363,7 +388,6 @@ def build_help_guide() -> List[str]:
     lines.append("")
     lines.append("3、雅典娜的背景故事")
     lines.append("/查询 雅典娜-背景")
-    lines.append("")
     return lines
 
 

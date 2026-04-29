@@ -6,7 +6,7 @@ from services.character_service import CharacterService
 from services.translation_service import TranslationService
 from utils.name_mapper import NameMapper
 from containers.global_conf import get_container
-from utils.common import parse_instructions, build_character_response, build_help_guide, build_character_overview
+from utils.common import parse_instructions, build_character_response, build_user_guide, build_character_overview
 from utils.message_helper import build_markdown_content
 
 
@@ -22,7 +22,7 @@ async def handle_wiki(args=CommandArg()):
     character_service = cast(CharacterService, container.character_service())
 
     if not _input or _input == "帮助" or _input.lower() == "help":
-        await wiki_cmd.finish(MessageSegment.text("\n".join(build_help_guide())))
+        await wiki_cmd.finish(MessageSegment.text("\n".join(build_user_guide())))
     if _input == '概览' or _input == "角色概览":
         lines = build_character_overview(name_mapper.get_alia4characters())
         await wiki_cmd.finish(MessageSegment.text("\n".join(lines)))

@@ -123,7 +123,7 @@ class CharacterService:
         if not fields:
             return False
         allowed_fields = [
-            "skins", "bonds", "awakening_passive", "awakening_passive",
+            "skins", "bonds", "awakening_passive",
             "extra", "arena_skill", "background", "talent_tree", "club", "element", "year", "hobbies"]
         sql_parts = []
         json_array_fields = ['skins', 'avatars']

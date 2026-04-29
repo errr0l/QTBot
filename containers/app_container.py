@@ -1,4 +1,6 @@
 from dependency_injector import containers, providers
+
+from runner.su_runner import SuperRunner
 from services.character_service import CharacterService
 from utils.name_mapper import NameMapper
 from db.db_helper import DBHelper
@@ -64,6 +66,13 @@ class AppContainer(containers.DeclarativeContainer):
         config=config,
         character_service=character_service
     )
+
+    super_runner = providers.Singleton(
+        SuperRunner,
+        qt_wiki_crawler=qt_wiki_crawler,
+        storage_service=storage_service, name_mapper=name_mapper
+    )
+
     # 所有服务【扫描注入目标，@inject、Provide[AppContainer.character_service]等】
     wiring_config = containers.WiringConfiguration(
         modules=[
