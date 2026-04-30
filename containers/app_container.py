@@ -74,8 +74,14 @@ class AppContainer(containers.DeclarativeContainer):
     )
 
     # 所有服务【扫描注入目标，@inject、Provide[AppContainer.character_service]等】
-    wiring_config = containers.WiringConfiguration(
-        modules=[
-            "plugins.wiki",
-        ]
-    )
+    # 移除，无法自动注入（Auto-wiring），即无法使用@inject
+    # wiring_config = containers.WiringConfiguration(
+    #     modules=[
+    #         "plugins.wiki",
+    #         "plugins.super",
+    #     ]
+    # )
+
+
+container = AppContainer()
+container.config.from_ini("config.ini")

@@ -1,18 +1,20 @@
-from typing import cast
-
 from nonebot.permission import SUPERUSER
 from nonebot import on_command, get_bot, logger
-from nonebot.params import CommandArg
+from nonebot.params import CommandArg, Depends
 from nonebot.adapters import Event
-from containers.global_conf import get_container
+
+from containers.app_container import container
 from runner.su_runner import SuperRunner
 from constants.message import *
 from nonebot.adapters.qq import MessageSegment
-
 from utils.common import build_super_guide
 
 super_cmd = on_command("su", aliases={"super"}, permission=SUPERUSER, priority=1, block=True)
 running_tasks = {}
+
+
+def get_super_runner() -> SuperRunner:
+    return container.super_runner()
 
 
 def callback(event: Event, user_id):
@@ -30,7 +32,7 @@ def callback(event: Event, user_id):
 
 
 @super_cmd.handle()
-async def handle_super(event: Event, args=CommandArg()):
+async def handle_super(event: Event, args=CommandArg(), super_runner: SuperRunner = Depends(get_super_runner)):
     user_id = event.get_user_id()
     _input = args.extract_plain_text().strip()
 
@@ -38,8 +40,6 @@ async def handle_super(event: Event, args=CommandArg()):
         await super_cmd.finish(MessageSegment.text("\n".join(build_super_guide())))
     if user_id in running_tasks and not running_tasks[user_id].done():
         await super_cmd.finish(repeated_instruction_error)
-    container = get_container()
-    super_runner = cast(SuperRunner, container.super_runner())
     await super_runner.run(
         _input=_input, running_tasks=running_tasks,
         super_cmd=super_cmd, callback=callback,

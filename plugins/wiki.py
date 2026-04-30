@@ -2,10 +2,11 @@ from nonebot import on_command
 from nonebot.adapters.qq import MessageSegment
 from nonebot.params import CommandArg
 from typing import cast
+
+from containers.app_container import container
 from services.character_service import CharacterService
 from services.translation_service import TranslationService
 from utils.name_mapper import NameMapper
-from containers.global_conf import get_container
 from utils.common import parse_instructions, build_character_response, build_user_guide, build_character_overview
 from utils.message_helper import build_markdown_content
 
@@ -17,7 +18,6 @@ wiki_cmd = on_command("百科", aliases={"查询", "info", "wiki"}, priority=10,
 @wiki_cmd.handle()
 async def handle_wiki(args=CommandArg()):
     _input = args.extract_plain_text().strip()
-    container = get_container()
     name_mapper = cast(NameMapper, container.name_mapper())
     character_service = cast(CharacterService, container.character_service())
 

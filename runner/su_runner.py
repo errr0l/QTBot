@@ -1,10 +1,29 @@
 import asyncio
+import functools
 
 from constants.message import success, background_execution, background_sync, execution_error, instruction_error, \
     no_character_name_error, not_supported
 from services.qt_wiki_crawler import QTWikiCrawler
 from nonebot.adapters import Event
 from utils.common import parse_super_instructions
+
+
+def completion_callback(func):
+    """回调"""
+    @functools.wraps(func)
+    async def wrapper(*args, **kwargs):
+        callback = kwargs.get('callback')
+        error_message = None
+        message = None
+
+        try:
+            message = await func(*args, **kwargs)
+        except Exception as e:
+            error_message = f"失败: {str(e)[:100]}..."
+        finally:
+            await callback(error_message, message)
+
+    return wrapper
 
 
 class SuperRunner:
@@ -64,93 +83,66 @@ class SuperRunner:
         if task:
             running_tasks[user_id] = task
 
-    async def get_latest(self, callback):
+    @completion_callback
+    async def get_latest(self):
         """抓取最新数据"""
-        error_message = None
-        message = None
-        try:
-            result = await asyncio.to_thread(self.crawler.scrape_latest_character)
-            names = result.get("names") if result else None
-            if names and len(names) == 1:
-                message = f"[{names[0]}]抓取成功"
-                self.name_mapper.refresh_index()
-            else:
-                message = f"[{result}]抓取失败，详情请查看日志"
-        except Exception as e:
-            error_message = f"失败: {str(e)[:100]}..."
-        finally:
-            # 通过回调传信息
-            await callback(error_message, message)
+        result = await asyncio.to_thread(self.crawler.scrape_latest_character)
+        names = result.get("names") if result else None
+        if names and len(names) == 1:
+            message = f"[{names[0]}]抓取成功"
+            self.name_mapper.refresh_index()
+        else:
+            message = f"[{result}]抓取失败，详情请查看日志"
+        return message
 
-    async def sync_local2database(self, callback):
+    @completion_callback
+    async def sync_local2database(self):
         """同步本地数据至数据库"""
-        error_message = None
-        message = None
-        try:
-            result = await asyncio.to_thread(self.storage_service.sync_data)
-            if result > 1:
-                message = success
-                self.name_mapper.refresh_index()
-            elif result == 1:
-                message = "无需更新"
-            else:
-                message = execution_error
-        except Exception as e:
-            error_message = f"失败: {str(e)[:100]}..."
-        finally:
-            await callback(error_message, message)
+        result = await asyncio.to_thread(self.storage_service.sync_data)
+        if result > 1:
+            message = success
+            self.name_mapper.refresh_index()
+        elif result == 1:
+            message = "无需更新"
+        else:
+            message = execution_error
+        return message
 
-    async def update_character(self, callback, name, fields):
+    @completion_callback
+    async def update_character(self, name, fields):
         """更新角色"""
-        error_message = None
-        message = None
-        try:
-            result = await asyncio.to_thread(self.crawler.scrape_character_and_update_fields, name, fields.split(","))
-            message = success if result else execution_error
-        except Exception as e:
-            error_message = f"失败: {str(e)[:100]}..."
-        finally:
-            await callback(error_message, message)
+        result = await asyncio.to_thread(self.crawler.scrape_character_and_update_fields, name, fields.split(","))
+        message = success if result else execution_error
+        return message
 
-    async def get_characters(self, callback, super_instructions):
+    @completion_callback
+    async def get_characters(self, super_instructions):
         """抓取角色"""
-        error_message = None
-        message = None
-        try:
-            result = await asyncio.to_thread(self.crawler.run, scrape_instructions=super_instructions)
+        result = await asyncio.to_thread(self.crawler.run, scrape_instructions=super_instructions)
+        lines = []
+        if result:
+            names = result['names']
+            skip_names = result['skip_names']
             lines = []
-            if result:
-                names = result['names']
-                skip_names = result['skip_names']
-                lines = []
-                names_len = len(names)
-                lines.append("结果：")
-                if names_len > 0:
-                    lines.append(f"- 抓取到[{', '.join(names)}]条目, 共{names_len}个")
-                    self.name_mapper.refresh_index()
-                else:
-                    lines.append("- 失败, 抓取到0条数据")
-                if len(skip_names) > 0:
-                    lines.append(f"- 跳过[{', '.join(skip_names)}]")
+            names_len = len(names)
+            lines.append("结果：")
+            if names_len > 0:
+                lines.append(f"- 抓取到[{', '.join(names)}]条目, 共{names_len}个")
+                self.name_mapper.refresh_index()
             else:
-                lines.append(execution_error)
-            message = '\n'.join(lines)
-        except Exception as e:
-            error_message = f"失败: {str(e)[:100]}..."
-        finally:
-            await callback(error_message, message)
+                lines.append("- 失败, 抓取到0条数据")
+            if len(skip_names) > 0:
+                lines.append(f"- 跳过[{', '.join(skip_names)}]")
+        else:
+            lines.append(execution_error)
+        return '\n'.join(lines)
 
-    async def sync_database2local(self, callback, name: str):
+    @completion_callback
+    async def sync_database2local(self, name: str):
         """同步数据库至外部存储"""
-        error_message = None
-        message = None
-        try:
-            result = await asyncio.to_thread(self.storage_service.sync_data_from_database, name)
-            if result == -1:
-                message = not_supported
-            else:
-                message = success if result else execution_error
-        except Exception as e:
-            error_message = f"失败: {str(e)[:100]}..."
-        finally:
-            await callback(error_message, message)
+        result = await asyncio.to_thread(self.storage_service.sync_data_from_database, name)
+        if result == -1:
+            message = not_supported
+        else:
+            message = success if result else execution_error
+        return message
