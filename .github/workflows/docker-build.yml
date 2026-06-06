@@ -1,0 +1,50 @@
+name: Build and Publish Release APK
+
+on:
+  # 当向仓库推送形如 v1.0.0 的标签时触发
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    # 赋予写入权限，以便创建 Release 和上传附件
+    permissions:
+      contents: write
+
+    steps:
+      # 1. 拉取代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. 设置 QEMU 跨平台模拟环境
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      # 3. 配置 Docker Buildx 工具链
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # 4. 构建 ARM64 镜像并加载到本地
+      - name: Build image
+        run: |
+          docker buildx build \
+            --platform linux/arm64 \
+            -t qt-bot:${{ github.ref_name }} \
+            --load .
+
+      # 5. 导出镜像为 tar 压缩包
+      - name: Export image to tar
+        run: |
+          docker save -o qt-bot-arm64.tar qt-bot:${{ github.ref_name }}
+
+      # 6. 自动创建 GitHub Release 并上传 tar 包
+      - name: Create Release and Upload Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: qt-bot-arm64.tar
+          generate_release_notes: true # 自动生成发版说明
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

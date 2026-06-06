@@ -1,0 +1,6 @@
+services:
+  bot-1:
+    build: .
+    ports:
+      - "8081:8080"
+    restart: always
