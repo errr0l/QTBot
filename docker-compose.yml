@@ -1,5 +1,5 @@
 services:
-  bot-1:
+  wiki-bot:
     build: .
     ports:
       - "8081:8080"

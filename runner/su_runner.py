@@ -12,7 +12,7 @@ def completion_callback(func):
     """回调"""
     @functools.wraps(func)
     async def wrapper(*args, **kwargs):
-        callback = kwargs.get('callback')
+        callback = kwargs.pop('callback', None)
         error_message = None
         message = None
 
@@ -21,7 +21,8 @@ def completion_callback(func):
         except Exception as e:
             error_message = f"失败: {str(e)[:100]}..."
         finally:
-            await callback(error_message, message)
+            if callback:
+                await callback(error_message, message)
 
     return wrapper
 
@@ -46,7 +47,7 @@ class SuperRunner:
             await super_cmd.send(background_sync)
             task = asyncio.create_task(self.sync_local2database(callback=callback(event, user_id)))
         elif _input.startswith("更新:"):
-            instructions = _input[5:].split(":")
+            instructions = _input[3:].split(":")
             if len(instructions) != 2:
                 await super_cmd.finish(instruction_error)
             name = instructions[0]

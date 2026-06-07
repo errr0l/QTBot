@@ -5,8 +5,7 @@ COPY requirements.txt .
 
 # 设置清华源并一键安装所有精确版本的依赖
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
-    pip install --no-cache-dir --disable-pip-version-check --user -r requirements.txt && \
-    ls -la /root/.local/
+    pip install --no-cache-dir --disable-pip-version-check --user -r requirements.txt
 
 # --- 第二阶段：最终运行环境 ---
 FROM docker.1ms.run/library/python:3.9-slim
