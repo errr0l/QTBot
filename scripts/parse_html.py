@@ -17,12 +17,12 @@ if __name__ == "__main__":
         "awakened_avatar": ""
     }
 
-    with open("/Users/errol/Downloads/Kaia1.html", "r", encoding="utf-8") as _f:
+    with open("/Users/errol/personalplace/QTBot/Eris.html", "r", encoding="utf-8") as _f:
         html = _f.read()
         entry['html'] = html
-        # character = parse_goodness_page(entry)
-        character = parse_character_page(entry)
-        print(character.skins)
+        character = parse_goodness_page(entry)
+        # character = parse_character_page(entry)
+        print(character)
         # print("--")
         # print(character.talent_tree.descriptions)
         # print(character.bonds)

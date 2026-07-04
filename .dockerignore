@@ -9,3 +9,5 @@ images
 demo
 apps_scripts
 .idea
+qt_bot_arm64.tar
+*.html

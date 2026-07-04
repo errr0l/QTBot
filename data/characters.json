@@ -7545,5 +7545,44 @@
     "created_at": "2026-04-29 12:46:25",
     "last_updated": "2026-04-29 04:46:25",
     "translated": 1
+  },
+  {
+    "name": "Durga",
+    "nicknames": "杜尔迦",
+    "background": "The Goddess Warrior named after the Goddess of protection and fear \"Durga\" , sleeping deep underground in the 1st Academy City.\n\nDurga is a gentle and kind Goddess Warrior, radiating a strong maternal aura. She always takes care of the male scholar, offering a cup of warm milk when he stays up late and covering him with a cloak when he is tired. Her daily concern is filled with love for the male scholar, seeming to be able to embrace all depravity of the world.\n\nHowever, the male scholar who have witnessed the other side of her does not think so. During a routine \"\"energy replenishment,\"\" her kind gaze suddenly shifted into one with thirst possessiveness, curling into a mocking smile with her lips, exuding a deadly charm. That \"\"replenishment\"\" turned into a reversed \"\"draining\"\". Durga took the initiative, firmly suppressing the male scholar, dominating the entire sex to extract \"\"energy\"\" as much as possible. It is said that she drained every drop of protein from the male scholar until he was completely exhausted and fainted. When the male scholar woke up again, he only saw Durga had became that gentle sister again. She completely denied what happened last night, merely implying that the male scholar was too tired and had a dream.",
+    "club": "歼灭",
+    "element": "",
+    "year": "",
+    "bonds": "",
+    "hobbies": "",
+    "type": null,
+    "arena_skill": {
+      "name": "暮色祈祷",
+      "icon": "//static.wikitide.net/projectqtwiki/thumb/6/61/G12.png/40px-G12.png",
+      "cooldown": 6,
+      "descriptions": [
+        "随机对1名角色施加「真言」：如果是敌方，造成2%队伍最大生命值的伤害；如果是友方，回复1%队伍最大生命值的血量。\n\n回复1名角色相当于自身0.5倍回复量的血量。\n\n使1名非艺术角色受到的伤害降低4%。\n\n使2名敌人的攻击力降低4%，持续16回合。\n\n使2名水角色的攻击力提升5%。",
+        "随机对1名角色施加「真言」：如果是敌方，造成2%队伍最大生命值的伤害；如果是友方，回复2%队伍最大生命值的血量。\n\n回复1名角色相当于自身0.6倍回复量的血量。\n\n使2名非艺术角色受到的伤害降低4%。\n\n使2名敌人的攻击力降低8%，持续16回合。\n\n使2名水角色的攻击力提升10%。",
+        "随机对2名角色施加「真言」：如果是敌方，造成3%队伍最大生命值的伤害；如果是友方，回复2%队伍最大生命值的血量。\n\n回复1名角色相当于自身0.7倍回复量的血量。\n\n使2名非艺术角色受到的伤害降低8%。\n\n使2名敌人的攻击力降低12%，持续16回合。\n\n使2名水角色的攻击力提升15%；使1名火角色的攻击力提升5%，持续16回合。",
+        "随机对2名角色施加「真言」：如果是敌方，造成3%队伍最大生命值的伤害；如果是友方，回复3%队伍最大生命值的血量。\n\n回复1名角色相当于自身0.8倍回复量的血量。\n\n使2名非艺术角色受到的伤害降低12%。\n\n使2名敌人的攻击力降低16%，持续16回合。\n\n使2名水角色的攻击力提升20%；使1名火角色的攻击力提升10%，持续16回合。",
+        "随机对3名角色施加「真言」：如果是敌方，造成3%队伍最大生命值的伤害；如果是友方，回复3%队伍最大生命值的血量。\n\n回复1名角色相当于自身1.0倍回复量的血量。\n\n使2名非艺术角色受到的伤害降低15%。\n\n使2名敌人的攻击力降低20%，持续16回合。\n\n使2名水角色的攻击力提升25%；使1名火角色的攻击力提升15%，持续16回合。"
+      ]
+    },
+    "awakening_passive": null,
+    "talent_tree": null,
+    "extra": {
+      "height": "175cm",
+      "weight": "53kg",
+      "body_size": "36E-25-36",
+      "birthday": "April 5"
+    },
+    "avatars": "[\"//static.wikitide.net/projectqtwiki/thumb/7/73/Durga.png/320px-Durga.png\", \"//static.wikitide.net/projectqtwiki/thumb/9/91/DurgaChibi.png/320px-DurgaChibi.png\"]",
+    "skins": null,
+    "tags": null,
+    "id": 122,
+    "story_skill": null,
+    "created_at": "2026-07-04 22:24:39",
+    "last_updated": "2026-07-04 14:24:39",
+    "translated": 1
   }
 ]

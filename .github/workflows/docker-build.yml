@@ -1,4 +1,4 @@
-name: Build and Publish Release APK
+name: Build and Publish Release Image
 
 on:
   # 当向仓库推送形如 v1.0.0 的标签时触发

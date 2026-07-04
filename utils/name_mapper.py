@@ -87,6 +87,8 @@ class NameMapper:
             if aliases:
                 # 一般第一个别名是最常用的
                 container.append(aliases[0])
+            else:
+                container.append(char_data.get("name"))
         return result
     # def show_all(self):
     #     for key in self.name_index.keys():
