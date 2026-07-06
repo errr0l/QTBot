@@ -5,10 +5,16 @@ from nonebot.adapters.qq import Adapter
 # 初始化 NoneBot，指定控制台驱动
 nonebot.init()
 
-# 获取 ASGI 应用
-# app = nonebot.get_asgi()
 # 获取驱动
 driver = nonebot.get_driver()
+
+
+@driver.on_startup
+async def _():
+    from containers.app_container import container
+    container.init()
+
+
 driver.register_adapter(Adapter)
 
 

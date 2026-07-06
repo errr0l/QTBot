@@ -68,6 +68,30 @@ class NameMapper:
         """刷新索引"""
         self._build_index()
 
+    def fuzzy_search(self, query: str, max_results: int = 5) -> List[str]:
+        """模糊搜索：在标准名和别名中做大小写不敏感的 substring 匹配"""
+        query_lower = query.lower()
+        results = []
+        seen = set()
+        for item in self.data:
+            name = item["name"]
+            # 检查标准名
+            if query_lower in name.lower():
+                if name not in seen:
+                    results.append(name)
+                    seen.add(name)
+                    continue
+            # 检查别名
+            for alias in item.get("aliases", []):
+                if query_lower in alias.lower():
+                    if name not in seen:
+                        results.append(name)
+                        seen.add(name)
+                        break
+            if len(results) >= max_results:
+                break
+        return results[:max_results]
+
     def get_alia4characters(self):
         """统计数据；只包含三年级角色与女神"""
         result = {

@@ -1,4 +1,9 @@
+import shutil
+import time
+from pathlib import Path
+
 from dependency_injector import containers, providers
+from nonebot import logger
 
 from runner.su_runner import SuperRunner
 from services.character_service import CharacterService
@@ -72,6 +77,19 @@ class AppContainer(containers.DeclarativeContainer):
         qt_wiki_crawler=qt_wiki_crawler,
         storage_service=storage_service, name_mapper=name_mapper
     )
+
+    def init(self):
+        """初始化：备份外部存储文件，再同步到数据库"""
+        storage = self.storage_service()
+        if isinstance(storage, LocalJsonService):
+            file_path = Path(storage.file_path)
+            if file_path.exists():
+                timestamp = time.strftime("%Y%m%d_%H%M%S")
+                backup_name = f"{file_path.stem}_{timestamp}{file_path.suffix}"
+                shutil.copy2(str(file_path), str(file_path.with_name(backup_name)))
+                logger.info(f"已备份 {file_path.name} -> {backup_name}")
+        storage.sync_data()
+        logger.info("外部存储数据已同步至数据库")
 
     # 所有服务【扫描注入目标，@inject、Provide[AppContainer.character_service]等】
     # 移除，无法自动注入（Auto-wiring），即无法使用@inject

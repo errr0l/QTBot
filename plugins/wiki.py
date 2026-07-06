@@ -31,7 +31,12 @@ async def handle_wiki(args=CommandArg()):
     # 需要输入精准名称，不支持模糊查询，但是提供配置别名
     canonical_name = name_mapper.get_canonical_name(instructions.name)
     if not canonical_name:
-        await wiki_cmd.finish(MessageSegment.text(f"未查找到[{instructions.name}]的数据，请通知管理员录入"))
+        suggestions = name_mapper.fuzzy_search(instructions.name)
+        if suggestions:
+            msg = f"未找到「{instructions.name}」，您是不是想找：\n" + "\n".join(f"- {s}" for s in suggestions)
+        else:
+            msg = f"未查找到[{instructions.name}]的数据，请通知管理员录入"
+        await wiki_cmd.finish(MessageSegment.text(msg))
     character = character_service.get_character_by_name(canonical_name)
     if not character:
         await wiki_cmd.finish(MessageSegment.text(f"未查找到[{canonical_name}]的数据，请通知管理员录入"))

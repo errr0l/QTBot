@@ -4,7 +4,7 @@ from typing import List
 
 from bo.wiki_scrape_instructions import SuperInstructions
 from entities.character import Character
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup, element
 from requests.exceptions import RequestException
 
@@ -359,6 +359,7 @@ class QTWikiCrawler:
             list_page_paths: List[str],
             character_service: CharacterService):
         self.wiki_base_url = "https://projectqt.miraheze.org"
+        self.session = cloudscraper.create_scraper()
         self.headers = {
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
@@ -383,7 +384,7 @@ class QTWikiCrawler:
 
     def parse_list_page(self, list_page_path: str) -> List[dict]:
         character_entries = []
-        response = requests.get(list_page_path, headers=self.headers)
+        response = self.session.get(list_page_path, headers=self.headers)
         soup = BeautifulSoup(response.text, 'lxml')
         entries = soup.find_all("div", class_="char-list-entry")
         if 'Goddess' in list_page_path:
@@ -417,22 +418,27 @@ class QTWikiCrawler:
     def scrape_character(self, name: str, html: str = ''):
         character_entry = build_character_entry_v2(name)
         character_entry['url'] = self.wiki_base_url + character_entry['url']
-        try:
-            if html:
-                soup = BeautifulSoup(html, 'lxml')
-            else:
-                response = requests.get(character_entry['url'], headers=self.headers, cookies=self.cookies)
-                soup = BeautifulSoup(response.text, 'lxml')
-            character_entry['soup'] = soup
-            description_tag = soup.find('meta', attrs={'name': 'description'})
-            if description_tag:
-                description = description_tag.get('content', '')
-                if description and 'Goddesses' in description:
-                    character_entry['type'] = 2
-            return parse_character_page(entry=character_entry)
-        except RequestException as e:
-            logger.info(e)
-            logger.info("抓取失败")
+        for attempt in range(2):
+            try:
+                if html:
+                    soup = BeautifulSoup(html, 'lxml')
+                else:
+                    response = self.session.get(character_entry['url'], headers=self.headers, cookies=self.cookies)
+                    soup = BeautifulSoup(response.text, 'lxml')
+                character_entry['soup'] = soup
+                description_tag = soup.find('meta', attrs={'name': 'description'})
+                if description_tag:
+                    description = description_tag.get('content', '')
+                    if description and 'Goddesses' in description:
+                        character_entry['type'] = 2
+                return parse_character_page(entry=character_entry)
+            except RequestException as e:
+                logger.info(e)
+                if attempt == 0:
+                    logger.info("session 可能已过期，重建后重试...")
+                    self.session = cloudscraper.create_scraper()
+                else:
+                    logger.info("抓取失败")
 
     def run(self, force: bool = False, super_instructions: SuperInstructions = None) -> dict:
         logger.info("开始抓取列表页数据...")
@@ -468,14 +474,21 @@ class QTWikiCrawler:
         for entry in filtered:
             url = entry.get("url")
             logger.info(f"抓取{url}页面...")
-            try:
-                response = requests.get(url, headers=self.headers)
-                entry['html'] = response.text
-                time.sleep(6)
-            except RequestException as e:
-                logger.info(e)
-                logger.info("停止抓取")
-                break
+            for attempt in range(2):
+                try:
+                    response = self.session.get(url, headers=self.headers)
+                    entry['html'] = response.text
+                    break
+                except RequestException as e:
+                    logger.info(e)
+                    if attempt == 0:
+                        logger.info("session 可能已过期，重建后重试...")
+                        self.session = cloudscraper.create_scraper()
+                        time.sleep(3)
+                    else:
+                        logger.info("抓取失败，跳过")
+                        entry['html'] = None
+            time.sleep(6)
         logger.info("开始解析...")
         names = []
         characters = handle_character_entries(filtered)
