@@ -36,6 +36,7 @@ class LocalJsonService(StorageService):
     def __init__(self, character_service: CharacterService, file_path: str):
         self.character_service = character_service
         self.file_path = file_path
+        # self.init_data()
 
     def sync_data_from_dict(self, character: dict):
         hit = False

@@ -78,19 +78,35 @@ class AppContainer(containers.DeclarativeContainer):
         storage_service=storage_service, name_mapper=name_mapper
     )
 
-    def init(self):
-        """初始化：备份外部存储文件，再同步到数据库"""
-        storage = self.storage_service()
-        if isinstance(storage, LocalJsonService):
-            file_path = Path(storage.file_path)
+    def _init(storage_service):
+        # """初始化：检查外部文件变更，再同步到数据库"""
+        if isinstance(storage_service, LocalJsonService):
+            file_path = Path(storage_service.file_path)
             if file_path.exists():
-                timestamp = time.strftime("%Y%m%d_%H%M%S")
-                backup_name = f"{file_path.stem}_{timestamp}{file_path.suffix}"
-                shutil.copy2(str(file_path), str(file_path.with_name(backup_name)))
-                logger.info(f"已备份 {file_path.name} -> {backup_name}")
-        storage.sync_data()
-        logger.info("外部存储数据已同步至数据库")
+                mtime = file_path.stat().st_mtime
+                mtime_file = file_path.with_name(f".{file_path.name}.last_mtime")
 
+                # 读取上次备份的记录时间
+                last_mtime = 0.0
+                if mtime_file.exists():
+                    try:
+                        last_mtime = float(mtime_file.read_text().strip())
+                    except (ValueError, OSError):
+                        pass
+
+                if mtime != last_mtime:
+                    timestamp = time.strftime("%Y%m%d_%H%M%S")
+                    backup_name = f"{file_path.stem}_{timestamp}{file_path.suffix}"
+                    shutil.copy2(str(file_path), str(file_path.with_name(backup_name)))
+                    mtime_file.write_text(str(mtime))
+                    logger.info(f"已备份 {file_path.name} -> {backup_name}")
+                    storage_service.sync_data()
+                    logger.info("外部存储数据已同步至数据库")
+
+    init = providers.Callable(
+        _init,
+        storage_service=storage_service
+    )
     # 所有服务【扫描注入目标，@inject、Provide[AppContainer.character_service]等】
     # 移除，无法自动注入（Auto-wiring），即无法使用@inject
     # wiring_config = containers.WiringConfiguration(

@@ -4,7 +4,7 @@ from typing import List
 
 from bo.wiki_scrape_instructions import SuperInstructions
 from entities.character import Character
-import cloudscraper
+# import cloudscraper
 from bs4 import BeautifulSoup, element
 from requests.exceptions import RequestException
 

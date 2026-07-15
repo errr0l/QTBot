@@ -1,5 +1,5 @@
 import nonebot
-from nonebot.adapters.qq import Adapter
+from nonebot.adapters.console import Adapter
 
 # 初始化 NoneBot，指定控制台驱动
 nonebot.init()
@@ -18,6 +18,7 @@ driver.register_adapter(Adapter)
 
 
 if __name__ == "__main__":
+    # todo ENVIRONMENT=dev_console nb run -f bot_dev.py
     # 加载内置插件
     nonebot.load_builtin_plugins("echo")
     nonebot.load_plugins("plugins")

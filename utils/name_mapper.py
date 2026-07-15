@@ -68,29 +68,51 @@ class NameMapper:
         """刷新索引"""
         self._build_index()
 
+    @staticmethod
+    def _calc_fuzzy_score(query_lower: str, target_lower: str) -> float:
+        """计算字符顺序匹配度：query 字符按顺序在 target 中出现的匹配分数"""
+        qi = 0
+        score = 0.0
+        prev_pos = -2
+
+        for ti, tc in enumerate(target_lower):
+            if qi < len(query_lower) and tc == query_lower[qi]:
+                if ti == prev_pos + 1:
+                    score += 2  # 连续匹配加分
+                else:
+                    score += 1
+                score += max(0.0, 1.0 - ti / len(target_lower)) * 3  # 位置靠前加分
+                prev_pos = ti
+                qi += 1
+
+        if qi < len(query_lower):
+            return 0.0  # 有字符未匹配到
+        return score
+
     def fuzzy_search(self, query: str, max_results: int = 5) -> List[str]:
-        """模糊搜索：在标准名和别名中做大小写不敏感的 substring 匹配"""
+        """
+        优先匹配标准名，匹配不上再逐个试别名，
+        只要有一个命中就采用该角色的标准名，
+        按匹配分降序排列，取前 N 个
+        """
         query_lower = query.lower()
-        results = []
-        seen = set()
+        scored = []
+
         for item in self.data:
-            name = item["name"]
-            # 检查标准名
-            if query_lower in name.lower():
-                if name not in seen:
-                    results.append(name)
-                    seen.add(name)
-                    continue
-            # 检查别名
+            # 先试标准名
+            score = self._calc_fuzzy_score(query_lower, item["name"].lower())
+            if score > 0:
+                scored.append((score, item["name"]))
+                continue
+            # 标准名不匹配，试别名，有一个匹配即可
             for alias in item.get("aliases", []):
-                if query_lower in alias.lower():
-                    if name not in seen:
-                        results.append(name)
-                        seen.add(name)
-                        break
-            if len(results) >= max_results:
-                break
-        return results[:max_results]
+                score = self._calc_fuzzy_score(query_lower, alias.lower())
+                if score > 0:
+                    scored.append((score, alias))
+                    break
+
+        scored.sort(key=lambda x: -x[0])
+        return [name for _, name in scored[:max_results]]
 
     def get_alia4characters(self):
         """统计数据；只包含三年级角色与女神"""
@@ -113,6 +135,10 @@ class NameMapper:
                 container.append(aliases[0])
             else:
                 container.append(char_data.get("name"))
+        return result
+    def get_alia4goddesses(self):
+        result = self.get_alia4characters()
+        del result['角色']
         return result
     # def show_all(self):
     #     for key in self.name_index.keys():

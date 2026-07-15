@@ -28,17 +28,17 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       # 4. 构建 ARM64 镜像并加载到本地
-      - name: Build image
+      - name: Build and Export ARM64 Image
         run: |
           docker buildx build \
             --platform linux/arm64 \
             -t qt-bot:${{ github.ref_name }} \
-            --load .
+            --output type=docker,dest=qt-bot-arm64.tar \
 
       # 5. 导出镜像为 tar 压缩包
-      - name: Export image to tar
-        run: |
-          docker save -o qt-bot-arm64.tar qt-bot:${{ github.ref_name }}
+      # - name: Export image to tar
+      #   run: |
+      #     docker save -o qt-bot-arm64.tar qt-bot:${{ github.ref_name }}
 
       # 6. 自动创建 GitHub Release 并上传 tar 包
       - name: Create Release and Upload Asset

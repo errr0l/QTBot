@@ -365,13 +365,14 @@ def build_user_guide() -> List[str]:
     lines = ["「QTBot」使用指南"]
     lines.append("")
     lines.append("基础1: 查看角色概览")
-    lines.append("- /查询 概览")
+    lines.append("- /查询 角色")
     lines.append("")
-    lines.append("基础2: 返回[角色]满星级&天赋数据")
+    lines.append("基础2: 查看女神概览")
+    lines.append("- /查询 女神")
+    lines.append("")
+    lines.append("基础3: 查看角色")
     lines.append("")
     lines.append("- /查询 [角色]")
-    lines.append("")
-    lines.append("[角色]可以是游戏内(英文)名称，或任一已经录入的别名")
     lines.append("")
     lines.append("进阶: 返回[角色]指定参数的数据")
     lines.append("")
@@ -392,10 +393,12 @@ def build_user_guide() -> List[str]:
 
 
 def build_character_overview(statistics: dict):
+    key_count = len(statistics)
     lines = ["「角色概览」"]
     lines.append("")
-    lines.append("注：只包含女神与三年级角色")
-    lines.append("")
+    if key_count > 1:
+        lines.append("注：只包含女神与三年级角色")
+        lines.append("")
     for key in statistics.keys():
         lines.append(f"- {key}")
         lines.append("、".join(statistics.get(key)))
